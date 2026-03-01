@@ -6,7 +6,7 @@ export const categories: Category[] = [
     slug: "가정법률",
     icon: "👨‍👩‍👧‍👦",
     description: "이혼, 양육권, 상속, 가정폭력 등 가정 관련 법률 정보",
-    count: 0,
+    count: 20,
   },
   {
     name: "부동산/임대차",
