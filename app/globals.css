@@ -104,3 +104,49 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 본문 콘텐츠 영역 스타일 (pharm 동일) */
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 14px;
+}
+.article-content th {
+  background: #f9fafb;
+  font-weight: 700;
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid #e5e7eb;
+  color: #374151;
+}
+.article-content td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f3f4f6;
+  color: #4b5563;
+  vertical-align: top;
+}
+.article-content tr:last-child td {
+  border-bottom: none;
+}
+.article-content ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 8px 0;
+}
+.article-content li {
+  margin-bottom: 6px;
+  line-height: 1.85;
+}
+.article-content a {
+  color: #16a34a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.article-content a:hover {
+  color: #15803d;
+}
+.article-content strong {
+  font-weight: 700;
+  color: #1f2937;
+}

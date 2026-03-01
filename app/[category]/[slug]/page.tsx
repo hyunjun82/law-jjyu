@@ -210,7 +210,7 @@ export default async function SpokePage({ params }: PageProps) {
                   </h2>
                 </div>
                 <div
-                  className="text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px] space-y-3"
+                  className="article-content text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px] space-y-3"
                   dangerouslySetInnerHTML={{ __html: section.content }}
                 />
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
