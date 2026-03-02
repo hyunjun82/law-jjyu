@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: SITE_URL },
   verification: {
-    google: "",
+    google: "kPe6sAN7cMBDG2OVVWHcI8hH-BxkT5Zv6U8TVWTxuwI",
     other: {
-      "naver-site-verification": "",
+      "naver-site-verification": "938338b518d659991f9afbce027f783bd360e986",
     },
   },
 };
@@ -69,6 +69,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className={notoSansKR.variable}>
       <head>
+        <meta name="verify-v1" content="DaumWebMasterTool:344b28703590bfdf05d201d0db5218b1a49befbba4200d7cba082fae109d9e39:dKVUblTVRLcGFFyWA4gifA==" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
