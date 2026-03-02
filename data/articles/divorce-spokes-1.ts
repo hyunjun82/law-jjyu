@@ -44,22 +44,22 @@ export const spokes1: SpokeArticle[] = [
         title: "협의이혼 신청할 때 어떤 서류가 필요한가요?",
         content: `<p>협의이혼은 합의만으로 끝나는 게 아니에요. 가정법원에 신청서를 내야 하고, 서류가 하나라도 빠지면 접수 자체가 안 돼요.</p>
 
-<p><strong>기본 구비서류:</strong></p>
+<p><strong>기본 구비서류</strong></p>
 
 <table>
 <thead><tr><th>서류명</th><th>부수</th><th>발급처</th></tr></thead>
 <tbody>
-<tr><td>협의이혼의사확인 신청서</td><td>1부</td><td><a href="https://help.scourt.go.kr/nm/min_1/min_1_6/index.html">대법원 전자민원센터</a> 또는 가정법원 비치</td></tr>
-<tr><td>가족관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr/cs/CsBlankAction.do?cmd=moveE2000">전자가족관계등록시스템</a> 또는 주민센터</td></tr>
-<tr><td>혼인관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr/cs/CsBlankAction.do?cmd=moveE2000">전자가족관계등록시스템</a> 또는 주민센터</td></tr>
-<tr><td>주민등록등본</td><td>1부 (세대 전원)</td><td><a href="https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09002&CappBizCD=13100000015">정부24</a> 또는 주민센터</td></tr>
-<tr><td>신분증 사본</td><td>부부 각 1부</td><td>주민등록증·운전면허증·여권 중 택1</td></tr>
+<tr><td>협의이혼의사확인 신청서</td><td>1부</td><td><a href="https://help.scourt.go.kr">대법원 전자민원센터</a>, 가정법원 비치</td></tr>
+<tr><td>가족관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr">전자가족관계등록시스템</a>, 주민센터</td></tr>
+<tr><td>혼인관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr">전자가족관계등록시스템</a>, 주민센터</td></tr>
+<tr><td>주민등록등본</td><td>1부 (세대 전원)</td><td><a href="https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09002&CappBizCD=13100000015">정부24</a>, 주민센터</td></tr>
+<tr><td>신분증 사본</td><td>부부 각 1부</td><td>주민등록증, 운전면허증, 여권 중 택1</td></tr>
 </tbody>
 </table>
 
 <p>모든 증명서류는 <strong>발급일로부터 3개월 이내</strong>여야 유효해요.</p>
 
-<p><strong>미성년 자녀가 있으면 추가 서류가 필요해요:</strong></p>
+<p><strong>미성년 자녀가 있으면 추가 서류가 필요해요</strong></p>
 <ul>
 <li>자녀의 기본증명서</li>
 <li>양육비부담조서 또는 양육사항 협의서</li>
@@ -68,11 +68,11 @@ export const spokes1: SpokeArticle[] = [
 
 <p>양육비 금액에 합의했으면 법원에서 조서를 작성받고, 합의가 안 됐으면 법원이 직권으로 정해요.</p>
 
-<p><strong>외국 국적 배우자가 있는 경우 추가 서류:</strong></p>
+<p><strong>외국 국적 배우자가 있는 경우 추가 서류</strong></p>
 <ul>
 <li>해당 국가에서 발급한 혼인증명서 + <strong>한국어 번역본</strong> (번역 공증 필요)</li>
 <li>번역 공증은 공증사무소나 법무법인에서 받을 수 있어요</li>
-<li><strong>아포스티유</strong> 또는 <strong>영사 확인</strong>이 필요해요 — 아포스티유 협약 가입국이면 아포스티유, 아니면 해당 국가 주재 한국 대사관에서 영사 확인을 받으면 돼요</li>
+<li><strong>아포스티유</strong> 또는 <strong>영사 확인</strong>이 필요해요. 아포스티유 협약 가입국이면 아포스티유, 아니면 해당 국가 주재 한국 대사관에서 영사 확인을 받으면 돼요</li>
 <li>외국인등록증 사본 (국내 체류 중인 경우)</li>
 <li>여권 사본</li>
 </ul>
@@ -83,7 +83,7 @@ export const spokes1: SpokeArticle[] = [
         title: "이혼숙려기간은 자녀 유무에 따라 얼마나 다른가요?",
         content: `<p>이혼숙려기간은 이혼신청서 제출 후 법원이 부여하는 <strong>냉각 기간</strong>이에요. 충동적인 이혼을 막기 위해 2008년 6월부터 시행되고 있어요.</p>
 
-<p><strong>자녀 유무에 따라 기간이 달라요:</strong></p>
+<p><strong>자녀 유무에 따라 기간이 달라요</strong></p>
 <ul>
 <li>미성년 자녀(만 19세 미만) <strong>있음</strong> → 숙려기간 <strong>3개월</strong></li>
 <li>미성년 자녀 <strong>없음</strong> → 숙려기간 <strong>1개월</strong></li>
@@ -91,7 +91,7 @@ export const spokes1: SpokeArticle[] = [
 
 <p>임신 중이거나 입양한 미성년 자녀가 있어도 3개월이 적용돼요. 기산점은 이혼안내를 받은 날이고, 안내 상담은 접수 후 보통 1~2주 내에 실시돼요.</p>
 
-<p><strong>숙려기간을 줄이거나 면제받을 수 있는 경우:</strong></p>
+<p><strong>숙려기간을 줄이거나 면제받을 수 있는 경우</strong></p>
 <ul>
 <li>가정폭력 피해가 있는 경우</li>
 <li>그 밖에 급박한 사정이 있는 경우</li>
@@ -105,16 +105,16 @@ export const spokes1: SpokeArticle[] = [
         title: "가정법원에서 이혼의사 확인은 어떻게 받나요?",
         content: `<p>협의이혼의 핵심 단계예요. 판사가 부부 양쪽의 이혼 의사를 직접 확인해요.</p>
 
-<p><strong>절차 흐름:</strong></p>
+<p><strong>절차 흐름</strong></p>
 <ul>
-<li><strong>1단계</strong> — 관할 가정법원에 신청서 + 구비서류 제출 (등록기준지 또는 주소지 가정법원)</li>
-<li><strong>2단계</strong> — 이혼안내 상담을 받아요. 이혼의 법적 효과, 양육 문제, 재산분할 등을 설명받고, 이날부터 숙려기간이 시작돼요.</li>
-<li><strong>3단계</strong> — 숙려기간 경과 (자녀 유무에 따라 1개월 또는 3개월)</li>
-<li><strong>4단계</strong> — 부부 본인이 직접 출석해서 판사 앞에서 이혼 의사를 최종 확인받아요.</li>
-<li><strong>5단계</strong> — 협의이혼의사확인서등본 발급</li>
+<li><strong>1단계</strong> 관할 가정법원에 신청서와 구비서류를 제출해요 (등록기준지 또는 주소지 가정법원)</li>
+<li><strong>2단계</strong> 이혼안내 상담을 받아요. 이혼의 법적 효과, 양육 문제, 재산분할 등을 설명받고, 이날부터 숙려기간이 시작돼요.</li>
+<li><strong>3단계</strong> 숙려기간 경과 (자녀 유무에 따라 1개월 또는 3개월)</li>
+<li><strong>4단계</strong> 부부 본인이 직접 출석해서 판사 앞에서 이혼 의사를 최종 확인받아요.</li>
+<li><strong>5단계</strong> 협의이혼의사확인서등본 발급</li>
 </ul>
 
-<p><strong>4단계에서 꼭 알아야 할 점:</strong></p>
+<p><strong>4단계에서 꼭 알아야 할 점</strong></p>
 
 <p><strong>부부 모두 직접 출석</strong>해야 해요. 변호사나 가족이 대신 갈 수 없어요. 한쪽이라도 안 나오면 새 기일을 받아야 하고, 계속 불출석하면 신청이 취하돼요.</p>
 
@@ -130,9 +130,9 @@ export const spokes1: SpokeArticle[] = [
 
 <p>3개월을 넘기면 확인서등본이 무효가 돼요. 처음부터 다시 해야 하니 가능한 한 빨리 신고하세요.</p>
 
-<p><strong>필요한 서류:</strong></p>
+<p><strong>필요한 서류</strong></p>
 <ul>
-<li>이혼신고서 1부 — 구청에 비치</li>
+<li>이혼신고서 1부 (구청에 비치)</li>
 <li>협의이혼의사확인서등본 1부</li>
 <li>신고인 신분증</li>
 </ul>
@@ -141,10 +141,10 @@ export const spokes1: SpokeArticle[] = [
 
 <p>우편 신고도 가능해요. 이혼신고서, 확인서등본, 신분증 사본을 등기우편으로 보내면 돼요. 다만 기한이 임박하면 직접 방문하는 게 안전해요.</p>
 
-<p><strong>이혼 성립 후 청구할 수 있는 것:</strong></p>
+<p><strong>이혼 성립 후 청구할 수 있는 것</strong></p>
 <ul>
-<li>재산분할 청구 — 이혼 후 <strong>2년 이내</strong></li>
-<li>위자료 청구 — 이혼 후 <strong>3년 이내</strong></li>
+<li>재산분할 청구 이혼 후 <strong>2년 이내</strong></li>
+<li>위자료 청구 이혼 후 <strong>3년 이내</strong></li>
 </ul>
 
 <p>이혼 과정에서 재산이나 위자료 합의가 안 됐어도 이혼 후 별도로 청구할 수 있어요. 이혼신고를 미룰 필요는 없어요.</p>`,

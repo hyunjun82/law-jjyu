@@ -84,13 +84,13 @@ const VIZ_MAP: VizMap = {
             {
               name: "대법원 전자민원센터",
               description: "이혼신청서 양식 다운로드",
-              url: "https://help.scourt.go.kr/nm/min_1/min_1_6/index.html",
+              url: "https://help.scourt.go.kr",
               urlLabel: "신청서 양식 바로가기",
             },
             {
               name: "전자가족관계등록시스템",
               description: "가족관계·혼인관계 증명서 발급",
-              url: "https://efamily.scourt.go.kr/cs/CsBlankAction.do?cmd=moveE2000",
+              url: "https://efamily.scourt.go.kr",
               urlLabel: "증명서 발급 바로가기",
             },
             {
