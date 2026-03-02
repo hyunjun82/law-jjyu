@@ -142,7 +142,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 3: 이혼조정·재판이혼 기간·비용 ──
   "이혼조정-신청-비용-재판이혼-기간": {
-    "after-1": (
+    "after-0": (
       <ContactCard
         contacts={[
           {
@@ -170,7 +170,12 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 4: 재산분할 대상 (퇴직금·연금·채무) ──
   "재산분할-대상-퇴직금-연금-채무": {
-    "after-1": (
+    "after-0": (
+      <WarningBox type="warning" title="재산분할 청구 기한은 이혼 후 2년">
+        이혼한 날로부터 2년이 넘으면 재산분할을 청구할 수 없어요. 이혼할 때 같이 청구하거나, 이혼 직후 바로 준비하세요.
+      </WarningBox>
+    ),
+    "after-3": (
       <ContactCard
         contacts={[
           {
@@ -190,11 +195,6 @@ const VIZ_MAP: VizMap = {
           },
         ]}
       />
-    ),
-    "after-3": (
-      <WarningBox type="warning" title="재산분할 청구 기한은 이혼 후 2년">
-        이혼한 날로부터 2년이 넘으면 재산분할을 청구할 수 없어요. 이혼할 때 같이 청구하거나, 이혼 직후 바로 준비하세요.
-      </WarningBox>
     ),
   },
 };
