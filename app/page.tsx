@@ -22,7 +22,7 @@ export default function HomePage() {
       <section className="bg-[#1a4731] text-white py-14 md:py-20">
         <div className="mx-auto max-w-6xl px-4 text-center">
           <p className="text-green-300 text-sm mb-3">법제처 생활법령정보 기반</p>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl leading-tight">
+          <h1 className="daum-wm-title text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl leading-tight">
             생활 속 <span className="text-yellow-200">법률 문제</span>,<br />
             쉽게 해결하세요
           </h1>
