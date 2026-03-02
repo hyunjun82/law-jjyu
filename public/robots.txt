@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://law.jjyu.co.kr/sitemap.xml
+
+#DaumWebMasterTool:344b28703590bfdf05d201d0db5218b1a49befbba4200d7cba082fae109d9e39:dKVUblTVRLcGFFyWA4gifA==
