@@ -82,12 +82,6 @@ const VIZ_MAP: VizMap = {
         <ContactCard
           contacts={[
             {
-              name: "대법원 전자민원센터",
-              description: "이혼신청서 양식 다운로드",
-              url: "https://help.scourt.go.kr",
-              urlLabel: "신청서 양식 바로가기",
-            },
-            {
               name: "전자가족관계등록시스템",
               description: "가족관계·혼인관계 증명서 발급",
               url: "https://efamily.scourt.go.kr",
@@ -97,7 +91,7 @@ const VIZ_MAP: VizMap = {
               name: "정부24",
               description: "주민등록등본 온라인 발급",
               phone: "110",
-              url: "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09002&CappBizCD=13100000015",
+              url: "https://www.gov.kr",
             },
             {
               name: "대한법률구조공단",
