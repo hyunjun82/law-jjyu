@@ -8,7 +8,8 @@ export interface FormFile {
   note?: string;
 }
 
-export function FormDownload({ items }: { items: FormFile[] }) {
+export function FormDownload({ items = [] }: { items: FormFile[] }) {
+  if (!items.length) return null;
   return (
     <div className="my-6 space-y-2">
       {items.map((item, i) => (
