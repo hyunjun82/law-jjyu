@@ -216,15 +216,15 @@ export default async function SpokePage({ params }: PageProps) {
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
 
+              {/* 관련 법률 정보: 2번째 섹션(i=1) 이후 본문 중간 배치 */}
+              {i === 1 && <RelatedSpokes categorySlug={catSlug} currentSlug={spokeSlug} />}
+
               {/* 광고: 3번째 섹션(i=2) 이후 */}
               {i === 2 && <AdSlot />}
             </Fragment>
           );
         })}
       </article>
-
-      {/* Related Spokes */}
-      <RelatedSpokes categorySlug={catSlug} currentSlug={spokeSlug} />
 
       {/* FAQ */}
       {article.faq.length > 0 && (
