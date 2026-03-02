@@ -44,7 +44,7 @@ export function CostBreakdown({
                 ))}
               </Pie>
               <Tooltip
-                formatter={(value: number) => [`${value.toLocaleString()}${unit}`, ""]}
+                formatter={(value: number | undefined) => [`${(value ?? 0).toLocaleString()}${unit}`, ""]}
                 contentStyle={{ borderRadius: "8px", fontSize: "13px" }}
               />
             </PieChart>
