@@ -223,7 +223,7 @@ export const spokes1: SpokeArticle[] = [
         title: "부정행위와 가정폭력은 어떻게 증명하나요?",
         content: `<p>재판에서는 "이런 일이 있었다"고 말만 해서는 안 돼요. 증거가 있어야 법원이 인정해 줘요. 어떤 증거가 필요한지 사유별로 알려드릴게요.</p>
 
-<p><strong>바람(부정행위)을 증명할 수 있는 증거:</strong></p>
+<p><strong>바람(부정행위)을 증명할 수 있는 증거</strong></p>
 <ul>
 <li>카카오톡·문자 대화 캡처 (애정 표현, 만남 약속 등)</li>
 <li>통화 기록 (밤늦게 자주 통화한 내역)</li>
@@ -232,13 +232,13 @@ export const spokes1: SpokeArticle[] = [
 <li>직접 본 사람의 진술서</li>
 </ul>
 
-<p><strong>가정폭력을 증명할 수 있는 증거:</strong></p>
+<p><strong>가정폭력을 증명할 수 있는 증거</strong></p>
 <ul>
-<li><strong>병원 진단서:</strong> 맞아서 다친 진단서가 가장 강력한 증거예요</li>
-<li><strong>다친 부위 사진:</strong> 멍, 상처, 피가 난 부위를 찍어두세요</li>
-<li><strong>경찰 신고 기록:</strong> 112에 신고한 접수증, 경찰 출동 기록</li>
-<li><strong>보호명령 결정문:</strong> 법원에서 "접근하지 마라"는 명령을 받은 기록</li>
-<li><strong>녹음 파일:</strong> 욕설이나 협박을 녹음한 파일</li>
+<li><strong>병원 진단서</strong> 맞아서 다친 진단서가 가장 강력한 증거예요</li>
+<li><strong>다친 부위 사진</strong> 멍, 상처, 피가 난 부위를 찍어두세요</li>
+<li><strong>경찰 신고 기록</strong> 112에 신고한 접수증, 경찰 출동 기록</li>
+<li><strong>보호명령 결정문</strong> 법원에서 "접근하지 마라"는 명령을 받은 기록</li>
+<li><strong>녹음 파일</strong> 욕설이나 협박을 녹음한 파일</li>
 </ul>
 
 <p>증거는 일이 생긴 직후에 바로 모아두는 게 가장 좋아요. 시간이 지나면 기억도 흐려지고 증거도 사라질 수 있으니, 그때그때 기록해 두세요.</p>`,
@@ -247,7 +247,7 @@ export const spokes1: SpokeArticle[] = [
         title: "위자료는 얼마나 받을 수 있나요?",
         content: `<p>위자료는 쉽게 말해 "당신 때문에 내가 마음고생했으니 돈으로 보상해라"는 거예요. 이혼 원인을 만든 배우자에게 정신적 피해에 대한 보상금을 요구하는 거예요.</p>
 
-<p><strong>법원이 위자료 금액을 정할 때 보는 것들:</strong></p>
+<p><strong>법원이 위자료 금액을 정할 때 보는 것들</strong></p>
 
 <table>
 <thead><tr><th>살피는 것</th><th>구체적으로</th></tr></thead>
@@ -318,13 +318,13 @@ export const spokes1: SpokeArticle[] = [
         title: "이혼조정은 어떻게 신청하나요?",
         content: `<p>가정법원에 이혼조정 신청서를 내면 돼요. 상대방이 사는 지역의 가정법원에 신청하면 돼요.</p>
 
-<p><strong>신청부터 끝까지 이렇게 진행돼요:</strong></p>
+<p><strong>신청부터 끝까지 이렇게 진행돼요</strong></p>
 <ul>
-<li><strong>1단계</strong> — 가정법원에 이혼조정 신청서 제출 (직접 가거나 인터넷으로)</li>
-<li><strong>2단계</strong> — 법원이 상대방에게 "이날 오세요" 통지서를 보내요</li>
-<li><strong>3단계</strong> — 정해진 날에 부부 둘 다 법원에 가서 조정위원과 이야기해요</li>
-<li><strong>4단계</strong> — 합의가 되면 → 조정 성립! 재판 판결과 같은 효력이 생겨요</li>
-<li><strong>5단계</strong> — 합의가 안 되면 → 이혼 소송으로 자동 전환돼요</li>
+<li><strong>1단계</strong> 가정법원에 이혼조정 신청서 제출 (직접 가거나 인터넷으로)</li>
+<li><strong>2단계</strong> 법원이 상대방에게 "이날 오세요" 통지서를 보내요</li>
+<li><strong>3단계</strong> 정해진 날에 부부 둘 다 법원에 가서 조정위원과 이야기해요</li>
+<li><strong>4단계</strong> 합의가 되면 조정 성립! 재판 판결과 같은 효력이 생겨요</li>
+<li><strong>5단계</strong> 합의가 안 되면 이혼 소송으로 자동 전환돼요</li>
 </ul>
 
 <p>인터넷으로 신청하려면 <a href="https://ecfs.scourt.go.kr">대법원 전자소송</a> 사이트에서 할 수 있어요. 직접 법원에 가면 민원실에 신청서 양식이 준비되어 있어요.</p>
@@ -335,7 +335,7 @@ export const spokes1: SpokeArticle[] = [
         title: "이혼조정 비용은 얼마나 드나요?",
         content: `<p>이혼조정은 소송보다 훨씬 저렴해요. 법원에 내는 비용이 크지 않아요.</p>
 
-<p><strong>법원에 내는 비용:</strong></p>
+<p><strong>법원에 내는 비용</strong></p>
 
 <table>
 <thead><tr><th>비용 항목</th><th>얼마?</th><th>참고</th></tr></thead>
@@ -353,7 +353,7 @@ export const spokes1: SpokeArticle[] = [
         title: "조정이랑 재판이혼은 시간이 얼마나 차이 나나요?",
         content: `<p>이혼조정은 보통 <strong>1~3개월</strong>이면 결론이 나요. 재판이혼은 <strong>6개월에서 1년 넘게</strong> 걸려요. 차이가 꽤 커요.</p>
 
-<p><strong>한눈에 비교:</strong></p>
+<p><strong>한눈에 비교</strong></p>
 
 <table>
 <thead><tr><th>비교 항목</th><th>이혼조정</th><th>재판이혼</th></tr></thead>
@@ -416,7 +416,7 @@ export const spokes1: SpokeArticle[] = [
         title: "재산분할 대상에는 어떤 게 들어가나요?",
         content: `<p>재산분할은 결혼 생활 동안 부부가 함께 모은 재산을 이혼할 때 나누는 거예요. "내가 번 돈인데 왜 나눠야 해?" 하실 수 있지만, 법은 한쪽이 돈을 벌 수 있었던 건 다른 쪽의 도움(살림, 육아 등) 덕분이라고 봐요.</p>
 
-<p><strong>나눠야 하는 재산:</strong></p>
+<p><strong>나눠야 하는 재산</strong></p>
 
 <table>
 <thead><tr><th>종류</th><th>예를 들면</th></tr></thead>
@@ -429,7 +429,7 @@ export const spokes1: SpokeArticle[] = [
 </tbody>
 </table>
 
-<p><strong>안 나눠도 되는 재산:</strong></p>
+<p><strong>안 나눠도 되는 재산</strong></p>
 <ul>
 <li>결혼 전에 각자 갖고 있던 재산</li>
 <li>부모님한테 상속받거나 선물받은 재산</li>
@@ -441,15 +441,15 @@ export const spokes1: SpokeArticle[] = [
         title: "퇴직금이랑 연금도 나눠야 하나요?",
         content: `<p>네, 퇴직금이랑 연금도 나눠야 해요. 단, 전부 다 나누는 건 아니고 <strong>결혼 기간에 쌓인 부분만</strong> 나누는 거예요.</p>
 
-<p><strong>퇴직금은 이렇게 나눠요:</strong></p>
+<p><strong>퇴직금은 이렇게 나눠요</strong></p>
 
 <p>아직 퇴직 전이라도 "지금 퇴직한다면 받을 금액"을 기준으로 계산해요. 예를 들어 회사에 20년 다녔고 그중 결혼한 기간이 10년이면, 퇴직금의 절반(10/20)이 나누기 대상이에요.</p>
 
-<p><strong>국민연금은 이렇게 나눠요:</strong></p>
+<p><strong>국민연금은 이렇게 나눠요</strong></p>
 
 <p>결혼 기간이 5년 넘으면 상대방 연금의 일부를 나눠 받을 수 있어요. 이혼 후에 <a href="https://www.nps.or.kr">국민연금공단</a>에 직접 신청하면 돼요. 바로 받는 건 아니고, 나중에 연금 받을 나이가 되면 그때부터 받아요.</p>
 
-<p><strong>공무원연금·사학연금도 마찬가지예요:</strong></p>
+<p><strong>공무원연금·사학연금도 마찬가지예요</strong></p>
 
 <p>공무원이나 교직원의 연금도 결혼 기간에 해당하는 만큼 나눠 받을 수 있어요. 퇴직연금, 퇴직수당 모두 포함돼요.</p>`,
       },
@@ -457,7 +457,7 @@ export const spokes1: SpokeArticle[] = [
         title: "결혼 중에 진 빚도 나눠야 하나요?",
         content: `<p>네, 빚도 나눠야 할 수 있어요. 다만 모든 빚이 다 해당되는 건 아니에요. <strong>가족 생활을 위해 진 빚</strong>이냐 <strong>개인적으로 진 빚</strong>이냐에 따라 달라요.</p>
 
-<p><strong>같이 나눠야 하는 빚:</strong></p>
+<p><strong>같이 나눠야 하는 빚</strong></p>
 <ul>
 <li>집 살 때 받은 대출 (주택담보대출)</li>
 <li>생활비가 모자라서 받은 대출</li>
@@ -465,7 +465,7 @@ export const spokes1: SpokeArticle[] = [
 <li>부부가 같이 하는 사업을 위한 대출</li>
 </ul>
 
-<p><strong>나눌 필요 없는 빚:</strong></p>
+<p><strong>나눌 필요 없는 빚</strong></p>
 <ul>
 <li>결혼 전에 혼자 진 빚</li>
 <li>도박이나 유흥에 쓴 빚</li>
@@ -480,7 +480,7 @@ export const spokes1: SpokeArticle[] = [
         title: "재산분할 청구 기한과 비율은 어떻게 되나요?",
         content: `<p>재산분할은 <strong>이혼한 날로부터 2년 안에</strong> 청구해야 해요. 2년이 넘으면 더 이상 청구할 수 없으니 기한을 꼭 기억해 두세요.</p>
 
-<p><strong>나누는 비율은 이런 걸 보고 정해요:</strong></p>
+<p><strong>나누는 비율은 이런 걸 보고 정해요</strong></p>
 
 <table>
 <thead><tr><th>살피는 것</th><th>쉽게 말하면</th></tr></thead>
@@ -542,18 +542,18 @@ export const spokes1: SpokeArticle[] = [
         title: "재산분할 기여도는 어떻게 계산되나요?",
         content: `<p>기여도는 쉽게 말해 "결혼 생활 동안 재산을 만드는 데 누가 얼마나 힘을 보탰느냐"를 따지는 거예요. 법원이 이 비율을 보고 재산을 나눠요.</p>
 
-<p><strong>법원이 보는 것들:</strong></p>
+<p><strong>법원이 보는 것들</strong></p>
 <ul>
-<li><strong>돈 번 기여:</strong> 월급, 사업 소득 등 직접 돈을 번 것</li>
-<li><strong>살림 기여:</strong> 청소, 요리, 세탁 등 집안일을 한 것</li>
-<li><strong>육아 기여:</strong> 아이를 키우고 교육시킨 것</li>
-<li><strong>재산 관리:</strong> 부동산 관리, 투자 관리 등 재산을 지키고 불린 것</li>
-<li><strong>부양 기여:</strong> 시부모·장인장모를 돌본 것</li>
+<li><strong>돈 번 기여</strong> 월급, 사업 소득 등 직접 돈을 번 것</li>
+<li><strong>살림 기여</strong> 청소, 요리, 세탁 등 집안일을 한 것</li>
+<li><strong>육아 기여</strong> 아이를 키우고 교육시킨 것</li>
+<li><strong>재산 관리</strong> 부동산 관리, 투자 관리 등 재산을 지키고 불린 것</li>
+<li><strong>부양 기여</strong> 시부모·장인장모를 돌본 것</li>
 </ul>
 
 <p>돈을 직접 번 것만 기여로 보는 게 아니에요. 살림하고 아이 키운 것도 똑같이 중요한 기여로 인정해요.</p>
 
-<p><strong>보통 이 정도 비율이 나와요:</strong></p>
+<p><strong>보통 이 정도 비율이 나와요</strong></p>
 
 <table>
 <thead><tr><th>가정 유형</th><th>돈 번 쪽</th><th>살림한 쪽</th></tr></thead>
@@ -571,7 +571,7 @@ export const spokes1: SpokeArticle[] = [
         title: "결혼한 지 얼마 안 됐으면 재산분할 비율이 달라지나요?",
         content: `<p>네, 결혼 기간에 따라 비율이 많이 달라져요. 오래 살았을수록 반반에 가까워지고, 짧게 살았으면 차이가 커져요.</p>
 
-<p><strong>짧게 살았을 때 (1~3년):</strong></p>
+<p><strong>짧게 살았을 때 (1~3년)</strong></p>
 <ul>
 <li>결혼 전에 각자 갖고 있던 재산은 대부분 따로 분리돼요</li>
 <li>결혼 기간이 짧아서 살림·육아 기여도가 적게 나와요</li>
@@ -579,14 +579,14 @@ export const spokes1: SpokeArticle[] = [
 <li>같이 모은 재산 자체가 크지 않은 경우가 대부분이에요</li>
 </ul>
 
-<p><strong>중간 기간 살았을 때 (5~15년):</strong></p>
+<p><strong>중간 기간 살았을 때 (5~15년)</strong></p>
 <ul>
 <li>같이 모은 재산이 꽤 생기는 시기예요</li>
 <li>아이를 키운 기여도 본격적으로 인정받기 시작해요</li>
 <li>살림한 쪽의 기여도가 보통 <strong>30~45%</strong> 범위에서 인정돼요</li>
 </ul>
 
-<p><strong>오래 살았을 때 (20년 이상):</strong></p>
+<p><strong>오래 살았을 때 (20년 이상)</strong></p>
 <ul>
 <li>살림한 쪽의 기여도가 <strong>40~50%</strong>까지 인정되는 경우가 많아요</li>
 <li>결혼 전 재산과 결혼 후 재산 구분이 어려운 경우도 많아요</li>
@@ -601,15 +601,15 @@ export const spokes1: SpokeArticle[] = [
 
 <p>전업주부의 기여도는 보통 <strong>30~50%</strong> 범위에서 인정돼요. 어떤 경우에 높게 나오는지 알려드릴게요.</p>
 
-<p><strong>기여도가 높아지는 경우:</strong></p>
+<p><strong>기여도가 높아지는 경우</strong></p>
 <ul>
-<li><strong>오래 살았을 때:</strong> 20년 넘게 살았으면 45~50%까지 인정받는 경우도 있어요</li>
-<li><strong>아이를 많이 키웠을 때:</strong> 아이가 많고 어릴 때부터 키웠을수록 높게 나와요</li>
-<li><strong>배우자 사업을 도왔을 때:</strong> 가게 일을 도왔거나, 배우자가 일에 집중할 수 있게 뒷바라지한 경우</li>
-<li><strong>시부모를 돌봤을 때:</strong> 시부모 간병이나 부양을 한 경우 추가로 인정돼요</li>
+<li><strong>오래 살았을 때</strong> 20년 넘게 살았으면 45~50%까지 인정받는 경우도 있어요</li>
+<li><strong>아이를 많이 키웠을 때</strong> 아이가 많고 어릴 때부터 키웠을수록 높게 나와요</li>
+<li><strong>배우자 사업을 도왔을 때</strong> 가게 일을 도왔거나, 배우자가 일에 집중할 수 있게 뒷바라지한 경우</li>
+<li><strong>시부모를 돌봤을 때</strong> 시부모 간병이나 부양을 한 경우 추가로 인정돼요</li>
 </ul>
 
-<p><strong>실제 판례 예시:</strong></p>
+<p><strong>실제 판례 예시</strong></p>
 <ul>
 <li>20년간 살림·육아에 전념한 아내 → 기여도 <strong>45%</strong> 인정</li>
 <li>15년 살면서 아이 2명 키운 전업주부 → 기여도 <strong>40%</strong> 인정</li>
@@ -630,11 +630,11 @@ export const spokes1: SpokeArticle[] = [
 
 <p>재산은 부부가 같이 만든 거니까, 잘못을 했더라도 나눌 권리가 있는 거예요.</p>
 
-<p><strong>다만 비율은 불리해질 수 있어요:</strong></p>
+<p><strong>다만 비율은 불리해질 수 있어요</strong></p>
 <ul>
-<li><strong>기여도 깎임:</strong> 바람 피는 동안 집안에 소홀했던 게 기여도를 낮추는 요소가 될 수 있어요</li>
-<li><strong>위자료 상계:</strong> 위자료를 따로 물어야 하니까 결과적으로 받는 돈이 줄어들 수 있어요</li>
-<li><strong>재산 빼돌린 경우:</strong> 바람 상대에게 돈이나 선물을 줬으면, 그 금액이 나눌 재산에 다시 더해져요</li>
+<li><strong>기여도 깎임</strong> 바람 피는 동안 집안에 소홀했던 게 기여도를 낮추는 요소가 될 수 있어요</li>
+<li><strong>위자료 상계</strong> 위자료를 따로 물어야 하니까 결과적으로 받는 돈이 줄어들 수 있어요</li>
+<li><strong>재산 빼돌린 경우</strong> 바람 상대에게 돈이나 선물을 줬으면, 그 금액이 나눌 재산에 다시 더해져요</li>
 </ul>
 
 <p>보통 바람 핀 쪽은 안 핀 경우보다 <strong>5~15% 정도</strong> 비율이 줄어드는 편이에요.</p>
