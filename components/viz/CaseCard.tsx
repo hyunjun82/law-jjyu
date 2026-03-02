@@ -46,8 +46,7 @@ export function CaseCard({ cases }: { cases: CaseItem[] }) {
               {c.url && (
                 <a
                   href={c.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   className="inline-flex items-center gap-1 mt-2 text-xs text-gov-600 hover:underline"
                 >
                   <ExternalLink className="h-3 w-3" />

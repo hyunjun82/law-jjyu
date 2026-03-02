@@ -31,8 +31,7 @@ export function FormDownload({ items }: { items: FormFile[] }) {
           {item.url ? (
             <a
               href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              download
               className="flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-gov-600 border border-gov-200 rounded-lg hover:bg-gov-50 transition-colors shrink-0"
             >
               <FileDown className="h-3.5 w-3.5" />

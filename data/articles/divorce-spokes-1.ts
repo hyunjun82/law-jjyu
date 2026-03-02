@@ -49,10 +49,10 @@ export const spokes1: SpokeArticle[] = [
 <table>
 <thead><tr><th>서류명</th><th>부수</th><th>발급처</th></tr></thead>
 <tbody>
-<tr><td>협의이혼의사확인 신청서</td><td>1부</td><td><a href="https://help.scourt.go.kr" target="_blank" rel="noopener">대법원 전자민원센터</a> 또는 가정법원 비치</td></tr>
-<tr><td>가족관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr" target="_blank" rel="noopener">전자가족관계등록시스템</a> 또는 주민센터</td></tr>
-<tr><td>혼인관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr" target="_blank" rel="noopener">전자가족관계등록시스템</a> 또는 주민센터</td></tr>
-<tr><td>주민등록등본</td><td>1부 (세대 전원)</td><td><a href="https://www.gov.kr" target="_blank" rel="noopener">정부24</a> 또는 주민센터</td></tr>
+<tr><td>협의이혼의사확인 신청서</td><td>1부</td><td><a href="https://help.scourt.go.kr/nm/min_1/min_1_6/index.html">대법원 전자민원센터</a> 또는 가정법원 비치</td></tr>
+<tr><td>가족관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr/cs/CsBlankAction.do?cmd=moveE2000">전자가족관계등록시스템</a> 또는 주민센터</td></tr>
+<tr><td>혼인관계증명서</td><td>부부 각 1부</td><td><a href="https://efamily.scourt.go.kr/cs/CsBlankAction.do?cmd=moveE2000">전자가족관계등록시스템</a> 또는 주민센터</td></tr>
+<tr><td>주민등록등본</td><td>1부 (세대 전원)</td><td><a href="https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09002&CappBizCD=13100000015">정부24</a> 또는 주민센터</td></tr>
 <tr><td>신분증 사본</td><td>부부 각 1부</td><td>주민등록증·운전면허증·여권 중 택1</td></tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ export const spokes1: SpokeArticle[] = [
 <li>여권 사본</li>
 </ul>
 
-<p>번역 공증 비용은 보통 3~5만 원 정도예요. 아포스티유는 해당 국가 외교부에서 발급받고, 영사 확인은 <a href="https://www.0404.go.kr" target="_blank" rel="noopener">외교부 영사콜센터(02-3210-0404)</a>에서 자세한 안내를 받을 수 있어요.</p>`,
+<p>번역 공증 비용은 보통 3~5만 원 정도예요. 아포스티유는 해당 국가 외교부에서 발급받고, 영사 확인은 <a href="https://www.0404.go.kr/consulate/consul_apo.jsp">외교부 영사콜센터(02-3210-0404)</a>에서 자세한 안내를 받을 수 있어요.</p>`,
       },
       {
         title: "이혼숙려기간은 자녀 유무에 따라 얼마나 다른가요?",
@@ -327,7 +327,7 @@ export const spokes1: SpokeArticle[] = [
 <li><strong>5단계</strong> — 합의가 안 되면 → 이혼 소송으로 자동 전환돼요</li>
 </ul>
 
-<p>인터넷으로 신청하려면 <a href="https://ecfs.scourt.go.kr" target="_blank" rel="noopener">대법원 전자소송</a> 사이트에서 할 수 있어요. 직접 법원에 가면 민원실에 신청서 양식이 준비되어 있어요.</p>
+<p>인터넷으로 신청하려면 <a href="https://ecfs.scourt.go.kr">대법원 전자소송</a> 사이트에서 할 수 있어요. 직접 법원에 가면 민원실에 신청서 양식이 준비되어 있어요.</p>
 
 <p>조정 날짜에는 <strong>본인이 직접 가야</strong> 해요. 변호사를 대신 보낼 수도 있지만, 조정위원이 본인한테 직접 물어보는 경우가 많아요.</p>`,
       },
@@ -345,7 +345,7 @@ export const spokes1: SpokeArticle[] = [
 </tbody>
 </table>
 
-<p>변호사를 쓰면 따로 비용이 들어요. 돈이 부족한 경우 <a href="https://www.klac.or.kr" target="_blank" rel="noopener">대한법률구조공단</a>에서 무료 상담이나 도움을 받을 수 있어요.</p>
+<p>변호사를 쓰면 따로 비용이 들어요. 돈이 부족한 경우 <a href="https://www.klac.or.kr">대한법률구조공단</a>에서 무료 상담이나 도움을 받을 수 있어요.</p>
 
 <p>조정에서 합의가 되면 소송 비용을 안 내도 돼요. 소송으로 넘어가면 수수료, 변호사 비용 등이 추가로 들어요. 가능하면 조정에서 끝내는 게 돈을 아끼는 거예요.</p>`,
       },
@@ -447,7 +447,7 @@ export const spokes1: SpokeArticle[] = [
 
 <p><strong>국민연금은 이렇게 나눠요:</strong></p>
 
-<p>결혼 기간이 5년 넘으면 상대방 연금의 일부를 나눠 받을 수 있어요. 이혼 후에 <a href="https://www.nps.or.kr" target="_blank" rel="noopener">국민연금공단</a>에 직접 신청하면 돼요. 바로 받는 건 아니고, 나중에 연금 받을 나이가 되면 그때부터 받아요.</p>
+<p>결혼 기간이 5년 넘으면 상대방 연금의 일부를 나눠 받을 수 있어요. 이혼 후에 <a href="https://www.nps.or.kr">국민연금공단</a>에 직접 신청하면 돼요. 바로 받는 건 아니고, 나중에 연금 받을 나이가 되면 그때부터 받아요.</p>
 
 <p><strong>공무원연금·사학연금도 마찬가지예요:</strong></p>
 

@@ -51,8 +51,7 @@ export function ContactCard({ contacts }: { contacts: ContactInfo[] }) {
                 <ExternalLink className="h-3.5 w-3.5 text-gray-400 shrink-0" />
                 <a
                   href={c.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   className="text-xs text-gov-600 hover:underline"
                 >
                   {c.urlLabel || "홈페이지 바로가기"}
