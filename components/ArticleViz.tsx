@@ -1,6 +1,7 @@
 "use client";
 
 import { AccordionChecklist } from "@/components/viz/AccordionChecklist";
+import { ComparisonTable } from "@/components/viz/ComparisonTable";
 import { DateCalculator } from "@/components/viz/DateCalculator";
 import { WarningBox } from "@/components/viz/WarningBox";
 import { ContactCard } from "@/components/viz/ContactCard";
@@ -159,6 +160,87 @@ const VIZ_MAP: VizMap = {
       <WarningBox type="info" title="조정이 성립되면 되돌릴 수 없어요">
         조정이 성립되면 재판 판결과 같은 효력이 생겨요. 조정 전에 재산분할, 위자료, 양육 조건을 꼼꼼히 따져보세요.
       </WarningBox>
+    ),
+  },
+
+  // ── 금융금전: 개인회생 vs 개인파산 비교 ──
+  "personal-rehabilitation-vs-bankruptcy": {
+    "after-0": (
+      <ComparisonTable
+        title="채무조정 3가지 제도 한눈에 비교"
+        columns={[
+          { name: "개인워크아웃" },
+          { name: "개인회생", highlight: true },
+          { name: "개인파산" },
+        ]}
+        rows={[
+          { label: "담당기관", values: ["신용회복위원회", "법원", "법원"] },
+          { label: "소득 필요", values: ["필요", "필요", "불필요"] },
+          { label: "채무 한도", values: ["제한 없음", "무담보 5억 / 담보 10억", "제한 없음"] },
+          { label: "원금 탕감", values: ["제한적", "70~90%", "전액 면제"] },
+          { label: "상환 기간", values: ["최대 10년", "3~5년", "없음"] },
+          { label: "재산 유지", values: [true, true, false] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "개인워크아웃·프리워크아웃 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+          {
+            name: "대한법률구조공단",
+            description: "개인회생·파산 무료 법률 상담",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 6: 재산분할청구권 소멸시효 2년 ──
+  "재산분할청구권-소멸시효-2년": {
+    "after-1": (
+      <DateCalculator
+        title="재산분할 청구 기한 계산기"
+        description="이혼 성립일(기준일)을 선택하면 재산분할 청구 가능 기한과 남은 일수를 계산해요."
+        presets={[
+          { label: "재산분할 청구 2년", days: 730, description: "이혼 성립일 기준 제척기간" },
+          { label: "위자료 청구 3년", days: 1095, description: "이혼 성립일 기준 소멸시효" },
+          { label: "사해행위 취소 1년", days: 365, description: "취소원인을 안 날 기준" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="2년 제척기간은 연장이 안 돼요">
+        재산분할의 2년은 제척기간이라서 내용증명을 보내거나 상대방이 분할 의사를 표시해도 기간이 연장되지 않아요. 반드시 2년 내에 법원에 심판 청구서를 접수해야 해요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "재산분할 무료 법률 상담 및 소송 지원",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+          {
+            name: "대법원 전자소송",
+            description: "재산분할 심판 청구서 온라인 제출",
+            url: "https://ecfs.scourt.go.kr",
+            urlLabel: "전자소송 바로가기",
+          },
+        ]}
+      />
     ),
   },
 
