@@ -4287,6 +4287,375 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 90: 개인워크아웃 공공정보 조기해제·추가 이자율 인하 ──
+  "workout-public-info-early-removal-interest-rate": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "1년 성실 납입", desc: "채무조정 확정 후 연체 없이 1년 이상 납입" },
+          { step: "2단계", title: "조기해제 신청", desc: "신용회복위원회 방문 또는 홈페이지에서 신청" },
+          { step: "3단계", title: "신용정보원 삭제", desc: "공공정보 삭제 처리 완료" },
+          { step: "4단계", title: "신용점수 반영", desc: "해제 후 1~2개월 내 신용평가사 반영" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "공공정보 조기해제 및 추가 이자율 인하 신청 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 91: 채무조정 일시완제 추가 원금 감면·성실상환 혜택 전체 정리 ──
+  "debt-lump-payoff-extra-reduction-benefits": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "성실상환자 혜택 수", value: "6가지+", sub: "공공정보 조기해제·이자율 인하·소액카드·크레딧점프·전세보증·건보료 지원" },
+          { label: "일시완제 추가 감면", value: "사전 확인 필수", sub: "신용회복위원회(1600-5500) 감면 조건 확인 후 진행" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "일시완제 감면 조건 및 성실상환 혜택 전체 안내",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+          {
+            name: "국민건강보험공단",
+            description: "체납 건강보험료 지원 신청 문의",
+            phone: "1577-1000",
+            hours: "평일 09:00~18:00",
+            url: "https://www.nhis.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 92: 성실상환 신용상승 지원사업 크레딧점프 ──
+  "good-payer-credit-score-rise-jump-program": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "1년 성실 납입", desc: "연체 없이 변제금 꾸준히 납입" },
+          { step: "2단계", title: "공공정보 조기해제 신청", desc: "신용회복위원회에 조기해제 신청" },
+          { step: "3단계", title: "크레딧점프 신청", desc: "신용회복위원회에 신용상승 지원사업 신청" },
+          { step: "4단계", title: "신용점수 반영", desc: "성실상환 내역이 신용정보원→신용평가사에 반영" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "신용상승 지원사업(크레딧점프) 신청 및 조건 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 93: 채무조정 실효 원인·재조정·상환유예 신청 ──
+  "debt-adjustment-lapse-readjustment-application": {
+    "after-0": (
+      <WarningBox
+        type="warning"
+        title="실효 전에 재조정 신청이 핵심이에요"
+      >
+        <ul className="list-disc pl-4 space-y-1">
+          <li>3회 연속 미납 또는 누적 6회 이상 미납 시 실효될 수 있어요.</li>
+          <li>납입이 어려워지면 미납 전에 즉시 재조정을 신청하세요.</li>
+          <li>실효되면 원채무(이자 포함)가 부활해 추심이 시작될 수 있어요.</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "재조정·상환유예 신청 및 실효 관련 긴급 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 94: 채무조정 수정조정·효력부활·이행기간 중 면책 ──
+  "modification-revival-midterm-debt-exemption": {
+    "after-1": (
+      <ComparisonTable
+        title="수정조정 vs 효력부활 vs 재조정 비교"
+        columns={[
+          { name: "구분" },
+          { name: "수정조정", highlight: true },
+          { name: "효력부활" },
+          { name: "재조정" },
+        ]}
+        rows={[
+          { label: "사용 시점", values: ["채무 추가·조건 변경 필요 시", "실효 후 재개 시", "납입 어려움 예상 시"] },
+          { label: "전제 조건", values: ["31일 이상 연체 채무 존재", "미납 변제금 납부 완료", "사정 변경 사유 있음"] },
+          { label: "주요 효과", values: ["새 채무 포함·조건 변경", "기존 계획 그대로 재개", "기간 연장·변제금 감액"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "수정조정·효력부활·이행기간 중 면책 신청 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 95: 주택담보대출 채무조정 이자율·상환기간·담보 무담보 차이 ──
+  "mortgage-debt-adjustment-rate-period-difference": {
+    "after-2": (
+      <ComparisonTable
+        title="담보대출 vs 무담보 채무조정 비교"
+        columns={[
+          { name: "항목" },
+          { name: "주택담보대출", highlight: true },
+          { name: "무담보 채무" },
+        ]}
+        rows={[
+          { label: "원금 감면", values: ["어려운 경우 많음", "가능한 경우 있음"] },
+          { label: "이자율 인하", values: ["제한적", "상대적으로 유연"] },
+          { label: "기간 연장", values: ["가능 (담보 가치 고려)", "가능"] },
+          { label: "경매 연계", values: ["있음 (빠른 접수 필요)", "해당 없음"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "주택담보대출 채무조정 포함 여부 및 경매 대응 긴급 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 96: 소상공인 새출발기금 중개형·부실우려차주·신용회복위원회 연계 ──
+  "new-start-fund-sme-bad-debtor-ccrs-process": {
+    "after-0": (
+      <ComparisonTable
+        title="새출발기금 부실우려차주 vs 부실차주 비교"
+        columns={[
+          { name: "구분" },
+          { name: "부실우려차주", highlight: true },
+          { name: "부실차주" },
+        ]}
+        rows={[
+          { label: "연체 기준", values: ["90일 미만", "90일 이상"] },
+          { label: "주요 지원", values: ["이자 감면·기간 연장", "원금 감면 가능"] },
+          { label: "공공정보 등록", values: ["없음", "이미 영향 있을 수 있음"] },
+          { label: "신청 서둘러야 하는 이유", values: ["빠를수록 신용 보호 유리", "조속한 조정으로 추심 중단"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소상공인 새출발기금 중개형 접수 및 대상 여부 확인",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 97: 새도약기금 7년 장기연체 채권 자동매입·새도약론 ──
+  "new-leap-fund-long-overdue-auto-purchase-loan": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "자동 매입", desc: "2018년 6월 이전 7년 이상 연체 채권 자동 매입" },
+          { step: "2단계", title: "안내 통지", desc: "채무자에게 변제 계획 안내 통지 발송" },
+          { step: "3단계", title: "동의 및 확정", desc: "변제 계획에 동의하면 채무조정 확정" },
+          { step: "4단계", title: "새도약론 신청", desc: "확정 후 6개월 성실 상환 시 저금리 대출 신청 가능" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "새도약기금 대상 여부 및 변제 계획 확인 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 98: 금융회사 자체 채무조정 vs 신용회복위원회 워크아웃 ──
+  "financial-institution-self-debt-adjustment-comparison": {
+    "after-1": (
+      <ComparisonTable
+        title="금융회사 자체 채무조정 vs 신용회복위원회 워크아웃"
+        columns={[
+          { name: "항목" },
+          { name: "자체 채무조정" },
+          { name: "신용회복 워크아웃", highlight: true },
+        ]}
+        rows={[
+          { label: "적용 범위", values: ["해당 금융회사 채무만", "여러 금융회사 통합"] },
+          { label: "공공정보 등록", values: ["없음", "확정 시 등록"] },
+          { label: "원금 감면", values: ["어려운 경우 많음", "가능한 경우 있음"] },
+          { label: "처리 기간", values: ["2~4주 (금융회사 기준)", "접수~협의 후 확정"] },
+          { label: "추천 상황", values: ["단일 금융회사 채무", "다수 금융회사 채무"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "금융회사 자체 조정과 워크아웃 중 유리한 방법 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 99: 신용회복위원회 금융·고용·복지·복합지원 연계 ──
+  "ccrs-financial-employment-welfare-combined-support": {
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "금융·고용·복지·법률 복합지원 연계 종합 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+          {
+            name: "국민건강보험공단",
+            description: "체납 건강보험료 지원 및 복지 연계 문의",
+            phone: "1577-1000",
+            hours: "평일 09:00~18:00",
+            url: "https://www.nhis.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 100: 신용회복위원회 신용복지 컨설팅·소상공인 재기 맞춤 상담 ──
+  "credit-welfare-consulting-sme-restart-support": {
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "신용복지 컨설팅 신청 및 소상공인 재기 지원 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 101: 신용회복위원회 온라인 신용교육 무료·찾아가는 교육 ──
+  "ccrs-credit-education-online-free-visiting": {
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용교육원",
+            description: "온라인 신용교육 무료 수강 및 과정 확인",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 102: 불법사금융 연이율 60% 초과 무효·피해 신고 구제 흐름 ──
+  "illegal-lending-60pct-void-damage-report-process": {
+    "after-0": (
+      <WarningBox
+        type="danger"
+        title="연이율 60% 초과 대출은 원금·이자 모두 무효예요 (2025.7.22~)"
+      >
+        <ul className="list-disc pl-4 space-y-1">
+          <li>갚지 않아도 되며, 이미 납부한 금액은 반환 청구가 가능해요.</li>
+          <li>해당 대출에 대한 추심이 계속된다면 즉시 신고하세요.</li>
+          <li>금융감독원(☎1332) 또는 경찰청(☎112)에 신고하면 돼요.</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "금융감독원 불법사금융 신고센터",
+            description: "불법사금융 피해 신고 및 구제 절차 안내",
+            phone: "1332",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+          {
+            name: "신용회복위원회",
+            description: "불법사금융 피해구제 연계 및 채무조정 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
   // ── Article 40: 이혼 결심·협의이혼·재판이혼 비교 ──
   "이혼결심-협의이혼-재판이혼-비교": {
     "top": (
@@ -4326,6 +4695,351 @@ const VIZ_MAP: VizMap = {
           },
         ]}
       />
+    ),
+  },
+
+  // ── Article 41: 상속포기 서류 목록 | 가정법원 신고 절차 ──
+  "sangsokpogi-seoryu-mokrok-gajeonbeopwon-singyo": {
+    "after-0": (
+      <DateCalculator
+        title="상속포기 신청 기한 계산기"
+        description="피상속인 사망(상속 개시 있음을 안 날)을 기준일로 선택하면 3개월 기한 만료일을 계산해요."
+        presets={[
+          { label: "상속포기 신청 기한 3개월", days: 90, description: "상속 개시 있음을 안 날 기준" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "상속포기 신청 서류 (기본)",
+            items: [
+              "상속포기 신고서 1부 (인감도장 날인)",
+              "신고인의 인감증명서 (6개월 이내) — 또는 본인서명사실확인서",
+              "신고인의 가족관계증명서 (3개월 이내)",
+              "신고인의 기본증명서 (3개월 이내)",
+              "피상속인의 기본증명서 (사망 기재된 것)",
+              "피상속인의 가족관계증명서",
+            ],
+          },
+          {
+            title: "미성년 상속인이 있는 경우 추가 서류",
+            items: [
+              "법정대리인의 인감증명서",
+              "법정대리인의 기본증명서",
+              "이해충돌 시 특별대리인 선임 심판서",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="후순위 상속인에게 채무가 연쇄 이전될 수 있어요">
+        선순위가 포기하면 2순위(직계존속), 3순위(형제자매) 순으로 채무가 넘어가요. 후순위 상속인도 각자 3개월 이내에 포기 신청을 해야 해요. 후순위 보호가 필요하다면 한정승인을 검토하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 42: 한정승인 신청 서류 | 상속재산목록 작성 방법 ──
+  "hanjeongseugin-singyo-seoryu-jaesanmokrok": {
+    "after-0": (
+      <DateCalculator
+        title="한정승인 신청 기한 계산기"
+        description="피상속인 사망(상속 개시 있음을 안 날)을 기준일로 선택하면 3개월 기한 만료일을 계산해요."
+        presets={[
+          { label: "한정승인 신청 기한 3개월", days: 90, description: "상속 개시 있음을 안 날 기준" },
+          { label: "채권자 공고 최소 기간 2개월", days: 60, description: "한정승인 수리 후 공고 기간" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "한정승인 신청 서류 (기본)",
+            items: [
+              "한정승인 신고서 1부 (인감도장 날인)",
+              "상속재산목록 1부",
+              "신고인의 인감증명서 (6개월 이내) — 또는 본인서명사실확인서",
+              "신고인의 가족관계증명서 (3개월 이내)",
+              "신고인의 기본증명서 (3개월 이내)",
+              "피상속인의 기본증명서 (사망 기재된 것)",
+              "피상속인의 가족관계증명서",
+            ],
+          },
+          {
+            title: "상속재산목록 기재 항목",
+            items: [
+              "적극재산: 부동산, 예금, 보험 해약환급금, 자동차, 주식, 임차보증금",
+              "소극재산: 금융기관 대출, 카드 빚, 개인 채무, 보증 채무, 미납 세금",
+              "각 항목별 종류·소재지(계좌 정보)·평가 금액 기재",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="채권자 공고를 5일 이내에 반드시 해야 해요">
+        한정승인 수리 후 5일 이내에 일간신문에 채권자 공고를 내야 해요(민법 제1032조). 공고 기간 중 상속재산을 임의로 처분하면 단순승인으로 간주될 수 있어요. 알고 있는 채권자에게는 개별 통지도 해야 해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 43: 한정승인 상속포기 차이 | 후순위 연쇄 상속 비교 ──
+  "hanjeongseugin-sangsokpogi-chai-husunwi-bigyo": {
+    top: (
+      <ComparisonTable
+        title="한정승인 vs 상속포기 한눈에 비교"
+        columns={[
+          { name: "한정승인", highlight: true },
+          { name: "상속포기" },
+        ]}
+        rows={[
+          { label: "후순위 연쇄 승계", values: ["없음", "있음"] },
+          { label: "재산 보전", values: ["채무 변제 후 잔여 유지", "재산 전부 포기"] },
+          { label: "절차 복잡도", values: ["복잡 (재산목록+공고)", "간단"] },
+          { label: "신문공고 의무", values: ["있음 (수리 후 5일 이내)", "없음"] },
+          { label: "채무 면제 범위", values: ["재산 초과분 면제", "전액 면제"] },
+          { label: "유리한 상황", values: ["재산 있음·후순위 보호 필요", "재산 없음·전원 포기 동의"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="신문공고 비용은 10만~30만 원 수준이에요">
+        한정승인 후 채권자 공고는 전국 또는 지역 일간지에 1회 게재해요. 게재 후 확인 사본을 반드시 보관하세요. 알고 있는 채권자에게는 개별 통지(내용증명 등)도 함께 발송해야 해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 44: 특별한정승인 신청 요건 | 단순승인 후 채무 초과 발견 ──
+  "teukbyeol-hanjeongseugin-singyo-yogeon": {
+    "after-0": (
+      <WarningBox type="warning" title="채무 초과 사실을 안 날로부터 3개월 이내에 신청해야 해요">
+        특별한정승인은 채무 초과 사실을 알게 된 날이 기산점이에요. 채권자 청구서·지급명령을 받은 날, 채무 조회 결과를 확인한 날 등이 시작점이 될 수 있어요. 3개월을 놓치면 구제받기 어려우니 즉시 행동하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "특별한정승인 무료 법률 상담 및 소송 지원",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+          {
+            name: "대법원 전자가족관계등록시스템",
+            description: "가족관계증명서·기본증명서 온라인 발급",
+            url: "https://efamily.scourt.go.kr",
+            urlLabel: "증명서 발급 바로가기",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 46: 상속세 세율 구간 계산 | 과세표준 공제 후 납부액 ──
+  "sangsokse-seyul-guwon-gyesan-gwasepyojun": {
+    "after-0": (
+      <ComparisonTable
+        title="상속세 과세표준 구간별 세율표"
+        columns={[
+          { name: "과세표준 구간" },
+          { name: "세율", highlight: true },
+          { name: "누진공제" },
+        ]}
+        rows={[
+          { label: "1억원 이하", values: ["1억원 이하", "10%", "없음"] },
+          { label: "1억~5억원", values: ["1억원 초과~5억원 이하", "20%", "1천만원"] },
+          { label: "5억~10억원", values: ["5억원 초과~10억원 이하", "30%", "6천만원"] },
+          { label: "10억~30억원", values: ["10억원 초과~30억원 이하", "40%", "1억6천만원"] },
+          { label: "30억원 초과", values: ["30억원 초과", "50%", "4억6천만원"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <StatCard
+        items={[
+          { label: "과세표준 7억원 산출세액", value: "1억5천만원", sub: "7억 × 30% − 6천만원 = 1.5억" },
+          { label: "과세표준 3억원 산출세액", value: "4천만원", sub: "3억 × 20% − 1천만원 = 4천만원" },
+          { label: "최고 세율", value: "50%", sub: "과세표준 30억원 초과 구간" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="10년 이내 사전증여는 과세표준에 합산돼요">
+        상속 개시 10년 이내에 상속인에게 증여한 재산은 상속세 과세가액에 합산돼요. 합산되면 세율 구간이 올라갈 수 있어요. 10년을 넘긴 증여만 과세표준에서 제외돼요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 47: 상속세 신고 기한 6개월 | 미신고 가산세 금액 ──
+  "sangsokse-singyo-gihan-misingo-gasanse": {
+    "after-0": (
+      <DateCalculator
+        title="상속세 신고 기한 계산기"
+        description="피상속인 사망일이 속한 달의 말일을 기준일로 선택하면 신고 기한 만료일을 계산해요."
+        presets={[
+          { label: "상속세 신고 기한 6개월", days: 180, description: "상속개시일이 속하는 달 말일 기준" },
+          { label: "외국 거주자 신고 기한 9개월", days: 270, description: "피상속인·상속인 전원 외국 주소 시" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <StatCard
+        items={[
+          { label: "일반 무신고 가산세", value: "20%", sub: "납부세액 기준" },
+          { label: "부정 무신고 가산세", value: "40%", sub: "의도적 누락 등" },
+          { label: "납부 지연 가산세", value: "하루 0.022%", sub: "미납 세액 × 일수" },
+          { label: "일반 과소신고 가산세", value: "10%", sub: "과소신고 납부세액 기준" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "국세청 홈택스",
+            description: "상속세 신고·납부 온라인 신청",
+            url: "https://www.hometax.go.kr",
+            urlLabel: "홈택스 바로가기",
+          },
+          {
+            name: "국세상담센터",
+            description: "상속세 신고·납부 전화 상담",
+            phone: "126",
+            hours: "평일 09:00~18:00",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 48: 유류분 반환청구 소멸시효 | 생전 증여 포함 계산 ──
+  "yurubun-hwanwancheongu-somelsiyo-saengjeon-jeungyeo": {
+    "after-0": (
+      <StatCard
+        items={[
+          { label: "단기 시효", value: "1년", sub: "유류분 침해 사실을 안 날로부터" },
+          { label: "장기 시효", value: "10년", sub: "상속 개시일(사망일)로부터 절대 기한" },
+          { label: "상속인 생전증여 포함", value: "기간 제한 없음", sub: "상속인에 대한 증여 전부 합산" },
+          { label: "상속인 외 생전증여", value: "1년 이내", sub: "사망 전 1년 이내 증여만 합산" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="원물반환이 원칙이지만 가액반환도 가능해요">
+        수증자가 재산을 이미 팔았거나 나누기가 곤란하면 가액(돈)으로 반환받을 수 있어요. 가액 기준은 상속 개시 당시 시가예요. 협의가 안 되면 소송으로 법원이 방식을 결정해요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "유류분 반환청구 무료 법률 상담 및 소송 지원",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 49: 유류분 비율 직계비속 배우자 | 형제자매 헌법불합치 영향 ──
+  "yurubun-biyul-jikyebisok-baeuija-hyeongje": {
+    top: (
+      <ComparisonTable
+        title="상속인별 유류분 비율"
+        columns={[
+          { name: "상속인 구분" },
+          { name: "법정상속분", highlight: true },
+          { name: "유류분 비율" },
+        ]}
+        rows={[
+          { label: "직계비속 (자녀 등)", values: ["직계비속", "법정상속분", "법정상속분의 1/2"] },
+          { label: "배우자", values: ["배우자", "직계비속 1인분 × 1.5배", "법정상속분의 1/2"] },
+          { label: "직계존속 (부모 등)", values: ["직계존속", "법정상속분", "법정상속분의 1/3"] },
+          { label: "형제자매", values: ["형제자매", "법정상속분", "헌법불합치(사실상 폐지)"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="warning" title="2024년 헌법불합치 결정으로 형제자매 유류분은 사실상 폐지됐어요">
+        헌재는 2024년 4월 25일 형제자매 유류분 조항이 헌법에 합치하지 않는다고 결정했어요. 개정 시한(2025.12.31.)이 지난 현재 해당 조항의 효력이 상실됐을 가능성이 높아요. 형제자매가 유류분을 주장하는 소송은 기각될 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 50: 법정상속순위 배우자 자녀 | 부모 형제 상속 순서 ──
+  "beopjeong-sangsoksunwi-baeuija-janyeo": {
+    top: (
+      <ProcessTimeline
+        steps={[
+          { step: "1순위", title: "직계비속 + 배우자", desc: "자녀·손자녀 등. 배우자는 직계비속 1인분의 1.5배" },
+          { step: "2순위", title: "직계존속 + 배우자", desc: "부모·조부모 등. 직계비속이 없을 때. 배우자는 1.5배" },
+          { step: "3순위", title: "형제자매 (+ 배우자)", desc: "직계비속·직계존속 모두 없을 때" },
+          { step: "4순위", title: "4촌 이내 방계혈족", desc: "형제자매도 없을 때" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="배우자 + 자녀 상속분 계산 예시"
+        columns={[
+          { name: "상속인 구성" },
+          { name: "배우자 몫" },
+          { name: "자녀 1인 몫", highlight: true },
+        ]}
+        rows={[
+          { label: "배우자 + 자녀 1명", values: ["배우자 + 자녀 1명", "3/5 (60%)", "2/5 (40%)"] },
+          { label: "배우자 + 자녀 2명", values: ["배우자 + 자녀 2명", "3/7 (약 43%)", "2/7 (약 29%)"] },
+          { label: "배우자 + 자녀 3명", values: ["배우자 + 자녀 3명", "3/9 = 1/3", "2/9 (약 22%)"] },
+          { label: "배우자 단독 (자녀·부모 없음)", values: ["배우자 단독", "전액 (100%)", "해당 없음"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="형제자매 유류분은 사실상 폐지됐어요">
+        3순위 형제자매는 상속권이 있지만 유류분 보장은 없어요. 피상속인이 유언으로 전 재산을 타인에게 주더라도 형제자매는 이의를 제기할 유류분 권리가 없어요. 형제자매가 상속인이 되는 상황이라면 유언장 확인과 상속 계획이 중요해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 45: 상속세 기초공제 일괄공제 | 배우자 상속공제 최대 금액 ──
+  "sangsokse-gichocongje-iljalgongje-baeujaigongje": {
+    top: (
+      <StatCard
+        items={[
+          { label: "일괄공제", value: "5억 원", sub: "기초+인적공제 합계와 비교해 유리한 쪽 선택" },
+          { label: "배우자 공제 최소", value: "5억 원", sub: "실제 상속액 없어도 공제 가능" },
+          { label: "배우자 공제 최대", value: "30억 원", sub: "법정 상속분 한도 내 실수령액 기준" },
+          { label: "동거주택 공제 한도", value: "6억 원", sub: "10년 이상 동거·1세대 1주택 요건" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="상속세 주요 공제 항목 비교"
+        columns={[
+          { name: "기초공제" },
+          { name: "일괄공제", highlight: true },
+          { name: "배우자 공제" },
+        ]}
+        rows={[
+          { label: "공제 금액", values: ["2억 원", "5억 원", "5억~30억 원"] },
+          { label: "적용 조건", values: ["기본 적용", "기초+인적공제 합 미만 시 선택", "배우자 실수령액 한도"] },
+          { label: "중복 적용", values: ["가능", "인적공제와 대체", "가능"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="상속세 신고 기한은 사망일 다음 달 말일로부터 6개월이에요">
+        기한 내에 신고하지 않으면 무신고 가산세(20%)와 납부 지연 가산세가 추가돼요. 금융재산 조회와 공제 항목 정리에 시간이 걸리니 사망 직후부터 준비를 시작하는 게 좋아요.
+      </WarningBox>
     ),
   },
 };
