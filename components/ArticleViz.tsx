@@ -3990,6 +3990,112 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 80: 신용회복 소액대출 이자율·한도·담보 ──
+  "ccrs-microloan-interest-rate-limit-no-collateral": {
+    "after-0": (
+      <ComparisonTable
+        title="신용회복위원회 소액대출 주요 조건"
+        columns={[
+          { name: "항목" },
+          { name: "내용" },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "금리 수준", values: ["연 2~5% 수준 저금리", "상품·시점별 상이"] },
+          { label: "최대 한도", values: ["최대 1,500만 원", "성실상환 소액대출 기준"] },
+          { label: "담보·보증인", values: ["원칙 불필요", "신용 심사로 대체"] },
+          { label: "본인 신청", values: ["원칙 본인 직접", "특수 사정 시 위임 가능"] },
+          { label: "신청 방법", values: ["온라인·방문 모두 가능", "ccrs.or.kr 또는 지역지부"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소액대출 금리·한도 확인, 담보 없는 신청 방법, 상품별 조건 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 81: 신용회복 소액대출 상환일 변경·중도상환·자동이체 ──
+  "ccrs-microloan-repayment-date-change-early-payoff-autotransfer": {
+    "after-0": (
+      <WarningBox type="info" title="상환일·자동이체 관련 주요 주의사항">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>상환일이 공휴일이면 → 다음 영업일 자동 처리 (자동이체 설정 시)</li>
+          <li>자동이체 계좌 변경 → 다음 상환일 7영업일 전까지 신청 필요</li>
+          <li>중도 상환 전 → 수수료 발생 여부 사전 확인</li>
+          <li>상환일 변경 → 신용회복위원회에 별도 신청 (횟수 제한 있을 수 있음)</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "상환일 변경, 자동이체 계좌 변경, 중도 상환 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 82: 신용회복 소액대출 연체 불이익 ──
+  "ccrs-microloan-overdue-penalty-existing-delinquency": {
+    "after-0": (
+      <WarningBox type="danger" title="소액대출 연체 시 발생하는 불이익">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>연체 이자 발생 (약정 이율 초과 적용)</li>
+          <li>연체 발생 후 10~30일 내 신용정보 등록 → 신용점수 하락</li>
+          <li>장기 연체 시 채권 추심 시작 (전화·내용증명·법적 조치)</li>
+          <li>채무조정 이행 중이라면 → 취소 위험 발생</li>
+          <li>연체 예상 시 즉시 1600-5500 연락 → 유예·조정 상담 가능</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소액대출 연체 위기 상담, 상환 유예·조정, 채무조정 통합 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 83: 신용회복 소액대출 추가·완제 후 반환금·재이용 ──
+  "ccrs-microloan-additional-loan-payoff-refund-inquiry": {
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "추가 대출 가능 여부, 완제 후 반환금 확인, 상환 내역 조회, 재신청 조건 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
   // ── Article 40: 이혼 결심·협의이혼·재판이혼 비교 ──
   "이혼결심-협의이혼-재판이혼-비교": {
     "top": (

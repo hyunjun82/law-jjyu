@@ -20,7 +20,7 @@ export const categories: Category[] = [
     slug: "금융금전",
     icon: "💰",
     description: "대출, 채무, 신용회복, 보증, 금전거래 관련 법률 정보",
-    count: 79,
+    count: 83,
   },
   {
     name: "민형사/소송",
