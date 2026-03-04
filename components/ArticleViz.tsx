@@ -3641,6 +3641,170 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 70: 채무조정 변제금 미납 취소 기준 ──
+  "repayment-default-cancellation-lump-sum-account": {
+    "after-0": (
+      <WarningBox type="danger" title="변제금 미납 취소 기준">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>연속 3회 이상 미납 → 채무조정 취소 가능</li>
+          <li>총 6회 이상 미납 → 채무조정 취소 가능</li>
+          <li>취소 시 원채무 전액·이자 부활, 추심 재개</li>
+          <li>납부 어려우면 미리 신용회복위원회에 연락, 유예 신청 가능</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "변제금 납입 계좌 조회, 유예·재산정 상담, 일시 완제 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 71: 채무조정 이행 중 신규 대출·카드·보험·신원보증보험 ──
+  "workout-new-loan-card-insurance-surety": {
+    "after-0": (
+      <ComparisonTable
+        title="채무조정 이행 중 금융 거래 가능 여부"
+        columns={[
+          { name: "금융 거래 유형" },
+          { name: "가능 여부" },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "체크카드·선불카드", values: ["가능", "신용 심사 없음"] },
+          { label: "신규 신용카드", values: ["원칙 불가", "신용 심사에서 거절"] },
+          { label: "일반 금융기관 신규 대출", values: ["원칙 불가", "채무조정 위반 사유"] },
+          { label: "성실상환 소액대출", values: ["6개월 후 가능", "최대 1,500만 원"] },
+          { label: "취업용 신원보증보험", values: ["예외적 가능", "보험사 협조 필요"] },
+          { label: "기존 보험 해약 환급금", values: ["가능(신고 필수)", "변제금 재산정 가능"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "채무조정 이행 중 금융 거래 가능 여부, 소액대출 신청 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 72: 채무조정 확정 후 재산 은닉 취소 ──
+  "workout-asset-concealment-cancellation-restriction": {
+    "after-0": (
+      <WarningBox type="danger" title="재산 은닉·도피 시 채무조정 즉시 취소">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>가족에게 부동산 증여·시세 이하 매각 → 사해행위, 취소 소송 가능</li>
+          <li>금융 자산을 제3자 명의로 이전 → 취소 사유</li>
+          <li>소득을 신고하지 않고 현금으로 은닉 → 취소 사유</li>
+          <li>취소 시 원채무 전액 부활, 가압류·강제집행 재개</li>
+          <li>재산 처분 전 반드시 신용회복위원회에 사전 상담</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "재산 처분·변동 사전 상담, 채무조정 취소 예방 지원",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 73: 개인회생 신청 소득 상한 총채무 절차 ──
+  "individual-rehabilitation-income-debt-limit-procedure": {
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "신청서 접수", desc: "법원에 신청서·채권자 목록·재산 목록·수입·지출 명세서 제출" },
+          { step: "2", title: "법원 심사·개시 결정", desc: "법원이 서류 검토 후 개시 결정 시 채권자 강제집행 자동 중지" },
+          { step: "3", title: "채권자 집회·이의", desc: "채권자 집회에서 변제 계획에 대한 이의 수렴" },
+          { step: "4", title: "변제 계획 인가", desc: "법원 인가 결정 → 채권자 동의 없이 확정" },
+          { step: "5", title: "변제 실행", desc: "급여소득자 36개월·영업소득자 60개월 변제 이행" },
+          { step: "6", title: "면책 결정", desc: "변제 완료 후 잔여 채무 면책, 신용 회복 시작" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "개인회생 신청 서류 작성, 무료 법률 지원, 변제 계획안 상담",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 74: 개인회생 변제금 가처분소득·비면책 채권 ──
+  "rehabilitation-repayment-disposable-income-non-exempt-claims": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "변제금 산정 공식", value: "소득 − 생계비", sub: "= 가처분소득" },
+          { label: "급여소득자 변제 기간", value: "36개월", sub: "3년 성실 변제 후 면책" },
+          { label: "영업소득자 변제 기간", value: "60개월", sub: "5년 성실 변제 후 면책" },
+          { label: "총채무 상한", value: "담보 15억 / 무담보 10억", sub: "초과 시 개인파산 검토" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="개인회생 면책 채권 vs 비면책 채권"
+        columns={[
+          { name: "채권 유형" },
+          { name: "면책 여부" },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "일반 금융 채무(대출·카드)", values: ["면책 ○", "변제 완료 후 탕감"] },
+          { label: "조세·국세·지방세", values: ["비면책 ×", "별도 납부 필요"] },
+          { label: "양육비·부양료", values: ["비면책 ×", "가정법원 통해 처리"] },
+          { label: "벌금·과료·몰수·추징", values: ["비면책 ×", "별도 납부 필요"] },
+          { label: "고의 불법행위 손해배상", values: ["비면책 ×", "민사 청구 가능"] },
+          { label: "근로자 임금·퇴직금", values: ["비면책 ×", "우선변제 청구 가능"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "개인회생 변제금 산정, 비면책 채권 처리 방법, 무료 법률 지원",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
   // ── Article 40: 이혼 결심·협의이혼·재판이혼 비교 ──
   "이혼결심-협의이혼-재판이혼-비교": {
     "top": (
