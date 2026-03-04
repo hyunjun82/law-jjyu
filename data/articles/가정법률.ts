@@ -3,6 +3,11 @@ import { spokes1 } from "./divorce-spokes-1";
 import { spokes2 } from "./divorce-spokes-2";
 import { spokes3 } from "./divorce-spokes-3";
 import { spokes4 } from "./divorce-spokes-4";
+import { spokes5 } from "./divorce-spokes-5";
+import { spokes6 } from "./divorce-spokes-6";
+import { spokes7 } from "./divorce-spokes-7";
+import { spokes8 } from "./divorce-spokes-8";
+import { spokes9 } from "./divorce-spokes-9";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -10,6 +15,11 @@ const allSpokes: SpokeArticle[] = [
   ...spokes2,
   ...spokes3,
   ...spokes4,
+  ...spokes5,
+  ...spokes6,
+  ...spokes7,
+  ...spokes8,
+  ...spokes9,
 ];
 
 // ── Hub Article ──
