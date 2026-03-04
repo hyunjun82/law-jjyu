@@ -4096,6 +4096,197 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 84: 성실상환자 소액신용카드 지원 자격·제외 조건 ──
+  "ccrs-good-payer-credit-card-eligibility-exclusion": {
+    "after-1": (
+      <ComparisonTable
+        title="소액신용카드 vs 체크카드 신청 가능 조건"
+        columns={[
+          { name: "구분" },
+          { name: "소액신용카드", highlight: true },
+          { name: "체크카드" },
+        ]}
+        rows={[
+          { label: "신청 자격", values: ["성실상환 6개월 이상", "성실상환 6개월 이상"] },
+          { label: "결제 방식", values: ["후불 (신용 한도 내)", "선불 (계좌 잔액 내)"] },
+          { label: "초기 한도", values: ["30만 원 내외", "계좌 잔액"] },
+          { label: "미납 위험", values: ["있음 (관리 필요)", "없음"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소액신용·체크카드 신청 자격 및 이행 현황 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 85: 소액신용카드 신청 방법·서류·디지털상담 ──
+  "ccrs-credit-card-application-documents-online": {
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "온라인 신청 시 필요 사항",
+            items: [
+              "공동인증서 (본인 확인용)",
+              "채무조정 이행 현황 (온라인 자동 연동)",
+            ],
+          },
+          {
+            title: "방문 신청 시 필요 서류",
+            items: [
+              "신분증 (주민등록증·운전면허증 등)",
+              "채무조정 이행 확인서",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소액신용카드 신청 방법 및 필요 서류 사전 확인",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 86: 소액신용카드 한도·종류 비교·해지 후 재발급 ──
+  "ccrs-credit-card-limit-type-reissue": {
+    "after-0": (
+      <ComparisonTable
+        title="소액신용카드 vs 체크카드 비교"
+        columns={[
+          { name: "항목" },
+          { name: "소액신용카드", highlight: true },
+          { name: "체크카드" },
+        ]}
+        rows={[
+          { label: "결제 방식", values: ["후불 결제", "계좌 잔액 내 결제"] },
+          { label: "초기 한도", values: ["30만 원 내외", "계좌 잔액"] },
+          { label: "미납 위험", values: ["있음", "없음"] },
+          { label: "현금서비스", values: ["제한 가능", "해당 없음"] },
+          { label: "추천 대상", values: ["지출 관리 자신 있는 분", "지출 관리 어려운 분"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "카드 종류 선택 및 해지·재발급 가능 여부 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 87: 디지털상담 본인인증·로그인·합의서 ──
+  "ccrs-digital-consultation-login-auth-agreement": {
+    "after-2": (
+      <WarningBox
+        type="warning"
+        title="접수 완료 후 내용 수정이 불가해요"
+      >
+        <ul className="list-disc pl-4 space-y-1">
+          <li>접수 전에 채무 금액, 채권자 정보, 연락처 등을 꼼꼼히 확인하세요.</li>
+          <li>접수 완료 후 수정이 필요하면 1600-5500으로 연락해 요청해야 해요.</li>
+          <li>합의서 서명 전에 내용을 충분히 검토하고 서명하세요.</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "디지털상담 인증 오류 및 접수 내용 수정 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 88: 디지털상담 프로그램 설치·환경 설정 ──
+  "ccrs-digital-consultation-program-setup": {
+    "after-2": (
+      <WarningBox
+        type="tip"
+        title="디지털상담 접속 오류 시 확인 순서"
+      >
+        <ul className="list-disc pl-4 space-y-1">
+          <li>보안 프로그램이 최신 버전인지 먼저 확인하세요.</li>
+          <li>브라우저를 크롬·엣지 등 최신 버전으로 바꿔보세요.</li>
+          <li>여러 방법을 시도해도 안 되면 1600-5500에 기술 지원을 요청하세요.</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "디지털상담 프로그램 설치 및 접속 오류 기술 지원",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 89: 방문 상담 예약 필수 여부·변경·취소·미방문 불이익 ──
+  "ccrs-visit-reservation-required-change-cancel-penalty": {
+    "after-2": (
+      <WarningBox
+        type="warning"
+        title="예약 미방문이 반복되면 예약이 제한돼요"
+      >
+        <ul className="list-disc pl-4 space-y-1">
+          <li>방문이 어렵다면 반드시 전날까지 취소 또는 변경 처리하세요.</li>
+          <li>당일 갑자기 못 가게 됐다면 1600-5500에 바로 연락해 취소하세요.</li>
+          <li>반복 미방문 시 예약 이용 제한과 채무조정 처리 지연이 생길 수 있어요.</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "방문 상담 예약·변경·취소 및 지역지부 안내",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
   // ── Article 40: 이혼 결심·협의이혼·재판이혼 비교 ──
   "이혼결심-협의이혼-재판이혼-비교": {
     "top": (
