@@ -8,6 +8,7 @@ import { ContactCard } from "@/components/viz/ContactCard";
 import { FormDownload } from "@/components/viz/FormDownload";
 import { StatCard } from "@/components/viz/StatCard";
 import { RangeTable } from "@/components/viz/RangeTable";
+import { ProcessTimeline } from "@/components/viz/ProcessTimeline";
 
 // ─── 슬러그별 시각화 매핑 ───
 // position: "top" = 히어로 아래 본문 전, "after-0" = 섹션0 뒤, "after-1" = 섹션1 뒤, ...
@@ -3468,6 +3469,169 @@ const VIZ_MAP: VizMap = {
           {
             name: "신용회복위원회",
             description: "채무조정 신청 서류 안내 및 방문·온라인 상담 예약",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 65: 채무조정 확정 절차 부동의 채권사 처리 ──
+  "debt-adjustment-confirmation-dissent-creditor": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "신청 접수", desc: "서류 제출 + 신청비 5만원 납부" },
+          { step: "2", title: "채권 조회", desc: "협약 채권금융회사 채무 내역 확인" },
+          { step: "3", title: "채권자 의견 수렴", desc: "각 금융사 동의 여부 확인" },
+          { step: "4", title: "심의위원회 의결", desc: "부동의 금융사 있어도 강제 의결 가능" },
+          { step: "5", title: "확정 + 협의서 체결", desc: "체결일부터 변제 시작" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "채무조정 확정 절차 및 부동의 채권자 처리 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 66: 채무조정 신청 후 예적금 자동이체 처리 ──
+  "post-application-auto-transfer-deposit": {
+    "after-1": (
+      <WarningBox
+        type="warning"
+        title="채무조정 신청 후 반드시 확인하세요"
+      >
+        <ul className="list-disc pl-4 space-y-1">
+          <li>자동이체는 자동 해지되지 않으니 직접 각 금융사에 해지 요청하세요</li>
+          <li>특정 금융사에만 먼저 상환하면 채무조정에 불리해질 수 있어요</li>
+          <li>예·적금 상계 우려 시 신청 전 미리 이체하는 것이 안전해요</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "신청 후 자동이체 처리, 임의상환 주의사항 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 67: 개인워크아웃 연체정보 해제 시점 기준 ──
+  "workout-delinquency-release-guarantor": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "공공정보 조기 삭제", value: "1년 이상 성실 상환", sub: "신용회복위원회 신청 필요" },
+          { label: "보증인 효력", value: "별도 적용 없음", sub: "보증인은 독립 상환 의무" },
+          { label: "완료 후 기록 해제", value: "채무 완료 후", sub: "일정 기간 경과 시 삭제" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="주채무자 vs 보증인 채무조정 효력 비교"
+        columns={[
+          { name: "주채무자" },
+          { name: "보증인", highlight: true },
+        ]}
+        rows={[
+          { label: "채무조정 효력", values: ["적용됨", "적용 안 됨"] },
+          { label: "상환 의무", values: ["조정된 변제금", "원래 채무 전액"] },
+          { label: "추심 압박", values: ["완화됨", "독립적으로 유지"] },
+          { label: "별도 신청", values: ["본인 신청", "별도 채무조정 가능"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "연체정보 조기 삭제 신청 및 보증인 채무조정 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 68: 채무조정 신청비 납부 방법 누락 채무 추가 ──
+  "application-fee-missing-debt-collection-call": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "신청 접수 후 즉시 처리 사항",
+            items: [
+              "신청비 5만원 납부 (담당 심사역 안내 확인)",
+              "카드·대출 자동이체 직접 해지",
+              "누락 채무 있으면 담당자에게 즉시 알리기",
+              "접수 확인서 발급 후 보관",
+            ],
+          },
+          {
+            title: "진행 중 관리 사항",
+            items: [
+              "독촉전화 시 추심중단 요청 신청",
+              "이사·전화번호 변경 시 즉시 통보",
+              "특정 채권자에게 임의 상환 금지",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "신청비 납부, 독촉전화 중단, 누락 채무 추가 안내",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 69: 자영업자 카드매출 입금통장 지급정지 해제 ──
+  "self-employed-card-sales-account-freeze": {
+    "after-0": (
+      <WarningBox
+        type="warning"
+        title="자영업자 채무조정 신청 전 꼭 확인하세요"
+      >
+        카드매출 입금통장 지급정지를 막으려면 신청 전에 매출 입금 통장을 채무가 없는 다른 은행으로 미리 변경하는 것이 안전해요. 지급정지가 발생하면 신용회복위원회를 통해 해제 협의를 진행할 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "자영업자 카드매출 통장 지급정지 해제 및 사업 계속 운영 상담",
             phone: "1600-5500",
             hours: "평일 09:00~18:00",
             url: "https://www.ccrs.or.kr",

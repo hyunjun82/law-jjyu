@@ -15,9 +15,10 @@ import { financeSpokes13 } from "./finance-spokes-13";
 import { financeSpokes14 } from "./finance-spokes-14";
 import { financeSpokes15 } from "./finance-spokes-15";
 import { financeSpokes16 } from "./finance-spokes-16";
+import { financeSpokes17 } from "./finance-spokes-17";
 
 // ── 모든 spoke 합본 ──
-const allSpokes: SpokeArticle[] = [...financeSpokes1, ...financeSpokes2, ...financeSpokes3, ...financeSpokes4, ...financeSpokes5, ...financeSpokes6, ...financeSpokes7, ...financeSpokes8, ...financeSpokes9, ...financeSpokes10, ...financeSpokes11, ...financeSpokes12, ...financeSpokes13, ...financeSpokes14, ...financeSpokes15, ...financeSpokes16];
+const allSpokes: SpokeArticle[] = [...financeSpokes1, ...financeSpokes2, ...financeSpokes3, ...financeSpokes4, ...financeSpokes5, ...financeSpokes6, ...financeSpokes7, ...financeSpokes8, ...financeSpokes9, ...financeSpokes10, ...financeSpokes11, ...financeSpokes12, ...financeSpokes13, ...financeSpokes14, ...financeSpokes15, ...financeSpokes16, ...financeSpokes17];
 
 // ── Hub Article ──
 export const hub: HubArticle = {
