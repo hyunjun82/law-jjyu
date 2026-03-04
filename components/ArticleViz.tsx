@@ -3805,6 +3805,191 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 75: 개인파산 신청 자격 면책 제도 ──
+  "personal-bankruptcy-eligibility-discharge-procedure": {
+    "after-2": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "신분 및 현황 서류",
+            items: [
+              "파산·면책 신청서 (법원 양식)",
+              "주민등록등본 (3개월 이내 발급)",
+              "가족관계증명서",
+              "인감증명서 또는 본인서명사실확인서",
+            ],
+          },
+          {
+            title: "재산·부채 관련 서류",
+            items: [
+              "채권자 목록 (채권자별 채권 금액 포함)",
+              "재산 목록 (부동산·차량·금융 자산 전체)",
+              "부동산 등기부등본 (보유 시)",
+              "차량 등록원부 (보유 시)",
+            ],
+          },
+          {
+            title: "소득·지출 증빙 서류",
+            items: [
+              "급여 명세서 또는 근로소득 원천징수영수증",
+              "건강보험료 납부확인서",
+              "월 지출 명세서 (생활비 내역)",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회 (개인회생·파산 지원)",
+            description: "개인파산 신청 서류 작성 지원, 법원 비용 면제, 접수 동행",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 76: 개인파산 비면책 채권·면책 불허가 사유 ──
+  "bankruptcy-non-dischargeable-debts-discharge-denial": {
+    "after-1": (
+      <WarningBox type="danger" title="면책이 불허될 수 있는 주요 사유">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>도박·사치·낭비로 과도하게 채무를 늘린 경우</li>
+          <li>재산을 고의로 은닉하거나 허위 신고한 경우</li>
+          <li>채권자 목록에서 일부 채권자를 의도적으로 누락한 경우</li>
+          <li>특정 채권자에게만 편파적으로 변제한 경우</li>
+          <li>이전 파산·면책 결정 후 일정 기간이 경과하지 않은 경우</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "면책 불허가 사유 사전 확인, 취약채무자 신속면책 신청 지원",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 77: 신용회복위원회 개인회생·파산 법률 지원 ──
+  "ccrs-rehabilitation-bankruptcy-legal-support-eligibility": {
+    "after-0": (
+      <ComparisonTable
+        title="신용회복위원회 개인회생·파산 지원 내용"
+        columns={[
+          { name: "지원 항목" },
+          { name: "지원 내용" },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "서류 작성 지원", values: ["신청서·채권자 목록 등 대행", "담당 직원 동행"] },
+          { label: "법원 인지대·송달료", values: ["면제 가능", "소득·재산 요건 충족 시"] },
+          { label: "법원 접수 동행", values: ["지원", "보정 명령 대응 포함"] },
+          { label: "절차 중 상담", values: ["지속 지원", "채권자 집회·심문 안내"] },
+          { label: "이행 중 사후 상담", values: ["가능", "변제금 재산정 등"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "개인회생·파산 법률 지원 신청, 소득·재산 요건 확인 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 78: 신용회복위원회 소액금융 지원 제도 ──
+  "ccrs-microloan-program-post-debt-adjustment-eligibility": {
+    "after-2": (
+      <WarningBox type="warning" title="소액금융 심사 탈락 주요 사유">
+        <ul className="list-disc pl-4 space-y-1 text-sm">
+          <li>소득 불안정 또는 무소득 (상환 능력 미충족)</li>
+          <li>최근 연체·미납 이력 (신용 상태 불량)</li>
+          <li>소득 대비 기존 부채 비율 과다</li>
+          <li>채무조정 이행 기간 6개월 미충족</li>
+          <li>소액금융 지원 재원 소진 (신청 시점 문제)</li>
+        </ul>
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소액금융 지원 자격 상담, 신청 방법 안내, 탈락 시 재신청 조건 확인",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 79: 신용회복 소액대출 인터넷 신청 방법 ──
+  "ccrs-microloan-online-application-documents-processing-time": {
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "기본 신분 서류",
+            items: [
+              "신분증 사본",
+              "주민등록등본 (3개월 이내 발급)",
+              "건강보험료 납부확인서",
+            ],
+          },
+          {
+            title: "소득 증빙 서류",
+            items: [
+              "근로소득 원천징수영수증 또는 사업소득 확인서",
+              "급여 명세서 최근 3개월분",
+              "금융거래 확인서 (무소득자)",
+            ],
+          },
+          {
+            title: "채무조정 이행 서류 (해당자)",
+            items: [
+              "채무조정 협약서 사본",
+              "성실상환 이행 확인서 (6개월 이상)",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "신용회복위원회",
+            description: "소액대출 온라인·방문 신청, 필요 서류 확인, 심사 진행 상황 문의",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
   // ── Article 40: 이혼 결심·협의이혼·재판이혼 비교 ──
   "이혼결심-협의이혼-재판이혼-비교": {
     "top": (
