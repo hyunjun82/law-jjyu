@@ -244,6 +244,99 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 7: 재산분할 양도소득세·위자료 취득세 비교 ──
+  "이혼-재산분할-양도소득세-취득세": {
+    "after-2": (
+      <WarningBox type="warning" title="취득세 신고는 60일 이내">
+        재산분할로 부동산을 받은 날로부터 60일 안에 관할 시·군·구청에 취득세를 신고·납부해야 해요. 기한을 넘기면 무신고 가산세(20%)가 붙어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="재산분할 vs 위자료 세금 한눈에 비교"
+        columns={[
+          { name: "재산분할", highlight: true },
+          { name: "위자료(현금)" },
+          { name: "위자료(부동산)" },
+        ]}
+        rows={[
+          { label: "증여세", values: ["비과세", "비과세", "비과세"] },
+          { label: "양도소득세(넘기는 쪽)", values: ["비과세", "없음", "과세"] },
+          { label: "취득세(받는 쪽)", values: ["2.3% 특례", "없음", "1~12%"] },
+          { label: "절세 효과", values: [true, true, false] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 8: 위자료 평균 금액·산정 기준 ──
+  "이혼-위자료-금액-유책배우자": {
+    "after-2": (
+      <WarningBox type="info" title="위자료 청구 소멸시효는 3년">
+        이혼 성립일로부터 3년이에요. 재산분할 2년(제척기간)과 달리 소멸시효라서 재판상 청구나 내용증명 발송으로 시효를 중단시킬 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "위자료 청구 무료 법률 상담 및 소송 지원",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+          {
+            name: "여성긴급전화 1366",
+            description: "가정폭력 피해자 긴급 상담 및 연계",
+            phone: "1366",
+            hours: "24시간 연중무휴",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 9: 위자료 vs 재산분할 차이점 ──
+  "이혼-위자료-재산분할-차이점": {
+    "after-0": (
+      <ComparisonTable
+        title="위자료 vs 재산분할 핵심 비교"
+        columns={[
+          { name: "위자료" },
+          { name: "재산분할", highlight: true },
+        ]}
+        rows={[
+          { label: "법적 성격", values: ["정신적 손해배상", "공동재산 청산"] },
+          { label: "귀책사유 필요", values: ["필요", "불필요"] },
+          { label: "청구 기한", values: ["이혼 후 3년(소멸시효)", "이혼 후 2년(제척기간)"] },
+          { label: "부동산 이전 시 양도소득세", values: ["과세", "비과세"] },
+          { label: "부동산 취득세율", values: ["1~12%", "2.3% 특례"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 10: 친권자 지정 (단독 vs 공동) ──
+  "협의이혼-친권자-지정-재판이혼": {
+    "after-2": (
+      <ComparisonTable
+        title="단독 친권 vs 공동 친권 비교"
+        columns={[
+          { name: "단독 친권" },
+          { name: "공동 친권" },
+        ]}
+        rows={[
+          { label: "의사결정", values: ["일방 단독 가능", "쌍방 합의 필요"] },
+          { label: "신속성", values: ["빠름", "느릴 수 있음"] },
+          { label: "갈등 위험", values: ["낮음", "높을 수 있음"] },
+          { label: "자녀 심리", values: ["안정적(갈등시)", "유리(협력 가능시)"] },
+          { label: "적합 상황", values: ["부모 갈등 심한 경우", "부모 협력 원활한 경우"] },
+        ]}
+      />
+    ),
+  },
+
   // ── Article 4: 재산분할 대상 (퇴직금·연금·채무) ──
   "재산분할-대상-퇴직금-연금-채무": {
     "after-0": (
