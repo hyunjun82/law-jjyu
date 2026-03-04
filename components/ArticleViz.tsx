@@ -7,6 +7,7 @@ import { WarningBox } from "@/components/viz/WarningBox";
 import { ContactCard } from "@/components/viz/ContactCard";
 import { FormDownload } from "@/components/viz/FormDownload";
 import { StatCard } from "@/components/viz/StatCard";
+import { RangeTable } from "@/components/viz/RangeTable";
 
 // ─── 슬러그별 시각화 매핑 ───
 // position: "top" = 히어로 아래 본문 전, "after-0" = 섹션0 뒤, "after-1" = 섹션1 뒤, ...
@@ -183,6 +184,20 @@ const VIZ_MAP: VizMap = {
           { label: "재산 유지", values: [true, true, false] },
         ]}
       />
+    ),
+    "after-1": (
+      <StatCard
+        items={[
+          { label: "무담보 채무 한도", value: "5억 원", sub: "초과 시 개인파산 검토" },
+          { label: "원금 탕감률", value: "70~90%", sub: "3~5년 변제 후 잔여 채무 면제" },
+          { label: "이자 발생", value: "중지", sub: "개인회생 신청일부터" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="이런 경우엔 면책이 안 될 수 있어요">
+        사치나 도박으로 재산을 크게 줄인 경우, 채무 내역을 숨기거나 거짓으로 신고한 경우, 7년 이내에 면책을 받은 이력이 있는 경우에는 개인파산 후 면책이 불허될 수 있어요. 면책이 되지 않으면 채무 소멸 효과가 없으니 주의하세요.
+      </WarningBox>
     ),
     "after-3": (
       <ContactCard
@@ -1155,6 +1170,107 @@ const VIZ_MAP: VizMap = {
             phone: "132",
             hours: "평일 09:00~18:00",
             url: "https://www.klac.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 2: 개인회생 변제금 계산 방법 ──
+  "personal-rehabilitation-repayment-calculation": {
+    "after-0": (
+      <StatCard
+        items={[
+          { label: "가용소득", value: "소득 - 생계비", sub: "변제금의 기준 금액" },
+          { label: "변제 기간", value: "3~5년", sub: "원칙 5년, 소득 충분 시 3년 단축 가능" },
+          { label: "이자 발생", value: "중지", sub: "신청일부터 기존 채무 이자 중단" },
+          { label: "원금 탕감률", value: "70~90%", sub: "변제 완료 후 잔여 채무 면제" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="tip" title="최저생계비 추가 인정을 놓치지 마세요">
+        실제 임차료가 기준보다 높거나 만성질환 의료비가 많다면 추가 생계비 인정을 신청할 수 있어요. 추가 인정을 받으면 가용소득이 줄어 변제금이 낮아져요. 임대차계약서, 진단서, 치료비 내역서를 미리 준비하세요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="청산가치보장 원칙을 확인하세요">
+        부동산·자동차 등 재산이 있다면 총 변제액이 개인파산 시 배당받을 금액(청산가치)보다 낮을 수 없어요. 재산 가치가 높을수록 변제액도 높아지므로, 신청 전 보유 재산 평가를 미리 확인하는 게 중요해요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "개인회생·파산 무료 법률 상담 및 소송 지원",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+          {
+            name: "신용회복위원회",
+            description: "개인워크아웃·프리워크아웃 채무조정 상담",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 금융금전 Article 3: 개인회생 최저생계비 2026 ──
+  "personal-rehabilitation-living-expenses-2026": {
+    "after-0": (
+      <StatCard
+        items={[
+          { label: "1인 가구", value: "약 165만 원", sub: "서울중앙지방법원 2026 기준" },
+          { label: "2인 가구", value: "약 257만 원", sub: "부양가족 1인 추가 기준" },
+          { label: "3인 가구", value: "약 329만 원", sub: "부양가족 2인 추가 기준" },
+          { label: "4인 가구", value: "약 398만 원", sub: "부양가족 3인 추가 기준" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <RangeTable
+        title="2026년 가구원 수별 최저생계비 (서울중앙지방법원 기준)"
+        description="법원마다 기준이 다를 수 있으며 매년 기준 중위소득에 따라 조정됩니다."
+        rowHeader="가구 규모"
+        colHeaders={[
+          { label: "최저생계비 (월)" },
+          { label: "가용소득 계산 예시 (월소득 300만 원)" },
+        ]}
+        rows={[
+          { range: "1인 (본인만)", values: ["약 165만 원", "135만 원"] },
+          { range: "2인 (본인 + 1명)", values: ["약 257만 원", "43만 원"] },
+          { range: "3인 (본인 + 2명)", values: ["약 329만 원", "해당 없음"], highlight: true },
+          { range: "4인 (본인 + 3명)", values: ["약 398만 원", "해당 없음"] },
+        ]}
+        highlightLabel="예시 기준"
+      />
+    ),
+    "after-2": (
+      <WarningBox type="tip" title="부양가족 인정 서류를 미리 준비하세요">
+        부양가족으로 인정받으려면 실제로 생계를 책임지고 있어야 해요. 가족관계증명서와 주민등록등본을 제출하고, 따로 사는 부모님이나 장애가 있는 가족을 부양 중이라면 추가 증빙서류를 함께 준비하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            description: "개인회생 최저생계비 추가 인정 무료 상담",
+            phone: "132",
+            hours: "평일 09:00~18:00",
+            url: "https://www.klac.or.kr",
+          },
+          {
+            name: "신용회복위원회",
+            description: "채무조정 상담 및 프리워크아웃 신청",
+            phone: "1600-5500",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ccrs.or.kr",
           },
         ]}
       />
