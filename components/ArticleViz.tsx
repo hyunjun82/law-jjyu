@@ -8568,6 +8568,142 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+
+  // ── Article 6 (민형사소송): 뺑소니 무보험 정부보장사업 ──
+  "traffic-accident-government-guarantee": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "1억 5천만원", label: "대인 사망·후유장해 보상 한도", sub: "자동차손해배상보장법 시행령" },
+          { value: "3천만원", label: "대인 부상 최대 보상 한도", sub: "부상 등급에 따라 차등" },
+          { value: "2천만원", label: "대물 보상 한도", sub: "무보험 사고만 해당 (뺑소니 제외)" },
+          { value: "3년", label: "소멸시효", sub: "손해·가해자를 안 날부터" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "사고 접수", desc: "경찰에 교통사고 신고 → 사고 사실 확인서 발급" },
+          { step: "2", title: "보험사 창구 접수", desc: "가까운 손해보험사 창구에 정부보장사업 청구 접수" },
+          { step: "3", title: "서류 제출", desc: "진단서·치료비 영수증·사고 확인서 제출" },
+          { step: "4", title: "심사", desc: "자동차손해배상진흥원 심사 (보험사 대행)" },
+          { step: "5", title: "보상금 지급", desc: "심사 완료 후 계좌 입금" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="소멸시효 — 사고 후 빨리 접수하세요">
+        정부보장사업 청구권은 손해·가해자를 안 날부터 3년, 사고 발생일부터 10년 이내에만 행사할 수 있어요. 서류가 미비해도 먼저 접수해 두면 시효 중단 효력이 생겨요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 7 (민형사소송): 12대 중과실 형사처벌 ──
+  "traffic-accident-12-serious-violations": {
+    "top": (
+      <WarningBox type="warning" title="12대 중과실 — 종합보험 가입해도 형사처벌 가능">
+        신호위반·중앙선 침범·음주운전 등 12대 중과실은 교통사고처리특례법상 종합보험 면책 적용이 제외돼요. 피해자 합의 없이도 공소 제기가 가능해요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="일반 교통사고 vs 12대 중과실 처리 비교"
+        columns={[
+          { name: "구분" },
+          { name: "일반 교통사고" },
+          { name: "12대 중과실", highlight: true },
+        ]}
+        rows={[
+          { label: "종합보험 가입 시 면책", values: [true, false] },
+          { label: "피해자 합의 시 불기소", values: ["가능", "기소유예 가능 (일부)"] },
+          { label: "음주·무면허 별도 처벌", values: [false, true] },
+          { label: "중상해 시 피해자 합의 효력", values: ["유효", "공소 제기 가능"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="danger" title="음주운전 — 피해자 합의 여부와 관계없이 형사처벌">
+        음주운전 사고는 도로교통법 위반으로 별도 처벌받아요. 피해자가 합의하고 처벌불원서를 써줘도 형사처벌을 완전히 피하기 어려워요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 8 (민형사소송): 손해사정사·변호사 활용 ──
+  "traffic-accident-adjuster-lawyer": {
+    "after-0": (
+      <ComparisonTable
+        title="보험사 파견 손해사정사 vs 사설 손해사정사 비교"
+        columns={[
+          { name: "구분" },
+          { name: "보험사 파견" },
+          { name: "사설(독립)", highlight: true },
+        ]}
+        rows={[
+          { label: "선임 주체", values: ["보험사", "피해자 직접"] },
+          { label: "비용 부담", values: ["보험사", "보상금의 5~10%"] },
+          { label: "대리 이익", values: ["보험사 이익 우선", "피해자 이익 우선"] },
+          { label: "항목 개발 적극성", values: ["소극적", "적극적"] },
+          { label: "활용 시점", values: ["자동 배정", "분쟁 발생 시 선임"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="합의서 서명 전 권리 포기 문구를 반드시 확인하세요">
+        합의서에 '향후 일체의 청구권을 포기한다'는 문구가 있으면 증상 악화 후 추가 청구가 어려워요. 치료가 완전히 종결된 후에 서명하는 것이 안전해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 9 (민형사소송): 사망 유족 손해배상 ──
+  "traffic-accident-death-compensation": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "약 1억원", label: "사망 피해자 본인 위자료", sub: "대법원 판례 기준" },
+          { value: "약 1,500만원", label: "장례비 인정 기준", sub: "실무상 통상 인정 금액" },
+          { value: "65세", label: "가동연한", sub: "일실수입 산정 기준" },
+          { value: "호프만 공식", label: "일실수입 현재가치 환산", sub: "중간이자 공제" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="교통사고 사망 손해배상 항목"
+        columns={[
+          { name: "항목" },
+          { name: "내용" },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "적극적 손해", values: ["치료비·장례비 등", "실제 지출 비용"] },
+          { label: "소극적 손해", values: ["일실수입", "가동연한·직업 기준 산정"] },
+          { label: "위자료 (본인)", values: ["약 1억원", "대법원 판례 기준"] },
+          { label: "위자료 (배우자)", values: ["약 5,000만원", "관계·부양에 따라 조정"] },
+          { label: "위자료 (부모·자녀)", values: ["2,000~4,000만원", "관계에 따라 차등"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 10 (민형사소송): 합의금 증액·금감원 분쟁조정 ──
+  "traffic-accident-insurer-dispute": {
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "민원 접수", desc: "금융감독원(1332) 또는 온라인 금융민원센터 접수" },
+          { step: "2", title: "사실조사", desc: "금감원이 보험사 자료 요청 및 사실관계 조사" },
+          { step: "3", title: "조정안 제시", desc: "조정위원회가 양측에 조정안 통보 (접수 후 약 60일)" },
+          { step: "4", title: "수락 또는 거부", desc: "양측 수락 시 재판상 화해 효력 / 보험사 거부 시 소송" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="실손보험과 자동차보험 — 위자료·휴업손해는 중복 수령 가능">
+        실손보험은 치료비만 보상하지만, 자동차보험 합의금에는 위자료·휴업손해가 포함돼요. 위자료와 휴업손해는 실손보험과 별개이므로 중복 수령이 아니에요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
