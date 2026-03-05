@@ -20,9 +20,12 @@ import { financeSpokes18 } from "./finance-spokes-18";
 import { financeSpokes19 } from "./finance-spokes-19";
 import { financeSpokes20 } from "./finance-spokes-20";
 import { financeSpokes21 } from "./finance-spokes-21";
+import { financeSpokes22 } from "./finance-spokes-22";
+import { financeSpokes23 } from "./finance-spokes-23";
+import { financeSpokes24 } from "./finance-spokes-24";
 
 // ── 모든 spoke 합본 ──
-const allSpokes: SpokeArticle[] = [...financeSpokes1, ...financeSpokes2, ...financeSpokes3, ...financeSpokes4, ...financeSpokes5, ...financeSpokes6, ...financeSpokes7, ...financeSpokes8, ...financeSpokes9, ...financeSpokes10, ...financeSpokes11, ...financeSpokes12, ...financeSpokes13, ...financeSpokes14, ...financeSpokes15, ...financeSpokes16, ...financeSpokes17, ...financeSpokes18, ...financeSpokes19, ...financeSpokes20, ...financeSpokes21];
+const allSpokes: SpokeArticle[] = [...financeSpokes1, ...financeSpokes2, ...financeSpokes3, ...financeSpokes4, ...financeSpokes5, ...financeSpokes6, ...financeSpokes7, ...financeSpokes8, ...financeSpokes9, ...financeSpokes10, ...financeSpokes11, ...financeSpokes12, ...financeSpokes13, ...financeSpokes14, ...financeSpokes15, ...financeSpokes16, ...financeSpokes17, ...financeSpokes18, ...financeSpokes19, ...financeSpokes20, ...financeSpokes21, ...financeSpokes22, ...financeSpokes23, ...financeSpokes24];
 
 // ── Hub Article ──
 export const hub: HubArticle = {
