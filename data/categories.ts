@@ -13,7 +13,7 @@ export const categories: Category[] = [
     slug: "부동산임대차",
     icon: "🏠",
     description: "전세, 월세, 임대차보호법, 부동산 매매 등 주거 법률 정보",
-    count: 10,
+    count: 15,
   },
   {
     name: "금융/금전",
