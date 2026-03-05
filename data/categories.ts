@@ -13,14 +13,14 @@ export const categories: Category[] = [
     slug: "부동산임대차",
     icon: "🏠",
     description: "전세, 월세, 임대차보호법, 부동산 매매 등 주거 법률 정보",
-    count: 0,
+    count: 5,
   },
   {
     name: "금융/금전",
     slug: "금융금전",
     icon: "💰",
     description: "대출, 채무, 신용회복, 보증, 금전거래 관련 법률 정보",
-    count: 89,
+    count: 102,
   },
   {
     name: "민형사/소송",

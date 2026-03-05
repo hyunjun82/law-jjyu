@@ -9,6 +9,7 @@ import { FormDownload } from "@/components/viz/FormDownload";
 import { StatCard } from "@/components/viz/StatCard";
 import { RangeTable } from "@/components/viz/RangeTable";
 import { ProcessTimeline } from "@/components/viz/ProcessTimeline";
+import { Calculator } from "@/components/viz/Calculator";
 
 // ─── 슬러그별 시각화 매핑 ───
 // position: "top" = 히어로 아래 본문 전, "after-0" = 섹션0 뒤, "after-1" = 섹션1 뒤, ...
@@ -5405,6 +5406,189 @@ const VIZ_MAP: VizMap = {
     "after-1": (
       <WarningBox type="warning" title="참칭상속인이 선의의 제3자에게 처분하면 반환이 어려워요">
         참칭상속인이 부동산을 매도하고 제3자가 등기를 마쳤다면 진정한 상속인이 제3자에게 반환 청구를 하기 어려워요. 재산 침탈 사실을 알았을 때 빠르게 가처분 신청을 해야 해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 1: 상가 환산보증금 서울 지역별 ──
+  "sangga-hwansan-bojeunggeum-jiyeokbyeol": {
+    top: (
+      <Calculator
+        title="환산보증금 계산기"
+        description="보증금과 월세를 입력하면 환산보증금을 계산해요. 상임법 적용 기준을 확인할 수 있어요."
+        fields={[
+          { key: "deposit", label: "보증금", unit: "만 원", placeholder: "5000", type: "number" },
+          { key: "monthly", label: "월세(차임)", unit: "만 원", placeholder: "200", type: "number" },
+        ]}
+        results={[
+          {
+            label: "환산보증금",
+            formula: (v) => {
+              const d = Number(v.deposit) || 0;
+              const m = Number(v.monthly) || 0;
+              const total = d + m * 100;
+              return `${total.toLocaleString()} 만 원`;
+            },
+            highlight: true,
+          },
+          {
+            label: "서울 기준(9억 원) 대비",
+            formula: (v) => {
+              const d = Number(v.deposit) || 0;
+              const m = Number(v.monthly) || 0;
+              const total = d + m * 100;
+              return total <= 90000 ? "✅ 기준 이하 — 상임법 전면 적용" : "⚠️ 기준 초과 — 일부 보호 미적용";
+            },
+          },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="지역별 환산보증금 상한 기준"
+        columns={[
+          { name: "지역" },
+          { name: "환산보증금 상한", highlight: true },
+        ]}
+        rows={[
+          { label: "서울특별시", values: ["서울특별시", "9억 원"] },
+          { label: "수도권 과밀억제권역(서울 제외)", values: ["수도권 과밀억제권역(서울 제외)", "6억 9천만 원"] },
+          { label: "광역시·세종시·파주·화성·안산·용인·김포·광주", values: ["광역시·세종시 등", "5억 4천만 원"] },
+          { label: "그 밖의 지역", values: ["그 밖의 지역", "3억 7천만 원"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="기준 초과 임차인도 계약갱신요구권과 권리금 보호는 받아요">
+        2019년 상임법 개정 이후 환산보증금이 기준을 초과해도 계약갱신요구권(10년), 권리금 보호, 연 5% 이내 차임인상 제한은 적용돼요. 다만 우선변제권과 소액임차인 최우선변제는 기준 이하 임차인에게만 인정돼요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 2: 상가 임차인 대항력 취득 시점 ──
+  "sangga-saeupja-daehangnyeok-chwideuk-sijeom": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "건물 인도 (점유)", desc: "임차인이 상가건물을 실제 점유·사용 시작" },
+          { step: "2단계", title: "사업자등록 신청", desc: "관할 세무서에 사업자등록 신청 (당일 또는 다음날 0시)" },
+          { step: "3단계", title: "대항력 취득", desc: "인도 + 사업자등록 다음 날 0시부터 대항력 발생" },
+          { step: "4단계", title: "확정일자 부여", desc: "세무서·법원에서 확정일자 받으면 우선변제권도 취득" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="대항력 vs 우선변제권 비교"
+        columns={[
+          { name: "대항력" },
+          { name: "우선변제권", highlight: true },
+        ]}
+        rows={[
+          { label: "취득 요건", values: ["건물 점유 + 사업자등록", "대항력 요건 + 확정일자"] },
+          { label: "효력 발생", values: ["사업자등록 다음날 0시", "확정일자 받은 날"] },
+          { label: "보호 내용", values: ["임대인 변경 후에도 계약 유지", "경매 시 보증금 우선 배당"] },
+          { label: "대상", values: ["환산보증금 기준 무관", "환산보증금 기준 이하만"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── 부동산임대차 Article 3: 상가 보증금 월세 전환이율 계산 ──
+  "sangga-bojeunggeum-wolse-jeonhwan-yijaeyul": {
+    top: (
+      <Calculator
+        title="전월세 전환 계산기 (상가)"
+        description="보증금을 월세로 전환할 때 상임법상 상한이율(기준금리 + 4.5%)을 적용한 월세를 계산해요."
+        fields={[
+          { key: "deposit", label: "전환할 보증금", unit: "만 원", placeholder: "3000", type: "number" },
+          { key: "rate", label: "전환이율 (연, %)", unit: "%", placeholder: "6", type: "number", defaultValue: "6" },
+        ]}
+        results={[
+          {
+            label: "월 환산 임대료",
+            formula: (v) => {
+              const d = Number(v.deposit) || 0;
+              const r = Number(v.rate) || 6;
+              const monthly = Math.round((d * 10000 * r) / 100 / 12);
+              return `${monthly.toLocaleString()} 원`;
+            },
+            highlight: true,
+          },
+          {
+            label: "연 임대료",
+            formula: (v) => {
+              const d = Number(v.deposit) || 0;
+              const r = Number(v.rate) || 6;
+              const annual = Math.round((d * 10000 * r) / 100);
+              return `${annual.toLocaleString()} 원`;
+            },
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="임대인이 전환이율 상한을 초과하면 초과분은 무효예요">
+        상임법은 보증금을 월세로 전환할 때 이율 상한을 기준금리 + 4.5%로 제한해요. 이 상한을 초과하는 월세 전환은 초과분이 무효가 되고, 임차인은 초과 납부한 금액을 반환받을 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 4: 소액임차인 최우선변제 금액 ──
+  "sangga-soaek-imsaigin-choeuiseon-byeoje": {
+    top: (
+      <ComparisonTable
+        title="지역별 소액임차인 기준 및 최우선변제액"
+        columns={[
+          { name: "지역" },
+          { name: "소액임차인 기준 (환산보증금)", highlight: true },
+          { name: "최우선변제 한도" },
+        ]}
+        rows={[
+          { label: "서울특별시", values: ["서울특별시", "6,500만 원 이하", "2,200만 원"] },
+          { label: "수도권 과밀억제권역(서울 제외)", values: ["수도권 과밀억제권역(서울 제외)", "5,500만 원 이하", "1,900만 원"] },
+          { label: "광역시·세종시 등", values: ["광역시·세종시 등", "3,800만 원 이하", "1,300만 원"] },
+          { label: "그 밖의 지역", values: ["그 밖의 지역", "3,000만 원 이하", "1,000만 원"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "경매 개시", desc: "임대 건물에 경매가 신청됨" },
+          { step: "2단계", title: "배당 요구", desc: "임차인이 경매 법원에 배당 요구 신청" },
+          { step: "3단계", title: "소액임차인 확인", desc: "경매 개시결정 등기 전 대항력 취득 여부 확인" },
+          { step: "4단계", title: "최우선변제", desc: "경매 낙찰금에서 선순위 담보권보다 먼저 배당" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="경매 개시결정 등기 전에 대항력을 갖춰야 최우선변제를 받아요">
+        소액임차인 최우선변제는 경매 개시결정 등기 전에 건물 점유와 사업자등록을 마친 임차인에게만 적용돼요. 경매가 시작된 이후에 입주하거나 사업자등록을 하면 해당되지 않아요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 5: 임대인 매매 후 임대차 승계 ──
+  "sangga-imdaein-maemae-imdaecha-seungge": {
+    "after-0": (
+      <ComparisonTable
+        title="임대인 변경 시 대항력 있는 임차인 vs 없는 임차인"
+        columns={[
+          { name: "대항력 있는 임차인", highlight: true },
+          { name: "대항력 없는 임차인" },
+        ]}
+        rows={[
+          { label: "임대차 계약 승계", values: ["자동 승계 (매수인이 새 임대인)", "승계 없음"] },
+          { label: "보증금 반환 청구", values: ["새 임대인에게 청구 가능", "원래 임대인에게만 청구"] },
+          { label: "계약갱신요구권", values: ["새 임대인에게도 행사 가능", "행사 불가"] },
+          { label: "퇴거 요구 시", values: ["응할 의무 없음 (대항 가능)", "퇴거해야 할 수 있음"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="매수인은 기존 임대차 조건을 그대로 이어받아요">
+        상가건물이 매매·경매로 소유자가 바뀌어도 대항력 있는 임차인의 임대차 계약은 그대로 유지돼요. 매수인은 보증금 반환 의무도 함께 승계하므로, 새 소유자와의 별도 계약은 필요 없어요.
       </WarningBox>
     ),
   },
