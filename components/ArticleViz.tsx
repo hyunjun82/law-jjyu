@@ -5977,6 +5977,205 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── 부동산임대차 Article 16: 과도한 임대료 권리금 방해 ──
+  "imdaein-gwado-imdaeryo-gwolligeum-bang-hae": {
+    top: (
+      <StatCard
+        items={[
+          { label: "방해 판단 기준", value: "현저히 고액", sub: "인근 시세 대비 비교" },
+          { label: "소송 기간 (1심)", value: "6개월~1년", sub: "쌍방 항소 시 추가 소요" },
+          { label: "변호사 착수금", value: "100~300만원", sub: "+ 성공보수 5~15%" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="손해배상액 산정 근거 비교"
+        columns={[
+          { name: "자료" },
+          { name: "내용" },
+          { name: "증거력", highlight: true },
+        ]}
+        rows={[
+          { label: "권리금 계약서", values: ["권리금 계약서", "신규임차인과 합의한 금액", "높음"] },
+          { label: "감정평가서", values: ["감정평가서", "공인 감정법인 평가액", "매우 높음"] },
+          { label: "인근 거래 사례", values: ["인근 거래 사례", "유사 상가 3건 이상", "중간"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="소송 vs 조정 비교"
+        columns={[
+          { name: "구분" },
+          { name: "소송" },
+          { name: "조정 (임대차분쟁조정위)", highlight: true },
+        ]}
+        rows={[
+          { label: "기간", values: ["기간", "1심 6개월~1년", "3~6개월"] },
+          { label: "비용", values: ["비용", "변호사 비용 발생", "무료 신청 가능"] },
+          { label: "효력", values: ["효력", "판결 확정 시 강제집행", "조정 성립 시 재판상 화해"] },
+          { label: "임대인 동의", values: ["임대인 동의", "불필요", "필요"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="권리금 방해는 형사처벌이 없어요 — 민사 소송만 가능해요">
+        현행 상임법에는 권리금 방해에 대한 형사처벌 조항이 없어요. 임대인의 행위가 사기·강요 등 별도 형사 범죄를 구성하는 경우에만 고소가 가능해요. 권리금 회수가 목적이라면 민사 손해배상 청구를 기본으로 진행해야 해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 17: 내용증명 발송 시점 ──
+  "gwolligeum-bang-hae-naeyongjeungmyeong-seuiyo": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "방해 행위 인지 즉시", desc: "증거 캡처·보존 (문자·이메일·녹음)" },
+          { step: "2", title: "내용증명 발송", desc: "방해 사실 + 손해배상 청구 의사 명시" },
+          { step: "3", title: "6개월 이내 후속 조치", desc: "소 제기 또는 가압류로 시효 확정 중단" },
+          { step: "4", title: "소장 제출 또는 조정 신청", desc: "3년 소멸시효 내 반드시 진행" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="소멸시효 중단 방법 비교"
+        columns={[
+          { name: "방법" },
+          { name: "중단 효과" },
+          { name: "주의사항", highlight: true },
+        ]}
+        rows={[
+          { label: "소 제기", values: ["소 제기", "확정 중단", "비용 발생"] },
+          { label: "가압류", values: ["가압류", "확정 중단 + 채권 보전", "담보 공탁 필요할 수 있음"] },
+          { label: "내용증명(최고)", values: ["내용증명(최고)", "6개월 임시 중단", "6개월 내 후속 조치 필수"] },
+          { label: "채무 승인", values: ["채무 승인", "승인 시점부터 재기산", "서면 확보 필수"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="조정 불성립 후 6개월 내에 소송을 제기해야 해요">
+        조정 신청도 소멸시효를 잠시 중단하지만, 조정 불성립 후 6개월 이내에 소송을 제기해야 중단 효과가 유지돼요. 조정만 믿고 기다리다가 6개월이 지나면 시효 중단 효력이 사라져요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 18: 주선 실패 원인 ──
+  "sangga-gwolligeum-juseon-silpae-imdaein-bang-hae": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "신규 임차인 주선 의무 체크리스트",
+            items: [
+              "계약 의향이 실제로 있는 신규 임차인 섭외",
+              "신규 임차인의 보증금 납부 능력 확인",
+              "임대인에게 서면(문자·이메일)으로 신규 임차인 소개",
+              "계약의향서 또는 가계약금 이체 내역 확보",
+              "임대인의 반응(수락·거절) 날짜와 내용 기록 보존",
+              "임대인 거절 시 사유 서면 요구",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="임대인의 정당한 거절 vs 부당한 거절"
+        columns={[
+          { name: "구분" },
+          { name: "정당한 거절" },
+          { name: "부당한 거절 (방해)", highlight: true },
+        ]}
+        rows={[
+          { label: "지급 능력", values: ["지급 능력", "보증금 납부 불능", "단순 업종 불호"] },
+          { label: "훼손 우려", values: ["훼손 우려", "현저한 훼손 이력", "주관적 불신"] },
+          { label: "임대료", values: ["임대료", "합리적 수준 요구", "현저히 고액 요구"] },
+          { label: "재건축", values: ["재건축", "최초 계약 시 고지된 재건축", "고지 없이 갑작스러운 주장"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="'권리금 없이 나가겠다'는 표현은 절대 서면으로 쓰지 마세요">
+        협상 중이라도 권리금을 포기한다는 의사를 서면으로 남기면 나중에 번복하기 어려워요. 임대인이 이를 믿고 다른 임차인과 계약하면 철회가 불가능해질 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 19: 갱신요구권 10년 기산일 ──
+  "sangga-gyeyakgaesinyogugwon-10nyeon-gisanil": {
+    top: (
+      <StatCard
+        items={[
+          { label: "갱신요구권 기간", value: "최대 10년", sub: "최초 임대차 포함 전체 기간" },
+          { label: "묵시적 갱신", value: "포함", sub: "명시적·묵시적 갱신 모두 합산" },
+          { label: "묵시적 갱신 시 계약기간", value: "1년", sub: "전 임대차 기간과 무관" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "최초 임대차 개시일 확인", desc: "계약서 원본 또는 사업자등록일 조회" },
+          { step: "2", title: "전체 임대차기간 합산", desc: "명시적 갱신 + 묵시적 갱신 포함" },
+          { step: "3", title: "10년 만료일 산정", desc: "개시일로부터 정확히 10년 후 날짜" },
+          { step: "4", title: "만료 6개월 전부터 신규임차인 주선 시작", desc: "권리금 회수 준비" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="갱신요구권 소멸 후 남는 임차인 권리"
+        columns={[
+          { name: "권리" },
+          { name: "내용" },
+          { name: "소멸 여부", highlight: true },
+        ]}
+        rows={[
+          { label: "권리금 보호", values: ["권리금 보호", "신규임차인 주선 + 방해 시 손해배상", "소멸 안 함"] },
+          { label: "대항력·우선변제권", values: ["대항력·우선변제권", "경매 시 보증금 보호", "소멸 안 함"] },
+          { label: "보증금 반환 청구권", values: ["보증금 반환 청구권", "만료 후 반환 청구", "소멸 안 함"] },
+          { label: "계약갱신요구권", values: ["계약갱신요구권", "갱신 강제 요구", "소멸"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── 부동산임대차 Article 20: 갱신 거절 통보 시기 ──
+  "sangga-imdaein-gaeshin-georjeol-tonbo-sigi": {
+    "after-0": (
+      <ComparisonTable
+        title="갱신 거절 통보 기간 준수 여부에 따른 결과"
+        columns={[
+          { name: "상황" },
+          { name: "결과" },
+          { name: "임차인 권리", highlight: true },
+        ]}
+        rows={[
+          { label: "6개월~1개월 전 서면 통보", values: ["6개월~1개월 전 서면 통보", "갱신 거절 유효", "정당한 사유 없으면 다툼 가능"] },
+          { label: "1개월 이내 통보", values: ["1개월 이내 통보", "통보 무효", "갱신 요구 가능"] },
+          { label: "6개월 초과 전 통보", values: ["6개월 초과 전 통보", "통보 무효", "갱신 요구 가능"] },
+          { label: "통보 없음", values: ["통보 없음", "묵시적 갱신 (1년)", "3개월 전 통보로 언제든 해지 가능"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <StatCard
+        items={[
+          { label: "통보 유효 기간", value: "6개월~1개월 전", sub: "도달일 기준" },
+          { label: "묵시적 갱신 기간", value: "1년", sub: "전 임대차 조건과 동일" },
+          { label: "임차인 해지 통보 기간", value: "3개월 전", sub: "묵시적 갱신 시 적용" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="내용증명은 발송일이 아닌 도달일이 기준이에요">
+        갱신 거절 내용증명은 만료 1개월 전 이전에 임차인에게 도달해야 해요. 연휴·명절 등으로 배달이 늦어지면 기간 요건을 어길 수 있으니 만료 2개월 전에 발송하는 것이 안전해요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
