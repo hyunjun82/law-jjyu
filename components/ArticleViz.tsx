@@ -9515,6 +9515,171 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 36 (민형사소송): 보행자 사고 치료비 직접청구 ──
+  "pedestrian-accident-claim-procedure": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "사고 신고", desc: "경찰 신고 및 사고 사실 확인서 발급 요청" },
+          { step: "2", title: "보험사 직접청구", desc: "가해 차량 보험사에 직접 손해배상 청구 접수" },
+          { step: "3", title: "지불보증 요청", desc: "치료 병원에 보험사 사고 접수 번호 제공" },
+          { step: "4", title: "무보험 시 정부보장사업", desc: "가까운 손해보험사 지점에 보장사업 청구" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <StatCard
+        items={[
+          { value: "3년", label: "손해배상 단기 소멸시효", sub: "손해·가해자를 안 날부터" },
+          { value: "10년", label: "장기 소멸시효", sub: "사고일부터" },
+          { value: "1억 5천만원", label: "정부보장사업 대인 한도", sub: "무보험·뺑소니 사고 피해자" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="치료 중에도 소멸시효가 진행돼요 — 3년 전에 청구 의사를 표시하세요">
+        치료가 길어지면 시효 완성 위험이 있어요. 합의가 늦어진다면 내용증명 발송이나 소제기로 시효를 중단하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 37 (민형사소송): 이륜차 무보험·책임보험 한도 초과 ──
+  "motorcycle-uninsured-claim": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "1억 5천만원", label: "이륜차 책임보험 대인 한도", sub: "한도 초과분 → 가해자 직접 청구" },
+          { value: "정부보장사업", label: "무보험·뺑소니 오토바이 사고", sub: "가까운 손해보험사 지점 접수" },
+          { value: "3년", label: "보험금 청구 소멸시효", sub: "사고일부터 3년 이내 청구" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="이륜차 보험 가입 유형별 보상 비교"
+        columns={[
+          { name: "보험 유형" },
+          { name: "대인 보상" },
+          { name: "한도 초과 시" },
+        ]}
+        rows={[
+          { label: "책임보험(의무)", values: ["최대 1억 5천만원", "가해자 직접 청구"] },
+          { label: "종합보험(임의)", values: ["무제한 또는 고액 한도", "종합보험으로 처리"] },
+          { label: "무보험", values: ["정부보장사업 청구", "가해자 직접 민사 청구"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "보험 가입 확인", desc: "보험개발원 자동차보험 조회(car.insure.or.kr)" },
+          { step: "2", title: "직접청구 접수", desc: "가해자 보험사에 사고 접수 및 청구" },
+          { step: "3", title: "무보험 시 보장사업", desc: "가까운 손해보험사 지점에 정부보장사업 신청" },
+          { step: "4", title: "한도 초과분 소송", desc: "가해자 재산 확인 후 민사 소송·강제집행" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 38 (민형사소송): 배달 오토바이 사고·사용자책임 ──
+  "delivery-motorcycle-accident-liability": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "보험 가입 확인", desc: "보험개발원 조회 또는 배달 업체 확인" },
+          { step: "2", title: "직접청구 또는 정부보장사업", desc: "보험사 청구 또는 무보험 시 보장사업" },
+          { step: "3", title: "업체 사용자책임 검토", desc: "업체 지시·통제 여부 확인 후 소송 검토" },
+          { step: "4", title: "과실비율 다툼", desc: "분쟁심의위원회 또는 금감원 분쟁조정 신청" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="배달 기사 고용 형태별 사용자책임 인정 가능성"
+        columns={[
+          { name: "고용 형태" },
+          { name: "사용자책임 인정 가능성" },
+        ]}
+        rows={[
+          { label: "직접 고용(정규직)", values: ["높음"] },
+          { label: "위수탁 계약(업체 지시·통제 있음)", values: ["중간 (실질 관계 입증 필요)"] },
+          { label: "개인사업자(자율 배달)", values: ["낮음"] },
+          { label: "플랫폼 중개(자율 수락)", values: ["낮음"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="공유 킥보드·배달 업체 보험 가입 여부를 먼저 확인하세요">
+        대형 배달 플랫폼이나 공유 PM 업체는 단체보험을 운영하는 경우가 있어요. 사고 즉시 업체에 보험 가입 현황을 문의하고 사고 접수를 하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 39 (민형사소송): 오토바이 과실비율 다툼 ──
+  "motorcycle-fault-ratio-dispute": {
+    "after-0": (
+      <ComparisonTable
+        title="오토바이·차량 충돌 유형별 과실비율 기준"
+        columns={[
+          { name: "사고 유형" },
+          { name: "오토바이 과실" },
+          { name: "차량 과실" },
+        ]}
+        rows={[
+          { label: "차량 차선변경 중 오토바이 충돌", values: ["20~30%", "70~80%"] },
+          { label: "오토바이 끼어들기 충돌", values: ["60~70%", "30~40%"] },
+          { label: "교차로 신호위반 충돌", values: ["위반 측 70~90%", "준수 측 10~30%"] },
+          { label: "이륜차 감산 적용 시", values: ["-10% 적용", "+10% 적용"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "증거 확보", desc: "블랙박스·CCTV·목격자 즉시 확보" },
+          { step: "2", title: "보험사 이의 신청", desc: "과실비율 산정 근거 요청 및 이의 제기" },
+          { step: "3", title: "분쟁심의위원회", desc: "한국손해보험협회 과실비율 분쟁심의 신청" },
+          { step: "4", title: "금감원 분쟁조정", desc: "심의 결과 불만족 시 금감원 분쟁조정 신청" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="블랙박스가 없어도 CCTV·스키드마크·파손 위치로 과실을 입증할 수 있어요">
+        사고 직후 현장 사진, 스키드마크 위치, 차량 파손 부위를 기록하고 경찰 현장 조사를 적극 요청하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 40 (민형사소송): 자전거·전동킥보드 사고 배상 ──
+  "bicycle-kickboard-accident-liability": {
+    "after-0": (
+      <ComparisonTable
+        title="자전거·전동킥보드 사고 과실비율 기준"
+        columns={[
+          { name: "상황" },
+          { name: "자전거·킥보드 과실" },
+          { name: "차량 과실" },
+        ]}
+        rows={[
+          { label: "자전거도로 주행 중 차량 침범", values: ["10~20%", "80~90%"] },
+          { label: "차도 주행 중 충돌", values: ["30~50%", "50~70%"] },
+          { label: "야간 무조명 주행 중 충돌", values: ["과실 가산", "상황에 따라"] },
+          { label: "횡단보도 건너던 중 충돌", values: ["10~20%", "80~90%"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="info" title="전동킥보드는 의무보험이 없어요 — 개인배상책임보험을 미리 확인하세요">
+        전동킥보드 사고 피해자는 가해자 직접 청구 외 선택지가 적어요. 가해자에게 배상 능력이 없다면 회수가 어려울 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="합의서에 권리 포기 문구를 확인하세요">
+        치료 종결 전에 합의하거나 포기 문구에 서명하면 나중에 후유증이 생겨도 추가 청구가 어려워요. 치료 종결 후 합의하는 것이 원칙이에요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
