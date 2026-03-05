@@ -6327,6 +6327,153 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── 부동산임대차 Article 26: 계약갱신요구 행사 기간 ──
+  "sangga-gyeyakgaesin-yogug-haengsa-gigan": {
+    top: (
+      <StatCard
+        items={[
+          { label: "갱신 요구 가능 기간", value: "만료 6~1개월 전", sub: "임차인이 이 기간 내에 임대인에게 도달해야 함" },
+          { label: "임대인 거절 통보 기간", value: "동일 (6~1개월 전)", sub: "기간 외 통보는 무효" },
+          { label: "기간 경과 시", value: "묵시적 갱신", sub: "1년 연장, 10년에 합산" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="갱신 요구 기간 준수 여부에 따른 결과"
+        columns={[
+          { name: "상황" },
+          { name: "결과" },
+          { name: "임차인 권리", highlight: true },
+        ]}
+        rows={[
+          { label: "6~1개월 전 적법 요구", values: ["6~1개월 전 적법 요구", "갱신요구권 유효", "임대인 정당 사유 없으면 갱신 의무"] },
+          { label: "1개월 이내 요구", values: ["1개월 이내 요구", "요구 효력 불확실", "임대인 거절 가능성 높음"] },
+          { label: "요구 없음 + 임대인 거절 없음", values: ["요구 없음 + 임대인 거절 없음", "묵시적 갱신 (1년)", "임차인 3개월 전 통보로 해지 가능"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="갱신 요구는 내용증명 우편으로 기간 내에 발송하세요">
+        도달 기준이므로 만료 1개월 전 당일 발송하면 기간을 벗어날 수 있어요. 만료 2개월 전에 내용증명을 발송하는 것이 안전해요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="임대인 거절 통보가 기간 위반이면 무효예요">
+        임대인이 만료 1개월 이내에 거절 통보를 하면 효력이 없어요. 기간 내 적법한 거절 통보가 없으면 묵시적 갱신이 되고 임차인은 계속 영업할 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 27: 명도소송 소요기간 비용 ──
+  "sangga-myeongdo-sosong-soyo-gigan-biyong": {
+    top: (
+      <StatCard
+        items={[
+          { label: "1심 소요기간", value: "6~12개월", sub: "항소 시 추가 6~12개월" },
+          { label: "인지대 (소가 1억 기준)", value: "약 45만 원", sub: "소가 구간별로 달라짐" },
+          { label: "점유이전금지 가처분", value: "소송 전 필수", sub: "소송 중 점유 이전 방지" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "점유이전금지 가처분 신청", desc: "소 제기 전 임차인 점유 현상 유지 명령 신청" },
+          { step: "2", title: "명도소송 제기", desc: "관할 지방법원에 소장 제출 + 인지대·송달료 납부" },
+          { step: "3", title: "1심 판결 (6~12개월)", desc: "가집행 선고 포함 시 항소 중에도 집행 가능" },
+          { step: "4", title: "강제집행 신청", desc: "집행문 부여 후 법원 집행관실에 신청" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="소 제기 전 점유이전금지 가처분을 먼저 신청하세요">
+        소송 중 임차인이 제3자에게 점유를 넘기면 새 소송이 필요해요. 가처분이 있으면 점유자가 바뀌어도 기존 판결로 집행할 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 28: 차임연체 3기 계약해지 ──
+  "sangga-chaimyeonche-3gi-gyeyakhaejie-yogeon": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "연체 내역 확인 및 기록", desc: "연체 날짜, 금액, 납부 독촉 내역 정리" },
+          { step: "2", title: "내용증명 발송", desc: "연체 내역 명시 + 해지 의사 + 퇴거 요청 기한 포함" },
+          { step: "3", title: "퇴거 미이행 시 명도소송 제기", desc: "소 제기 전 점유이전금지 가처분 신청 병행" },
+          { step: "4", title: "판결 후 강제집행", desc: "집행관 신청 → 계고 → 노무업체 동행 집행" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="warning" title="연속이 아닌 누적 3기도 해지 사유예요 (대법원 판례)">
+        1월, 4월, 7월처럼 띄엄띄엄 연체해도 누적 금액이 3개월분에 달하면 임대인이 계약을 해지할 수 있어요. 나중에 다 갚아도 해지 사유가 소멸하지 않아요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="info" title="3기 연체 시 권리금 방해 금지 의무도 면제돼요">
+        3기 연체로 해지된 임차인은 신규 임차인을 주선해도 임대인이 거부할 수 있고 손해배상을 청구하기 어려워요. 임차인의 권리금 회수가 사실상 불가능해져요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 29: 명도소송 강제집행 절차 ──
+  "sangga-myeongdo-gangjejibe-jeolcha-jiphaengwan": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "집행문 부여 신청", desc: "법원 민원실에서 판결문에 집행문 부여 신청" },
+          { step: "2", title: "강제집행 신청서 제출", desc: "집행관실에 신청서 + 집행문·확정증명서·송달증명서 제출 + 비용 예납" },
+          { step: "3", title: "계고장 부착 (자진퇴거 기간 부여)", desc: "집행관 현장 방문 → 계고장 부착 → 통상 3~7일 기간 부여" },
+          { step: "4", title: "강제 명도 집행", desc: "노무업체 동행 → 물건 반출 → 창고 임치" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="노무업체와 보관 창고를 집행 전날까지 미리 섭외하세요">
+        집행 기일에 노무업체나 창고가 준비 안 되면 집행이 연기될 수 있어요. 짐 목록을 집행관 입회 하에 작성해두면 나중에 분실 책임 분쟁을 막을 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="info" title="임차인이 남긴 짐은 목록 작성 후 창고에 보관하세요">
+        강제집행 후 남은 물건은 임치 창고에 보관하고 임차인에게 반출 기한을 통보하세요. 기한 내 미수거 시 집행관 허가 후 처분할 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 30: 제소전화해 조서 ──
+  "sangga-jesojeong-hwahae-joseo-gangjejibe": {
+    top: (
+      <StatCard
+        items={[
+          { label: "효력", value: "확정판결과 동일", sub: "민사소송법 제220조" },
+          { label: "인지대", value: "소송의 1/10", sub: "비용이 저렴한 편" },
+          { label: "명도소송 불필요", value: "즉시 집행 가능", sub: "계약 만료 후 바로 강제집행 신청 가능" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "화해 신청서 작성", desc: "당사자 정보, 임대차 목적물, 화해 조항 기재" },
+          { step: "2", title: "관할 지방법원에 신청서 제출", desc: "인지대·송달료 납부 후 접수" },
+          { step: "3", title: "화해 기일 출석", desc: "임대인·임차인 양 당사자 법원 출석 + 조항 확인" },
+          { step: "4", title: "조서 성립", desc: "확정판결과 동일 효력 → 집행문 부여 후 강제집행 가능" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="warning" title="상임법 강행규정 위반 조항은 무효예요">
+        임차인의 계약갱신요구권 포기, 권리금 보호 배제 등 상임법 강행규정에 반하는 조항은 제소전화해 조서에 담겨도 무효예요. 명도 이행 의무 확인에 초점을 맞춘 조서를 작성하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="info" title="제소전화해는 계약 체결 시점에 함께 진행하는 것이 가장 현실적이에요">
+        분쟁이 생긴 후에는 임차인이 협조하지 않아 제소전화해가 어려워요. 신규 임대차 계약 시 조건으로 제시하는 방법이 효과적이에요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
