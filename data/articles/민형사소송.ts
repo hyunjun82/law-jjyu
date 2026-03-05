@@ -1,11 +1,13 @@
 import { HubArticle, SpokeArticle } from "@/lib/types";
 import { trafficSpokes1 } from "./traffic-spokes-1";
 import { trafficSpokes2 } from "./traffic-spokes-2";
+import { trafficSpokes3 } from "./traffic-spokes-3";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
   ...trafficSpokes1,
   ...trafficSpokes2,
+  ...trafficSpokes3,
 ];
 
 // ── Hub Article ──

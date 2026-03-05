@@ -8704,6 +8704,149 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 11 (민형사소송): 스쿨존 교통사고 민식이법 ──
+  "traffic-accident-school-zone": {
+    "top": (
+      <WarningBox type="warning" title="민식이법 — 스쿨존 어린이 사고는 종합보험 면책 불가">
+        어린이보호구역 안전운전 의무 위반은 12대 중과실에 해당해요. 종합보험 가입 여부와 관계없이 형사처벌 대상이며, 상해 1~15년 또는 사망 시 무기 이상 징역이 규정돼 있어요(특가법 제5조의13).
+      </WarningBox>
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="스쿨존 사고 유죄 vs 무죄 판단 요소"
+        columns={[
+          { name: "구분" },
+          { name: "유죄 가능성 높음" },
+          { name: "무죄 가능성", highlight: true },
+        ]}
+        rows={[
+          { label: "주행 속도", values: ["제한속도 초과", "20km/h 이하 서행"] },
+          { label: "전방 주시", values: ["불충분", "충분히 주시"] },
+          { label: "어린이 출현 방식", values: ["예측 가능", "갑자기 뛰어나옴"] },
+          { label: "블랙박스 증거", values: ["없음", "서행·주시 확인 영상"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="사고 즉시 블랙박스·CCTV 영상을 보전하세요">
+        스쿨존 사고에서 무죄 또는 감형을 받으려면 서행·전방 주시 증거가 핵심이에요. 사고 직후 블랙박스 SD카드를 확보하고, 주변 CCTV 영상 보전을 경찰에 요청하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 12 (민형사소송): 음주운전 피해자 보상 ──
+  "traffic-accident-drunk-driving-victim": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "위자료 가산 가능", label: "음주운전 피해자 추가 보상", sub: "법원 재량, 20~50%+ 사례" },
+          { value: "대인배상 I", label: "의무보험 — 음주 면책 불가", sub: "피해자 보호 최우선" },
+          { value: "1억 5천만원", label: "정부보장사업 대인 한도", sub: "무보험 음주사고 대비" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="대인배상 I(의무보험) vs 대인배상 II(임의보험) 면책 비교"
+        columns={[
+          { name: "구분" },
+          { name: "대인배상 I" },
+          { name: "대인배상 II", highlight: true },
+        ]}
+        rows={[
+          { label: "음주운전 면책", values: [false, "일부 가능"] },
+          { label: "피해자 직접 청구", values: [true, "면책 시 가해자 직접"] },
+          { label: "보험사 구상권", values: ["가해자에게 행사", "해당 없음"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="형사합의금은 민사 배상에서 공제될 수 있어요">
+        형사합의금을 받으면 민사 손해배상 청구 시 공제되는 경우가 많아요. 형사합의 전에 민사 청구 전략을 함께 고려하고, 형사합의서에 민사 청구권 유보 문구를 넣는 방법을 검토하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 13 (민형사소송): 휴업손해 산정 ──
+  "traffic-accident-lost-income": {
+    "after-0": (
+      <ComparisonTable
+        title="직업별 교통사고 휴업손해 소득 기준"
+        columns={[
+          { name: "직업 유형" },
+          { name: "소득 기준" },
+          { name: "주요 증빙" },
+        ]}
+        rows={[
+          { label: "급여생활자", values: ["실제 감소 급여", "급여명세서·진단서"] },
+          { label: "자영업자", values: ["세금신고 소득 (실제 소득 보완 가능)", "종합소득세 신고서·매출 장부"] },
+          { label: "일용직", values: ["실제 일당 or 도시 일용노임", "고용주 확인서·통장 내역"] },
+          { label: "전업주부", values: ["도시 일용노동자 임금", "가사노동 경제적 가치 인정"] },
+          { label: "무직자", values: ["도시 일용노동자 임금", "이전 직업력·취업 가능성"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="유급 연차 소진도 휴업손해로 청구할 수 있어요">
+        부득이 유급 연차를 소진한 경우 그 일수만큼의 연차 수당을 휴업손해로 청구할 수 있어요. 연차 사용 내역서와 1일 급여 환산 자료를 준비하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 14 (민형사소송): 합의서 효력·주의사항 ──
+  "traffic-accident-settlement-agreement": {
+    "after-0": (
+      <WarningBox type="warning" title="합의서 서명 전 반드시 이 문구를 확인하세요">
+        '향후 일체의 손해배상 청구를 포기한다'는 문구가 있으면 나중에 후유증이 생겨도 추가 청구가 어려워요. 이 문구의 유무를 서명 전에 반드시 확인하세요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="형사합의 vs 민사합의 관계"
+        columns={[
+          { name: "구분" },
+          { name: "형사합의" },
+          { name: "민사합의" },
+        ]}
+        rows={[
+          { label: "목적", values: ["형사처벌 경감", "손해배상 청구권 해결"] },
+          { label: "효력", values: ["양형 참작 (처벌 감경)", "청구권 소멸 (포기 문구 시)"] },
+          { label: "민사 공제", values: ["민사에서 공제 가능", "별도"] },
+          { label: "합의 후 민사 청구", values: ["가능 (민사 포기 없으면)", "포기 문구 따라 달라짐"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="최종합의 후 후유증 — 포기 문구 유무가 핵심">
+        권리 포기 문구가 없다면 예측 불가한 후유증 재청구 가능성이 있어요. 포기 문구가 있다면 착오·사기 취소 소송 외에는 재청구가 어려우니 서명 전에 치료 종결을 확인하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 15 (민형사소송): 치료 중 합의 압박·전략 ──
+  "traffic-accident-treatment-negotiation": {
+    "after-0": (
+      <WarningBox type="warning" title="치료 중 합의 — 향후치료비·후유장해 배상 기회를 잃을 수 있어요">
+        치료가 끝나지 않은 상태에서 합의하면 향후 치료가 더 필요하거나 후유장해가 발생해도 추가 배상을 받기 어려워요. 증상 고정 후 합의하는 것이 원칙이에요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "소견서 확보", desc: "주치의에게 추가 치료 필요 소견서 발급 요청" },
+          { step: "2", title: "보험사 제출", desc: "소견서를 보험사에 제출해 지급 재개 요청" },
+          { step: "3", title: "금감원 민원", desc: "지급 거부 지속 시 금융감독원(1332) 민원 제기" },
+          { step: "4", title: "가처분 신청", desc: "긴급 치료 필요 시 법원에 진료비 지급 가처분 신청" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="증상 고정 후 합의가 최선 — 모든 항목을 한 번에 청구하세요">
+        증상 고정 후에는 향후치료비, 후유장해 위자료, 개호비 등 모든 항목을 파악해 한 번에 청구할 수 있어요. 주치의에게 증상 고정 여부를 확인한 뒤 협상을 시작하세요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
