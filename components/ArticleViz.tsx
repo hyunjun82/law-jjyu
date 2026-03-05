@@ -6176,6 +6176,157 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── 부동산임대차 Article 21: 임대료 5% 제한 ──
+  "sangga-imdaeryo-jeunggaek-5percent-jeyhan": {
+    top: (
+      <StatCard
+        items={[
+          { label: "임대료 증액 상한", value: "5%", sub: "환산보증금 기준 이하 상가 적용" },
+          { label: "재청구 제한", value: "1년", sub: "직전 증액 청구일로부터 1년 이내 불가" },
+          { label: "감액 청구", value: "가능", sub: "임차인도 경기 침체 이유로 청구 가능" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="지역별 환산보증금 기준 (5% 상한 적용 여부)"
+        columns={[
+          { name: "지역" },
+          { name: "환산보증금 기준" },
+          { name: "5% 상한 적용", highlight: true },
+        ]}
+        rows={[
+          { label: "서울", values: ["서울", "9억 원 이하", "적용"] },
+          { label: "수도권과밀억제권역", values: ["수도권과밀억제권역", "6.9억 원 이하", "적용"] },
+          { label: "광역시(세종·공주 포함)", values: ["광역시(세종·공주 포함)", "5.4억 원 이하", "적용"] },
+          { label: "기타 지역", values: ["기타 지역", "3.7억 원 이하", "적용"] },
+          { label: "기준 초과 상가", values: ["기준 초과 상가", "기준 초과", "미적용 (합의로 결정)"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="임대인이 5% 초과 인상을 요구하면 현행 임대료를 납부하며 거부하세요">
+        임차인은 5% 초과 인상에 동의하지 않고 기존 임대료를 계속 납부해도 연체가 아니에요. 임대인이 증액을 원한다면 법원에 증액 청구 소송을 제기해야 해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 22: 묵시적 갱신 해지 ──
+  "sangga-muksijeok-gaeshin-haiji-imsaigin-tonbo": {
+    top: (
+      <StatCard
+        items={[
+          { label: "묵시적 갱신 기간", value: "1년", sub: "전 임대차 조건과 동일" },
+          { label: "임차인 해지 통보 기간", value: "3개월 전", sub: "서면으로 통보해야 효력 발생" },
+          { label: "임대인 퇴거 요구", value: "불가", sub: "3개월 전 통보만으로는 퇴거 요구 불가" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="묵시적 갱신 중 임차인 vs 임대인 해지 권한 비교"
+        columns={[
+          { name: "주체" },
+          { name: "해지 방법" },
+          { name: "효력 발생", highlight: true },
+        ]}
+        rows={[
+          { label: "임차인", values: ["임차인", "언제든 서면 해지 통보", "통보 후 3개월 경과 시"] },
+          { label: "임대인", values: ["임대인", "정당한 갱신 거절 사유 필요", "갱신 기간 만료 시 (1년 후)"] },
+          { label: "임대인 (의무 위반)", values: ["임대인 (의무 위반)", "3기 연체 등 사유 발생 시", "사유 발생 즉시 해지 가능"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="묵시적 갱신 해지 통보는 내용증명으로 발송하세요">
+        구두 통보는 날짜와 내용이 나중에 다툼이 될 수 있어요. 내용증명 우편으로 발송하면 도달 사실과 날짜가 공식 증명돼요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 23: 재건축 고지 의무 ──
+  "sangga-jaegeonsuk-gyehoek-goji-gaeshin-georjeol": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "계약 체결 당시 재건축 계획 고지", desc: "공사 시기·소요 기간 등 구체적 내용 계약서에 명시" },
+          { step: "2", title: "갱신 거절 통보 (만료 6~1개월 전)", desc: "재건축을 이유로 갱신 거절, 서면으로 통보" },
+          { step: "3", title: "임차인 퇴거 및 보증금 반환", desc: "계약 만료 시 보증금 반환 후 명도" },
+          { step: "4", title: "착공 여부 모니터링", desc: "퇴거 후 6~12개월간 건축 허가 현황 조회" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="계약서에 재건축 특약이 있으면 권리금 보호가 제한될 수 있어요">
+        재건축 특약이 있는 상가는 임대인의 방해 금지 의무가 면제될 수 있어요. 권리금 회수 가능성을 사전에 신중히 검토하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="info" title="임대인이 착공을 안 하면 손해배상을 청구할 수 있어요">
+        재건축 이유로 퇴거 후 임대인이 실제 공사를 안 하거나 다른 임차인을 들이면 권리금 상당액 손해배상을 청구하세요. 소멸시효는 3년이에요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 24: 차임연체 3기 ──
+  "sangga-chaimyeonche-3gi-gaeshin-georjeol-jogeon": {
+    top: (
+      <StatCard
+        items={[
+          { label: "갱신 거절 기준", value: "누적 3기", sub: "연속이 아닌 전체 기간 누적 금액 기준" },
+          { label: "권리금 보호", value: "박탈", sub: "3기 연체 사실 있으면 방해 금지 의무 면제" },
+          { label: "3기 금액 기준", value: "3개월분 월세", sub: "횟수 아닌 누적 연체 금액으로 판단" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <WarningBox type="warning" title="연속이 아니어도 누적 3기면 갱신 거절이 가능해요 (대법원 판례)">
+        1월·5월·9월처럼 띄엄띄엄 연체해도 누적 금액이 3개월분에 달하면 임대인이 갱신을 거절할 수 있어요. 나중에 다 갚아도 이미 발생한 3기 연체 사실은 사라지지 않아요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="월세 연체는 갱신요구권·권리금 보호를 동시에 잃을 수 있어요">
+        월세 3기 연체가 누적되면 임대인은 갱신을 거절할 수 있고, 임차인의 권리금 방해 금지 보호도 소멸해요. 영업이 어렵더라도 임대료는 최우선으로 납부하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 25: 환산보증금 초과 임대료 ──
+  "sangga-hwansan-chogwa-imdaeryo-inang-hyeob-ui": {
+    top: (
+      <ComparisonTable
+        title="환산보증금 기준 이하 vs 초과 상가 비교"
+        columns={[
+          { name: "구분" },
+          { name: "기준 이하 상가", highlight: true },
+          { name: "기준 초과 상가" },
+        ]}
+        rows={[
+          { label: "임대료 5% 상한", values: ["임대료 5% 상한", "적용", "미적용 (합의)"] },
+          { label: "계약갱신요구권", values: ["계약갱신요구권", "10년", "10년 (동일)"] },
+          { label: "권리금 보호", values: ["권리금 보호", "적용", "적용 (동일)"] },
+          { label: "대항력·우선변제", values: ["대항력·우선변제", "적용", "적용 (동일)"] },
+          { label: "임대료 분쟁 해결", values: ["임대료 분쟁 해결", "상임법 11조", "민법 628조 차임증감청구권"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "임대인의 임대료 인상 요구 수령", desc: "인상 요구 내용을 서면으로 확인" },
+          { step: "2", title: "서면으로 이의 제기", desc: "현행 임대료 납부 의사와 조정 신청 계획 통보" },
+          { step: "3", title: "임대차분쟁조정위원회 조정 신청", desc: "무료 신청, 3~6개월 내 결과" },
+          { step: "4", title: "조정 불성립 시 차임증감청구 소송", desc: "민법 제628조 근거, 법원 적정 임대료 결정" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="환산보증금 초과 상가 계약 시 임대료 인상 특약을 넣어두세요">
+        계약서에 '계약기간 중 임대료는 연 5% 이상 올리지 않는다'는 특약을 넣으면 5% 상한이 없더라도 약정으로 보호받을 수 있어요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
