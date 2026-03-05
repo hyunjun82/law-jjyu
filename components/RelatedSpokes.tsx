@@ -22,20 +22,17 @@ export function RelatedSpokes({ categorySlug, currentSlug }: RelatedSpokesProps)
 
   return (
     <section className="mb-8">
-      {/* 광고: 더 보기 버튼 위 */}
-      <AdSlot />
-
-      {/* 더 보기 버튼 (상단, 크고 눈에 띄게) */}
+      {/* 더 보기 버튼 */}
       <Link
         href={`/${categorySlug}`}
-        className="group flex items-center justify-center gap-2.5 w-full rounded-xl bg-gov-600 hover:bg-gov-700 active:bg-gov-800 px-5 py-4 text-white font-bold text-base transition-all shadow-sm hover:shadow-md mb-3"
+        className="group flex items-center justify-center gap-2.5 w-full rounded-xl bg-gov-600 hover:bg-gov-700 active:bg-gov-800 px-5 py-4 text-white font-bold text-base transition-all shadow-sm hover:shadow-md mb-5"
       >
         <BookOpen className="h-5 w-5 shrink-0" />
         <span>{hub.categorySlug} 법률 정보 {moreCount}개 전체 보기</span>
         <ChevronRight className="h-5 w-5 shrink-0 group-hover:translate-x-0.5 transition-transform" />
       </Link>
 
-      {/* 광고: 더 보기 버튼 아래 */}
+      {/* 광고 */}
       <AdSlot />
 
       {/* 관련 글 카드 */}
