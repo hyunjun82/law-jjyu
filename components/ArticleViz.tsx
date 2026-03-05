@@ -5042,6 +5042,315 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 51: 배우자 단독상속 요건 | 자녀 부모 없을 때 상속 범위 ──
+  "baeuija-dandoksangsok-yogeon-hobeom": {
+    top: (
+      <StatCard
+        items={[
+          { label: "기초공제", value: "2억 원", sub: "단독상속 시 적용" },
+          { label: "배우자 공제 최소", value: "5억 원", sub: "실제 수령액 없어도 보장" },
+          { label: "배우자 공제 최대", value: "30억 원", sub: "법정상속분 한도 내 실수령액" },
+          { label: "기초+배우자 합계", value: "최대 32억 원", sub: "이 범위 내면 상속세 없음" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "직계비속 확인", desc: "자녀·손자녀 있으면 배우자와 공동상속 (1순위)" },
+          { step: "2단계", title: "직계존속 확인", desc: "자녀 없고 부모·조부모 있으면 배우자와 공동상속 (2순위)" },
+          { step: "3단계", title: "1·2순위 없음", desc: "직계비속·직계존속 모두 없으면 배우자 단독상속" },
+          { step: "4단계", title: "형제자매 순위", desc: "배우자가 있는 한 형제자매(3순위)는 상속 불가" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="사실혼 배우자는 법정상속권이 없어요">
+        아무리 오랜 사실혼 관계여도 혼인신고가 없으면 상속권이 없어요. 사전에 공정증서 유언을 작성해 재산을 유증하는 방법을 검토하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 52: 상속등기 필요 서류 목록 | 취득세 신고 기한 ──
+  "sangsokdeunggi-seoryu-mokrok-cwiduksesingo": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "피상속인 서류",
+            items: [
+              "기본증명서 (사망 사실 포함)",
+              "가족관계증명서",
+              "주민등록말소자 초본",
+              "제적등본 (2008년 이전 혼인·친자 이력)",
+            ],
+          },
+          {
+            title: "상속인 서류 (전원)",
+            items: [
+              "가족관계증명서 (각 1부)",
+              "기본증명서 (각 1부)",
+              "주민등록등본 (각 1부)",
+              "신분증 사본",
+            ],
+          },
+          {
+            title: "협의분할 등기 추가 서류",
+            items: [
+              "상속재산분할협의서 (원본)",
+              "인감증명서 (상속인 전원, 3개월 이내)",
+              "취득세 납부 영수증",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <DateCalculator
+        title="취득세 신고 기한 계산기"
+        description="상속 개시일(사망일)을 선택하면 취득세 신고 기한을 계산해요."
+        presets={[
+          { label: "취득세 신고 기한 (6개월)", days: 183, description: "상속 개시일이 속한 달 말일 기준 6개월" },
+          { label: "상속세 신고 기한 (6개월)", days: 183, description: "상속 개시일이 속한 달 말일 기준 6개월" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 53: 상속등기 협의분할 인감증명서 | 공동상속인 전원 동의 ──
+  "sangsokdeunggi-hyeobuibunhal-ingamjeungmyeong": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "협의분할 단독 명의 등기 서류",
+            items: [
+              "상속재산분할협의서 (원본)",
+              "상속인 전원 인감증명서 (3개월 이내)",
+              "피상속인 기본증명서·가족관계증명서·제적등본",
+              "상속인 전원 주민등록등본",
+              "취득세 납부 영수증",
+            ],
+          },
+          {
+            title: "해외 거주 상속인 대체 서류",
+            items: [
+              "재외공관 서명공증 또는 해당국 공증인 공증",
+              "아포스티유 인증 (협약 가입국)",
+              "외국어 서류 한국어 번역 공증",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <StatCard
+        items={[
+          { label: "취득세 (일반 부동산)", value: "2.8%", sub: "지방교육세·농특세 별도" },
+          { label: "취득세 (농지)", value: "2.3%", sub: "지방교육세 별도" },
+          { label: "등기신청 수수료", value: "약 1.5만 원", sub: "건당" },
+          { label: "인감증명서 발급비", value: "600원", sub: "읍면사무소·주민센터" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 54: 상속재산분할협의서 작성 방법 | 부동산 등기 제출 서류 ──
+  "sangsok-bunhalhyeobuiseo-jakseong-bangbeop": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "협의서 필수 기재사항",
+            items: [
+              "피상속인 성명·주민등록번호·사망일·최후 주소",
+              "상속인 전원의 성명·주민등록번호·주소",
+              "분할 대상 재산 특정 (부동산 소재지·지번·면적)",
+              "각 상속인이 취득할 재산 내역 (구체적으로)",
+              "작성일자",
+              "상속인 전원의 인감도장 날인",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="상속인 일부를 빠뜨리면 협의서가 무효예요">
+        상속인 전원이 참여하지 않은 협의서는 처음부터 무효예요. 제적등본으로 혼외 자녀·입양 자녀 여부를 반드시 확인하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 55: 상속재산분할협의서 공증 | 인감증명서 대체 효력 ──
+  "sangsok-bunhalhyeobuiseo-gongjeon-ingam": {
+    top: (
+      <StatCard
+        items={[
+          { label: "공증 비용 (1천만원 이하)", value: "약 1.1만 원", sub: "공증인 수수료 기준" },
+          { label: "공증 비용 (1억원 이하)", value: "약 4.3만 원", sub: "5천만~1억원 구간" },
+          { label: "인감증명서 발급비", value: "600원", sub: "공증 선택 시 불필요" },
+          { label: "공정증서 원본 보관", value: "20년", sub: "공증기관 보관 기간" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="상속세 신고 기한 후 재분할하면 증여세가 붙을 수 있어요">
+        기한(6개월) 이후 협의를 변경하면 세무서가 이를 증여로 보아 증여세를 부과할 수 있어요. 협의분할은 기한 내에 완료하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <DateCalculator
+        title="상속세·협의분할 기한 계산기"
+        description="상속 개시일(사망일)을 선택하면 주요 기한을 계산해요."
+        presets={[
+          { label: "상속세 신고 기한 (6개월)", days: 183, description: "무신고 시 가산세 20% 부과" },
+          { label: "한정승인·상속포기 기한 (3개월)", days: 90, description: "상속 개시를 안 날로부터" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 56: 대습상속 요건 손자녀 | 상속결격 사망 인정 사유 ──
+  "daesup-sangsok-yogeon-sonjanyeo-gyeolgyeok": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "원칙", title: "직계비속 상속", desc: "자녀·손자녀가 1순위 상속인" },
+          { step: "대습 발생", title: "자녀 사망·결격", desc: "상속인이 될 자녀가 피상속인보다 먼저 사망하거나 결격" },
+          { step: "대습상속", title: "손자녀가 대신", desc: "사망·결격된 자녀의 직계비속이 그 상속 순위를 이어받음" },
+          { step: "상속분", title: "피대습인의 몫 그대로", desc: "손자녀 여러 명이면 피대습인 상속분을 균등 분할" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="일반상속 vs 대습상속 비교"
+        columns={[
+          { name: "구분" },
+          { name: "일반상속" },
+          { name: "대습상속", highlight: true },
+        ]}
+        rows={[
+          { label: "상속인", values: ["상속인", "자녀 본인", "손자녀(자녀의 자녀)"] },
+          { label: "발생 요건", values: ["발생 요건", "피상속인 사망", "상속인 사망·결격 후 피상속인 사망"] },
+          { label: "상속분", values: ["상속분", "법정 상속분", "피대습인의 상속분 그대로"] },
+          { label: "포기 적용", values: ["포기 적용", "대습 가능", "포기 시 대습 불가"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 57: 기여분 인정 기준 | 상속재산 분할 협의 반영 ──
+  "giyeobun-injeonggijun-sangsok-bunhal": {
+    top: (
+      <StatCard
+        items={[
+          { label: "기여분 인정 비율 (판례)", value: "10~30%", sub: "기여 정도·기간·재산 증가 종합 판단" },
+          { label: "심판 청구 기한", value: "10년", sub: "상속 개시를 안 날 or 개시일로부터 빠른 날" },
+          { label: "기여분 한도", value: "상속재산 이내", sub: "기여분이 상속재산을 초과할 수 없음" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="기여분 주장은 구체적인 증거가 핵심이에요">
+        간병 사실은 진료기록, 약 구매 영수증, 증인 진술로 입증해요. 가업 종사는 근무 기록, 무보수 증빙이 필요해요. 증거가 구체적일수록 인정 가능성이 높아요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 58: 상속 채무 범위 보증채무 | 상속인 고유재산 책임 한계 ──
+  "sangsok-chaemubeomwi-bozeungchaeumu-goyujaesan": {
+    top: (
+      <ComparisonTable
+        title="상속 방식별 채무 책임 비교"
+        columns={[
+          { name: "구분" },
+          { name: "단순승인" },
+          { name: "한정승인", highlight: true },
+          { name: "상속포기" },
+        ]}
+        rows={[
+          { label: "채무 범위", values: ["채무 범위", "무한 (고유재산 포함)", "상속재산 한도", "책임 없음"] },
+          { label: "기한", values: ["기한", "3개월 내 미신청 시 자동", "3개월 내 신청", "3개월 내 신청"] },
+          { label: "특징", values: ["특징", "재산 > 채무면 유리", "채무 불명 시 안전", "완전히 벗어남"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="3개월 내 아무것도 안 하면 단순승인이 돼요">
+        상속 개시를 안 날로부터 3개월이 지나거나 상속재산을 처분하면 자동으로 단순승인 처리돼요. 채무가 의심된다면 먼저 안심상속 서비스로 재산·채무를 파악하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 59: 상속재산 조회 금융거래 | 사망자 예금 부동산 파악 ──
+  "sangsok-jaesan-johoe-geumyunggeorare": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "안심상속 원스톱 서비스 조회 항목",
+            items: [
+              "금융거래 (예금·대출·보험·주식·연금)",
+              "부동산 (토지·건물 소유 내역)",
+              "자동차 (차량 소유 내역)",
+              "국세 체납 (국세청)",
+              "지방세 체납 (지방자치단체)",
+              "국민연금 가입·수령 내역",
+              "건강보험료 체납 여부",
+              "출입국 내역 (선택)",
+            ],
+          },
+          {
+            title: "신청 시 필요 서류",
+            items: [
+              "가족관계증명서 (신청인 기준)",
+              "기본증명서 (피상속인 사망 확인)",
+              "신청인 신분증",
+              "대리 신청 시 위임장 + 대리인 신분증",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <DateCalculator
+        title="안심상속 서비스 신청 기한 계산기"
+        description="사망일을 선택하면 안심상속 서비스 신청 마감일을 계산해요."
+        presets={[
+          { label: "안심상속 신청 기한 (1년)", days: 365, description: "사망일이 속한 달 말일로부터 1년" },
+          { label: "한정승인·포기 기한 (3개월)", days: 90, description: "상속 개시를 안 날로부터 3개월" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 60: 유언장 종류 효력 | 자필증서 공정증서 작성 차이 ──
+  "yueunjang-jongryu-hyoryeok-japiljeungseo": {
+    "after-0": (
+      <WarningBox type="warning" title="자필증서 형식 요건 하나라도 빠지면 무효예요">
+        전문, 연월일, 주소, 성명 자필 + 날인이 모두 갖춰져야 해요. 타자·출력 일부 포함 시 무효, 날인 누락 시 무효예요. 수정 시에도 수정 부분에 날인이 필요해요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="주요 유언 방식 비교"
+        columns={[
+          { name: "구분" },
+          { name: "자필증서" },
+          { name: "공정증서", highlight: true },
+          { name: "녹음" },
+        ]}
+        rows={[
+          { label: "작성 방법", values: ["작성 방법", "전문 자필 + 날인", "공증인 앞 구술 + 서명", "음성 녹음 + 증인 구술"] },
+          { label: "증인 필요", values: ["증인 필요", "불필요", "2명 필요", "1명 필요"] },
+          { label: "비용", values: ["비용", "없음", "재산 규모별 수만 원", "없음"] },
+          { label: "분실·위조 위험", values: ["분실·위조 위험", "있음", "없음 (공증인 보관)", "변조 위험 있음"] },
+        ]}
+      />
+    ),
+  },
 };
 
 // ─── 렌더러 ───

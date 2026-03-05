@@ -10,6 +10,8 @@ import { spokes8 } from "./divorce-spokes-8";
 import { spokes9 } from "./divorce-spokes-9";
 import { inheritanceSpokes1 } from "./inheritance-spokes-1";
 import { inheritanceSpokes2 } from "./inheritance-spokes-2";
+import { inheritanceSpokes3 } from "./inheritance-spokes-3";
+import { inheritanceSpokes4 } from "./inheritance-spokes-4";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -24,6 +26,8 @@ const allSpokes: SpokeArticle[] = [
   ...spokes9,
   ...inheritanceSpokes1,
   ...inheritanceSpokes2,
+  ...inheritanceSpokes3,
+  ...inheritanceSpokes4,
 ];
 
 // ── Hub Article ──
