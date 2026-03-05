@@ -9348,6 +9348,173 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 31 (민형사소송): 대차료 거절·수리기간·휴차손해 ──
+  "accident-rental-claim-denial": {
+    "after-0": (
+      <ComparisonTable
+        title="대차료 청구 주요 기준"
+        columns={[
+          { name: "항목" },
+          { name: "보험사 인정 기준" },
+        ]}
+        rows={[
+          { label: "차량 등급", values: ["피해 차량과 동급 렌터카 요금"] },
+          { label: "렌터카 업체", values: ["제휴 업체 기준 (비제휴 이용 시 차액 본인 부담 가능)"] },
+          { label: "인정 기간", values: ["적정 수리 일수 (지연 사유 증빙 시 연장 가능)"] },
+          { label: "영업용 차량", values: ["대차료 + 휴차손해 별도 청구 가능"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="수리 지연이 업체 귀책이라면 지연 사유 확인서를 받으세요">
+        부품 대기, 수리 업체 일정 등 업체 귀책 지연은 추가 대차료가 인정돼요. 수리 업체에서 지연 사유 확인서를 받아 보험사에 제출하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "동급 기준 확인", desc: "보험사에 피해 차량 동급 렌트 요금 기준 확인" },
+          { step: "2", title: "렌터카 계약", desc: "제휴 업체 또는 비제휴 업체 이용 (사전 협의 권장)" },
+          { step: "3", title: "수리 완료 확인", desc: "수리 일자 확인 및 대차 기간 산정" },
+          { step: "4", title: "대차료 청구", desc: "렌트 영수증·계약서 첨부해 보험사 청구" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 32 (민형사소송): 격락손해·전손·수리비 재견적 ──
+  "accident-depreciation-total-loss": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "출고 2년 이내", label: "격락손해 10~20% 수준 인정", sub: "수리비 기준 비율" },
+          { value: "전손 처리", label: "수리비 > 차량가액 시 적용", sub: "보험개발원 기준가액 기준" },
+          { value: "재견적", label: "수리비 과다 의심 시 신청 가능", sub: "공인 감정기관 의뢰 가능" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="격락손해 청구 기준 (출고 연식별)"
+        columns={[
+          { name: "출고 연식" },
+          { name: "인정 비율(수리비 기준)" },
+        ]}
+        rows={[
+          { label: "2년 이내", values: ["10~20%"] },
+          { label: "2~5년", values: ["5~10%"] },
+          { label: "5년 초과", values: ["원칙적 미인정"] },
+          { label: "프레임 손상 시", values: ["비율 상향 인정 가능"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="대물 한도 초과분은 가해자에게 직접 청구해야 해요">
+        보험 한도 초과 수리비는 가해자 개인 책임이에요. 가해자 재산 여부를 확인하고 내용증명, 소송, 강제집행 순서로 대응하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 33 (민형사소송): 무단횡단 과실비율·형사처벌 ──
+  "pedestrian-jaywalking-fault-ratio": {
+    "after-0": (
+      <ComparisonTable
+        title="무단횡단 사고 과실비율 주요 기준"
+        columns={[
+          { name: "상황" },
+          { name: "보행자 과실" },
+          { name: "운전자 과실" },
+        ]}
+        rows={[
+          { label: "일반 무단횡단", values: ["20~30%", "70~80%"] },
+          { label: "야간 무단횡단", values: ["30~50%", "50~70%"] },
+          { label: "갑작스러운 뛰어듦", values: ["40~60%", "40~60%"] },
+          { label: "어린이·고령자", values: ["10~20% (감산)", "80~90%"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="info" title="무단횡단 사고라도 운전자 과실이 없는 건 아니에요">
+        무단횡단이더라도 운전자가 과속·전방 주시 불충분 등이 있으면 과실이 인정돼요. 100대0 주장은 블랙박스·CCTV 증거가 있어야 가능해요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "증거 확보", desc: "블랙박스·현장 CCTV·목격자 진술 즉시 수집" },
+          { step: "2", title: "과실비율 확인", desc: "보험사 산정 과실비율 검토" },
+          { step: "3", title: "이의 신청", desc: "과실비율 이의 시 손해보험협회 분쟁심의 신청" },
+          { step: "4", title: "금감원 분쟁조정", desc: "이의 결과 불만족 시 금감원 분쟁조정 신청" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 34 (민형사소송): 횡단보도 우회전 중과실·형사처벌 ──
+  "crosswalk-right-turn-pedestrian-criminal": {
+    "top": (
+      <WarningBox type="warning" title="횡단보도 우회전 사고는 종합보험이 있어도 형사처벌 대상이에요">
+        보행자 신호 초록불 중 우회전 사고는 12대 중과실(신호 위반)에 해당해요. 형사처벌을 피하려면 피해자와 형사합의 또는 공탁이 필요해요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="형사합의 vs 공탁 비교"
+        columns={[
+          { name: "구분" },
+          { name: "형사합의" },
+          { name: "공탁", highlight: true },
+        ]}
+        rows={[
+          { label: "피해자 동의", values: ["필요", "불필요"] },
+          { label: "형사 면책 효과", values: ["높음 (합의서 제출 시)", "낮음 (감형 사유)"] },
+          { label: "금액 결정", values: ["당사자 협의", "손해액 기준 산정"] },
+          { label: "민사 청구 제한", values: ["포기 문구 있으면 제한", "없음"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "사고 신고", desc: "경찰 신고 및 피해자 구호 조치 (뺑소니 방지)" },
+          { step: "2", title: "형사합의 시도", desc: "피해자 측에 형사합의 의사 전달" },
+          { step: "3", title: "합의 거부 시 공탁", desc: "손해액 산정 후 법원에 공탁금 납입" },
+          { step: "4", title: "형사 변호사 선임", desc: "중과실 사건은 형사 전문 변호사 조력 필요" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 35 (민형사소송): 노인·어린이 교통사고 배상 ──
+  "elderly-child-accident-compensation": {
+    "after-0": (
+      <ComparisonTable
+        title="노인·어린이 교통사고 손해배상 항목"
+        columns={[
+          { name: "항목" },
+          { name: "노인 피해자" },
+          { name: "어린이 피해자" },
+        ]}
+        rows={[
+          { label: "일실수입", values: ["가사노동 등 도시일용노임 기준", "장래 취업 가능성 기준"] },
+          { label: "위자료", values: ["나이 불문 청구 가능", "법원 재량 높게 인정 경향"] },
+          { label: "개호비", values: ["여명 기준 산정", "여명 기준 산정"] },
+          { label: "장례비", values: ["실비 기준", "실비 기준"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="어린이 사망사고에서 일실수입을 빠뜨리지 마세요">
+        어린이는 현재 소득이 없어도 장래 취업 가능성을 기준으로 일실수입이 산정돼요. 항목이 누락되지 않도록 전문가 조력을 받아 청구하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="시효 완성 전에 반드시 내용증명 또는 소제기로 시효를 중단하세요">
+        사고일부터 10년, 손해·가해자를 안 날부터 3년이 소멸시효예요. 미성년 피해자는 법정대리인이 안 날부터 시효가 진행되므로 주의하세요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
