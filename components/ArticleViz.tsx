@@ -9011,6 +9011,176 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+
+  // ── Article 21 (민형사소송): 개호비 정기금 vs 일시금 ──
+  "traffic-accident-nursing-care-periodical-vs-lump": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "정기금", label: "여명 초과 생존 → 계속 지급", sub: "사정변경 증감 신청 가능" },
+          { value: "일시금", label: "호프만 공식 현재가치 환산", sub: "예측여명 초과 생존 시 추가청구 어려움" },
+          { value: "10년", label: "판결 확정 정기금 채권 시효", sub: "민법 제165조" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="개호비 정기금 vs 일시금 비교"
+        columns={[
+          { name: "구분" },
+          { name: "일시금" },
+          { name: "정기금", highlight: true },
+        ]}
+        rows={[
+          { label: "지급 방식", values: ["현재가치 일괄 수령", "매월/매년 지급"] },
+          { label: "여명 초과 생존", values: ["추가 청구 원칙 불가", "계속 지급"] },
+          { label: "사정변경 대응", values: ["어려움", "증감 신청 가능"] },
+          { label: "시효 구조", values: ["일반 시효 적용", "회분별 독립 (판결 시 10년)"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="정기금 판결 후에도 사정변경 시 증감 신청이 가능해요">
+        민사소송법 제252조에 따라 정기금 판결 확정 후 피해자 상태 악화, 개호 필요도 증가, 임금 상승 등이 생기면 증액 신청을 할 수 있어요. 일시금 합의보다 유연하게 대응할 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 22 (민형사소송): 개호비 도시일용노임·근친자 개호 ──
+  "traffic-accident-nursing-care-daily-wage-calculation": {
+    "after-0": (
+      <ComparisonTable
+        title="도시 일용노임 기준 개호비 산정 구조"
+        columns={[
+          { name: "구분" },
+          { name: "내용" },
+        ]}
+        rows={[
+          { label: "기준 임금", values: ["도시 일용노동자 임금 (통계청 기준)"] },
+          { label: "근친자 개호", values: ["실비 지출 없어도 동일 기준 적용"] },
+          { label: "1일 개호 시간", values: ["신체감정 결과에 따라 결정"] },
+          { label: "완전 개호 시", values: ["2인 이상 풀타임 인정 사례 있음"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="신체감정 결과에 이의가 있으면 재감정을 신청하세요">
+        신체감정에서 1일 개호 시간이 낮게 나오면 재감정 신청 또는 독립 의료 전문가 의견서로 다툴 수 있어요. 1시간 차이가 개호비 총액에 수백만원 이상 영향을 줄 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "진단서·소견서 확보", desc: "개호 필요도를 뒷받침하는 의무기록 수집" },
+          { step: "2", title: "신체감정 신청", desc: "법원에 신체감정 신청 또는 보험사 감정에 응함" },
+          { step: "3", title: "감정 결과 검토", desc: "1일 개호 시간·개호 인원 결과 확인" },
+          { step: "4", title: "이의 시 재감정 신청", desc: "결과에 이의 있으면 법원에 재감정 신청" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 23 (민형사소송): 보험사 구상권 청구 대응 ──
+  "traffic-accident-insurance-subrogation-claim": {
+    "top": (
+      <WarningBox type="warning" title="구상금 소장을 받으면 30일 내 답변서를 반드시 제출하세요">
+        답변서를 제출하지 않으면 자백간주로 처리돼 보험사 청구 금액 전액이 인용될 수 있어요. 소장 수령 즉시 답변서 제출 기한을 확인하고 대응을 시작하세요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "소장 수령 확인", desc: "답변서 제출 기한(통상 30일) 확인" },
+          { step: "2", title: "사건 검토", desc: "과실비율·금액 산정·시효 여부 점검" },
+          { step: "3", title: "답변서 제출", desc: "법원 민사 접수 창구 또는 전자소송으로 제출" },
+          { step: "4", title: "증거 수집", desc: "블랙박스·사고 현장 CCTV·경찰 조사서 확보" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="구상금 소송 주요 항변 전략"
+        columns={[
+          { name: "항변 유형" },
+          { name: "내용" },
+          { name: "인정 가능성" },
+        ]}
+        rows={[
+          { label: "과실비율 다툼", values: ["실제보다 높게 산정된 과실비율 이의", "블랙박스·CCTV 증거 있으면 높음"] },
+          { label: "소멸시효 완성", values: ["3년 또는 10년 시효 완성 주장", "기산점 계산 명확 시 높음"] },
+          { label: "금액 산정 오류", values: ["구상 금액 계산 근거 이의", "산정 내역 확인 필요"] },
+          { label: "권리남용 항변", values: ["신의칙 위반 주장", "요건 까다로워 낮음"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 24 (민형사소송): 보험사 구상권 소멸시효 10년 ──
+  "traffic-accident-subrogation-statute-10year": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "3년", label: "보험금 지급일부터 단기 시효", sub: "보험자대위 구상권 기산점" },
+          { value: "10년", label: "사고일부터 장기 시효", sub: "불법행위 장기 시효 우선 완성 시 소멸" },
+          { value: "먼저 완성", label: "두 시효 중 선완성 기준", sub: "시효 완성 항변은 피고가 주장해야" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="보험사 구상권 시효 구조"
+        columns={[
+          { name: "시효 유형" },
+          { name: "기산점" },
+          { name: "기간" },
+        ]}
+        rows={[
+          { label: "단기 소멸시효", values: ["보험금 지급일", "3년"] },
+          { label: "장기 소멸시효", values: ["불법행위일(사고일)", "10년"] },
+          { label: "판결 확정 후", values: ["판결 확정일", "10년 (민법 제165조)"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="시효 완성 항변은 답변서에 명시적으로 주장해야 해요">
+        소멸시효 완성은 법원이 직권으로 판단하지 않아요. 구상금 소장을 받으면 답변서에 '소멸시효 완성 항변'을 명시적으로 기재해야 인정받을 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 25 (민형사소송): 음주운전 구상권·피해자 보상 ──
+  "traffic-accident-drunk-driving-subrogation": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "대인배상 I", label: "의무보험 — 음주 면책 불가", sub: "피해자 보호 최우선" },
+          { value: "1억 5천만원", label: "정부보장사업 대인 한도", sub: "무보험 음주사고 피해자 구제" },
+          { value: "전액 구상", label: "음주 가해자 — 보험사 구상 가능", sub: "대인배상 II 면책 해당분" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="음주운전 사고 피해자 보상 경로"
+        columns={[
+          { name: "보상 경로" },
+          { name: "조건" },
+          { name: "한도" },
+        ]}
+        rows={[
+          { label: "대인배상 I (의무보험)", values: ["항상 지급", "사망 최대 1억 5천만원"] },
+          { label: "대인배상 II (임의보험)", values: ["면책 없으면 지급", "무제한 또는 한도 선택"] },
+          { label: "정부보장사업", values: ["무보험·뺑소니 사고", "대인 최대 1억 5천만원"] },
+          { label: "무보험자동차 상해 특약", values: ["내 보험 가입 시", "특약 한도 이내"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="음주운전 무보험 가해자 — 정부보장사업 창구를 이용하세요">
+        가까운 손해보험사 지점에 자동차손해배상 보장사업 보상을 신청할 수 있어요. 가해자가 보험 미가입이거나 뺑소니인 경우 모두 해당돼요. 내 보험 무보험자동차 상해 특약도 확인하세요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
