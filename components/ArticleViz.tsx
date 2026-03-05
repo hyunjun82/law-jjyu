@@ -9181,6 +9181,173 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 26 (민형사소송): 동승자 구상권·호의동승 ──
+  "traffic-accident-passenger-subrogation": {
+    "after-0": (
+      <ComparisonTable
+        title="동승자 유형별 배상 청구 조건"
+        columns={[
+          { name: "동승 유형" },
+          { name: "배상 청구 가능 여부" },
+          { name: "감액 여부" },
+        ]}
+        rows={[
+          { label: "일반 동승(비용 부담)", values: [true, "과실 없으면 감액 없음"] },
+          { label: "호의동승(무상 탑승)", values: [true, "10~30% 감액 가능"] },
+          { label: "음주운전 인지 후 탑승", values: [true, "과실상계 폭 큼"] },
+          { label: "가족 동승", values: ["약관 확인 필요", "특약 적용 여부 확인"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="호의동승이라도 배상을 포기할 필요 없어요">
+        호의동승 감액 비율은 운전자 과실 정도에 따라 달라져요. 음주운전·무면허 등 중대 과실인 경우 감액이 제한돼요. 배상 포기 전에 전문가 상담을 받으세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "가해 차량 보험사 확인", desc: "가해 차량 자동차보험사 및 사고 접수번호 확인" },
+          { step: "2", title: "직접 청구 접수", desc: "보험사 직접 청구권 행사 (자동차손해배상보장법 제10조)" },
+          { step: "3", title: "내 보험 확인", desc: "탑승자 특약·자동차상해 특약 적용 여부 확인" },
+          { step: "4", title: "감액 비율 다툼", desc: "호의동승 감액 비율 이의 시 변호사 조력 검토" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 27 (민형사소송): 회사 차량·사용자책임 구상권 ──
+  "traffic-accident-employer-employee-subrogation": {
+    "after-0": (
+      <ComparisonTable
+        title="사용자책임 성립 여부 판단 기준"
+        columns={[
+          { name: "상황" },
+          { name: "사용자책임" },
+        ]}
+        rows={[
+          { label: "업무 중 정규 사고", values: ["성립"] },
+          { label: "출퇴근 중 사고", values: ["사안에 따라 성립 가능"] },
+          { label: "업무 외 묵시적 허락 사용", values: ["성립 가능"] },
+          { label: "무단 사용 사고", values: ["부정 가능"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="info" title="회사가 구상 청구를 받으면 직원 고의·중과실 여부를 먼저 확인하세요">
+        직원의 단순 과실에서 회사가 전액 구상을 청구하면 신의칙 위반으로 다툴 수 있어요. 업무 지시 경위, 회사 이익 수취 여부 등을 검토해 구상 범위를 제한하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "소장 수령 확인", desc: "30일 내 답변서 제출 기한 확인" },
+          { step: "2", title: "사용자책임 검토", desc: "업무 관련성·차량 사용 허락 여부 확인" },
+          { step: "3", title: "답변서 제출", desc: "사용자책임 불성립·과실비율 이의 등 항변 기재" },
+          { step: "4", title: "증거 수집", desc: "블랙박스·업무 지시서·차량 관리 대장 확보" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 28 (민형사소송): 미성년자·취약계층 구상권 ──
+  "traffic-accident-minor-victim-subrogation": {
+    "top": (
+      <WarningBox type="warning" title="구상금 소장을 받으면 30일 내 답변서를 반드시 제출하세요">
+        미성년자는 법정대리인이 대신 답변서를 제출해야 해요. 무응답 시 자백간주로 처리돼요. 소멸시효 완성, 과실 부존재, 권리남용 항변을 검토하세요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="구상금 소송 대응 항변 유형"
+        columns={[
+          { name: "항변 유형" },
+          { name: "내용" },
+          { name: "인정 가능성" },
+        ]}
+        rows={[
+          { label: "과실 부존재", values: ["피해자 무과실 입증", "증거 확보 시 높음"] },
+          { label: "소멸시효 완성", values: ["3년 또는 10년 시효 완성", "기산점 계산 명확 시 높음"] },
+          { label: "권리남용 항변", values: ["취약계층 대상 부당 청구", "요건 까다로워 중간"] },
+          { label: "청구 금액 이의", values: ["산정 근거 부재", "내역 확인 필요"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="시효 완성 후 채무 승인이나 일부 납부는 절대 하지 마세요">
+        소멸시효가 완성된 후에 채무를 인정하거나 일부만 납부하면 시효 이익을 포기한 것으로 간주돼 새 시효가 시작돼요. 보험사 요구에 응하기 전에 반드시 시효 완성 여부를 확인하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 29 (민형사소송): 렌터카 CDW·수리비·휴차보상료 ──
+  "rentcar-cdw-repair-cost": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "CDW 미가입", label: "수리비 전액 본인 부담", sub: "타차운전 특약·카드 보험 확인 필요" },
+          { value: "완전면책", label: "자기부담금 0원", sub: "타이어·휠 단독 손상은 제외 가능" },
+          { value: "휴차보상료", label: "수리일수 기준 산정", sub: "1일 대여요금 기준" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="렌터카 자차 보험 유형 비교"
+        columns={[
+          { name: "유형" },
+          { name: "자기부담금" },
+          { name: "특이사항" },
+        ]}
+        rows={[
+          { label: "CDW 미가입", values: ["수리비 전액", "타차운전 특약으로 대체 가능"] },
+          { label: "일반자차(CDW)", values: ["30만~100만원", "초과분 면책"] },
+          { label: "완전면책(Super CDW)", values: ["0원", "타이어·휠 등 일부 제외"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="대여·반납 시 차량 상태를 사진으로 반드시 기록하세요">
+        기존 손상이 있는 상태로 반납하면 새로운 손상으로 오해받을 수 있어요. 대여 전·반납 시 차량 사방을 사진으로 기록하고 직원 확인을 받으세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 30 (민형사소송): 렌터카 공제조합·과실비율 분쟁 ──
+  "rentcar-gongje-vs-insurance": {
+    "after-0": (
+      <ComparisonTable
+        title="렌터카 공제조합 vs 일반 보험사 보상 비교"
+        columns={[
+          { name: "구분" },
+          { name: "공제조합" },
+          { name: "일반 보험사", highlight: true },
+        ]}
+        rows={[
+          { label: "대인배상 한도", values: ["법정 최저 기준 가능", "무한 또는 고액"] },
+          { label: "대물배상 한도", values: ["한도 제한 가능", "무한 또는 고액"] },
+          { label: "피해자 직접청구", values: [true, true] },
+          { label: "분쟁조정 기관", values: ["금감원·소비자원", "금감원·소비자원"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "보험사·공제조합 이의 신청", desc: "과실비율 재심 신청 (결과 2~6주 소요)" },
+          { step: "2", title: "금감원 민원", desc: "금융감독원(1332) 민원 접수" },
+          { step: "3", title: "분쟁조정 신청", desc: "금융분쟁조정위원회 또는 소비자원 신청" },
+          { step: "4", title: "소송 제기", desc: "조정 결렬 시 민사 소송 (소액사건 간이 가능)" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="사고 직후 블랙박스 SD카드를 분리해 보관하세요">
+        과실비율 분쟁에서 블랙박스 영상이 핵심 증거예요. 렌터카에도 블랙박스가 장착된 경우 반납 전 영상 사본을 요청하거나 SD카드를 먼저 확보하세요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───

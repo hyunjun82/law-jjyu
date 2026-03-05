@@ -4,6 +4,7 @@ import { trafficSpokes2 } from "./traffic-spokes-2";
 import { trafficSpokes3 } from "./traffic-spokes-3";
 import { trafficSpokes4 } from "./traffic-spokes-4";
 import { trafficSpokes5 } from "./traffic-spokes-5";
+import { trafficSpokes6 } from "./traffic-spokes-6";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -12,6 +13,7 @@ const allSpokes: SpokeArticle[] = [
   ...trafficSpokes3,
   ...trafficSpokes4,
   ...trafficSpokes5,
+  ...trafficSpokes6,
 ];
 
 // ── Hub Article ──
