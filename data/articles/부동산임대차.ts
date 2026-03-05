@@ -5,6 +5,7 @@ import { realestateSpokes3 } from "./realestate-spokes-3";
 import { realestateSpokes4 } from "./realestate-spokes-4";
 import { realestateSpokes5 } from "./realestate-spokes-5";
 import { realestateSpokes6 } from "./realestate-spokes-6";
+import { realestateSpokes7 } from "./realestate-spokes-7";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -14,6 +15,7 @@ const allSpokes: SpokeArticle[] = [
   ...realestateSpokes4,
   ...realestateSpokes5,
   ...realestateSpokes6,
+  ...realestateSpokes7,
 ];
 
 // ── Hub Article ──
