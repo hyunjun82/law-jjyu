@@ -8199,6 +8199,232 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ════════════════════════════════
+  // 민형사소송 카테고리
+  // ════════════════════════════════
+
+  // ── Article 1: 교통사고 진단주수 합의금 계산 기준 ──
+  "traffic-accident-settlement-calculation": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "합의금 구성", value: "3대 항목", sub: "위자료 + 치료비 + 휴업손해" },
+          { label: "주부 휴업손해 기준", value: "도시 일용노임", sub: "대법원 판례 인정" },
+          { label: "보험사 이의 신청", value: "항목별 내역서 요청", sub: "부상등급 재산정 가능" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="자동차보험 부상등급별 위자료 기준"
+        columns={[
+          { name: "부상등급" },
+          { name: "부상 수준" },
+          { name: "위자료 기준", highlight: true },
+        ]}
+        rows={[
+          { label: "1급", values: ["중상 (생명 위협)", "1,800만 원 이상"] },
+          { label: "7급", values: ["중등도 부상", "약 400만 원"] },
+          { label: "12급", values: ["경상 (2주 통원)", "약 120만 원"] },
+          { label: "14급", values: ["최경상", "약 80만 원"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="주부 휴업손해 — 수입 없어도 일용노임 기준으로 청구하세요">
+        전업주부도 가사 노동 능력 상실에 대한 휴업손해를 청구할 수 있어요. 진단서·통원 확인서로 치료 사실을 증명하면 도시 일용 노임 기준으로 인정받을 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "개호비 청구 준비 서류",
+            items: [
+              "의사 개호 필요 소견서",
+              "간병인 계약서 또는 영수증",
+              "입원 확인서 (입원 기간 확인)",
+              "가족 간호 시 일용노임 산정 근거",
+              "치료 기간 진단서",
+            ],
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 2: 교통사고 과실비율 쌍방 산정 방식 ──
+  "traffic-accident-fault-ratio": {
+    "after-0": (
+      <WarningBox type="warning" title="100:0은 매우 엄격하게 인정돼요 — 증거 확보가 핵심이에요">
+        피해자 차량이 주행 중이었다면 방어운전 의무를 이유로 일부 과실이 인정되는 경우가 많아요. 블랙박스·CCTV 영상이 있으면 100:0 주장에 유리해요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "보험사 과실비율 통보", desc: "사고 후 각 보험사가 과실비율 산정" },
+          { step: "2", title: "이의 신청", desc: "불합리한 과실비율에 이의 제기" },
+          { step: "3", title: "분쟁심의위원회 심의", desc: "accident.knia.or.kr 무료 신청" },
+          { step: "4", title: "소송 제기", desc: "심의 결과 불복 시 법원 소송" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="사고 유형별 과실비율 기준 (일반)"
+        columns={[
+          { name: "사고 유형" },
+          { name: "가해차량 과실" },
+          { name: "피해차량 과실", highlight: true },
+        ]}
+        rows={[
+          { label: "신호위반 vs 신호준수", values: ["90~100%", "0~10%"] },
+          { label: "비보호좌회전 vs 직진", values: ["85~100%", "0~15%"] },
+          { label: "추돌 (선행차 급정거)", values: ["70~80%", "20~30%"] },
+          { label: "차선변경 접촉", values: ["70~80%", "20~30%"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "블랙박스 없을 때 증거 확보 체크리스트",
+            items: [
+              "사고 현장 사진 즉시 촬영 (차량 위치, 파손 부위)",
+              "경찰 신고 및 사고 기록 확보",
+              "목격자 연락처 확보",
+              "인근 건물·신호등 CCTV 영상 요청 (경찰 경유)",
+              "차량 손상 패턴 사진 보관",
+            ],
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 3: 교통사고 후유장해 등급 보험금 ──
+  "traffic-accident-permanent-disability": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "후유장해 보험금 산정", value: "보험금 × 장해율", sub: "보험 종류별 기준 상이" },
+          { label: "진단서 발급 시기", value: "증상고정 후", sub: "사고 후 6개월~1년 이상" },
+          { label: "보험사 거절 대응", value: "금감원 1332", sub: "민원 제기 후 소송 검토" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "증상 고정 확인", desc: "주치의와 증상 고정 시점 협의" },
+          { step: "2", title: "후유장해 진단서 발급", desc: "주치의에게 후유장해 진단서 요청" },
+          { step: "3", title: "보험사 청구", desc: "가입 보험 전체에 후유장해 보험금 청구" },
+          { step: "4", title: "이의 신청 또는 소송", desc: "거절 시 금감원 민원 또는 소송" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="증상 고정 전에 너무 빨리 진단서를 받으면 장해율이 낮아져요">
+        후유장해 진단서는 증상이 충분히 안정된 후 발급받아야 해요. 치료 중인 상태에서 발급받으면 장해율이 실제보다 낮게 산정될 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "보험사 이의 신청", desc: "추가 의학 자료 제출 후 등급 재심사 요청" },
+          { step: "2", title: "금감원 민원 제기", desc: "금융민원센터(1332) 민원 접수" },
+          { step: "3", title: "손해배상 소송 제기", desc: "법원 의료 감정으로 독립 판단" },
+          { step: "4", title: "법률구조공단 상담", desc: "132 무료 법률 상담 활용" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 4: 교통사고 형사합의 민사합의 차이 ──
+  "traffic-accident-criminal-civil-settlement": {
+    "after-0": (
+      <ComparisonTable
+        title="형사합의 vs 공탁 비교"
+        columns={[
+          { name: "구분" },
+          { name: "형사합의", highlight: true },
+          { name: "공탁" },
+        ]}
+        rows={[
+          { label: "피해자 동의", values: ["필요 (직접 서명)", "불필요"] },
+          { label: "처벌 불원 효과", values: ["인정", "미인정"] },
+          { label: "양형 반영", values: ["높음", "상대적으로 낮음"] },
+          { label: "민사 청구 영향", values: ["조항에 따라 다름", "수령 시 공제"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="warning" title="형사합의서에 '민사 청구 포기' 문구 포함 여부를 반드시 확인하세요">
+        형사합의서에 '향후 민사상 일체의 청구를 포기한다'는 문구가 있으면 민사 손해배상 청구권도 함께 포기한 것으로 해석될 수 있어요. 합의서 서명 전 반드시 확인하세요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <WarningBox type="info" title="채권양도 조항의 의미 — 민사 보험금에서 공제돼요">
+        형사합의서의 채권양도 조항은 보험사가 형사합의금만큼을 나중에 지급 보험금에서 공제할 수 있게 해요. 채권양도 조항 없이 합의하면 민사 청구권을 유지할 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "형사합의 협상", desc: "가해자 측과 합의금 금액 협상" },
+          { step: "2", title: "합의서 검토", desc: "민사 포기 문구·채권양도 조항 확인" },
+          { step: "3", title: "형사합의서 서명", desc: "처벌 불원 의사 확인 후 서명" },
+          { step: "4", title: "민사 청구 별도 진행", desc: "형사합의와 별도로 민사 손해배상 청구" },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 5: 교통사고 보험사 합의 거부 민사소송 절차 ──
+  "traffic-accident-lawsuit-procedure": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "손해배상 소멸시효", value: "3년", sub: "손해·가해자를 안 날부터" },
+          { label: "소액심판 기준", value: "3,000만 원 이하", sub: "변호사 없이 진행 가능" },
+          { label: "법률 상담", value: "132 무료", sub: "법률구조공단" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <WarningBox type="info" title="소송 전 법률구조공단(132) 상담으로 소송 가능성을 먼저 확인하세요">
+        소송 비용(인지대+감정비+변호사비)이 추가로 받을 수 있는 금액보다 클 수 있어요. 소송 전 무료 법률 상담을 통해 소송 타당성을 먼저 판단하는 것이 좋아요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <WarningBox type="warning" title="소멸시효 3년 — 임박하면 내용증명 발송 또는 소장 제출로 시효를 중단하세요">
+        교통사고 후 3년이 지나면 손해배상 청구권을 상실할 수 있어요. 시효가 임박했다면 즉시 내용증명을 발송하거나 소장을 제출해 시효 중단 효과를 확보하세요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="소가별 민사소송 인지대 기준"
+        columns={[
+          { name: "청구 금액(소가)" },
+          { name: "인지대 기준", highlight: true },
+        ]}
+        rows={[
+          { label: "1,000만 원", values: ["약 4만 5천 원"] },
+          { label: "3,000만 원", values: ["약 13만 원"] },
+          { label: "5,000만 원", values: ["약 22만 원"] },
+          { label: "1억 원", values: ["약 40만 원"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="보험사가 피해자에게 구상권을 청구하는 것은 원칙적으로 불가능해요">
+        가해자 측 보험사는 피해자에게 구상권을 행사할 수 없어요. 구상권은 보험사에서 공동 가해자 방향으로만 행사돼요. 피해자 본인은 구상권으로 인한 불이익을 받지 않아요.
+      </WarningBox>
+    ),
+  },
+
   // ── Article 74: 상가 매매 부가가치세 임대사업자 포괄양수도 ──
   "sangga-maemae-bugase-pogwal-pyogi": {
     "after-0": (

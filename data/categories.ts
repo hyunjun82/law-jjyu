@@ -27,7 +27,7 @@ export const categories: Category[] = [
     slug: "민형사소송",
     icon: "⚖️",
     description: "민사소송, 형사고소, 손해배상, 소액재판 등 소송 절차 안내",
-    count: 0,
+    count: 5,
   },
   {
     name: "근로/노동",
