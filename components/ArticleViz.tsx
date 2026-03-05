@@ -8847,6 +8847,170 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 16 (민형사소송): 자동차보험 담보 비교 ──
+  "traffic-accident-insurance-coverage": {
+    "top": (
+      <ComparisonTable
+        title="대인배상1(의무) vs 대인배상2(임의) 비교"
+        columns={[
+          { name: "구분" },
+          { name: "대인배상1 (의무보험)" },
+          { name: "대인배상2 (임의보험)", highlight: true },
+        ]}
+        rows={[
+          { label: "가입 여부", values: ["필수", "선택"] },
+          { label: "사망·후유장해 한도", values: ["최대 1억 5천만원", "무제한 or 한도 선택"] },
+          { label: "부상 한도", values: ["최대 3천만원", "초과분 보장"] },
+          { label: "종합보험 면책 적용", values: ["해당 없음", "가입 시 면책 가능"] },
+          { label: "피해자 직접 청구", values: [true, true] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="자기신체손해 vs 자동차상해 특약 비교"
+        columns={[
+          { name: "구분" },
+          { name: "자기신체손해" },
+          { name: "자동차상해 특약", highlight: true },
+        ]}
+        rows={[
+          { label: "보상 기준", values: ["약관 정액 기준", "실제 손해액 기준"] },
+          { label: "후유장해 보상", values: ["정액 지급", "실손 기준 지급"] },
+          { label: "보험료", values: ["상대적 저렴", "상대적 비쌈"] },
+          { label: "고액 피해 시 유리함", values: ["불리", "유리"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="운전자보험 형사합의금 담보 — 12대 중과실·스쿨존 사고 시 필수">
+        자동차보험은 민사 배상만 처리해요. 형사합의금은 운전자보험에서 지원돼요. 12대 중과실이나 스쿨존 사고에서 형사합의금이 수천만 원에 달할 수 있으니 가입 전 음주·무면허 면책 조항을 확인하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 17 (민형사소송): 소멸시효 기산점 ──
+  "traffic-accident-statute-limitations-start": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "3년", label: "단기 소멸시효", sub: "손해·가해자를 안 날부터 (민법 제766조 제1항)" },
+          { value: "10년", label: "장기 소멸시효", sub: "불법행위(사고일)로부터 (민법 제766조 제2항)" },
+          { value: "먼저 완성된 것 적용", label: "두 시효 중 하나라도 완성되면 소멸", sub: "단기·장기 중 먼저 완성된 기준" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "소송 제기", desc: "가장 확실한 시효 중단 — 소장 접수 즉시 중단 효력" },
+          { step: "2", title: "가압류 신청", desc: "가해자 재산에 가압류 신청으로 시효 중단 가능" },
+          { step: "3", title: "금감원 분쟁조정", desc: "신청 기간 중 시효 진행 정지 — 비용 없음" },
+          { step: "4", title: "내용증명 + 6개월 내 소송", desc: "내용증명만으로는 중단 불가 — 반드시 소송 병행" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="사고일 = 시효 기산점이 아닐 수 있어요">
+        후유증이 뒤늦게 발현됐거나 장해 등급 판정이 늦어진 경우, 손해를 안 날이 사고일보다 늦을 수 있어요. 기산점을 이연할 수 있는 사정이 있다면 포기 전에 반드시 확인하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 18 (민형사소송): 후유증 뒤늦게 발견 시효 ──
+  "traffic-accident-latent-injury-statute": {
+    "top": (
+      <WarningBox type="info" title="뒤늦게 발현된 후유증 — 장애 진단일부터 시효가 시작될 수 있어요">
+        교통사고 후 수년 뒤 장애가 발현되면 장애를 인식한 날이 소멸시효 기산점이 될 수 있어요. 다만 사고일로부터 10년이 지나면 장기 소멸시효가 완성돼 청구가 불가능해요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <WarningBox type="info" title="미성년자 피해자 — 성년이 된 후에도 청구 가능">
+        법정대리인이 없는 경우 미성년자는 성년이 된 때부터 시효가 진행돼요(민법 제179조). 부모가 제때 청구하지 못했더라도 피해자 본인이 성년이 된 후 청구할 여지가 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="뇌 손상 지연 발현 — 즉시 정밀 검사·진단서를 확보하세요">
+        대법원은 손해의 현실적 발생 시점을 기산점으로 봐요. 뇌 MRI 이상 발견 시점·장애 진단 시점이 핵심 증거가 돼요. 증상이 나타나면 즉시 전문 의료기관에서 검사를 받고 진단서를 보관하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 19 (민형사소송): 보험금 청구 시효 2년 ──
+  "traffic-accident-insurance-claim-vs-damage-period": {
+    "top": (
+      <ComparisonTable
+        title="손해배상 청구권 vs 보험금 청구권 시효 비교"
+        columns={[
+          { name: "구분" },
+          { name: "손해배상 청구권" },
+          { name: "보험금 청구권", highlight: true },
+        ]}
+        rows={[
+          { label: "법적 근거", values: ["민법 제766조", "상법 제662조"] },
+          { label: "소멸시효", values: ["3년", "2년"] },
+          { label: "기산점", values: ["손해·가해자를 안 날", "보험금 청구권 발생일"] },
+          { label: "청구 대상", values: ["가해자(보험사)", "내 보험사"] },
+          { label: "약관 연장", values: ["불가", "3년으로 연장 가능 (약관 확인)"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="심신불명 시 법정대리인이 즉시 청구권 행사를 해야 해요">
+        피해자가 심신불명이면 법정대리인(가족)이 보험금 청구를 대신할 수 있어요. 법정대리인이 없다면 법원에 성년후견인 선임을 신청해야 해요. 2년 시효를 놓치지 않도록 사고 직후 신속히 대응하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="info" title="2년이 지났다고 무조건 포기하지 마세요">
+        보험사가 치료비를 지급했거나 합의를 협의했다면 시효 이익 포기 또는 시효 중단을 주장할 수 있어요. 가해자 보험사에 대한 손해배상 청구(3년)가 남아 있다면 별도 경로로 청구 가능해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 20 (민형사소송): 10년 장기소멸시효 ──
+  "traffic-accident-10year-longterm-statute": {
+    "top": (
+      <StatCard
+        items={[
+          { value: "3년", label: "단기 시효", sub: "손해·가해자를 안 날부터" },
+          { value: "10년", label: "장기 시효", sub: "불법행위(사고일)부터" },
+          { value: "10년", label: "판결 확정 후 추심 기간", sub: "민법 제165조" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="단기 3년 시효 vs 장기 10년 시효"
+        columns={[
+          { name: "구분" },
+          { name: "단기 3년 시효" },
+          { name: "장기 10년 시효", highlight: true },
+        ]}
+        rows={[
+          { label: "법적 근거", values: ["민법 제766조 제1항", "민법 제766조 제2항"] },
+          { label: "기산점", values: ["손해·가해자를 안 날", "불법행위 한 날(사고일)"] },
+          { label: "활용 상황", values: ["일반적 기준", "기산점 이연 시 보완"] },
+          { label: "먼저 완성 시", values: ["청구권 소멸", "청구권 소멸"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="판결 확정 후에는 새로 10년 시효가 시작돼요">
+        교통사고 손해배상 판결이 확정되면 민법 제165조에 따라 확정 채권의 시효가 10년으로 새로 시작돼요. 가해자 재산이 없어도 10년 이내에 재산이 생기면 강제집행이 가능해요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "재산 조회", desc: "금융거래 조회·부동산 조회로 가해자 재산 확인" },
+          { step: "2", title: "강제집행 신청", desc: "판결문 기준 집행관에게 강제집행 신청" },
+          { step: "3", title: "10년 만료 전 갱신 소송", desc: "판결 확정 후 10년 만료 전 이행 청구 소송 제기" },
+          { step: "4", title: "새 판결로 10년 연장", desc: "새 판결 확정 시 다시 10년 추심 권리 확보" },
+        ]}
+      />
+    ),
+  },
 };
 
 // ─── 렌더러 ───
