@@ -5351,6 +5351,63 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+
+  // ── Article 61: 상속세 연부연납 신청 | 물납 허가 요건 ──
+  "sangsokse-yeonbuyeonnam-singyo-mulnam": {
+    top: (
+      <StatCard
+        items={[
+          { label: "연부연납 최소 세액", value: "2천만 원 초과", sub: "이 이상이어야 신청 가능" },
+          { label: "최대 분납 기간", value: "10년", sub: "가업상속 특례 시 최대 20년" },
+          { label: "연부연납 가산금 이율", value: "연 2.9%", sub: "2025년 기준, 매년 변동" },
+          { label: "물납 허용 재산", value: "국내 부동산·상장주식", sub: "비상장주식·해외 부동산 불가" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="연부연납·물납 신청은 상속세 신고 기한 내에 해야 해요">
+        상속 개시일이 속한 달 말일로부터 6개월이 신고 기한이에요. 기한 내 신청하지 않으면 연부연납·물납이 불가능하고 무신고 가산세(20%)까지 붙어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 62: 미성년자 상속 특별대리인 | 친권자 이해충돌 회피 ──
+  "miseongnyeonja-sangsok-teukbyeoldaeriin": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "이해충돌 확인", desc: "부모와 미성년 자녀가 함께 상속인인지 확인" },
+          { step: "2단계", title: "특별대리인 후보 선정", desc: "조부모·삼촌 등 친척 또는 변호사 후보 결정" },
+          { step: "3단계", title: "가정법원 신청", desc: "특별대리인 선임 심판 청구서 + 서류 제출" },
+          { step: "4단계", title: "법원 심판 (2~4주)", desc: "법원 심사 후 특별대리인 선임 결정" },
+          { step: "5단계", title: "협의서 서명", desc: "특별대리인이 미성년 자녀 대리해 협의서에 날인" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="특별대리인 없이 진행한 협의는 무효예요">
+        사후 추인(동의)으로도 치유되지 않아요. 등기가 완료돼도 자녀 성인 후 무효 주장이 가능해요. 반드시 특별대리인 선임 후 협의서를 다시 작성해야 해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 63: 상속회복청구권 기간 | 참칭상속인 재산 반환 소송 ──
+  "sangsok-hoebokcheonggugwon-chamching-soson": {
+    top: (
+      <StatCard
+        items={[
+          { label: "단기 소멸시효", value: "3년", sub: "침해 사실을 안 날로부터" },
+          { label: "장기 소멸시효", value: "10년", sub: "상속 개시일로부터" },
+          { label: "적용 원칙", value: "빠른 날 기준", sub: "두 기한 중 먼저 도래하는 날에 소멸" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="warning" title="참칭상속인이 선의의 제3자에게 처분하면 반환이 어려워요">
+        참칭상속인이 부동산을 매도하고 제3자가 등기를 마쳤다면 진정한 상속인이 제3자에게 반환 청구를 하기 어려워요. 재산 침탈 사실을 알았을 때 빠르게 가처분 신청을 해야 해요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
