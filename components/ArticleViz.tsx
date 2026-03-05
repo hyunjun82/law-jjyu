@@ -7989,6 +7989,215 @@ const VIZ_MAP: VizMap = {
       />
     ),
   },
+
+  // ── Article 69: 상가 조정서 강제집행 승낙 효력 ──
+  "sangga-jojeongwseo-gangjejibhaeng": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "조정서 작성", desc: "강제집행 승낙 조항을 조정서에 명시 요청" },
+          { step: "2", title: "조정서 보관", desc: "조정서 원본을 안전하게 보관" },
+          { step: "3", title: "집행문 신청", desc: "관할 법원 민사집행과에 집행문 부여 신청" },
+          { step: "4", title: "강제집행 신청", desc: "집행문 받은 후 법원에 강제집행 신청" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <StatCard
+        items={[
+          { label: "조정서 효력", value: "재판상 화해 동일", sub: "확정 판결과 같은 집행력" },
+          { label: "집행문 부여", value: "법원 민사집행과", sub: "조정서 원본 제출 필요" },
+          { label: "소송 대체", value: "명도소송 불필요", sub: "조정서 기반으로 즉시 집행 가능" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="조정서 명도 조항 — 구체적 기재가 집행력의 핵심이에요">
+        조정서에 명도 시점, 이행 기한, 위반 시 집행 가능 조항을 구체적으로 기재해야 해요. 추상적으로 작성된 조정서는 집행문 부여가 거부될 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="분쟁조정 조정서 vs 제소전화해 비교"
+        columns={[
+          { name: "항목" },
+          { name: "분쟁조정 조정서", highlight: true },
+          { name: "제소전화해" },
+        ]}
+        rows={[
+          { label: "비용", values: ["무료", "수수료 발생"] },
+          { label: "주관 기관", values: ["분쟁조정위원회", "법원"] },
+          { label: "집행력", values: ["재판상 화해 동일", "확정 판결 동일"] },
+          { label: "집행문 부여", values: ["법원 신청 필요", "바로 발급"] },
+          { label: "활용 적합 시점", values: ["분쟁 발생 후", "분쟁 예방 목적"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 70: 상가 임대인 분쟁조정 불응 소송 전환 ──
+  "sangga-imdaein-bunjeongjojeong-bulloung": {
+    "after-0": (
+      <WarningBox type="warning" title="임대인 불응 시 조정 불성립 — 불성립 확인서를 꼭 받으세요">
+        분쟁조정은 임의적 절차이므로 임대인이 거부하면 불성립으로 종료돼요. 불성립 확인서를 받아 소송 전환 시 첨부 서류로 활용하고, 소멸시효 중단 효과도 확인하세요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "불성립 확인서 수령", desc: "분쟁조정위원회에서 불성립 확인서 발급" },
+          { step: "2", title: "증빙서류 준비", desc: "계약서, 내용증명, 사진, 영수증 등 수집" },
+          { step: "3", title: "소장 작성", desc: "법률구조공단(132) 지원 또는 변호사 선임" },
+          { step: "4", title: "소송 제기", desc: "관할 법원 민사과에 소장 제출" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="info" title="조정과 소송 병행 시 조정 각하 가능성 있어요">
+        소송을 먼저 제기하면 분쟁조정 신청이 받아들여지지 않을 수 있어요. 조정 불성립 후 소송으로 전환하는 순서가 실무적으로 가장 효율적이에요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "소송 전환 전 준비 체크리스트",
+            items: [
+              "불성립 확인서 수령 (분쟁조정위원회)",
+              "임대차계약서 원본·사본 보관",
+              "내용증명 발송 및 수신 확인서 보관",
+              "분쟁 관련 사진·영수증 정리",
+              "소액심판(3,000만 원 이하) 해당 여부 확인",
+            ],
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 71: 상가 양도소득세 장기보유특별공제 ──
+  "sangga-yangsodeukse-janggiboyu-gongje": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "공제 시작 보유 기간", value: "3년 이상", sub: "연 2%씩 공제 시작" },
+          { label: "최대 공제율", value: "30%", sub: "15년 이상 보유 시" },
+          { label: "연간 기본공제", value: "250만 원", sub: "양도소득에서 추가 차감" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="상가 보유 기간별 장기보유특별공제율"
+        columns={[
+          { name: "보유 기간" },
+          { name: "공제율", highlight: true },
+        ]}
+        rows={[
+          { label: "3년 이상 4년 미만", values: ["6%"] },
+          { label: "4년 이상 5년 미만", values: ["8%"] },
+          { label: "5년 이상 6년 미만", values: ["10%"] },
+          { label: "10년 이상", values: ["20%"] },
+          { label: "15년 이상", values: ["30% (최대)"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="사업용 토지 vs 비사업용 토지 세금 비교"
+        columns={[
+          { name: "구분" },
+          { name: "사업용 토지", highlight: true },
+          { name: "비사업용 토지" },
+        ]}
+        rows={[
+          { label: "장기보유특별공제", values: ["적용 (연 2%)", "미적용"] },
+          { label: "세율", values: ["기본세율 (6~45%)", "기본세율 + 10%"] },
+          { label: "임대사업자 등록", values: ["필요", "미등록 시 해당"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="양도소득세 예정 신고 기한을 꼭 지키세요">
+        양도소득세 예정 신고는 양도일이 속하는 달의 말일부터 2개월 이내에 해야 해요. 무신고 가산세 20%와 납부 지연 가산세가 부과되므로 기한 내 홈택스(hometax.go.kr)에서 신고하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 72: 상가 단기양도 중과세율 ──
+  "sangga-dangigyodo-junggwaseyul": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "1년 미만 보유 세율", value: "50%", sub: "중과세율 (단기 투기 억제)" },
+          { label: "1~2년 보유 세율", value: "40%", sub: "중과세율 구간" },
+          { label: "2년 이상 보유 세율", value: "기본세율", sub: "6~45% 누진세율 적용" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="상가 보유 기간별 양도소득세율 비교"
+        columns={[
+          { name: "보유 기간" },
+          { name: "세율", highlight: true },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "1년 미만", values: ["50%", "단기 중과세율"] },
+          { label: "1년 이상 2년 미만", values: ["40%", "중과세율"] },
+          { label: "2년 이상", values: ["기본세율 (6~45%)", "누진세율 적용"] },
+          { label: "3년 이상", values: ["기본세율 + 장기보유공제", "최대 30% 추가 공제"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="info" title="2년 보유 시점이 세율 전환의 핵심 기준점이에요">
+        1년 미만 50% → 1~2년 40% → 2년 이상 기본세율로 급격히 낮아져요. 2년 보유 시점까지 기다리는 것이 절세 효과가 가장 커요. 3년 이상이면 장기보유특별공제까지 추가로 받을 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="취득 비용을 필요경비로 반영해 양도차익을 줄이세요">
+        취득세, 법무사비, 중개수수료, 수리비 등 취득 관련 비용을 필요경비로 신고하면 양도차익이 줄어요. 중과세 구간에서 양도차익을 줄이는 것이 세 부담을 낮추는 현실적인 전략이에요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 73: 상가겸용주택 양도소득세 ──
+  "sangga-gyeomubjuteog-yangdosodeukse": {
+    "after-0": (
+      <ComparisonTable
+        title="상가겸용주택 면적 비율별 과세 방식"
+        columns={[
+          { name: "면적 비율" },
+          { name: "과세 방식", highlight: true },
+        ]}
+        rows={[
+          { label: "주택 면적 > 상가 면적", values: ["전체를 주택으로 봐서 1세대 1주택 비과세 가능"] },
+          { label: "주택 면적 ≤ 상가 면적", values: ["주택 부분만 비과세, 상가 부분은 일반 과세"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <StatCard
+        items={[
+          { label: "1세대 1주택 비과세 요건", value: "2년 이상 보유", sub: "조정대상지역은 2년 거주 추가" },
+          { label: "양도 기준일", value: "잔금일", sub: "소유권 이전 등기일 중 빠른 날" },
+          { label: "면적 기준 자료", value: "건축물대장", sub: "용도별 면적 확인" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="잔금일 기준으로 주택 여부를 판단해요 — 용도변경에 주의하세요">
+        주택 비과세 여부는 계약일이 아닌 잔금일(또는 소유권 이전 등기일 중 빠른 날) 현재 실제 사용 현황으로 판단해요. 잔금일 전에 용도변경하면 비과세 혜택을 받지 못할 수 있어요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <WarningBox type="info" title="절세 목적 용도변경은 세법상 인정되지 않아요">
+        비과세 혜택을 노린 의도적 용도변경은 과세당국의 조사 대상이에요. 오히려 비과세 혜택을 잃고 상가 양도세가 부과될 수 있으니 매도 전 세무사와 충분히 상담하세요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───
