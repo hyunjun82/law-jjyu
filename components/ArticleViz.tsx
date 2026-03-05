@@ -5592,6 +5592,182 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── 부동산임대차 Article 6: 상가 보증금 반환 내용증명 ──
+  "sangga-bojeunggeum-banhwan-naeyongjeungmyeong": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "내용증명 발송", desc: "임대인에게 보증금 반환 최고 + 소멸시효 중단" },
+          { step: "2단계", title: "임차권등기 신청", desc: "법원에 임차권등기명령 신청 (임대인 동의 불필요)" },
+          { step: "3단계", title: "법적 절차 선택", desc: "지급명령(3천만 초과) 또는 소액사건심판(3천만 이하)" },
+          { step: "4단계", title: "강제집행", desc: "확정판결 후 임대인 재산에 강제집행" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="지급명령 vs 소액사건심판 비교"
+        columns={[
+          { name: "지급명령" },
+          { name: "소액사건심판", highlight: true },
+        ]}
+        rows={[
+          { label: "대상 금액", values: ["제한 없음", "3,000만 원 이하"] },
+          { label: "처리 기간", values: ["채무자 이의 없으면 약 30일", "일반 소송보다 짧음"] },
+          { label: "채무자 이의 시", values: ["일반 민사소송으로 전환", "심판 절차 계속 진행"] },
+          { label: "비용", values: ["인지대 10분의 1 수준", "소액 인지대"] },
+          { label: "추천 상황", values: ["다툼 없는 명확한 채무", "채무자 이의 가능성 있을 때"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="임차권등기 전에 이사하면 대항력을 잃을 수 있어요">
+        임차권등기명령을 신청해 등기가 완료된 것을 확인한 뒤에 이사해야 해요. 등기 완료 전에 이사하면 대항력이 소멸해 우선변제권도 함께 사라질 수 있어요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 7: 상가 전세권 설정 사업자등록 비교 ──
+  "sangga-jeonse-gwon-saeupja-bihyo": {
+    top: (
+      <ComparisonTable
+        title="전세권 설정 vs 사업자등록+확정일자 비교"
+        columns={[
+          { name: "전세권 설정", highlight: true },
+          { name: "사업자등록+확정일자" },
+        ]}
+        rows={[
+          { label: "임대인 동의", values: ["필요", "불필요"] },
+          { label: "환산보증금 제한", values: ["없음 (물권)", "지역 기준 이하만"] },
+          { label: "비용", values: ["등록면허세 등 발생", "확정일자 600원"] },
+          { label: "이사 후 보호", values: ["자동 유지", "임차권등기 필요"] },
+          { label: "배당 순위 기준", values: ["전세권 설정등기일", "확정일자 부여일"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="선순위 근저당이 있는 상가에 전세권 설정은 위험해요">
+        선순위 근저당 채권 최고액이 크면 경매 낙찰가에서 임차인에게 배당될 금액이 거의 없을 수 있어요. 계약 전 등기부등본으로 근저당 현황을 반드시 확인하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="전세권 vs 임차권등기 보증금 보호 방식"
+        columns={[
+          { name: "전세권", highlight: true },
+          { name: "임차권등기" },
+        ]}
+        rows={[
+          { label: "설정 시점", values: ["임대차 계약 중 사전 설정", "임대차 종료 후 사후 신청"] },
+          { label: "임대인 동의", values: ["필요", "불필요 (법원 명령)"] },
+          { label: "우선변제 기준", values: ["물권 (등기일 기준)", "기존 대항력·확정일자 기준"] },
+          { label: "이사 후 보호", values: ["등기만으로 보호 유지", "등기 후 이사 시 보호 유지"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── 부동산임대차 Article 8: 상가 임대차 경매 배당 순위 ──
+  "sangga-imdaecha-gyeongmae-baedang-sunwi": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1단계", title: "경매 개시 확인", desc: "등기부등본·법원경매정보로 경매 개시 사실 확인" },
+          { step: "2단계", title: "배당 요구 종기 확인", desc: "법원 공고에서 배당 요구 종기일 확인" },
+          { step: "3단계", title: "배당 요구 신청", desc: "종기일 전 법원에 배당요구서 + 임대차계약서 제출" },
+          { step: "4단계", title: "배당 결과 확인", desc: "낙찰 후 배당표 열람·이의 신청 가능" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="경매 배당 순위"
+        columns={[
+          { name: "순위" },
+          { name: "권리자", highlight: true },
+          { name: "근거" },
+        ]}
+        rows={[
+          { label: "1순위", values: ["1순위", "소액임차인 최우선변제", "상임법 제14조"] },
+          { label: "2순위", values: ["2순위", "임금·퇴직금 채권", "근로기준법"] },
+          { label: "3순위", values: ["3순위", "확정일자 기준 우선변제권자", "등기일·확정일자 순서"] },
+          { label: "4순위", values: ["4순위", "일반 채권자", "안분 배당"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="배당 요구 종기일을 놓치면 배당을 받을 수 없어요">
+        경매 법원이 정한 배당 요구 종기일이 지나면 배당 신청 자체가 불가능해요. 상가를 임차 중이라면 등기부등본을 주기적으로 확인해 경매 개시 여부를 미리 파악하는 것이 중요해요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 9: 상가 권리금 회수 방해 4가지 유형 ──
+  "sangga-gwolligeum-hoesu-bang-hae-yuhyeong": {
+    top: (
+      <StatCard
+        items={[
+          { label: "권리금 보호 기간", value: "계약 종료 3개월 전부터", sub: "임차인 권리금 회수 기회 보장 기간" },
+          { label: "손해배상 소멸시효", value: "3년", sub: "손해 및 가해자를 안 날로부터" },
+          { label: "방해 행위 유형", value: "4가지", sub: "상임법 제10조의4 열거 유형" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="권리금 방해 행위 4가지 유형"
+        columns={[
+          { name: "유형" },
+          { name: "방해 행위 내용", highlight: true },
+        ]}
+        rows={[
+          { label: "유형 1", values: ["유형 1", "신규 임차인에게 직접 권리금 요구"] },
+          { label: "유형 2", values: ["유형 2", "신규 임차인과의 계약 정당한 이유 없이 거절"] },
+          { label: "유형 3", values: ["유형 3", "현저히 고액 차임·보증금 요구로 계약 방해"] },
+          { label: "유형 4", values: ["유형 4", "그 밖의 방법으로 권리금 회수 방해"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="신규 임차인 주선은 반드시 서면으로 진행하세요">
+        신규 임차인 정보를 임대인에게 내용증명으로 발송하고 임대인의 응답을 서면으로 받아두면 방해 행위 입증이 훨씬 쉬워져요. 구두로만 진행하면 증거를 남기기 어려워요.
+      </WarningBox>
+    ),
+  },
+
+  // ── 부동산임대차 Article 10: 권리금 소멸시효 3년 기산일 계산 ──
+  "gwolligeum-somelsiho-3nyeon-gisanil": {
+    top: (
+      <StatCard
+        items={[
+          { label: "단기 소멸시효", value: "3년", sub: "손해 및 가해자를 안 날로부터" },
+          { label: "장기 소멸시효", value: "10년", sub: "방해 행위가 있은 날로부터" },
+          { label: "최고 후 후속 조치", value: "6개월 이내", sub: "내용증명 발송 후 소 제기 등" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="소멸시효 중단 방법 비교"
+        columns={[
+          { name: "방법" },
+          { name: "효과", highlight: true },
+          { name: "주의사항" },
+        ]}
+        rows={[
+          { label: "소 제기", values: ["소 제기", "제출 즉시 확정 중단", "비용 발생"] },
+          { label: "가압류·압류", values: ["가압류·압류", "신청 즉시 확정 중단", "담보 제공 필요할 수 있음"] },
+          { label: "내용증명(최고)", values: ["내용증명(최고)", "6개월 임시 중단", "6개월 내 후속 조치 필수"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="warning" title="내용증명만 보내고 6개월 넘기면 시효 중단 효력이 없어져요">
+        내용증명은 발송 후 6개월 이내에 소 제기, 가압류, 압류 중 하나를 실행해야만 최고 시점으로 소급해 시효 중단이 확정돼요. 내용증명만 보내고 방치하면 권리가 소멸할 수 있어요.
+      </WarningBox>
+    ),
+  },
 };
 
 // ─── 렌더러 ───

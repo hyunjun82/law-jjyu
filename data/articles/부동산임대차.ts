@@ -1,9 +1,11 @@
 import { HubArticle, SpokeArticle } from "@/lib/types";
 import { realestateSpokes1 } from "./realestate-spokes-1";
+import { realestateSpokes2 } from "./realestate-spokes-2";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
   ...realestateSpokes1,
+  ...realestateSpokes2,
 ];
 
 // ── Hub Article ──
