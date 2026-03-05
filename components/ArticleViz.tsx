@@ -8198,6 +8198,150 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── Article 74: 상가 매매 부가가치세 임대사업자 포괄양수도 ──
+  "sangga-maemae-bugase-pogwal-pyogi": {
+    "after-0": (
+      <WarningBox type="warning" title="건물분 부가세 10% — 매도 전 포괄양수도 요건 확인이 필수예요">
+        상가 매도 시 건물분 양도가액의 10%가 부가세로 부과돼요. 포괄양수도 요건을 충족하면 부가세가 면제되므로 계약 전 세무사와 요건 충족 여부를 반드시 확인하세요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "포괄양수도 성립 요건 체크리스트",
+            items: [
+              "임대차계약 전부 승계 (임차인 동의 포함)",
+              "보증금 인수 확인",
+              "임대사업자 등록 승계 (폐업 후 재등록 방지)",
+              "계약서에 포괄양수도 명시",
+              "권리·의무 전부 이전 확인",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <StatCard
+        items={[
+          { label: "건물분 부가세율", value: "10%", sub: "토지분에는 부가세 미부과" },
+          { label: "포괄양수도 시 부가세", value: "면제", sub: "권리·의무 전부 승계 시" },
+          { label: "잔존재화 과세 기준", value: "폐업 시 시가", sub: "중복 과세 방지 확인 필요" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="일반 매매 vs 포괄양수도 부가세 비교"
+        columns={[
+          { name: "구분" },
+          { name: "일반 매매" },
+          { name: "포괄양수도", highlight: true },
+        ]}
+        rows={[
+          { label: "건물분 부가세", values: ["부과 (양도가액의 10%)", "면제"] },
+          { label: "임대차계약", values: ["신규 계약 체결", "기존 계약 승계"] },
+          { label: "임대사업자 등록", values: ["매수인 신규 등록", "매도인 등록 승계"] },
+          { label: "절세 효과", values: ["없음", "건물분 부가세 절감"] },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 75: 상가 취득세 시가표준액 계산 방법 ──
+  "sangga-chwideukse-sigahaejunamaek-gyesan": {
+    "top": (
+      <StatCard
+        items={[
+          { label: "상가 취득세율", value: "4%", sub: "농특세·교육세 포함 실효세율 4.6%" },
+          { label: "취득세 신고 기한", value: "취득일부터 60일", sub: "기한 초과 시 가산세 부과" },
+          { label: "과세표준", value: "실거래가", sub: "시가표준액이 하한선으로 적용" },
+        ]}
+      />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="상가 취득세 세율 구성"
+        columns={[
+          { name: "세목" },
+          { name: "세율", highlight: true },
+        ]}
+        rows={[
+          { label: "취득세", values: ["4.0%"] },
+          { label: "농어촌특별세", values: ["0.2%"] },
+          { label: "지방교육세", values: ["0.4%"] },
+          { label: "합계 (실효세율)", values: ["4.6%"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ComparisonTable
+        title="개인 vs 법인 상가 취득세 비교"
+        columns={[
+          { name: "구분" },
+          { name: "개인", highlight: true },
+          { name: "법인" },
+        ]}
+        rows={[
+          { label: "일반 세율", values: ["4.6%", "4.6%"] },
+          { label: "수도권 과밀억제권역", values: ["일반 세율 동일", "중과세 가능 (최대 12%+α)"] },
+          { label: "중과 여부 판단", values: ["해당 없음", "설립 연도·취득 목적 따라 다름"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <WarningBox type="info" title="부가세 환급받으면 취득세 과세표준에서도 제외 가능해요">
+        임대사업자 등록 후 건물분 부가세를 환급받으면 실제 부담이 없으므로 취득세 과세표준에서 제외할 수 있어요. 부가세 환급 신청은 취득 후 확정 신고 시 홈택스(hometax.go.kr)에서 하세요.
+      </WarningBox>
+    ),
+  },
+
+  // ── Article 76: 상가 부부공동명의 취득세 절세 ──
+  "sangga-bubu-gongdonmyeongui-chwideukse": {
+    "after-0": (
+      <WarningBox type="info" title="취득세 총액은 동일 — 공동명의 절세 효과는 임대소득세에서 나타나요">
+        부부공동명의로 취득해도 취득세 총액은 단독명의와 같아요. 공동명의의 실질적인 절세 효과는 임대소득 분산을 통한 종합소득세와 양도소득세 절감에서 나타나요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="단독명의 vs 부부공동명의(50:50) 종합소득세 비교"
+        columns={[
+          { name: "구분" },
+          { name: "단독명의" },
+          { name: "공동명의(50:50)", highlight: true },
+        ]}
+        rows={[
+          { label: "임대소득 귀속", values: ["전액 1인", "각자 50% 분산"] },
+          { label: "누진세율 적용", values: ["높은 구간 적용", "낮은 구간 적용 가능"] },
+          { label: "종합소득세 절감", values: ["없음", "배우자 소득 낮을수록 효과 큼"] },
+          { label: "취득세 총액", values: ["동일", "동일"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="지분 비율은 실제 투자 금액 비율로 설정해야 해요">
+        세금 절감 목적으로 지분 비율을 임의 설정하면 과세관청에서 부인될 수 있어요. 처음 취득 시 실제 자금 출처 비율을 근거로 지분을 설정하고, 자금 이체 내역을 보관하세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "부부공동명의 임대사업자 등록 절차",
+            items: [
+              "각자의 지분에 해당하는 임대사업자 등록 신청",
+              "세무서 방문 또는 홈택스(hometax.go.kr) 온라인 신청",
+              "사업자등록 신청서 + 임대차계약서 제출",
+              "지분 비율 확인 (등기부등본 기준)",
+              "각자 별도 사업소득세 신고",
+            ],
+          },
+        ]}
+      />
+    ),
+  },
 };
 
 // ─── 렌더러 ───
