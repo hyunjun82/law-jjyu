@@ -9680,6 +9680,214 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── 41 ──
+  "parking-lot-accident-fault-ratio": {
+    "top": (
+      <StatCard items={[
+        { label: "후진 차량 기본 과실", value: "70%", sub: "통로 주행 차량 30%" },
+        { label: "정차 중 추돌 피해자 과실", value: "0%", sub: "법원 판례 기준" },
+        { label: "CCTV 영상 보존 기간", value: "30~90일", sub: "즉시 보전 요청 필요" },
+      ]} />
+    ),
+    "after-0": (
+      <ComparisonTable
+        title="주차장 사고 상황별 기본 과실비율"
+        columns={[
+          { name: "사고 상황" },
+          { name: "후진·가해 차량" },
+          { name: "피해 차량" },
+        ]}
+        rows={[
+          { label: "후진 출차 × 통로 주행", values: ["70%", "30%"] },
+          { label: "후진 출차 × 정차 중", values: ["90~100%", "0~10%"] },
+          { label: "통로 주행 × 주차 중 차량", values: ["80%", "20%"] },
+        ]}
+      />
+    ),
+    "after-1": (
+      <WarningBox type="info" title="아파트 단지 내 도로도 도로교통법이 적용될 수 있어요">
+        불특정 다수가 이용하는 아파트 단지 내 도로는 도로교통법상 도로로 보는 경향이 강해요. 사고 후 연락처 미제공은 민사 책임이 발생할 수 있어요.
+      </WarningBox>
+    ),
+    "after-2": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "현장 사진 촬영", desc: "파손 부위, 주변 CCTV 위치 확인" },
+          { step: "2", title: "CCTV 영상 보전 요청", desc: "관리사무소에 문자·내용증명 요청" },
+          { step: "3", title: "경찰 신고", desc: "상대방 미확인 시 즉시 신고" },
+          { step: "4", title: "보험사 접수", desc: "자차 또는 대물 담보 확인 후 청구" },
+        ]}
+      />
+    ),
+  },
+
+  // ── 42 ──
+  "parking-lot-no-cctv-evidence-claim": {
+    "top": (
+      <WarningBox type="warning" title="CCTV·블랙박스 없으면 쌍방과실로 처리될 수 있어요">
+        증거가 없으면 보험사는 쌍방과실로 처리하려는 경향이 있어요. 사고 즉시 CCTV 보전 요청이 핵심이에요.
+      </WarningBox>
+    ),
+    "after-0": (
+      <WarningBox type="info" title="비접촉 사고는 인과관계 입증이 핵심이에요">
+        상대 차량의 행동이 사고의 직접 원인임을 블랙박스 영상이나 목격자 진술로 입증해야 해요. 입증 없이는 보상을 받기 어려워요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "현장 사진·차량 번호 확보", desc: "블랙박스 영상 즉시 저장" },
+          { step: "2", title: "경찰 신고", desc: "도주 차량 추적을 위해 즉시 신고" },
+          { step: "3", title: "CCTV 영상 보전 요청", desc: "30일 내 내용증명 또는 문자로 요청" },
+          { step: "4", title: "보험사 접수 또는 자차 처리", desc: "상대방 미확인 시 자차 담보 활용" },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "수리 견적서·사진 확보", desc: "수리 전 파손 상태 반드시 촬영" },
+          { step: "2", title: "상대방 보험사에 대물 청구", desc: "연락처 교환 후 보험사 신고" },
+          { step: "3", title: "분쟁심의위원회 조정 신청", desc: "이의 있을 경우 무료 신청 가능" },
+        ]}
+      />
+    ),
+  },
+
+  // ── 43 ──
+  "parking-lot-100-0-fault-claim": {
+    "top": (
+      <StatCard items={[
+        { label: "정차 중 추돌 피해자 과실", value: "0%", sub: "법원 판례 기준" },
+        { label: "분쟁심의위원회 처리 기간", value: "30~90일", sub: "무료 신청 가능" },
+        { label: "CCTV 영상 보존 기간", value: "30~90일", sub: "사고 즉시 보전 요청" },
+      ]} />
+    ),
+    "after-0": (
+      <WarningBox type="warning" title="보험사 쌍방과실 주장에 동의하지 않아도 돼요">
+        정차 중 추돌 사고에서 피해자 과실은 0%가 원칙이에요. 보험사 결정은 최종이 아니므로 분쟁심의위원회에 이의를 제기할 수 있어요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "보험사 과실 결정 통보 수령", desc: "통보일로부터 소멸시효 진행" },
+          { step: "2", title: "손해보험협회 분쟁심의위원회 신청", desc: "온라인 또는 서면, 무료" },
+          { step: "3", title: "조정 결과 수령 (30~90일)", desc: "동의 시 확정, 거부 시 불성립" },
+          { step: "4", title: "금융분쟁조정위원회 추가 신청", desc: "불성립 후 추가 이의 가능" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "CCTV 영상 열람 요청 서류 체크리스트",
+            items: [
+              "개인정보 열람 요청서 (개인정보 보호법 제35조)",
+              "보험사 접수증 또는 사고 경위서",
+              "신분증 사본 (본인 확인용)",
+              "사고 일시·장소 명시 문서",
+            ],
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── 44 ──
+  "luxury-car-parking-accident-repair-overcharge": {
+    "top": (
+      <WarningBox type="warning" title="수리 전 파손 부위를 반드시 사진으로 기록하세요">
+        수리 전 파손 사진이 없으면 이번 사고와 무관한 손상까지 수리비로 청구해도 반박이 어려워요. 사고 직후 촬영이 필수예요.
+      </WarningBox>
+    ),
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "수리 항목 상세 확인", desc: "파손 부위와 무관한 항목 체크" },
+          { step: "2", title: "보험사에 재견적 요청", desc: "서면(문자·이메일)으로 요청" },
+          { step: "3", title: "독립 차량 감정사 의뢰", desc: "적정 수리비 감정서 수령" },
+          { step: "4", title: "분쟁심의위원회 조정 신청", desc: "이의 있을 경우 무료 신청" },
+        ]}
+      />
+    ),
+    "after-1": (
+      <ComparisonTable
+        title="외제차 렌트비 부담 기준"
+        columns={[
+          { name: "항목" },
+          { name: "인정 기준" },
+          { name: "비고" },
+        ]}
+        rows={[
+          { label: "렌트 차량 등급", values: ["국산 동급 차량 기준", "외제차 동급 불필요"] },
+          { label: "렌트 기간", values: ["통상적인 수리 기간", "부품 지연 연장분 미인정"] },
+          { label: "렌트 단가", values: ["시장 평균 단가 기준", "프리미엄 브랜드 초과분 불인정"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "수리비 이의 항목 정리", desc: "불필요 항목·과도 공임 표시" },
+          { step: "2", title: "서면으로 재견적 요청", desc: "보험사 담당자에게 문자·이메일" },
+          { step: "3", title: "재견적 거부 시 금감원 민원", desc: "금융감독원 1332 민원 접수" },
+          { step: "4", title: "분쟁심의위원회 조정 신청", desc: "손해보험협회 무료 이용" },
+        ]}
+      />
+    ),
+  },
+
+  // ── 45 ──
+  "highway-falling-object-road-corp-claim": {
+    "top": (
+      <StatCard items={[
+        { label: "국가배상 신청 기간", value: "60일", sub: "지구심의회 결정 기간" },
+        { label: "지구심의회 단독 결정 기준", value: "3천만 원 이하", sub: "초과 시 본부 심의" },
+        { label: "피해자 과실 인정 범위", value: "10~30%", sub: "과속·전방 주시 태만 시" },
+      ]} />
+    ),
+    "after-0": (
+      <WarningBox type="info" title="도로공사 순찰 기록이 배상 책임 입증의 핵심이에요">
+        낙하물이 얼마나 오래 도로에 있었는지가 배상 책임 인정의 핵심이에요. 도로순찰 기록을 확인해서 관리 부실을 입증하세요.
+      </WarningBox>
+    ),
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "국가배상 지구심의회 신청 서류 체크리스트",
+            items: [
+              "배상금지급청구서",
+              "사고 경위서 (사고 일시·장소·경위 상세 기재)",
+              "손해 내역서 (수리 견적서·영수증)",
+              "사고 현장 사진 (낙하물·차량 파손 포함)",
+              "사고 발생 확인서 (경찰 또는 도로공사 발급)",
+              "의료비 영수증·진단서 (인명 피해 시)",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-3": (
+      <ComparisonTable
+        title="낙하물 사고 vs 결빙 사고 배상 비교"
+        columns={[
+          { name: "항목" },
+          { name: "낙하물 사고" },
+          { name: "결빙 사고" },
+        ]}
+        rows={[
+          { label: "도로공사 책임 기준", values: ["관리 소홀·사전 인지 여부", "제설 미조치·경고 미설치"] },
+          { label: "피해자 과실 인정", values: ["10~30% (과속·주시 태만 시)", "50% 이상 (악천후 과속 시)"] },
+          { label: "배상 제한 사유", values: ["직전 낙하로 예측 불가", "갑작스러운 기상 이변"] },
+          { label: "핵심 증거", values: ["블랙박스·순찰 기록", "기상 기록·제설 작업 기록"] },
+        ]}
+      />
+    ),
+  },
 };
 
 // ─── 렌더러 ───
