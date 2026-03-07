@@ -3,6 +3,7 @@ import { workerCompSpokes1 } from "./worker-comp-spokes-1";
 import { workerCompSpokes2 } from "./worker-comp-spokes-2";
 import { workerCompSpokes3 } from "./worker-comp-spokes-3";
 import { workerCompSpokes4 } from "./worker-comp-spokes-4";
+import { workerCompSpokes5 } from "./worker-comp-spokes-5";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -10,6 +11,7 @@ const allSpokes: SpokeArticle[] = [
   ...workerCompSpokes2,
   ...workerCompSpokes3,
   ...workerCompSpokes4,
+  ...workerCompSpokes5,
 ];
 
 // ── Hub Article ──
