@@ -9913,12 +9913,30 @@ const VIZ_MAP: VizMap = {
       <DecisionTree
         title="도급 건설업 산재보험 사업주 판단"
         nodes={[
-          { id: "start", label: "건설업 도급사업?", children: ["yes-sub", "no-sub"] },
-          { id: "yes-sub", label: "하수급인이 건설업자 등에 해당?", children: ["yes-approval", "no-approval"] },
-          { id: "no-sub", label: "원수급인이 산재보험 사업주", children: [] },
-          { id: "yes-approval", label: "근로복지공단 사업주 승인?", children: ["approved", "not-approved"] },
-          { id: "approved", label: "하수급인이 사업주", children: [] },
-          { id: "not-approved", label: "원수급인이 사업주", children: [] },
+          {
+            id: "start",
+            question: "건설업 도급사업인가요?",
+            options: [
+              { label: "예, 건설업 도급사업이에요", nextId: "sub-check" },
+              { label: "아니요, 도급사업이 아니에요", resultTitle: "원수급인이 산재보험 사업주", resultDesc: "도급사업이 아닌 경우 해당 사업의 사업주가 산재보험 의무를 부담해요." },
+            ],
+          },
+          {
+            id: "sub-check",
+            question: "하수급인이 건설업자 등에 해당하나요?",
+            options: [
+              { label: "예, 건설업자에 해당해요", nextId: "approval" },
+              { label: "아니요, 해당하지 않아요", resultTitle: "원수급인이 산재보험 사업주", resultDesc: "하수급인이 건설업자 등에 해당하지 않으면 원수급인이 사업주예요." },
+            ],
+          },
+          {
+            id: "approval",
+            question: "근로복지공단에 사업주 승인을 받았나요?",
+            options: [
+              { label: "예, 승인을 받았어요", resultTitle: "하수급인이 산재보험 사업주", resultDesc: "근로복지공단 승인을 받으면 하수급인이 해당 사업의 산재보험 사업주가 돼요." },
+              { label: "아니요, 승인을 받지 않았어요", resultTitle: "원수급인이 산재보험 사업주", resultDesc: "승인을 받지 않으면 원수급인이 산재보험 사업주 의무를 부담해요." },
+            ],
+          },
         ]}
       />
     ),
@@ -10024,19 +10042,15 @@ const VIZ_MAP: VizMap = {
     ),
     "after-1": (
       <EligibilityChecker
-        title="근골격계 질병 업무상 질병 인정 체크리스트"
-        conditions={[
-          { label: "반복 동작이 많은 업무에 종사한 경력", key: "반복동작" },
-          { label: "무리한 힘을 가해야 하는 업무 종사 경력", key: "무리한힘" },
-          { label: "부적절한 자세를 유지하는 업무 종사 경력", key: "부적절자세" },
-          { label: "진동 작업 종사 경력", key: "진동작업" },
-          { label: "해당 부위에 의학적 진단이 뒷받침됨", key: "의학진단" },
+        questions={[
+          { question: "반복 동작이 많은 업무에 종사한 경력이 있나요?", helpText: "팔·손목·어깨 등을 반복적으로 사용하는 업무" },
+          { question: "무리한 힘을 가해야 하는 업무에 종사했나요?", helpText: "중량물 취급, 과도한 힘을 쓰는 작업" },
+          { question: "부적절한 자세를 유지하는 업무에 종사했나요?", helpText: "쪼그려 앉기, 목·허리 비트는 자세 등" },
+          { question: "진동 작업에 종사한 경력이 있나요?", helpText: "착암기, 체인톱, 연삭기 등 진동 공구 사용" },
+          { question: "해당 부위에 의학적 진단을 받았나요?", helpText: "근골격계 질병에 대한 의사 진단" },
         ]}
-        resultMap={{
-          allTrue: "업무상 질병으로 인정될 가능성이 높아요",
-          someTrue: "일부 요건 충족 시 종합 판단이 필요해요",
-          allFalse: "업무관련성 인정이 어려울 수 있어요",
-        }}
+        passMessage="업무상 질병으로 인정될 가능성이 높아요"
+        failMessage="일부 요건이 충족되지 않아 종합 판단이 필요해요"
       />
     ),
   },
