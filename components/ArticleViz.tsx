@@ -10,6 +10,8 @@ import { StatCard } from "@/components/viz/StatCard";
 import { RangeTable } from "@/components/viz/RangeTable";
 import { ProcessTimeline } from "@/components/viz/ProcessTimeline";
 import { Calculator } from "@/components/viz/Calculator";
+import { DecisionTree } from "@/components/viz/DecisionTree";
+import { EligibilityChecker } from "@/components/viz/EligibilityChecker";
 
 // ─── 슬러그별 시각화 매핑 ───
 // position: "top" = 히어로 아래 본문 전, "after-0" = 섹션0 뒤, "after-1" = 섹션1 뒤, ...
