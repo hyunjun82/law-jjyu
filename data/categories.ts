@@ -34,7 +34,7 @@ export const categories: Category[] = [
     slug: "근로노동",
     icon: "🏗️",
     description: "임금, 해고, 산재, 퇴직금, 근로계약 등 노동 법률 정보",
-    count: 0,
+    count: 3,
   },
   {
     name: "복지",
