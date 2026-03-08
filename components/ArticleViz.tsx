@@ -10827,7 +10827,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 복지: Article 1 ──
   "국민건강보험-개념-특성-적용대상": {
-    top: (
+    "after-0": (
       <StatCard
         items={[
           { label: "가입 형태", value: "3종", sub: "직장·지역·피부양자" },
@@ -10968,7 +10968,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 복지: Article 7 ──
   "본인일부부담금-부담률-상한액-납부": {
-    top: (
+    "after-0": (
       <StatCard
         items={[
           { label: "입원 본인부담률", value: "20%", sub: "요양급여비용 총액 기준" },
@@ -11013,7 +11013,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 복지: Article 9 ──
   "임신출산-진료비-국민행복카드-지원금액": {
-    top: (
+    "after-0": (
       <StatCard
         items={[
           { label: "단태아 지원금", value: "100만원", sub: "임신 1회당" },
@@ -11123,7 +11123,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 복지: Article 13 ──
   "건강보험료-산정-보수월액-보험료율": {
-    top: (
+    "after-0": (
       <StatCard
         items={[
           { label: "보험료율", value: "7.19%", sub: "2025년 기준 (보수월액 ×)" },

@@ -190,9 +190,6 @@ export default async function SpokePage({ params }: PageProps) {
         {/* Main Column */}
         <div className="flex-1 max-w-3xl">
 
-      {/* 시각화: 상단 (StatCard 등) */}
-      <ArticleViz slug={spokeSlug} position="top" />
-
       {/* 광고 1 */}
       <div className="py-6">
         <AdSlot />
@@ -213,13 +210,13 @@ export default async function SpokePage({ params }: PageProps) {
                     {section.title}
                   </h2>
                 </div>
-                {/* 시각화: 소제목 바로 아래 */}
-                <ArticleViz slug={spokeSlug} position={`after-${i}`} />
-
                 <div
                   className="article-content text-[15px] text-gray-600 leading-[1.85] sm:text-[16px] pl-[42px] space-y-3"
                   dangerouslySetInnerHTML={{ __html: section.content }}
                 />
+
+                {/* 시각화: 본문 뒤 */}
+                <ArticleViz slug={spokeSlug} position={`after-${i}`} />
 
                 {i < article.sections.length - 1 && <Separator className="mt-8" />}
               </section>
