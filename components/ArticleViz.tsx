@@ -10830,9 +10830,9 @@ const VIZ_MAP: VizMap = {
     top: (
       <StatCard
         items={[
-          { label: "가입 형태", value: "3종", description: "직장·지역·피부양자" },
-          { label: "보험 성격", value: "의무가입", description: "국내 거주 국민 전원" },
-          { label: "부과 원칙", value: "부담능력", description: "소득·재산 기준" },
+          { label: "가입 형태", value: "3종", sub: "직장·지역·피부양자" },
+          { label: "보험 성격", value: "의무가입", sub: "국내 거주 국민 전원" },
+          { label: "부과 원칙", value: "부담능력", sub: "소득·재산 기준" },
         ]}
       />
     ),
@@ -10898,9 +10898,9 @@ const VIZ_MAP: VizMap = {
     "after-0": (
       <StatCard
         items={[
-          { label: "유지 기간", value: "최대 36개월", description: "자격상실일부터" },
-          { label: "신청 기한", value: "상실일부터 2개월 이내", description: "" },
-          { label: "보험료 기준", value: "퇴직 전 보수월액", description: "본인 전액 부담" },
+          { label: "유지 기간", value: "최대 36개월", sub: "자격상실일부터" },
+          { label: "신청 기한", value: "상실일부터 2개월 이내" },
+          { label: "보험료 기준", value: "퇴직 전 보수월액", sub: "본인 전액 부담" },
         ]}
       />
     ),
@@ -10966,9 +10966,9 @@ const VIZ_MAP: VizMap = {
     top: (
       <StatCard
         items={[
-          { label: "입원 본인부담률", value: "20%", description: "요양급여비용 총액 기준" },
-          { label: "외래 본인부담률", value: "30~60%", description: "의원·병원·종합병원 차등" },
-          { label: "본인부담상한액", value: "소득별 차등", description: "연간 초과분 공단 부담" },
+          { label: "입원 본인부담률", value: "20%", sub: "요양급여비용 총액 기준" },
+          { label: "외래 본인부담률", value: "30~60%", sub: "의원·병원·종합병원 차등" },
+          { label: "본인부담상한액", value: "소득별 차등", sub: "연간 초과분 공단 부담" },
         ]}
       />
     ),
@@ -11012,9 +11012,9 @@ const VIZ_MAP: VizMap = {
     top: (
       <StatCard
         items={[
-          { label: "단태아 지원금", value: "100만원", description: "임신 1회당" },
-          { label: "다태아 지원금", value: "140만원", description: "쌍둥이 이상" },
-          { label: "사용 기간", value: "분만 후 2년", description: "분만예정일 이후 기준" },
+          { label: "단태아 지원금", value: "100만원", sub: "임신 1회당" },
+          { label: "다태아 지원금", value: "140만원", sub: "쌍둥이 이상" },
+          { label: "사용 기간", value: "분만 후 2년", sub: "분만예정일 이후 기준" },
         ]}
       />
     ),
@@ -11115,9 +11115,9 @@ const VIZ_MAP: VizMap = {
     top: (
       <StatCard
         items={[
-          { label: "보험료율", value: "7.19%", description: "2025년 기준 (보수월액 ×)" },
-          { label: "근로자 부담", value: "50%", description: "사용자와 반반" },
-          { label: "소득월액 보험료율", value: "7.19%", description: "보수 외 소득에 적용" },
+          { label: "보험료율", value: "7.19%", sub: "2025년 기준 (보수월액 ×)" },
+          { label: "근로자 부담", value: "50%", sub: "사용자와 반반" },
+          { label: "소득월액 보험료율", value: "7.19%", sub: "보수 외 소득에 적용" },
         ]}
       />
     ),
