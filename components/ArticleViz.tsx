@@ -11132,7 +11132,7 @@ const VIZ_MAP: VizMap = {
         ]}
       />
     ),
-    "after-0": (
+    "after-1": (
       <Calculator
         title="보수월액보험료 간이 계산기"
         description="월 보수액을 입력하면 대략적인 건강보험료를 계산해요. 실제 보험료는 공단 산정 기준에 따라 다를 수 있어요."
