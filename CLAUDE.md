@@ -23,19 +23,56 @@
 
 ---
 
-## 콘텐츠 소스 규칙 (절대 규칙)
+## Source-First 워크플로우 (절대 규칙)
 
-### 출처: easylaw.go.kr (찾기쉬운 생활법령정보)만 사용
+### 원칙: source-data JSON 없이 글 작성 금지
 
-1. **easylaw.go.kr 해당 주제 페이지의 내용만** 참고
+글을 작성하기 전에 **반드시** easylaw.go.kr 소스 데이터를 `source-data/` 폴더에 JSON으로 저장해야 합니다.
+이 JSON을 참조하여 글을 작성해야 하며, 기억이나 추론으로 법률 정보를 작성하면 안 됩니다.
+
+### 글 작성 워크플로우
+
+```
+1. easylaw.go.kr 해당 페이지를 Playwright(MCP)로 열기
+2. page.evaluate()로 DOM 파싱 → JSON 추출
+3. source-data/{pageId}.json 으로 저장
+4. scripts/easylaw-url-map.json 에 slug → URL 매핑 추가
+5. source-data JSON을 읽고 그 내용만으로 글 작성
+6. 작성 후 node scripts/fact-compare.js <slug> 실행하여 검증
+7. 오류 0건 확인 후 커밋
+```
+
+### 소스 데이터 추출 방법
+
+easylaw.go.kr는 JSON API가 없으므로 Playwright MCP 도구로 추출합니다:
+- `mcp__playwright__browser_navigate` → easylaw URL로 이동
+- `mcp__playwright__browser_run_code` → `div.ovDivbox` 파싱
+- CSS 클래스: `plv1a`=대제목, `plv2a`=소제목, `plv3a`=본문, `plv4d`=목록, `tplv4`=주석
+- 법조문 링크: `a[href*="law.go.kr"]`
+- Write tool로 `source-data/{csmSeq}-{ccfNo}-{cciNo}-{cnpClsNo}.json` 저장
+
+### 콘텐츠 소스 규칙
+
+1. **source-data JSON에 있는 내용만** 글에 반영
 2. 에이전트가 자체 검색해서 가져온 정보 금지
 3. 에이전트의 개인 해석, 의견 금지
 4. easylaw.go.kr 문장을 **구어체로 번역만** 한다
-5. 법령 조문 번호, 금액, 기간 등 숫자 정보는 easylaw.go.kr 기준 그대로
+5. 법령 조문 번호, 금액, 기간 등 숫자 정보는 source-data JSON 기준 그대로
+6. source-data JSON에 없는 숫자, 서류, 기간을 임의로 추가하지 않는다
+
+### 팩트 검증 스크립트
+
+```bash
+# 소스 데이터 vs 글 비교
+node scripts/fact-compare.js <slug>
+
+# 전체 매핑된 글 비교
+node scripts/fact-compare.js --all
+```
 
 ### 예시
 
-**원문 (easylaw.go.kr)**
+**원문 (easylaw.go.kr / source-data JSON)**
 > 협의이혼 의사확인 신청 시 미성년 자녀가 있는 경우 숙려기간은 3개월입니다.
 
 **변환 결과**
@@ -105,30 +142,19 @@
 - 비교 데이터는 `<table>`로, 나열 항목은 `<p>` 안에 쉼표로 연결
 - 다른 법률 주제와의 비교 포함 권장
 
-### 단락 간 연결어 (필수 사용)
+### 문단 간 접속어 (자연스러운 흐름)
 
-문단 사이가 자연스럽게 이어지도록 아래 연결어를 반드시 사용한다.
+언론 기사처럼 문단과 문단 사이가 매끄럽게 이어지도록 접속어를 사용한다.
+단, **기계적 반복은 절대 금지**한다. 섹션마다 같은 접속어 패턴을 쓰면 AI가 쓴 글처럼 보인다.
 
-| 용도 | 연결어 예시 |
-|------|------------|
-| 조건·예외 | 다만, 단, 단서로 |
-| 추가 설명 | 여기서, 이때, 참고로 |
-| 대조·반전 | 반면, 그렇지 않으면, 이와 달리 |
-| 인과 | 그래서, 따라서, 이 때문에 |
-| 순서 | 먼저, 다음으로, 마지막으로 |
+**핵심 규칙**
+1. 키워드·주제·문맥에 맞는 접속어를 자연스럽게 선택한다
+2. 같은 글 안에서 동일한 접속어 패턴이 반복되면 안 된다 (예: 매 섹션 "다만 → 참고로" 금지)
+3. 접속어 없이도 문맥이 이어지면 굳이 넣지 않아도 된다
+4. 접속어는 문단 첫머리뿐 아니라 문장 중간에서도 자연스럽게 쓸 수 있다
 
-**잘못된 예 (연결어 없음)**
-```
-<p>숙려기간은 1개월이에요.</p>
-<p>가정폭력 피해가 있으면 면제를 신청할 수 있어요.</p>
-```
-
-**올바른 예 (연결어 있음)**
-```
-<p>숙려기간은 미성년 자녀 없이 1개월, 자녀가 있으면 3개월이에요.</p>
-<p>다만 가정폭력 피해가 있거나 급박한 사정이 있으면 법원에 단축·면제를 신청할 수 있어요.</p>
-<p>숙려기간 중 법원이 이혼 상담을 권고할 수 있어요. 의무는 아니지만 가능하면 참여해 보세요.</p>
-```
+**접속어 예시 (참고용, 외우지 말 것)**
+그럼에도 불구하고, 따라서, 반면, 이에, 그렇다면, 예를 들어보면, 이와 달리, 한편, 결국, 특히, 물론, 그런데, 다만, 실제로, 이 때문에 등
 
 ### FAQ 규칙
 
@@ -139,12 +165,13 @@
 ### 섹션 content HTML 규칙
 
 ```html
-<!-- ✅ 문단 3개 필수 (연결어로 이어질 것) -->
-<p>첫 번째 문단: 핵심 내용 설명.</p>
+<!-- ✅ 문단 3개 필수, 문맥에 맞게 자연스럽게 이어질 것 -->
+<!-- ❌ 매 섹션 "다만 → 참고로/따라서" 패턴 반복 금지 -->
+<p>첫 번째 문단: 핵심 내용.</p>
 
-<p>다만 두 번째 문단: 예외나 추가 조건.</p>
+<p>두 번째 문단: 흐름에 맞는 접속어로 자연스럽게 연결.</p>
 
-<p>참고로 세 번째 문단: 실용 정보나 주의사항.</p>
+<p>세 번째 문단: 실용 정보나 보충 설명.</p>
 
 <!-- ✅ 비교·정리 데이터는 표로 -->
 <table>
@@ -295,7 +322,7 @@ npm run build          # 빌드 성공 확인
 - [ ] 섹션 3~4개, FAQ 3~4개인가
 - [ ] 각 섹션이 정확히 `<p>` 3문단인가
 - [ ] `<ul>/<li>` 블릿이 섹션 content에 없는가
-- [ ] 단락 간 연결어(다만/반면/여기서/참고로 등)가 있는가
+- [ ] 접속어가 자연스럽고 섹션마다 같은 패턴이 반복되지 않는가
 - [ ] 내용 출처가 easylaw.go.kr인가
 - [ ] 법령 조문, 금액, 기간 등 숫자가 정확한가
 - [ ] ArticleViz.tsx VIZ_MAP에 시각화가 추가됐는가
@@ -318,22 +345,28 @@ npm run build          # 빌드 성공 확인
 ```
 키워드 입력
     ↓
-① easylaw.go.kr 내용 확인 (출처 고정)
+① easylaw.go.kr 페이지를 Playwright MCP로 열기
     ↓
-② data/articles/{카테고리}-spokes-N.ts 작성
-   - 스트레이트형 3문단 × 3~4섹션
-   - 연결어(다만/반면/여기서/참고로) 필수
+② page.evaluate()로 DOM 파싱 → source-data/{pageId}.json 저장
+    ↓
+③ scripts/easylaw-url-map.json에 slug → URL 매핑 추가
+    ↓
+④ source-data JSON을 Read tool로 읽고 확인
+    ↓
+⑤ source-data JSON 기반으로 data/articles/{카테고리}-spokes-N.ts 작성
+   - 스트레이트형 3문단 x 3~4섹션
+   - 접속어는 문맥에 맞게 자연스럽게 (같은 패턴 반복 금지)
    - <ul>/<li> 절대 금지
     ↓
-③ components/ArticleViz.tsx VIZ_MAP에 시각화 추가
-   - 주제 키워드로 컴포넌트 선택 (위 매핑표 참고)
-   - after-0, after-1 등 위치 지정
+⑥ node scripts/fact-compare.js <slug> 실행 → 오류 0건 확인
     ↓
-④ data/articles/가정법률.ts hub spokes 엔트리 추가
+⑦ components/ArticleViz.tsx VIZ_MAP에 시각화 추가
     ↓
-⑤ npm run build 통과 확인
+⑧ hub spokes 엔트리 추가
     ↓
-⑥ git commit & push → Vercel 자동 배포
+⑨ npm run build 통과 확인
+    ↓
+⑩ git commit & push → Vercel 자동 배포
 ```
 
 **레이어 역할**
@@ -354,6 +387,14 @@ npm run build          # 빌드 성공 확인
 
 ```
 law-jjyu/
+├── scripts/
+│   ├── easylaw-scraper.js           ← Playwright DOM → JSON (CLI용)
+│   ├── easylaw-url-map.json         ← slug → easylaw URL 매핑
+│   └── fact-compare.js              ← source-data vs 글 비교
+├── source-data/                     ← ⭐ easylaw 소스 JSON (글 작성 전 필수)
+│   ├── 233-2-2-1.json               ← 예: 이혼 > 협의이혼 > 절차
+│   └── toc-233.json                 ← 이혼 전체 목차
+├── reports/                         ← 팩트체크 리포트 출력
 ├── app/
 │   ├── [category]/[slug]/page.tsx  ← Spoke 페이지 (핵심)
 │   ├── [category]/page.tsx         ← Hub 페이지

@@ -1,0 +1,72 @@
+{
+  "$comment": "law-jjyu 4층 검증 설정. verify-*.js 스크립트들이 이 설정을 참조한다.",
+  "projectName": "law-jjyu",
+
+  "style": {
+    "tone": "구어체",
+    "forbiddenEndings": ["합니다", "입니다", "됩니다", "었습니다", "있습니다", "없습니다", "됐습니다", "봅니다", "줍니다"],
+    "forbiddenWords": [
+      "또한", "결론적으로", "다양한", "매우 중요",
+      "알아보겠습니다", "살펴보겠습니다", "알아볼게요",
+      "특히 주목할 만한", "폭넓게 사용"
+    ],
+    "fillerPatterns": [
+      "에 대해 알아보",
+      "자세히 살펴보",
+      "함께 알아보",
+      "지금부터 알아",
+      "하나씩 살펴",
+      "꼼꼼히 따져"
+    ],
+    "maxForbiddenWordCount": 1,
+    "maxConsecutiveSameEnding": 2,
+    "maxConsecutiveSameStart": 2,
+    "forbiddenHtml": ["<ul>", "<li>", "<ol>"],
+    "requiredParagraphCount": 3,
+    "connectingWords": ["다만", "단", "여기서", "이때", "참고로", "반면", "그렇지 않으면", "이와 달리", "그래서", "따라서", "이 때문에", "먼저", "다음으로", "마지막으로", "그럼에도 불구하고", "이에", "그렇다면", "예를 들어", "한편", "결국", "특히", "물론", "그런데", "실제로"]
+  },
+
+  "structure": {
+    "sectionCount": { "min": 3, "max": 4 },
+    "faqCount": { "min": 3, "max": 4 },
+    "paragraphsPerSection": 3,
+    "titleEqualsH1": true,
+    "categories": ["가정법률", "부동산임대차", "금융금전", "민형사소송", "근로노동", "복지"]
+  },
+
+  "factCheck": {
+    "numberPatterns": [
+      { "pattern": "「([^」]+)」\\s*제(\\d+)조(?:의(\\d+))?", "label": "법조문" },
+      { "pattern": "(\\d+)\\s*개월", "label": "기간_월" },
+      { "pattern": "(\\d+)\\s*일(?:\\s*이내|\\s*안에)?", "label": "기간_일" },
+      { "pattern": "(\\d+)\\s*년", "label": "기간_년" },
+      { "pattern": "(\\d[\\d,]*)\\s*(?:만\\s*)?원", "label": "금액" },
+      { "pattern": "(\\d+)\\s*(?:통|부)", "label": "부수" },
+      { "pattern": "(\\d+)\\s*명", "label": "인원" },
+      { "pattern": "(\\d+)\\s*회", "label": "횟수" }
+    ],
+    "documentPatterns": [
+      "증명서", "신청서", "등본", "조서", "확인서", "협의서", "정본", "판결문", "결정문", "인지", "송달료"
+    ]
+  },
+
+  "selfCheck": {
+    "negationPairs": [
+      ["할 수 없", "할 수 있"],
+      ["불가능", "가능"],
+      ["금지", "허용"],
+      ["의무", "임의"],
+      ["필수", "선택"],
+      ["무효", "유효"],
+      ["불인정", "인정"],
+      ["불허", "허가"],
+      ["거부", "수리"],
+      ["기각", "인용"]
+    ]
+  },
+
+  "freshness": {
+    "maxAgeDays": 90,
+    "sourceOrigin": "easylaw.go.kr (Playwright scraping)"
+  }
+}
