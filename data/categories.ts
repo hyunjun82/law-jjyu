@@ -41,6 +41,6 @@ export const categories: Category[] = [
     slug: "복지",
     icon: "🤝",
     description: "기초생활수급, 장애인복지, 국민연금, 의료급여 등 복지 제도 안내",
-    count: 0,
+    count: 17,
   },
 ];
