@@ -195,6 +195,9 @@ export default async function SpokePage({ params }: PageProps) {
         <AdSlot />
       </div>
 
+      {/* top 위치 시각화 (본문 시작 전) */}
+      <ArticleViz slug={spokeSlug} position="top" />
+
       {/* Article Sections */}
       <article className="daum-wm-content">
         {article.sections.map((section, i) => {
