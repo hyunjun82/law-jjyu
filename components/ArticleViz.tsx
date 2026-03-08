@@ -10855,14 +10855,13 @@ const VIZ_MAP: VizMap = {
   "직장가입자-가입자격-취득-신고": {
     "after-0": (
       <EligibilityChecker
-        title="직장가입자 자격취득 자가진단"
-        conditions={[
-          { label: "모든 사업장의 근로자", description: "고용 형태에 관계없이 사업장에 고용된 근로자" },
-          { label: "공무원 또는 교직원", description: "공무원·사립학교 교직원" },
-          { label: "1개월 이상·월 8일 이상 근무 일용직", description: "일용근로자 중 가입 요건 충족자" },
+        questions={[
+          { question: "사업장에 고용된 근로자인가요?", helpText: "고용 형태에 관계없이 사업장에 고용된 근로자" },
+          { question: "공무원 또는 교직원인가요?", helpText: "공무원·사립학교 교직원" },
+          { question: "일용직으로 1개월 이상·월 8일 이상 근무하나요?", helpText: "일용근로자 중 가입 요건 충족자" },
         ]}
-        resultPositive="직장가입자 자격이 있어요. 사용자가 14일 이내에 자격취득 신고를 해야 해요."
-        resultNegative="직장가입자 요건을 충족하지 못하면 지역가입자로 가입돼요."
+        passMessage="직장가입자 자격이 있어요. 사용자가 14일 이내에 자격취득 신고를 해야 해요."
+        failMessage="직장가입자 요건을 충족하지 못하면 지역가입자로 가입돼요."
       />
     ),
     "after-2": (
