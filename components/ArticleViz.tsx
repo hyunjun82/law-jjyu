@@ -11135,14 +11135,20 @@ const VIZ_MAP: VizMap = {
     "after-0": (
       <Calculator
         title="보수월액보험료 간이 계산기"
-        description="월 보수액을 입력하면 대략적인 건강보험료를 계산해요."
-        inputs={[
-          { id: "salary", label: "월 보수액 (원)", type: "number", placeholder: "3000000" },
+        description="월 보수액을 입력하면 대략적인 건강보험료를 계산해요. 실제 보험료는 공단 산정 기준에 따라 다를 수 있어요."
+        fields={[
+          { key: "salary", label: "월 보수액", unit: "원", placeholder: "3000000", type: "number" },
         ]}
-        formula="Math.round(inputs.salary * 0.0719 / 2)"
-        resultLabel="월 본인부담 건강보험료 (약)"
-        resultUnit="원"
-        resultDescription="실제 보험료는 공단 산정 기준에 따라 다를 수 있어요."
+        results={[
+          {
+            label: "월 본인부담 건강보험료 (약)",
+            formula: (v) => {
+              const s = Number(v.salary) || 0;
+              return `${Math.round(s * 0.0719 / 2).toLocaleString()} 원`;
+            },
+            highlight: true,
+          },
+        ]}
       />
     ),
   },
