@@ -11,7 +11,6 @@ export const welfareSpokes1: SpokeArticle[] = [
     heroDescription: "질병이나 부상으로 인한 진료비 부담을 줄이기 위한 국민건강보험제도에 대해 알아봐요. 직장가입자, 피부양자, 지역가입자 등 가입 자격과 특성을 정리했어요.",
     datePublished: "2026-03-08",
     dateModified: "2026-03-08",
-    author: "생활법령 에디터",
     faq: [
       {
         question: "국민건강보험이 뭐예요?",
@@ -67,7 +66,6 @@ export const welfareSpokes1: SpokeArticle[] = [
     heroDescription: "직장에 다니거나 사업을 하면 언제부터 직장가입자가 되고, 14일 이내에 신고해야 한다는 사실을 알아봐요. 신고 방법과 기한을 정리했어요.",
     datePublished: "2026-03-08",
     dateModified: "2026-03-08",
-    author: "생활법령 에디터",
     faq: [
       {
         question: "누가 직장가입자가 되나요?",
@@ -123,7 +121,6 @@ export const welfareSpokes1: SpokeArticle[] = [
     heroDescription: "직장을 옮기거나 그만둬서 건강보험 자격이 바뀌거나 상실될 때 어떻게 해야 하는지 알아봐요. 신고 기한과 상실 사유를 정리했어요.",
     datePublished: "2026-03-08",
     dateModified: "2026-03-08",
-    author: "생활법령 에디터",
     faq: [
       {
         question: "직장가입자 자격이 변동되는 경우가 뭐예요?",
@@ -179,7 +176,6 @@ export const welfareSpokes1: SpokeArticle[] = [
     heroDescription: "직장을 그만두면 임의계속가입으로 최대 36개월까지 건강보험 가입을 유지할 수 있어요. 신청 조건과 기간을 정리했어요.",
     datePublished: "2026-03-08",
     dateModified: "2026-03-08",
-    author: "생활법령 에디터",
     faq: [
       {
         question: "임의계속가입이 뭐예요?",
@@ -235,7 +231,6 @@ export const welfareSpokes1: SpokeArticle[] = [
     heroDescription: "건강보험증 발급받고 요양기관에 제출하는 방법을 알아봐요. 자격이 없는데 사용하면 안 되는 이유와 처벌을 정리했어요.",
     datePublished: "2026-03-08",
     dateModified: "2026-03-08",
-    author: "생활법령 에디터",
     faq: [
       {
         question: "건강보험증은 언제 발급받나요?",
