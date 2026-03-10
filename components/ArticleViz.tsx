@@ -809,7 +809,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 26: 이혼 취소 사기 강박 제척기간 ──
   "이혼-취소-사기-강박-제척기간": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "이혼 취소 제척기간", value: "3개월", sub: "사기 발견일 또는 강박 탈출일 기산" },
@@ -826,7 +826,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 27: 사실혼 재산분할 청구권 소멸시효 ──
   "사실혼-재산분할-청구권-소멸시효": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "재산분할 청구 기간", value: "2년", sub: "사실혼 해소일 기산" },
@@ -905,7 +905,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 30: 협의이혼 재산합의 구속력 번복 ──
   "협의이혼-재산합의-구속력-번복": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "재산분할 청구 기간", value: "이혼 후 2년", sub: "제척기간, 연장 불가" },
@@ -965,7 +965,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 32: 협의이혼 위자료 미합의 소멸시효 ──
   "협의이혼-위자료-미합의-소멸시효": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "위자료 소멸시효", value: "3년", sub: "이혼신고일(협의이혼) 또는 판결 확정일 기산" },
@@ -1058,7 +1058,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 36: 양육비 증액·감액 사정변경 ──
   "양육비-증액-감액-사정변경": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "양육비 증감 청구", value: "횟수 제한 없음", sub: "사정 현저 변경 시 언제든 청구 가능" },
@@ -1510,7 +1510,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 9: 개인회생 변제 완료 면책 ──
   "personal-rehabilitation-discharge-completion": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "면책 신청", value: "변제 완료 후", sub: "자동 면책 아님, 별도 신청 필요" },
@@ -1760,7 +1760,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 15: 개인파산 복권 ──
   "personal-bankruptcy-reinstatement": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "자동 복권", value: "면책 확정 즉시", sub: "별도 신청 불필요" },
@@ -1791,7 +1791,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 16: 개인회생 면책 후 신용 회복 ──
   "personal-rehabilitation-post-discharge-credit": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "회생 이력 신용정보", value: "최대 5년", sub: "면책 후에도 이력 남음" },
@@ -1947,7 +1947,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 21: 개인파산 면책 후 금융거래 ──
   "personal-bankruptcy-post-discharge-finance": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "파산 이력 잔존", value: "최대 5년", sub: "면책 후에도 신용정보에 남음" },
@@ -2086,7 +2086,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 25: 담보 채무·전세보증금 ──
   "personal-rehabilitation-secured-debt": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "담보부 채무 한도", value: "15억 원 이하", sub: "개인회생 신청 가능 기준" },
@@ -2279,7 +2279,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 31: 개인회생 자동차 청산가치 ──
   "personal-rehabilitation-car-liquidation-value": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "차량 청산가치", value: "시세 - 할부 잔액", sub: "순가치가 변제금 기준에 반영" },
@@ -2310,19 +2310,19 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 32: 개인파산 비면책채권 ──
   "personal-bankruptcy-non-dischargeable-debts": {
-    "top": (
-      <StatCard
-        items={[
-          { label: "조세·공과금", value: "비면책채권", sub: "세금·벌금·과태료 전액 잔존" },
-          { label: "양육비·부양료", value: "비면책채권", sub: "자녀 생존권 채무, 면제 불가" },
-          { label: "고의 불법행위", value: "비면책채권", sub: "사기·횡령 손해배상 잔존" },
-        ]}
-      />
-    ),
     "after-0": (
-      <WarningBox type="warning" title="세금 체납은 면책 후에도 압류가 계속돼요">
-        파산 면책으로 사적 채무는 소멸하지만 국세·지방세 체납은 그대로 남아요. 면책 후에도 체납 세금이 있으면 재산 압류가 지속되므로 세금은 분납 신청 등을 통해 별도로 해결해야 해요.
-      </WarningBox>
+      <>
+        <StatCard
+          items={[
+            { label: "조세·공과금", value: "비면책채권", sub: "세금·벌금·과태료 전액 잔존" },
+            { label: "양육비·부양료", value: "비면책채권", sub: "자녀 생존권 채무, 면제 불가" },
+            { label: "고의 불법행위", value: "비면책채권", sub: "사기·횡령 손해배상 잔존" },
+          ]}
+        />
+        <WarningBox type="warning" title="세금 체납은 면책 후에도 압류가 계속돼요">
+          파산 면책으로 사적 채무는 소멸하지만 국세·지방세 체납은 그대로 남아요. 면책 후에도 체납 세금이 있으면 재산 압류가 지속되므로 세금은 분납 신청 등을 통해 별도로 해결해야 해요.
+        </WarningBox>
+      </>
     ),
     "after-3": (
       <ContactCard
@@ -2378,7 +2378,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 34: 개인회생 신용 회복 기간 ──
   "personal-rehabilitation-credit-recovery-timeline": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "개인회생 신용정보 등록", value: "최대 5년", sub: "면책 확정일 기산" },
@@ -2419,7 +2419,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 35: 개인워크아웃 무직자 소득 조건 ──
   "workout-income-jobless-condition": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "가용소득 산정 기준", value: "소득 - 최저생계비", sub: "전 가구원 합산" },
@@ -2510,7 +2510,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 38: 워크아웃 이자 감면 월 변제금 ──
   "workout-interest-relief-monthly-payment": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "이자·연체이자 감면", value: "전액 감면", sub: "워크아웃 확정 후" },
@@ -2626,7 +2626,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 41: 개인워크아웃 완료 후 신용기록 삭제 시점 ──
   "workout-credit-record-deletion": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "공공기록 최대 등록 기간", value: "5년", sub: "조정 완료 후 기산" },
@@ -2700,7 +2700,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 43: 개인워크아웃 취약계층 원금 90% 감면 조건 ──
   "workout-vulnerable-class-90percent-reduction": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "일반 상각채권 감면율", value: "최대 70%", sub: "협약 금융사 채무" },
@@ -2741,7 +2741,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 44: 프리워크아웃 이자율 인하 폭 신청 조건 ──
   "preworkout-interest-rate-reduction": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "프리워크아웃 신청 요건", value: "연체 31~89일", sub: "90일 이상이면 개인워크아웃" },
@@ -2823,7 +2823,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 46: 개인워크아웃 신청일 추심 중단 효력 ──
   "workout-enforcement-suspension-guarantor": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "추심 중단 효력 발생", value: "신청 다음날부터", sub: "정식 접수 완료 시" },
@@ -2854,7 +2854,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 47: 신용회복위원회 채무조정 신청 비용 ──
   "ccrs-debt-adjustment-fee-procedure": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "채무조정 수수료", value: "5만원", sub: "조정안 확정 후 납부" },
@@ -2932,7 +2932,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 49: 개인워크아웃 청년 성실상환 인센티브 ──
   "workout-youth-incentive-extra-reduction": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "청년 인센티브 대상", value: "만 34세 이하", sub: "신청일 기준" },
@@ -2973,7 +2973,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 50: 워크아웃 성실상환 소액대출 신청 ──
   "workout-microloan-living-expenses": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "소액대출 신청 조건", value: "6개월 성실상환", sub: "납입 공백 없이" },
@@ -3078,7 +3078,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 53: 개인워크아웃 90일 연체 상환구조 ──
   "personal-workout-90days-repayment-structure": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "적용 연체 기간", value: "90일 이상", sub: "개인워크아웃 기준" },
@@ -3181,7 +3181,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 56: 연체정보 미등록 채무 조회 방법 ──
   "no-delinquency-record-debt-check": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "내신용정보 조회", value: "무료", sub: "전국 은행연합회" },
@@ -3240,7 +3240,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 58: 채무조정 최저생계비 변제금 산정 기준 ──
   "minimum-livelihood-income-workout-apply": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "변제금 산정 기준", value: "소득 - 최저생계비", sub: "가처분 소득 범위 내" },
@@ -3540,7 +3540,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 금융금전 Article 67: 개인워크아웃 연체정보 해제 시점 기준 ──
   "workout-delinquency-release-guarantor": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "공공정보 조기 삭제", value: "1년 이상 성실 상환", sub: "신용회복위원회 신청 필요" },
@@ -3765,7 +3765,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 74: 개인회생 변제금 가처분소득·비면책 채권 ──
   "rehabilitation-repayment-disposable-income-non-exempt-claims": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "변제금 산정 공식", value: "소득 − 생계비", sub: "= 가처분소득" },
@@ -4319,7 +4319,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 91: 채무조정 일시완제 추가 원금 감면·성실상환 혜택 전체 정리 ──
   "debt-lump-payoff-extra-reduction-benefits": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "성실상환자 혜택 수", value: "6가지+", sub: "공공정보 조기해제·이자율 인하·소액카드·크레딧점프·전세보증·건보료 지원" },
@@ -4661,7 +4661,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 40: 이혼 결심·협의이혼·재판이혼 비교 ──
   "이혼결심-협의이혼-재판이혼-비교": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "협의이혼 숙려기간", value: "1~3개월", sub: "자녀 없음 1개월 / 있음 3개월" },
@@ -8079,30 +8079,30 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 71: 상가 양도소득세 장기보유특별공제 ──
   "sangga-yangsodeukse-janggiboyu-gongje": {
-    "top": (
-      <StatCard
-        items={[
-          { label: "공제 시작 보유 기간", value: "3년 이상", sub: "연 2%씩 공제 시작" },
-          { label: "최대 공제율", value: "30%", sub: "15년 이상 보유 시" },
-          { label: "연간 기본공제", value: "250만 원", sub: "양도소득에서 추가 차감" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="상가 보유 기간별 장기보유특별공제율"
-        columns={[
-          { name: "보유 기간" },
-          { name: "공제율", highlight: true },
-        ]}
-        rows={[
-          { label: "3년 이상 4년 미만", values: ["6%"] },
-          { label: "4년 이상 5년 미만", values: ["8%"] },
-          { label: "5년 이상 6년 미만", values: ["10%"] },
-          { label: "10년 이상", values: ["20%"] },
-          { label: "15년 이상", values: ["30% (최대)"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { label: "공제 시작 보유 기간", value: "3년 이상", sub: "연 2%씩 공제 시작" },
+            { label: "최대 공제율", value: "30%", sub: "15년 이상 보유 시" },
+            { label: "연간 기본공제", value: "250만 원", sub: "양도소득에서 추가 차감" },
+          ]}
+        />
+        <ComparisonTable
+          title="상가 보유 기간별 장기보유특별공제율"
+          columns={[
+            { name: "보유 기간" },
+            { name: "공제율", highlight: true },
+          ]}
+          rows={[
+            { label: "3년 이상 4년 미만", values: ["6%"] },
+            { label: "4년 이상 5년 미만", values: ["8%"] },
+            { label: "5년 이상 6년 미만", values: ["10%"] },
+            { label: "10년 이상", values: ["20%"] },
+            { label: "15년 이상", values: ["30% (최대)"] },
+          ]}
+        />
+      </>
     ),
     "after-1": (
       <ComparisonTable
@@ -8128,30 +8128,30 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 72: 상가 단기양도 중과세율 ──
   "sangga-dangigyodo-junggwaseyul": {
-    "top": (
-      <StatCard
-        items={[
-          { label: "1년 미만 보유 세율", value: "50%", sub: "중과세율 (단기 투기 억제)" },
-          { label: "1~2년 보유 세율", value: "40%", sub: "중과세율 구간" },
-          { label: "2년 이상 보유 세율", value: "기본세율", sub: "6~45% 누진세율 적용" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="상가 보유 기간별 양도소득세율 비교"
-        columns={[
-          { name: "보유 기간" },
-          { name: "세율", highlight: true },
-          { name: "비고" },
-        ]}
-        rows={[
-          { label: "1년 미만", values: ["50%", "단기 중과세율"] },
-          { label: "1년 이상 2년 미만", values: ["40%", "중과세율"] },
-          { label: "2년 이상", values: ["기본세율 (6~45%)", "누진세율 적용"] },
-          { label: "3년 이상", values: ["기본세율 + 장기보유공제", "최대 30% 추가 공제"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { label: "1년 미만 보유 세율", value: "50%", sub: "중과세율 (단기 투기 억제)" },
+            { label: "1~2년 보유 세율", value: "40%", sub: "중과세율 구간" },
+            { label: "2년 이상 보유 세율", value: "기본세율", sub: "6~45% 누진세율 적용" },
+          ]}
+        />
+        <ComparisonTable
+          title="상가 보유 기간별 양도소득세율 비교"
+          columns={[
+            { name: "보유 기간" },
+            { name: "세율", highlight: true },
+            { name: "비고" },
+          ]}
+          rows={[
+            { label: "1년 미만", values: ["50%", "단기 중과세율"] },
+            { label: "1년 이상 2년 미만", values: ["40%", "중과세율"] },
+            { label: "2년 이상", values: ["기본세율 (6~45%)", "누진세율 적용"] },
+            { label: "3년 이상", values: ["기본세율 + 장기보유공제", "최대 30% 추가 공제"] },
+          ]}
+        />
+      </>
     ),
     "after-1": (
       <WarningBox type="info" title="2년 보유 시점이 세율 전환의 핵심 기준점이에요">
@@ -8207,7 +8207,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 1: 교통사고 진단주수 합의금 계산 기준 ──
   "traffic-accident-settlement-calculation": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "합의금 구성", value: "3대 항목", sub: "위자료 + 치료비 + 휴업손해" },
@@ -8308,7 +8308,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 3: 교통사고 후유장해 등급 보험금 ──
   "traffic-accident-permanent-disability": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { label: "후유장해 보험금 산정", value: "보험금 × 장해율", sub: "보험 종류별 기준 상이" },
@@ -8386,19 +8386,19 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 5: 교통사고 보험사 합의 거부 민사소송 절차 ──
   "traffic-accident-lawsuit-procedure": {
-    "top": (
-      <StatCard
-        items={[
-          { label: "손해배상 소멸시효", value: "3년", sub: "손해·가해자를 안 날부터" },
-          { label: "소액심판 기준", value: "3,000만 원 이하", sub: "변호사 없이 진행 가능" },
-          { label: "법률 상담", value: "132 무료", sub: "법률구조공단" },
-        ]}
-      />
-    ),
     "after-0": (
-      <WarningBox type="info" title="소송 전 법률구조공단(132) 상담으로 소송 가능성을 먼저 확인하세요">
-        소송 비용(인지대+감정비+변호사비)이 추가로 받을 수 있는 금액보다 클 수 있어요. 소송 전 무료 법률 상담을 통해 소송 타당성을 먼저 판단하는 것이 좋아요.
-      </WarningBox>
+      <>
+        <StatCard
+          items={[
+            { label: "손해배상 소멸시효", value: "3년", sub: "손해·가해자를 안 날부터" },
+            { label: "소액심판 기준", value: "3,000만 원 이하", sub: "변호사 없이 진행 가능" },
+            { label: "법률 상담", value: "132 무료", sub: "법률구조공단" },
+          ]}
+        />
+        <WarningBox type="info" title="소송 전 법률구조공단(132) 상담으로 소송 가능성을 먼저 확인하세요">
+          소송 비용(인지대+감정비+변호사비)이 추가로 받을 수 있는 금액보다 클 수 있어요. 소송 전 무료 법률 상담을 통해 소송 타당성을 먼저 판단하는 것이 좋아요.
+        </WarningBox>
+      </>
     ),
     "after-1": (
       <WarningBox type="warning" title="소멸시효 3년 — 임박하면 내용증명 발송 또는 소장 제출로 시효를 중단하세요">
@@ -8479,29 +8479,29 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 75: 상가 취득세 시가표준액 계산 방법 ──
   "sangga-chwideukse-sigahaejunamaek-gyesan": {
-    "top": (
-      <StatCard
-        items={[
-          { label: "상가 취득세율", value: "4%", sub: "농특세·교육세 포함 실효세율 4.6%" },
-          { label: "취득세 신고 기한", value: "취득일부터 60일", sub: "기한 초과 시 가산세 부과" },
-          { label: "과세표준", value: "실거래가", sub: "시가표준액이 하한선으로 적용" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="상가 취득세 세율 구성"
-        columns={[
-          { name: "세목" },
-          { name: "세율", highlight: true },
-        ]}
-        rows={[
-          { label: "취득세", values: ["4.0%"] },
-          { label: "농어촌특별세", values: ["0.2%"] },
-          { label: "지방교육세", values: ["0.4%"] },
-          { label: "합계 (실효세율)", values: ["4.6%"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { label: "상가 취득세율", value: "4%", sub: "농특세·교육세 포함 실효세율 4.6%" },
+            { label: "취득세 신고 기한", value: "취득일부터 60일", sub: "기한 초과 시 가산세 부과" },
+            { label: "과세표준", value: "실거래가", sub: "시가표준액이 하한선으로 적용" },
+          ]}
+        />
+        <ComparisonTable
+          title="상가 취득세 세율 구성"
+          columns={[
+            { name: "세목" },
+            { name: "세율", highlight: true },
+          ]}
+          rows={[
+            { label: "취득세", values: ["4.0%"] },
+            { label: "농어촌특별세", values: ["0.2%"] },
+            { label: "지방교육세", values: ["0.4%"] },
+            { label: "합계 (실효세율)", values: ["4.6%"] },
+          ]}
+        />
+      </>
     ),
     "after-2": (
       <ComparisonTable
@@ -8573,7 +8573,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 6 (민형사소송): 뺑소니 무보험 정부보장사업 ──
   "traffic-accident-government-guarantee": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { value: "1억 5천만원", label: "대인 사망·후유장해 보상 한도", sub: "자동차손해배상보장법 시행령" },
@@ -8603,7 +8603,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 7 (민형사소송): 12대 중과실 형사처벌 ──
   "traffic-accident-12-serious-violations": {
-    "top": (
+    "after-0": (
       <WarningBox type="warning" title="12대 중과실 — 종합보험 가입해도 형사처벌 가능">
         신호위반·중앙선 침범·음주운전 등 12대 중과실은 교통사고처리특례법상 종합보험 면책 적용이 제외돼요. 피해자 합의 없이도 공소 제기가 가능해요.
       </WarningBox>
@@ -8659,7 +8659,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 9 (민형사소송): 사망 유족 손해배상 ──
   "traffic-accident-death-compensation": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { value: "약 1억원", label: "사망 피해자 본인 위자료", sub: "대법원 판례 기준" },
@@ -8709,7 +8709,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 11 (민형사소송): 스쿨존 교통사고 민식이법 ──
   "traffic-accident-school-zone": {
-    "top": (
+    "after-0": (
       <WarningBox type="warning" title="민식이법 — 스쿨존 어린이 사고는 종합보험 면책 불가">
         어린이보호구역 안전운전 의무 위반은 12대 중과실에 해당해요. 종합보험 가입 여부와 관계없이 형사처벌 대상이며, 상해 1~15년 또는 사망 시 무기 이상 징역이 규정돼 있어요(특가법 제5조의13).
       </WarningBox>
@@ -8739,7 +8739,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 12 (민형사소송): 음주운전 피해자 보상 ──
   "traffic-accident-drunk-driving-victim": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { value: "위자료 가산 가능", label: "음주운전 피해자 추가 보상", sub: "법원 재량, 20~50%+ 사례" },
@@ -8852,7 +8852,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 16 (민형사소송): 자동차보험 담보 비교 ──
   "traffic-accident-insurance-coverage": {
-    "top": (
+    "after-0": (
       <ComparisonTable
         title="대인배상1(의무) vs 대인배상2(임의) 비교"
         columns={[
@@ -8894,7 +8894,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 17 (민형사소송): 소멸시효 기산점 ──
   "traffic-accident-statute-limitations-start": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { value: "3년", label: "단기 소멸시효", sub: "손해·가해자를 안 날부터 (민법 제766조 제1항)" },
@@ -8922,7 +8922,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 18 (민형사소송): 후유증 뒤늦게 발견 시효 ──
   "traffic-accident-latent-injury-statute": {
-    "top": (
+    "after-0": (
       <WarningBox type="info" title="뒤늦게 발현된 후유증 — 장애 진단일부터 시효가 시작될 수 있어요">
         교통사고 후 수년 뒤 장애가 발현되면 장애를 인식한 날이 소멸시효 기산점이 될 수 있어요. 다만 사고일로부터 10년이 지나면 장기 소멸시효가 완성돼 청구가 불가능해요.
       </WarningBox>
@@ -8941,7 +8941,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 19 (민형사소송): 보험금 청구 시효 2년 ──
   "traffic-accident-insurance-claim-vs-damage-period": {
-    "top": (
+    "after-0": (
       <ComparisonTable
         title="손해배상 청구권 vs 보험금 청구권 시효 비교"
         columns={[
@@ -8972,7 +8972,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 20 (민형사소송): 10년 장기소멸시효 ──
   "traffic-accident-10year-longterm-statute": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { value: "3년", label: "단기 시효", sub: "손해·가해자를 안 날부터" },
@@ -9016,30 +9016,30 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 21 (민형사소송): 개호비 정기금 vs 일시금 ──
   "traffic-accident-nursing-care-periodical-vs-lump": {
-    "top": (
-      <StatCard
-        items={[
-          { value: "정기금", label: "여명 초과 생존 → 계속 지급", sub: "사정변경 증감 신청 가능" },
-          { value: "일시금", label: "호프만 공식 현재가치 환산", sub: "예측여명 초과 생존 시 추가청구 어려움" },
-          { value: "10년", label: "판결 확정 정기금 채권 시효", sub: "민법 제165조" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="개호비 정기금 vs 일시금 비교"
-        columns={[
-          { name: "구분" },
-          { name: "일시금" },
-          { name: "정기금", highlight: true },
-        ]}
-        rows={[
-          { label: "지급 방식", values: ["현재가치 일괄 수령", "매월/매년 지급"] },
-          { label: "여명 초과 생존", values: ["추가 청구 원칙 불가", "계속 지급"] },
-          { label: "사정변경 대응", values: ["어려움", "증감 신청 가능"] },
-          { label: "시효 구조", values: ["일반 시효 적용", "회분별 독립 (판결 시 10년)"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { value: "정기금", label: "여명 초과 생존 → 계속 지급", sub: "사정변경 증감 신청 가능" },
+            { value: "일시금", label: "호프만 공식 현재가치 환산", sub: "예측여명 초과 생존 시 추가청구 어려움" },
+            { value: "10년", label: "판결 확정 정기금 채권 시효", sub: "민법 제165조" },
+          ]}
+        />
+        <ComparisonTable
+          title="개호비 정기금 vs 일시금 비교"
+          columns={[
+            { name: "구분" },
+            { name: "일시금" },
+            { name: "정기금", highlight: true },
+          ]}
+          rows={[
+            { label: "지급 방식", values: ["현재가치 일괄 수령", "매월/매년 지급"] },
+            { label: "여명 초과 생존", values: ["추가 청구 원칙 불가", "계속 지급"] },
+            { label: "사정변경 대응", values: ["어려움", "증감 신청 가능"] },
+            { label: "시효 구조", values: ["일반 시효 적용", "회분별 독립 (판결 시 10년)"] },
+          ]}
+        />
+      </>
     ),
     "after-2": (
       <WarningBox type="info" title="정기금 판결 후에도 사정변경 시 증감 신청이 가능해요">
@@ -9084,7 +9084,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 23 (민형사소송): 보험사 구상권 청구 대응 ──
   "traffic-accident-insurance-subrogation-claim": {
-    "top": (
+    "after-0": (
       <WarningBox type="warning" title="구상금 소장을 받으면 30일 내 답변서를 반드시 제출하세요">
         답변서를 제출하지 않으면 자백간주로 처리돼 보험사 청구 금액 전액이 인용될 수 있어요. 소장 수령 즉시 답변서 제출 기한을 확인하고 대응을 시작하세요.
       </WarningBox>
@@ -9119,29 +9119,29 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 24 (민형사소송): 보험사 구상권 소멸시효 10년 ──
   "traffic-accident-subrogation-statute-10year": {
-    "top": (
-      <StatCard
-        items={[
-          { value: "3년", label: "보험금 지급일부터 단기 시효", sub: "보험자대위 구상권 기산점" },
-          { value: "10년", label: "사고일부터 장기 시효", sub: "불법행위 장기 시효 우선 완성 시 소멸" },
-          { value: "먼저 완성", label: "두 시효 중 선완성 기준", sub: "시효 완성 항변은 피고가 주장해야" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="보험사 구상권 시효 구조"
-        columns={[
-          { name: "시효 유형" },
-          { name: "기산점" },
-          { name: "기간" },
-        ]}
-        rows={[
-          { label: "단기 소멸시효", values: ["보험금 지급일", "3년"] },
-          { label: "장기 소멸시효", values: ["불법행위일(사고일)", "10년"] },
-          { label: "판결 확정 후", values: ["판결 확정일", "10년 (민법 제165조)"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { value: "3년", label: "보험금 지급일부터 단기 시효", sub: "보험자대위 구상권 기산점" },
+            { value: "10년", label: "사고일부터 장기 시효", sub: "불법행위 장기 시효 우선 완성 시 소멸" },
+            { value: "먼저 완성", label: "두 시효 중 선완성 기준", sub: "시효 완성 항변은 피고가 주장해야" },
+          ]}
+        />
+        <ComparisonTable
+          title="보험사 구상권 시효 구조"
+          columns={[
+            { name: "시효 유형" },
+            { name: "기산점" },
+            { name: "기간" },
+          ]}
+          rows={[
+            { label: "단기 소멸시효", values: ["보험금 지급일", "3년"] },
+            { label: "장기 소멸시효", values: ["불법행위일(사고일)", "10년"] },
+            { label: "판결 확정 후", values: ["판결 확정일", "10년 (민법 제165조)"] },
+          ]}
+        />
+      </>
     ),
     "after-2": (
       <WarningBox type="info" title="시효 완성 항변은 답변서에 명시적으로 주장해야 해요">
@@ -9152,30 +9152,30 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 25 (민형사소송): 음주운전 구상권·피해자 보상 ──
   "traffic-accident-drunk-driving-subrogation": {
-    "top": (
-      <StatCard
-        items={[
-          { value: "대인배상 I", label: "의무보험 — 음주 면책 불가", sub: "피해자 보호 최우선" },
-          { value: "1억 5천만원", label: "정부보장사업 대인 한도", sub: "무보험 음주사고 피해자 구제" },
-          { value: "전액 구상", label: "음주 가해자 — 보험사 구상 가능", sub: "대인배상 II 면책 해당분" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="음주운전 사고 피해자 보상 경로"
-        columns={[
-          { name: "보상 경로" },
-          { name: "조건" },
-          { name: "한도" },
-        ]}
-        rows={[
-          { label: "대인배상 I (의무보험)", values: ["항상 지급", "사망 최대 1억 5천만원"] },
-          { label: "대인배상 II (임의보험)", values: ["면책 없으면 지급", "무제한 또는 한도 선택"] },
-          { label: "정부보장사업", values: ["무보험·뺑소니 사고", "대인 최대 1억 5천만원"] },
-          { label: "무보험자동차 상해 특약", values: ["내 보험 가입 시", "특약 한도 이내"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { value: "대인배상 I", label: "의무보험 — 음주 면책 불가", sub: "피해자 보호 최우선" },
+            { value: "1억 5천만원", label: "정부보장사업 대인 한도", sub: "무보험 음주사고 피해자 구제" },
+            { value: "전액 구상", label: "음주 가해자 — 보험사 구상 가능", sub: "대인배상 II 면책 해당분" },
+          ]}
+        />
+        <ComparisonTable
+          title="음주운전 사고 피해자 보상 경로"
+          columns={[
+            { name: "보상 경로" },
+            { name: "조건" },
+            { name: "한도" },
+          ]}
+          rows={[
+            { label: "대인배상 I (의무보험)", values: ["항상 지급", "사망 최대 1억 5천만원"] },
+            { label: "대인배상 II (임의보험)", values: ["면책 없으면 지급", "무제한 또는 한도 선택"] },
+            { label: "정부보장사업", values: ["무보험·뺑소니 사고", "대인 최대 1억 5천만원"] },
+            { label: "무보험자동차 상해 특약", values: ["내 보험 가입 시", "특약 한도 이내"] },
+          ]}
+        />
+      </>
     ),
     "after-3": (
       <WarningBox type="info" title="음주운전 무보험 가해자 — 정부보장사업 창구를 이용하세요">
@@ -9255,7 +9255,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 28 (민형사소송): 미성년자·취약계층 구상권 ──
   "traffic-accident-minor-victim-subrogation": {
-    "top": (
+    "after-0": (
       <WarningBox type="warning" title="구상금 소장을 받으면 30일 내 답변서를 반드시 제출하세요">
         미성년자는 법정대리인이 대신 답변서를 제출해야 해요. 무응답 시 자백간주로 처리돼요. 소멸시효 완성, 과실 부존재, 권리남용 항변을 검토하세요.
       </WarningBox>
@@ -9285,29 +9285,29 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 29 (민형사소송): 렌터카 CDW·수리비·휴차보상료 ──
   "rentcar-cdw-repair-cost": {
-    "top": (
-      <StatCard
-        items={[
-          { value: "CDW 미가입", label: "수리비 전액 본인 부담", sub: "타차운전 특약·카드 보험 확인 필요" },
-          { value: "완전면책", label: "자기부담금 0원", sub: "타이어·휠 단독 손상은 제외 가능" },
-          { value: "휴차보상료", label: "수리일수 기준 산정", sub: "1일 대여요금 기준" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="렌터카 자차 보험 유형 비교"
-        columns={[
-          { name: "유형" },
-          { name: "자기부담금" },
-          { name: "특이사항" },
-        ]}
-        rows={[
-          { label: "CDW 미가입", values: ["수리비 전액", "타차운전 특약으로 대체 가능"] },
-          { label: "일반자차(CDW)", values: ["30만~100만원", "초과분 면책"] },
-          { label: "완전면책(Super CDW)", values: ["0원", "타이어·휠 등 일부 제외"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { value: "CDW 미가입", label: "수리비 전액 본인 부담", sub: "타차운전 특약·카드 보험 확인 필요" },
+            { value: "완전면책", label: "자기부담금 0원", sub: "타이어·휠 단독 손상은 제외 가능" },
+            { value: "휴차보상료", label: "수리일수 기준 산정", sub: "1일 대여요금 기준" },
+          ]}
+        />
+        <ComparisonTable
+          title="렌터카 자차 보험 유형 비교"
+          columns={[
+            { name: "유형" },
+            { name: "자기부담금" },
+            { name: "특이사항" },
+          ]}
+          rows={[
+            { label: "CDW 미가입", values: ["수리비 전액", "타차운전 특약으로 대체 가능"] },
+            { label: "일반자차(CDW)", values: ["30만~100만원", "초과분 면책"] },
+            { label: "완전면책(Super CDW)", values: ["0원", "타이어·휠 등 일부 제외"] },
+          ]}
+        />
+      </>
     ),
     "after-3": (
       <WarningBox type="info" title="대여·반납 시 차량 상태를 사진으로 반드시 기록하세요">
@@ -9387,29 +9387,29 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 32 (민형사소송): 격락손해·전손·수리비 재견적 ──
   "accident-depreciation-total-loss": {
-    "top": (
-      <StatCard
-        items={[
-          { value: "출고 2년 이내", label: "격락손해 10~20% 수준 인정", sub: "수리비 기준 비율" },
-          { value: "전손 처리", label: "수리비 > 차량가액 시 적용", sub: "보험개발원 기준가액 기준" },
-          { value: "재견적", label: "수리비 과다 의심 시 신청 가능", sub: "공인 감정기관 의뢰 가능" },
-        ]}
-      />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="격락손해 청구 기준 (출고 연식별)"
-        columns={[
-          { name: "출고 연식" },
-          { name: "인정 비율(수리비 기준)" },
-        ]}
-        rows={[
-          { label: "2년 이내", values: ["10~20%"] },
-          { label: "2~5년", values: ["5~10%"] },
-          { label: "5년 초과", values: ["원칙적 미인정"] },
-          { label: "프레임 손상 시", values: ["비율 상향 인정 가능"] },
-        ]}
-      />
+      <>
+        <StatCard
+          items={[
+            { value: "출고 2년 이내", label: "격락손해 10~20% 수준 인정", sub: "수리비 기준 비율" },
+            { value: "전손 처리", label: "수리비 > 차량가액 시 적용", sub: "보험개발원 기준가액 기준" },
+            { value: "재견적", label: "수리비 과다 의심 시 신청 가능", sub: "공인 감정기관 의뢰 가능" },
+          ]}
+        />
+        <ComparisonTable
+          title="격락손해 청구 기준 (출고 연식별)"
+          columns={[
+            { name: "출고 연식" },
+            { name: "인정 비율(수리비 기준)" },
+          ]}
+          rows={[
+            { label: "2년 이내", values: ["10~20%"] },
+            { label: "2~5년", values: ["5~10%"] },
+            { label: "5년 초과", values: ["원칙적 미인정"] },
+            { label: "프레임 손상 시", values: ["비율 상향 인정 가능"] },
+          ]}
+        />
+      </>
     ),
     "after-2": (
       <WarningBox type="info" title="대물 한도 초과분은 가해자에게 직접 청구해야 해요">
@@ -9455,7 +9455,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 34 (민형사소송): 횡단보도 우회전 중과실·형사처벌 ──
   "crosswalk-right-turn-pedestrian-criminal": {
-    "top": (
+    "after-0": (
       <WarningBox type="warning" title="횡단보도 우회전 사고는 종합보험이 있어도 형사처벌 대상이에요">
         보행자 신호 초록불 중 우회전 사고는 12대 중과실(신호 위반)에 해당해요. 형사처벌을 피하려면 피해자와 형사합의 또는 공탁이 필요해요.
       </WarningBox>
@@ -9548,7 +9548,7 @@ const VIZ_MAP: VizMap = {
 
   // ── Article 37 (민형사소송): 이륜차 무보험·책임보험 한도 초과 ──
   "motorcycle-uninsured-claim": {
-    "top": (
+    "after-0": (
       <StatCard
         items={[
           { value: "1억 5천만원", label: "이륜차 책임보험 대인 한도", sub: "한도 초과분 → 가해자 직접 청구" },
@@ -9685,27 +9685,27 @@ const VIZ_MAP: VizMap = {
 
   // ── 41 ──
   "parking-lot-accident-fault-ratio": {
-    "top": (
-      <StatCard items={[
-        { label: "후진 차량 기본 과실", value: "70%", sub: "통로 주행 차량 30%" },
-        { label: "정차 중 추돌 피해자 과실", value: "0%", sub: "법원 판례 기준" },
-        { label: "CCTV 영상 보존 기간", value: "30~90일", sub: "즉시 보전 요청 필요" },
-      ]} />
-    ),
     "after-0": (
-      <ComparisonTable
-        title="주차장 사고 상황별 기본 과실비율"
-        columns={[
-          { name: "사고 상황" },
-          { name: "후진·가해 차량" },
-          { name: "피해 차량" },
-        ]}
-        rows={[
-          { label: "후진 출차 × 통로 주행", values: ["70%", "30%"] },
-          { label: "후진 출차 × 정차 중", values: ["90~100%", "0~10%"] },
-          { label: "통로 주행 × 주차 중 차량", values: ["80%", "20%"] },
-        ]}
-      />
+      <>
+        <StatCard items={[
+          { label: "후진 차량 기본 과실", value: "70%", sub: "통로 주행 차량 30%" },
+          { label: "정차 중 추돌 피해자 과실", value: "0%", sub: "법원 판례 기준" },
+          { label: "CCTV 영상 보존 기간", value: "30~90일", sub: "즉시 보전 요청 필요" },
+        ]} />
+        <ComparisonTable
+          title="주차장 사고 상황별 기본 과실비율"
+          columns={[
+            { name: "사고 상황" },
+            { name: "후진·가해 차량" },
+            { name: "피해 차량" },
+          ]}
+          rows={[
+            { label: "후진 출차 × 통로 주행", values: ["70%", "30%"] },
+            { label: "후진 출차 × 정차 중", values: ["90~100%", "0~10%"] },
+            { label: "통로 주행 × 주차 중 차량", values: ["80%", "20%"] },
+          ]}
+        />
+      </>
     ),
     "after-1": (
       <WarningBox type="info" title="아파트 단지 내 도로도 도로교통법이 적용될 수 있어요">
@@ -9726,15 +9726,15 @@ const VIZ_MAP: VizMap = {
 
   // ── 42 ──
   "parking-lot-no-cctv-evidence-claim": {
-    "top": (
-      <WarningBox type="warning" title="CCTV·블랙박스 없으면 쌍방과실로 처리될 수 있어요">
-        증거가 없으면 보험사는 쌍방과실로 처리하려는 경향이 있어요. 사고 즉시 CCTV 보전 요청이 핵심이에요.
-      </WarningBox>
-    ),
     "after-0": (
-      <WarningBox type="info" title="비접촉 사고는 인과관계 입증이 핵심이에요">
-        상대 차량의 행동이 사고의 직접 원인임을 블랙박스 영상이나 목격자 진술로 입증해야 해요. 입증 없이는 보상을 받기 어려워요.
-      </WarningBox>
+      <>
+        <WarningBox type="warning" title="CCTV·블랙박스 없으면 쌍방과실로 처리될 수 있어요">
+          증거가 없으면 보험사는 쌍방과실로 처리하려는 경향이 있어요. 사고 즉시 CCTV 보전 요청이 핵심이에요.
+        </WarningBox>
+        <WarningBox type="info" title="비접촉 사고는 인과관계 입증이 핵심이에요">
+          상대 차량의 행동이 사고의 직접 원인임을 블랙박스 영상이나 목격자 진술로 입증해야 해요. 입증 없이는 보상을 받기 어려워요.
+        </WarningBox>
+      </>
     ),
     "after-1": (
       <ProcessTimeline
@@ -9759,17 +9759,17 @@ const VIZ_MAP: VizMap = {
 
   // ── 43 ──
   "parking-lot-100-0-fault-claim": {
-    "top": (
-      <StatCard items={[
-        { label: "정차 중 추돌 피해자 과실", value: "0%", sub: "법원 판례 기준" },
-        { label: "분쟁심의위원회 처리 기간", value: "30~90일", sub: "무료 신청 가능" },
-        { label: "CCTV 영상 보존 기간", value: "30~90일", sub: "사고 즉시 보전 요청" },
-      ]} />
-    ),
     "after-0": (
-      <WarningBox type="warning" title="보험사 쌍방과실 주장에 동의하지 않아도 돼요">
-        정차 중 추돌 사고에서 피해자 과실은 0%가 원칙이에요. 보험사 결정은 최종이 아니므로 분쟁심의위원회에 이의를 제기할 수 있어요.
-      </WarningBox>
+      <>
+        <StatCard items={[
+          { label: "정차 중 추돌 피해자 과실", value: "0%", sub: "법원 판례 기준" },
+          { label: "분쟁심의위원회 처리 기간", value: "30~90일", sub: "무료 신청 가능" },
+          { label: "CCTV 영상 보존 기간", value: "30~90일", sub: "사고 즉시 보전 요청" },
+        ]} />
+        <WarningBox type="warning" title="보험사 쌍방과실 주장에 동의하지 않아도 돼요">
+          정차 중 추돌 사고에서 피해자 과실은 0%가 원칙이에요. 보험사 결정은 최종이 아니므로 분쟁심의위원회에 이의를 제기할 수 있어요.
+        </WarningBox>
+      </>
     ),
     "after-1": (
       <ProcessTimeline
@@ -9800,20 +9800,20 @@ const VIZ_MAP: VizMap = {
 
   // ── 44 ──
   "luxury-car-parking-accident-repair-overcharge": {
-    "top": (
-      <WarningBox type="warning" title="수리 전 파손 부위를 반드시 사진으로 기록하세요">
-        수리 전 파손 사진이 없으면 이번 사고와 무관한 손상까지 수리비로 청구해도 반박이 어려워요. 사고 직후 촬영이 필수예요.
-      </WarningBox>
-    ),
     "after-0": (
-      <ProcessTimeline
-        steps={[
-          { step: "1", title: "수리 항목 상세 확인", desc: "파손 부위와 무관한 항목 체크" },
-          { step: "2", title: "보험사에 재견적 요청", desc: "서면(문자·이메일)으로 요청" },
-          { step: "3", title: "독립 차량 감정사 의뢰", desc: "적정 수리비 감정서 수령" },
-          { step: "4", title: "분쟁심의위원회 조정 신청", desc: "이의 있을 경우 무료 신청" },
-        ]}
-      />
+      <>
+        <WarningBox type="warning" title="수리 전 파손 부위를 반드시 사진으로 기록하세요">
+          수리 전 파손 사진이 없으면 이번 사고와 무관한 손상까지 수리비로 청구해도 반박이 어려워요. 사고 직후 촬영이 필수예요.
+        </WarningBox>
+        <ProcessTimeline
+          steps={[
+            { step: "1", title: "수리 항목 상세 확인", desc: "파손 부위와 무관한 항목 체크" },
+            { step: "2", title: "보험사에 재견적 요청", desc: "서면(문자·이메일)으로 요청" },
+            { step: "3", title: "독립 차량 감정사 의뢰", desc: "적정 수리비 감정서 수령" },
+            { step: "4", title: "분쟁심의위원회 조정 신청", desc: "이의 있을 경우 무료 신청" },
+          ]}
+        />
+      </>
     ),
     "after-1": (
       <ComparisonTable
@@ -9844,17 +9844,17 @@ const VIZ_MAP: VizMap = {
 
   // ── 45 ──
   "highway-falling-object-road-corp-claim": {
-    "top": (
-      <StatCard items={[
-        { label: "국가배상 신청 기간", value: "60일", sub: "지구심의회 결정 기간" },
-        { label: "지구심의회 단독 결정 기준", value: "3천만 원 이하", sub: "초과 시 본부 심의" },
-        { label: "피해자 과실 인정 범위", value: "10~30%", sub: "과속·전방 주시 태만 시" },
-      ]} />
-    ),
     "after-0": (
-      <WarningBox type="info" title="도로공사 순찰 기록이 배상 책임 입증의 핵심이에요">
-        낙하물이 얼마나 오래 도로에 있었는지가 배상 책임 인정의 핵심이에요. 도로순찰 기록을 확인해서 관리 부실을 입증하세요.
-      </WarningBox>
+      <>
+        <StatCard items={[
+          { label: "국가배상 신청 기간", value: "60일", sub: "지구심의회 결정 기간" },
+          { label: "지구심의회 단독 결정 기준", value: "3천만 원 이하", sub: "초과 시 본부 심의" },
+          { label: "피해자 과실 인정 범위", value: "10~30%", sub: "과속·전방 주시 태만 시" },
+        ]} />
+        <WarningBox type="info" title="도로공사 순찰 기록이 배상 책임 입증의 핵심이에요">
+          낙하물이 얼마나 오래 도로에 있었는지가 배상 책임 인정의 핵심이에요. 도로순찰 기록을 확인해서 관리 부실을 입증하세요.
+        </WarningBox>
+      </>
     ),
     "after-1": (
       <AccordionChecklist
