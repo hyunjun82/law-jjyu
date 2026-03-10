@@ -1,8 +1,8 @@
 {
-  "_comment": "slug -> easylaw.go.kr URL 매핑. csmSeq: 233=이혼, 234=상속",
+  "_comment": "slug -> easylaw.go.kr URL 매핑. csmSeq: 233=이혼, 255=상속, 234=유언",
   "_toc": {
     "이혼": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=1&cciNo=1&cnpClsNo=1",
-    "상속": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=234&ccfNo=1&cciNo=1&cnpClsNo=1",
+    "상속": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=1&cciNo=1&cnpClsNo=1",
     "국민건강보험(직장가입자)": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1063&ccfNo=1&cciNo=1&cnpClsNo=1"
   },
   "협의이혼-절차-서류-이혼숙려기간": [
@@ -244,5 +244,92 @@
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=1&cciNo=1&cnpClsNo=1",
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=1&cciNo=2&cnpClsNo=1",
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=1&cciNo=2&cnpClsNo=2"
+  ],
+  "national-health-insurance-regional-subscriber-target": [
+    "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1141&ccfNo=1&cciNo=1&cnpClsNo=1"
+  ],
+  "health-insurance-regional-subscriber-qualification": [
+    "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1141&ccfNo=2&cciNo=1&cnpClsNo=1"
+  ],
+  "health-insurance-regional-qualification-change": [
+    "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1141&ccfNo=2&cciNo=1&cnpClsNo=2"
+  ],
+  "sangsokpogi-seoryu-mokrok-gajeonbeopwon-singyo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=4&cnpClsNo=1"
+  ],
+  "hanjeongseugin-singyo-seoryu-jaesanmokrok": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=3&cnpClsNo=1"
+  ],
+  "hanjeongseugin-sangsokpogi-chai-husunwi-bigyo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=1&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=3&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=4&cnpClsNo=1"
+  ],
+  "teukbyeol-hanjeongseugin-singyo-yogeon": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=3&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=2&cnpClsNo=1"
+  ],
+  "sangsokse-gichocongje-iljalgongje-baeujaigongje": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=1"
+  ],
+  "sangsokse-seyul-guwon-gyesan-gwasepyojun": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=1"
+  ],
+  "sangsokse-singyo-gihan-misingo-gasanse": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=1"
+  ],
+  "yurubun-hwanwancheongu-somelsiyo-saengjeon-jeungyeo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=6&cciNo=1&cnpClsNo=1"
+  ],
+  "yurubun-biyul-jikyebisok-baeuija-hyeongje": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=6&cciNo=1&cnpClsNo=1"
+  ],
+  "beopjeong-sangsoksunwi-baeuija-janyeo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=2"
+  ],
+  "baeuija-dandoksangsok-yogeon-hobeom": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=2"
+  ],
+  "sangsokdeunggi-seoryu-mokrok-cwiduksesingo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=1&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=2"
+  ],
+  "sangsokdeunggi-hyeobuibunhal-ingamjeungmyeong": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=1&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=3&cnpClsNo=2"
+  ],
+  "sangsok-bunhalhyeobuiseo-jakseong-bangbeop": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=3&cnpClsNo=2"
+  ],
+  "sangsok-bunhalhyeobuiseo-gongjeon-ingam": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=3&cnpClsNo=2"
+  ],
+  "daesup-sangsok-yogeon-sonjanyeo-gyeolgyeok": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=2&cciNo=1&cnpClsNo=2"
+  ],
+  "giyeobun-injeonggijun-sangsok-bunhal": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=2&cnpClsNo=3"
+  ],
+  "sangsok-chaemubeomwi-bozeungchaeumu-goyujaesan": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=1&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=4&cciNo=1&cnpClsNo=1"
+  ],
+  "sangsok-jaesan-johoe-geumyunggeorare": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=1&cciNo=1&cnpClsNo=3",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=1&cnpClsNo=1"
+  ],
+  "yueunjang-jongryu-hyoryeok-japiljeungseo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=234&ccfNo=1&cciNo=1&cnpClsNo=1"
+  ],
+  "sangsokse-yeonbuyeonnam-singyo-mulnam": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=7&cciNo=2&cnpClsNo=1"
+  ],
+  "miseongnyeonja-sangsok-teukbyeoldaeriin": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=1&cnpClsNo=1"
+  ],
+  "sangsok-hoebokcheonggugwon-chamching-soson": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=255&ccfNo=3&cciNo=4&cnpClsNo=1"
   ]
 }
