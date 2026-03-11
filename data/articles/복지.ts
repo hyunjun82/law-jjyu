@@ -3,6 +3,7 @@ import { welfareSpokes1 } from "./welfare-spokes-1";
 import { welfareSpokes2 } from "./welfare-spokes-2";
 import { welfareSpokes3 } from "./welfare-spokes-3";
 import { welfareSpokes4 } from "./welfare-spokes-4";
+import { welfareSpokes5 } from "./welfare-spokes-5";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -10,6 +11,7 @@ const allSpokes: SpokeArticle[] = [
   ...welfareSpokes2,
   ...welfareSpokes3,
   ...welfareSpokes4,
+  ...welfareSpokes5,
 ];
 
 // ── Hub Article ──
