@@ -10165,30 +10165,82 @@ const VIZ_MAP: VizMap = {
   // ── 근로노동: Article 10 ──
   "산재-부분휴업급여-저소득-고령자-재요양-특례": {
     "after-0": (
-      <RangeTable
-        title="고령자 휴업급여 감액 비율"
-        rowHeader="나이"
-        colHeaders={[
-          { label: "지급 비율 (기본 70% 대비)" },
-        ]}
-        rows={[
-          { range: "60세 이하", values: ["100% (70/70)"], highlight: true },
-          { range: "61세", values: ["94% (66/70)"] },
-          { range: "62세", values: ["89% (62/70)"] },
-          { range: "63세", values: ["83% (58/70)"] },
-          { range: "64세", values: ["77% (54/70)"] },
-          { range: "65세 이후", values: ["71% (50/70)"] },
-        ]}
-      />
-    ),
-    "after-2": (
       <StatCard
         items={[
           { label: "부분휴업급여 공식", value: "(평균임금 − 실제임금) × 90%" },
-          { label: "저소득 기준", value: "평균임금 70% < 최저보상기준 80%" },
-          { label: "저소득 지급", value: "평균임금의 90%" },
+          { label: "계산 예시", value: "평균임금 10만원, 4시간 근무 36,000원 → 부분휴업 12,600원 + 미취업 35,000원 = 47,600원" },
+          { label: "신청 방법", value: "부분휴업급여청구서 + 부분취업내역신고서 → 근로복지공단" },
         ]}
       />
+    ),
+    "after-1": (
+      <EligibilityChecker
+        title="저소득 근로자 휴업급여 특례 해당 여부"
+        description="내 평균임금 기준으로 저소득 특례(90% 상향)를 받을 수 있는지 확인하세요."
+        questions={[
+          { id: "q1", text: "1일 평균임금의 70%가 66,048원 이하인가요? (2026년 기준)", yesNext: "q2", noResult: "no" },
+          { id: "q2", text: "재요양 기간이 아닌 최초 요양 또는 일반 요양 중인가요?", yesNext: "q3", noResult: "no-reyoyang" },
+          { id: "q3", text: "현재 산재보험 요양 승인을 받은 상태인가요?", yesResult: "yes", noResult: "apply" },
+        ]}
+        results={{
+          "yes": { eligible: true, message: "저소득 근로자 특례 대상이에요. 평균임금의 90%를 휴업급여로 받을 수 있어요. 다만 90%가 66,048원을 넘으면 66,048원이 지급돼요." },
+          "no": { eligible: false, message: "평균임금의 70%가 66,048원을 초과하면 일반 휴업급여(70%) 대상이에요. 저소득 특례는 해당되지 않아요." },
+          "no-reyoyang": { eligible: false, message: "재요양 기간에는 저소득 근로자 특례(90% 상향)가 적용되지 않아요. 평균임금의 70% 기준으로 산정돼요." },
+          "apply": { eligible: false, message: "먼저 근로복지공단(☎ 1588-0075)에 산재 신청을 해야 해요. 산재 승인 후 저소득 특례가 자동 적용돼요." },
+        }}
+      />
+    ),
+    "after-2": (
+      <RangeTable
+        title="고령자 휴업급여 감액 비율 (61세부터)"
+        rowHeader="나이"
+        colHeaders={[
+          { label: "일반 (70% 기준)" },
+          { label: "저소득 (90% 기준)" },
+        ]}
+        rows={[
+          { range: "60세 이하", values: ["100% (70/70)", "100% (90/90)"], highlight: true },
+          { range: "61세", values: ["94% (66/70)", "96% (86/90)"] },
+          { range: "62세", values: ["89% (62/70)", "91% (82/90)"] },
+          { range: "63세", values: ["83% (58/70)", "87% (78/90)"] },
+          { range: "64세", values: ["77% (54/70)", "82% (74/90)"] },
+          { range: "65세 이후", values: ["71% (50/70)", "78% (70/90)"] },
+        ]}
+      />
+    ),
+    "after-3": (
+      <>
+        <AccordionChecklist
+          groups={[
+            {
+              title: "부분휴업급여 청구 시 필요 서류",
+              items: [
+                "부분휴업급여청구서 (보상업무처리규정 별지 제9호서식)",
+                "부분취업내역신고서 (별지 제10호서식)",
+                "의사 소견서 (취업해도 치유 지연·악화 없음 확인)",
+              ],
+            },
+            {
+              title: "재요양 휴업급여 청구 시 필요 서류",
+              items: [
+                "재요양 신청서",
+                "재요양이 필요하다는 진단서 또는 소견서",
+                "휴업급여청구서",
+              ],
+            },
+          ]}
+        />
+        <ContactCard
+          items={[
+            {
+              name: "근로복지공단",
+              phone: "1588-0075",
+              url: "https://www.comwel.or.kr",
+              description: "산재보험 급여 청구·상담 (온라인: total.comwel.or.kr)",
+            },
+          ]}
+        />
+      </>
     ),
   },
 
