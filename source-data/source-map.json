@@ -4128,5 +4128,125 @@
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-02-15",
     "verified": false
+  },
+  "insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=1"],
+    "sourceFile": "2588-3-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=2"],
+    "sourceFile": "2588-3-2-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "insurance-policy-withdrawal-15days-30days-limit-cancellation-refund": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-policy-withdrawal-15days-30days-limit-cancellation-refund",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "2588-4-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "insurance-contract-void-grounds-minor-consent-premium-default-termination": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-contract-void-grounds-minor-consent-premium-default-termination",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=2"],
+    "sourceFile": "2588-4-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=2&cnpClsNo=1"],
+    "sourceFile": "2588-4-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "insurance-financial-dispute-mediation-committee-consumer-agency-selection": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-financial-dispute-mediation-committee-consumer-agency-selection",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "2588-5-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=2"],
+    "sourceFile": "2588-5-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "daily-construction-worker-definition-3months-continuous-employment": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/daily-construction-worker-definition-3months-continuous-employment",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "1002-1-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "daily-construction-worker-worknet-job-search-fake-ad-reporting": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/daily-construction-worker-worknet-job-search-fake-ad-reporting",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=2&cnpClsNo=1"],
+    "sourceFile": "1002-1-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "construction-daily-worker-2026-minimum-wage-contractor-joint-liability": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/construction-daily-worker-2026-minimum-wage-contractor-joint-liability",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "1002-2-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "construction-daily-worker-weekly-40hrs-daily-8hrs-overtime-approval": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/construction-daily-worker-weekly-40hrs-daily-8hrs-overtime-approval",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=2"],
+    "sourceFile": "1002-2-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
+  },
+  "construction-daily-worker-written-contract-mandatory-items-prohibited-clauses": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/construction-daily-worker-written-contract-mandatory-items-prohibited-clauses",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=2&cnpClsNo=1"],
+    "sourceFile": "1002-2-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-02-15",
+    "verified": false
   }
 }

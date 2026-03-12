@@ -670,5 +670,41 @@
   ],
   "life-insurance-death-disability-payment-grounds-medical-indemnity-coverage": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=2"
+  ],
+  "daily-construction-worker-definition-3months-continuous-employment": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=1&cnpClsNo=1"
+  ],
+  "daily-construction-worker-worknet-job-search-fake-ad-reporting": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=2&cnpClsNo=1"
+  ],
+  "construction-daily-worker-2026-minimum-wage-contractor-joint-liability": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=1"
+  ],
+  "construction-daily-worker-weekly-40hrs-daily-8hrs-overtime-approval": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=2"
+  ],
+  "construction-daily-worker-written-contract-mandatory-items-prohibited-clauses": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=2&cnpClsNo=1"
+  ],
+  "insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=1"
+  ],
+  "insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=2"
+  ],
+  "insurance-policy-withdrawal-15days-30days-limit-cancellation-refund": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=1"
+  ],
+  "insurance-contract-void-grounds-minor-consent-premium-default-termination": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=2"
+  ],
+  "insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=2&cnpClsNo=1"
+  ],
+  "insurance-financial-dispute-mediation-committee-consumer-agency-selection": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=1"
+  ],
+  "insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=2"
   ]
 }

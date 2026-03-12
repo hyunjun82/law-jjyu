@@ -1,4 +1,5 @@
 import { HubArticle, SpokeArticle } from "@/lib/types";
+import { dailyWorkerSpokes1 } from "./일용직-spokes-1";
 import { workerCompSpokes1 } from "./worker-comp-spokes-1";
 import { workerCompSpokes2 } from "./worker-comp-spokes-2";
 import { workerCompSpokes3 } from "./worker-comp-spokes-3";
@@ -11,6 +12,7 @@ import { workerCompSpokes9 } from "./worker-comp-spokes-9";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
+  ...dailyWorkerSpokes1,
   ...workerCompSpokes1,
   ...workerCompSpokes2,
   ...workerCompSpokes3,
