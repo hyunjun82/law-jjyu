@@ -49,7 +49,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
       },
       {
         title: "법률지원과 추심지원은 어떻게 다른가요?",
-        content: `<p>이행관리원이 제공하는 지원은 두 가지로 나뉘어요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">구분</th><th style="padding:8px;text-align:left">내용</th><th style="padding:8px;text-align:left">근거</th></tr></thead><tbody><tr><td style="padding:8px">법률지원</td><td style="padding:8px">소송 대리 등 집행권원 확보 지원</td><td style="padding:8px">제11조제2항, 제18조제1항</td></tr><tr><td style="padding:8px">추심지원</td><td style="padding:8px">채무자 재산에 대한 실제 추심 지원</td><td style="padding:8px">제11조제2항, 제19조제1항</td></tr></tbody></table></p>
+        content: `<p>집행권원이 있는지 없는지에 따라 신청할 지원이 달라요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">구분</th><th style="padding:8px;text-align:left">내용</th><th style="padding:8px;text-align:left">근거</th></tr></thead><tbody><tr><td style="padding:8px">법률지원</td><td style="padding:8px">소송 대리 등 집행권원 확보 지원</td><td style="padding:8px">제11조제2항, 제18조제1항</td></tr><tr><td style="padding:8px">추심지원</td><td style="padding:8px">채무자 재산에 대한 실제 추심 지원</td><td style="padding:8px">제11조제2항, 제19조제1항</td></tr></tbody></table></p>
 
 <p>집행권원이 있는 경우에는 추심지원을 바로 신청하면 돼요. 반면 집행권원이 없다면 법률지원으로 소송을 먼저 진행해야 해요. 판결문·조정조서·공정증서처럼 강제집행 근거가 되는 문서가 집행권원이에요.</p>
 
@@ -61,7 +61,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
 
 <p>다만, 상대방 재산이 없거나 파악하기 어려운 경우에는 이행관리원 추심지원이 더 유리할 수 있어요. 이행관리원은 재산 조회 등 추심에 필요한 절차를 직접 진행해줘요.</p>
 
-<p>강제집행과 추심지원을 함께 활용해도 돼요. 이행관리원에 추심지원을 맡기면서 동시에 법원에 강제집행을 신청할 수 있어요. 상대방 재산 상황에 따라 가장 효과적인 방법을 선택하세요.</p>`,
+<p>두 가지를 동시에 활용하는 것도 가능해요. 이행관리원(www.childsupport.or.kr)에 추심지원을 신청하면서, 법원 전자민원센터(efamily.scourt.go.kr)에 강제집행도 따로 신청하세요. 상대방 재산 상황에 따라 더 빠른 쪽으로 양육비를 받을 수 있어요.</p>`,
       },
     ],
   },
@@ -105,9 +105,9 @@ export const childSupportSpokes2: SpokeArticle[] = [
     sections: [
       {
         title: "양육비 선지급이란 어떤 제도인가요?",
-        content: `<p>양육비 선지급은 채무자가 양육비를 내지 않을 때 이행관리원이 대신 먼저 지급해주는 제도예요. 요건을 모두 충족한 경우에 이행관리원의 장에게 선지급을 신청할 수 있어요(「양육비 이행확보 및 지원에 관한 법률」 제21조의6제1항). 선지급 금액은 양육비 전부 또는 일부예요.</p>
+        content: `<p>당장 생활비가 부족한데 채무자가 안 내고 있다면 이행관리원에 선지급을 신청하세요. 이행관리원이 채무자 대신 양육비 전부 또는 일부를 먼저 지급해줘요(「양육비 이행확보 및 지원에 관한 법률」 제21조의6제1항). 요건을 모두 충족하면 이행관리원의 장에게 신청할 수 있어요.</p>
 
-<p>다만, 선지급은 모든 양육비 채권자가 받을 수 있는 것은 아니에요. 이행관리원이 정한 요건에 모두 해당해야 하고, 심사를 거쳐야 해요. 신청 전에 이행관리원(www.childsupport.or.kr)에 상담을 먼저 받아보는 걸 권해요.</p>
+<p>모든 양육비 채권자가 받을 수 있는 건 아니에요. 이행관리원이 정한 요건에 모두 해당해야 하고, 심사를 거쳐야 해요. 신청 전에 이행관리원(www.childsupport.or.kr)에 상담을 먼저 받아보는 걸 권해요.</p>
 
 <p>이행관리원은 선지급 후 채무자에게 구상권을 행사해요. 신청인은 이행관리원으로부터 먼저 받고, 이후 채무자 추심은 이행관리원이 담당해요.</p>`,
       },
@@ -121,11 +121,11 @@ export const childSupportSpokes2: SpokeArticle[] = [
       },
       {
         title: "선지급이 거절되면 다른 방법은 무엇이 있나요?",
-        content: `<p>선지급 신청 요건을 충족하지 못한 경우에도 이행관리원에서 다른 지원을 받을 수 있어요. 법률지원·추심지원·강제집행 지원 등 여러 방법이 있어요(「양육비 이행확보 및 지원에 관한 법률」 제11조제2항 및 제19조제1항).</p>
+        content: `<p>선지급 요건을 충족하지 못해도 양육비를 받을 방법은 있어요. 법률지원·추심지원·강제집행 지원 등을 이행관리원에서 받을 수 있어요(「양육비 이행확보 및 지원에 관한 법률」 제11조제2항 및 제19조제1항).</p>
 
-<p>다만, 강제집행을 신청하려면 집행권원이 필요해요. 판결문·조정조서 등 집행권원이 없다면 법률지원으로 소송을 먼저 진행해야 해요. 이행관리원에 상담하면 상황에 맞는 방법을 안내받을 수 있어요.</p>
+<p>강제집행을 신청하려면 집행권원이 필요해요. 판결문·조정조서 등이 없다면 법률지원으로 소송을 먼저 진행해야 해요. 직접지급명령·담보제공명령·이행명령 등 법원 절차도 활용할 수 있어요.</p>
 
-<p>선지급 외에 양육비 직접지급명령·담보제공명령·이행명령 등 법원 절차도 활용할 수 있어요. 이행관리원(www.childsupport.or.kr)에서 가장 적합한 방법을 확인하세요.</p>`,
+<p>이행관리원(www.childsupport.or.kr)에 상담을 신청해서 본인 상황에 맞는 방법을 확인하세요. 법원 전자민원센터(efamily.scourt.go.kr)에서 각종 신청서 양식도 받을 수 있어요.</p>`,
       },
     ],
   },
@@ -170,11 +170,11 @@ export const childSupportSpokes2: SpokeArticle[] = [
     sections: [
       {
         title: "양육비 의무를 어기면 어떤 과태료를 받나요?",
-        content: `<p>법원 명령을 정당한 이유 없이 어기면 가정법원은 1천만원 이하 과태료를 부과할 수 있어요(「가사소송법」 제67조제1항). 과태료 부과 대상은 세 가지예요.</p>
+        content: `<p>법원 명령을 정당한 이유 없이 어기면 가정법원이 1천만원 이하 과태료를 부과해요(「가사소송법」 제67조제1항). 과태료는 법원이 직권으로 부과하거나 권리자의 신청에 따라 결정으로 내려요.</p>
 
-<p>다만, 다음 세 가지 위반 행위 중 하나에 해당할 때만 과태료 부과가 가능해요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">위반 행위</th><th style="padding:8px;text-align:left">근거</th></tr></thead><tbody><tr><td style="padding:8px">소득세원천징수의무자가 직접지급명령 위반</td><td style="padding:8px">「가사소송법」 제63조의2제1항</td></tr><tr><td style="padding:8px">채무자가 담보제공명령 위반</td><td style="padding:8px">「가사소송법」 제63조의3제1항·제2항</td></tr><tr><td style="padding:8px">채무자가 이행명령 위반</td><td style="padding:8px">「가사소송법」 제64조</td></tr></tbody></table></p>
+<p>과태료 부과 대상이 되는 위반 행위는 아래 세 가지예요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">위반 행위</th><th style="padding:8px;text-align:left">근거</th></tr></thead><tbody><tr><td style="padding:8px">소득세원천징수의무자가 직접지급명령 위반</td><td style="padding:8px">「가사소송법」 제63조의2제1항</td></tr><tr><td style="padding:8px">채무자가 담보제공명령 위반</td><td style="padding:8px">「가사소송법」 제63조의3제1항·제2항</td></tr><tr><td style="padding:8px">채무자가 이행명령 위반</td><td style="padding:8px">「가사소송법」 제64조</td></tr></tbody></table></p>
 
-<p>과태료는 법원이 직권으로 부과하거나 권리자의 신청에 따라 결정으로 내려요. 불이행 사실이 확인되면 바로 부과돼요.</p>`,
+<p>불이행 사실이 확인되면 바로 부과돼요. 과태료 신청서는 법원 전자민원센터(efamily.scourt.go.kr)에서 양식을 받을 수 있어요.</p>`,
       },
       {
         title: "3기 이상 이행명령을 어기면 감치명령이 내려지나요?",
@@ -190,7 +190,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
 
 <p>이 외에도 감치명령을 받은 채무자는 운전면허 정지·출국금지·명단공개 처분을 추가로 받을 수 있어요. 제재는 단계적으로 강해지는 구조예요.</p>
 
-<p>양육비 채무자에 대한 제재 절차는 이행명령 → 과태료·감치 → 형사처벌 순서로 진행돼요. 감치명령 신청서 양식은 대한민국 법원 전자민원센터(efamily.scourt.go.kr)에서 확인할 수 있어요. 이행관리원 홈페이지(www.childsupport.or.kr)에서 서류 안내와 상담 신청도 가능해요.</p>`,
+<p>제재 절차는 이행명령 → 과태료·감치 → 형사처벌 순서로 강해져요. 감치명령 신청서 양식은 법원 전자민원센터(efamily.scourt.go.kr)에서 받으세요. 이행관리원(www.childsupport.or.kr)에 상담을 신청하면 신청서 작성과 제출 절차를 안내받을 수 있어요.</p>`,
       },
     ],
   },
@@ -205,7 +205,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
     metaDescription:
       "양육비를 3천만원 이상 미지급하거나 3기 이상 이행하지 않으면 운전면허가 정지돼요. 2024.9.27 시행, 생계 예외 조건·철회 방법을 안내합니다.",
     description:
-      "2024년 9월부터 양육비 채무자 운전면허 정지가 시행됐어요. 3천만원 이상 미지급 또는 3기 이상 미이행이면 대상이에요. 조건·예외·철회 방법을 이 글에 정리했어요.",
+      "2024년 9월부터 양육비 채무자 운전면허 정지가 시행됐어요. 미이행 3천만원 이상 또는 3기 이상이면 대상이고, 생계 수단 예외도 있어요. 정지 조건 세 가지, 생계 예외 판단 기준, 전액 납부 후 철회 절차까지 이 글 하나에 정리했어요.",
     heroDescription:
       "상대방이 양육비를 수천만원씩 안 내고 있나요? 2024년 9월부터 운전면허 정지가 가능해졌어요. 조건·예외·이행 후 철회까지 찾기쉬운 생활법령정보를 바탕으로 정리했어요.",
     datePublished: "2026-03-12",
@@ -235,9 +235,9 @@ export const childSupportSpokes2: SpokeArticle[] = [
     sections: [
       {
         title: "2024년 9월 27일부터 운전면허 정지가 가능해진 이유는 무엇인가요?",
-        content: `<p>2024년 9월 27일 이후 이행명령 결정을 받은 채무자부터 운전면허 정지 처분이 적용돼요(「양육비이행확보법」 부칙 제3조). 그 이전에 이행명령을 받은 경우에는 적용되지 않아요.</p>
+        content: `<p>양육비를 안 내는 채무자에게 실질적 압박을 주기 위해 운전면허 정지 제도가 도입됐어요. 2024년 9월 27일 이후 이행명령 결정을 받은 채무자부터 적용되고(「양육비이행확보법」 부칙 제3조), 그 이전에 이행명령을 받은 경우에는 해당되지 않아요.</p>
 
-<p>다만, 운전면허 정지는 채권자가 직접 경찰에 요청하는 게 아니에요. 성평등가족부장관이 위원회 심의를 거쳐 지방경찰청장에게 요청하는 방식이에요. 근거는 법 제21조의3제1항 본문과 「양육비이행확보법 시행령」 제17조의2제1항이에요.</p>
+<p>운전면허 정지는 채권자가 직접 경찰에 요청하는 게 아니에요. 성평등가족부장관이 위원회 심의를 거쳐 지방경찰청장에게 요청하는 방식이에요(법 제21조의3제1항, 「양육비이행확보법 시행령」 제17조의2제1항).</p>
 
 <p>지방경찰청장은 성평등가족부장관의 요청을 정당한 사유 없이 거부할 수 없어요(법 제21조의3제2항). 정지 처분이 완료되면 결과를 성평등가족부장관에게 통보해야 해요.</p>`,
       },
@@ -255,7 +255,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
 
 <p>다만, 전액이 아닌 일부만 이행한 경우에는 철회가 이루어지지 않아요. 운전면허 정지 해제를 원한다면 양육비 전액을 납부해야 해요.</p>
 
-<p>운전면허 정지는 출국금지·명단공개와 함께 중복으로 처분받을 수 있어요. 철회 신청서 등 관련 서류 안내는 이행관리원 홈페이지(www.childsupport.or.kr)에서, 법원 관련 서식은 법원 전자민원센터(efamily.scourt.go.kr)에서 확인하세요.</p>`,
+<p>운전면허 정지는 출국금지·명단공개와 중복으로 처분받을 수 있어요. 이행명령 신청서는 <a href="https://efamily.scourt.go.kr">법원 전자민원센터</a>에서 받을 수 있고, 운전면허 정지 관련 상담은 <a href="https://www.childsupport.or.kr">양육비이행관리원</a>(☎ 1644-6621, 평일 09:00~18:00)에 신청하세요.</p>`,
       },
     ],
   },
@@ -300,9 +300,9 @@ export const childSupportSpokes2: SpokeArticle[] = [
     sections: [
       {
         title: "2024년 9월 27일부터 양육비 채무자 출국금지가 가능해진 이유는 무엇인가요?",
-        content: `<p>2024년 9월 27일 이후 이행명령 결정을 받은 채무자부터 출국금지 제재가 적용돼요(「양육비이행확보법」 부칙 제4조). 그 이전에 이행명령을 받은 경우에는 적용되지 않아요.</p>
+        content: `<p>양육비를 안 내고 해외로 도피하는 걸 막기 위해 출국금지 제도가 도입됐어요. 2024년 9월 27일 이후 이행명령 결정을 받은 채무자부터 적용되고(「양육비이행확보법」 부칙 제4조), 그 이전에 이행명령을 받은 경우에는 해당되지 않아요.</p>
 
-<p>다만, 출국금지는 채권자가 직접 요청할 수 없어요. 성평등가족부장관이 위원회 심의를 거쳐 법무부장관에게 요청하는 방식이에요(법 제21조의4제1항, 「양육비이행확보법 시행령」 제17조의3제1항).</p>
+<p>출국금지는 채권자가 직접 요청하는 방식이 아니에요. 성평등가족부장관이 위원회 심의를 거쳐 법무부장관에게 요청해요(법 제21조의4제1항, 「양육비이행확보법 시행령」 제17조의3제1항).</p>
 
 <p>법무부장관은 출국금지 후 성평등가족부장관에게 그 결과를 통보해야 해요(법 제21조의4제2항). 출국금지는 「출입국관리법」 제4조제1항제5호·제3항에 따라 이루어져요.</p>`,
       },
@@ -320,7 +320,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
 
 <p>다만, 완전한 이행이 아니더라도 도피 우려가 없는 불가피한 사유가 있으면 해제를 요청할 수 있어요(「양육비이행확보법 시행령」 제17조의3제3항). 인정되는 사유는 다음과 같아요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">해제 요청 가능 사유</th></tr></thead><tbody><tr><td style="padding:8px">국외건설계약·수출신용장·합작사업 계약 등 구체적 사업계획</td></tr><tr><td style="padding:8px">국외 거주 직계존비속 사망</td></tr><tr><td style="padding:8px">본인 신병 치료 등 불가피한 사유</td></tr></tbody></table></p>
 
-<p>출국금지 해제 신청서 등 관련 서류는 이행관리원 홈페이지(www.childsupport.or.kr)에서 안내받을 수 있어요. 법원 관련 양식은 법원 전자민원센터(efamily.scourt.go.kr)를 이용하세요.</p>`,
+<p>출국금지 관련 상담은 이행관리원(www.childsupport.or.kr)에 신청하세요. 해제 요청에 필요한 서류도 이행관리원에서 안내받을 수 있어요. 법원 관련 양식은 전자민원센터(efamily.scourt.go.kr)에서 받으세요.</p>`,
       },
     ],
   },
@@ -365,9 +365,9 @@ export const childSupportSpokes2: SpokeArticle[] = [
     sections: [
       {
         title: "양육비 채무 불이행자 명단이 어떻게 3년간 공개되나요?",
-        content: `<p>2024년 9월 27일 이후 이행명령 결정을 받은 채무자부터 명단공개 제재가 적용돼요(「양육비이행확보법」 부칙 제5조). 성평등가족부장관은 채권자 신청에 따라 위원회 심의를 거쳐 채무자 정보를 공개할 수 있어요. 근거는 법 제21조의5제1항 본문과 「양육비이행확보법 시행령」 제17조의4제1항이에요.</p>
+        content: `<p>양육비를 계속 안 내는 채무자의 성명·주소·채무액을 공개할 수 있어요. 2024년 9월 27일 이후 이행명령 결정을 받은 채무자부터 적용되고(「양육비이행확보법」 부칙 제5조), 성평등가족부장관이 채권자 신청과 위원회 심의를 거쳐 결정해요(법 제21조의5제1항, 「양육비이행확보법 시행령」 제17조의4제1항).</p>
 
-<p>다만, 다음 세 가지 중 하나에 해당해야 명단공개 대상이 돼요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">공개 대상</th><th style="padding:8px;text-align:left">공개 정보</th></tr></thead><tbody><tr><td style="padding:8px">일시금 30일 이내 미이행</td><td style="padding:8px" rowspan="3">성명·나이·직업·주소(도로명·건물번호)·채무불이행기간·채무액</td></tr><tr><td style="padding:8px">미이행 양육비 3천만원 이상</td></tr><tr><td style="padding:8px">정기 지급 이행명령 후 3기 이상 미이행</td></tr></tbody></table></p>
+<p>아래 세 가지 중 하나에 해당하면 명단공개 대상이 돼요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">공개 대상</th><th style="padding:8px;text-align:left">공개 정보</th></tr></thead><tbody><tr><td style="padding:8px">일시금 30일 이내 미이행</td><td style="padding:8px" rowspan="3">성명·나이·직업·주소(도로명·건물번호)·채무불이행기간·채무액</td></tr><tr><td style="padding:8px">미이행 양육비 3천만원 이상</td></tr><tr><td style="padding:8px">정기 지급 이행명령 후 3기 이상 미이행</td></tr></tbody></table></p>
 
 <p>공개 방식은 성평등가족부·이행관리원 홈페이지 게시 또는 언론 제공이에요(법 제21조의5제3항). 공개 기간은 공개일부터 3년이에요(「양육비이행확보법 시행령」 제17조의4제2항).</p>`,
       },
@@ -377,7 +377,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
 
 <p>다음 중 하나에 해당하는 경우에는 명단공개에서 제외돼요(법 제21조의5제1항 단서 및 「양육비이행확보법 시행령」 제17조의4제3항).<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">제외 사유</th></tr></thead><tbody><tr><td style="padding:8px">채무자가 사망하거나 실종선고를 받은 경우</td></tr><tr><td style="padding:8px">채무액의 50% 이상 이행 + 나머지 이행계획 제출 후 위원회가 인정한 경우</td></tr><tr><td style="padding:8px">채무자가 회생절차개시 결정 또는 파산선고를 받은 경우</td></tr><tr><td style="padding:8px">위원회가 공개할 실효성이 없다고 인정하는 경우</td></tr></tbody></table></p>
 
-<p>소명 기회에서 제외 사유를 증명하면 명단공개를 막을 수 있어요. 소명 기간은 최소 10일이에요.</p>`,
+<p>소명 기간(최소 10일) 안에 제외 사유를 증명하는 서류를 제출하면 명단공개를 막을 수 있어요. 이행관리원(www.childsupport.or.kr)에 상담하면 소명 절차를 안내받을 수 있어요.</p>`,
       },
       {
         title: "명단공개를 신청하려면 어떤 서류가 필요한가요?",
@@ -385,7 +385,7 @@ export const childSupportSpokes2: SpokeArticle[] = [
 
 <p>필요한 서류는 다음과 같아요. 다만, 상황에 따라 추가 서류가 필요할 수 있으니 이행관리원에 확인하세요.<table><thead><tr style="background:#f3f4f6"><th style="padding:8px;text-align:left">필요 서류</th></tr></thead><tbody><tr><td style="padding:8px">법원의 일시금 지급명령 또는 이행명령 결정에 관한 서류</td></tr><tr><td style="padding:8px">양육비 채무액 관련 서류(판결·심판·양육비부담조서 등)</td></tr><tr><td style="padding:8px">채무자가 시행령 제17조의4제1항 각 호에 해당함을 증명하는 서류</td></tr></tbody></table></p>
 
-<p>신청서 양식은 성평등가족부 홈페이지(www.mogef.go.kr)에서 받을 수 있어요. 이행관리원(www.childsupport.or.kr)에 먼저 상담하면 신청서 작성과 제출 절차를 안내받을 수 있어요.</p>`,
+<p>신청서 양식은 성평등가족부 홈페이지(www.mogef.go.kr)에서 받으세요. 작성이 어려우면 이행관리원(www.childsupport.or.kr)에 상담을 신청해서 작성과 제출 절차를 안내받으세요.</p>`,
       },
     ],
   },

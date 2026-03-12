@@ -5412,6 +5412,372 @@ const VIZ_MAP: VizMap = {
     ),
   },
 
+  // ── Article 64: 재산분할 비율 기여도 | 혼인기간별 기여분 산정 ──
+  "재산분할-비율-기여도-혼인기간": {
+    "after-0": (
+      <ComparisonTable
+        title="혼인기간별 분할 비율 기준"
+        columns={[
+          { name: "혼인 기간" },
+          { name: "기여도 인정 경향", highlight: true },
+        ]}
+        rows={[
+          { label: "5년 미만", values: ["각자 기여도에 따라 개별 산정"] },
+          { label: "5~10년", values: ["30~40% (비소득 배우자 기준)"] },
+          { label: "10~20년", values: ["40~50%"] },
+          { label: "20년 이상", values: ["50% 이상 (균등 분할 경향)"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <WarningBox type="warning" title="기여도 입증이 관건이에요">
+        재판에서 기여도는 서류로 입증해야 해요. 가사노동·육아도 기여로 인정되지만, 혼인 기간 중 가사 분담 내역·소득 증빙 자료를 미리 정리해 두세요.
+      </WarningBox>
+    ),
+    "after-3": (
+      <ContactCard
+        contacts={[
+          {
+            name: "대한법률구조공단",
+            phone: "132",
+            url: "https://www.klac.or.kr",
+            description: "재산분할 무료 법률 상담",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 65: 비양육부모 양육비 지급 의무 | 과거 양육비 소급 청구 ──
+  "child-support-nonresident-parent-obligation-past-claim-retroactive": {
+    "after-0": (
+      <EligibilityChecker
+        questions={[
+          { question: "미성년 자녀(만 19세 미만)가 있나요?" },
+          { question: "이혼 후 상대방이 양육비를 지급하지 않고 있나요?" },
+          { question: "양육비 합의 또는 법원 결정 없이 혼자 양육비를 부담하고 있나요?" },
+        ]}
+        passMessage="과거 양육비 소급 청구가 가능해요. 양육비이행관리원(1644-6621)에 상담하세요."
+        failMessage="조건을 다시 확인해 보세요. 양육비이행관리원(1644-6621)에서 상세 상담 받을 수 있어요."
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "양육비 상담·협의지원·법률지원",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 66: 양육비 합의 방법 | 법원 결정·변경 ──
+  "child-support-parental-agreement-court-determination-modification": {
+    "after-0": (
+      <ComparisonTable
+        title="양육비 결정 방법 비교"
+        columns={[
+          { name: "부모 합의" },
+          { name: "법원 결정", highlight: true },
+        ]}
+        rows={[
+          { label: "소요 기간", values: ["당사자 합의 즉시", "수개월~1년"] },
+          { label: "비용", values: ["공정증서 비용 (수만 원)", "소송비용 + 변호사비"] },
+          { label: "강제력", values: ["공정증서 있으면 강제집행 가능", "판결·조서로 강제집행 가능"] },
+          { label: "변경 방법", values: ["합의 또는 법원 심판", "사정변경 심판 청구"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "양육비 합의 지원·공증 안내",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 67: 양육비이행관리원 역할·서비스·우선지원 대상 ──
+  "child-support-agency-role-service-priority-target-application": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "이행관리원 주요 서비스",
+            items: [
+              "양육비 협의 성립 지원",
+              "양육비 관련 법률지원 (소송대리)",
+              "양육비 채권 추심지원",
+              "양육비 긴급 선지급",
+              "면접교섭권 이행 지원",
+            ],
+          },
+          {
+            title: "우선지원 대상 (심사 없이 즉시 서비스)",
+            items: [
+              "국민기초생활보장 수급자",
+              "한부모가족 지원대상자",
+              "긴급복지 지원대상자",
+              "차상위계층",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "온라인 상담 신청 가능 (평일 09:00~18:00)",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 68: 이행관리원 협의지원·면접교섭·공정증서 ──
+  "child-support-agency-agreement-support-visitation-notarization": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "상담 신청", desc: "양육비이행관리원 온라인 또는 전화(1644-6621) 신청" },
+          { step: "2", title: "협의 지원", desc: "상담원이 상대방 연락·합의 조율" },
+          { step: "3", title: "합의 성립", desc: "양육비 금액·지급 방법·기간 합의" },
+          { step: "4", title: "공정증서 작성", desc: "합의 내용을 공증사무소에서 공정증서로 작성 (강제집행력 확보)" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "협의지원 신청 (온라인 가능)",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 69: 이행관리원 법률지원·소송·인지청구·강제집행 ──
+  "child-support-agency-legal-aid-lawsuit-acknowledgment-enforcement": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "법률지원 신청", desc: "이행관리원에 법률지원 신청서 제출" },
+          { step: "2", title: "자격 심사", desc: "우선지원 대상 여부 확인·소송 필요성 검토" },
+          { step: "3", title: "소송 진행", desc: "양육비 청구 소송 또는 인지 청구 소송 대리" },
+          { step: "4", title: "판결·조서 확보", desc: "법원 결정으로 집행권원 확보" },
+          { step: "5", title: "강제집행", desc: "급여 압류·재산 압류 등 강제 추심" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "법률지원 신청",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 70: 양육비 채권 추심지원 신청 서류 ──
+  "child-support-debt-collection-support-application-documents": {
+    "after-0": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "추심지원 신청 시 필요 서류",
+            items: [
+              "추심지원 신청서",
+              "집행권원 사본 (판결문·조서·공정증서)",
+              "송달증명원",
+              "집행문 부여증명원",
+              "신청인 신분증 사본",
+              "양육비 미지급 확인 자료 (입금 내역 등)",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "추심지원 신청 (온라인 가능)",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 71: 양육비 선지급 신청 방법 | 이행관리원 ──
+  "child-support-advance-payment-150pct-income-monthly-20万": {
+    "after-0": (
+      <EligibilityChecker
+        questions={[
+          { question: "집행권원(판결문·조서·공정증서)이 있나요?" },
+          { question: "양육비 채무자가 양육비를 지급하지 않고 있나요?" },
+          { question: "가구 소득이 중위소득 150% 이하인가요?" },
+        ]}
+        passMessage="양육비 선지급 대상이에요. 월 최대 20만 원까지 지원받을 수 있어요."
+        failMessage="일부 조건이 충족되지 않을 수 있어요. 이행관리원(1644-6621)에 자세히 문의하세요."
+      />
+    ),
+    "after-1": (
+      <StatCard
+        items={[
+          { label: "선지급 한도", value: "월 20만 원", sub: "자녀 1인당" },
+          { label: "소득 기준", value: "중위소득 150%", sub: "가구원 수별 상이" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "선지급 신청 (온라인 가능)",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 72: 양육비 미지급 과태료·감치명령·형사처벌 ──
+  "child-support-nonpayment-fine-detention-order-penalty": {
+    "after-0": (
+      <ComparisonTable
+        title="양육비 미지급 시 제재 단계"
+        columns={[
+          { name: "제재 유형" },
+          { name: "내용", highlight: true },
+        ]}
+        rows={[
+          { label: "이행명령 위반 과태료", values: ["1회 1천만 원 이하"] },
+          { label: "감치명령", values: ["30일 이내 유치장 감치"] },
+          { label: "형사처벌", values: ["2년 이하 징역 또는 2천만 원 이하 벌금"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "이행명령·감치명령 신청 지원",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 73: 양육비 미지급 운전면허 정지 ──
+  "child-support-nonpayment-drivers-license-suspension-revocation": {
+    "after-0": (
+      <EligibilityChecker
+        questions={[
+          { question: "양육비 채무자가 정당한 사유 없이 3기 이상 양육비를 미지급했나요?" },
+          { question: "이행명령이 확정되었나요?" },
+          { question: "양육비이행관리원에 이행명령 이행확보 신청을 했나요?" },
+        ]}
+        passMessage="운전면허 정지 요청이 가능해요. 이행관리원에서 경찰청에 정지 요청을 해요."
+        failMessage="조건을 확인해 주세요. 이행관리원(1644-6621)에서 상세 안내받을 수 있어요."
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "운전면허 정지 요청 상담",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 74: 양육비 미지급 출국금지 ──
+  "child-support-nonpayment-exit-ban-request-condition-release": {
+    "after-0": (
+      <EligibilityChecker
+        questions={[
+          { question: "양육비 채무자가 정당한 사유 없이 3기 이상 양육비를 미지급했나요?" },
+          { question: "양육비 채무자가 해외 출국으로 양육비 이행을 회피할 우려가 있나요?" },
+          { question: "집행권원(판결문·조서·공정증서)이 있나요?" },
+        ]}
+        passMessage="출국금지 요청 대상이에요. 이행관리원을 통해 법무부에 출국금지를 요청할 수 있어요."
+        failMessage="조건을 확인해 주세요. 이행관리원(1644-6621)에서 상세 안내받을 수 있어요."
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "출국금지 요청 상담",
+          },
+        ]}
+      />
+    ),
+  },
+
+  // ── Article 75: 양육비 채무 불이행자 명단공개 ──
+  "child-support-defaulter-name-disclosure-application-exclusion": {
+    "after-0": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "명단공개 신청", desc: "양육비이행관리원에 명단공개 신청서 제출" },
+          { step: "2", title: "소명 기회 부여", desc: "채무자에게 30일간 소명 기회 (양육비 납부 시 제외)" },
+          { step: "3", title: "명단공개 결정", desc: "여성가족부 심의·결정" },
+          { step: "4", title: "3년간 명단공개", desc: "여성가족부·이행관리원 홈페이지에 3년간 게시" },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "양육비이행관리원",
+            phone: "1644-6621",
+            url: "https://www.childsupport.or.kr",
+            description: "명단공개 신청 상담",
+          },
+        ]}
+      />
+    ),
+  },
+
   // ── 부동산임대차 Article 1: 상가 환산보증금 서울 지역별 ──
   "sangga-hwansan-bojeunggeum-jiyeokbyeol": {
     top: (
