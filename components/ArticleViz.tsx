@@ -10231,7 +10231,7 @@ const VIZ_MAP: VizMap = {
           ]}
         />
         <ContactCard
-          items={[
+          contacts={[
             {
               name: "근로복지공단",
               phone: "1588-0075",
