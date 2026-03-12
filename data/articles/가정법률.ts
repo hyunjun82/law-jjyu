@@ -14,6 +14,7 @@ import { inheritanceSpokes3 } from "./inheritance-spokes-3";
 import { inheritanceSpokes4 } from "./inheritance-spokes-4";
 import { inheritanceSpokes5 } from "./inheritance-spokes-5";
 import { childSupportSpokes1 } from "./child-support-spokes-1";
+import { childSupportSpokes2 } from "./child-support-spokes-2";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -32,6 +33,7 @@ const allSpokes: SpokeArticle[] = [
   ...inheritanceSpokes4,
   ...inheritanceSpokes5,
   ...childSupportSpokes1,
+  ...childSupportSpokes2,
 ];
 
 // ── Hub Article ──
