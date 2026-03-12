@@ -635,5 +635,40 @@
   ],
   "child-support-agency-legal-aid-lawsuit-acknowledgment-enforcement": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+  ],
+  "child-support-debt-collection-support-application-documents": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+  ],
+  "child-support-advance-payment-150pct-income-monthly-20万": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+  ],
+  "child-support-nonpayment-fine-detention-order-penalty": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=1"
+  ],
+  "child-support-nonpayment-drivers-license-suspension-revocation": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=2"
+  ],
+  "child-support-nonpayment-exit-ban-request-condition-release": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=3"
+  ],
+  "child-support-defaulter-name-disclosure-application-exclusion": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=4"
+  ],
+
+  "_2588_보험계약자": "https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=2588",
+  "insurance-protection-savings-type-difference-parties-roles": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=1&cciNo=1&cnpClsNo=1"
+  ],
+  "insurance-renewable-nonrenewable-premium-pros-cons-channel-selection": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=2&cciNo=1&cnpClsNo=1"
+  ],
+  "special-building-fire-insurance-30days-mandatory-auto-liability-penalty": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=2&cciNo=1&cnpClsNo=3"
+  ],
+  "insurance-accident-notification-duty-delay-claim-processing-steps": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=1"
+  ],
+  "life-insurance-death-disability-payment-grounds-medical-indemnity-coverage": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=2"
   ]
 }
