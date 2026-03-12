@@ -10181,19 +10181,13 @@ const VIZ_MAP: VizMap = {
     ),
     "after-1": (
       <EligibilityChecker
-        title="저소득 근로자 휴업급여 특례 해당 여부"
-        description="내 평균임금 기준으로 저소득 특례(90% 상향)를 받을 수 있는지 확인하세요."
         questions={[
-          { id: "q1", text: "1일 평균임금의 70%가 66,048원 이하인가요? (2026년 기준)", yesNext: "q2", noResult: "no" },
-          { id: "q2", text: "재요양 기간이 아닌 최초 요양 또는 일반 요양 중인가요?", yesNext: "q3", noResult: "no-reyoyang" },
-          { id: "q3", text: "현재 산재보험 요양 승인을 받은 상태인가요?", yesResult: "yes", noResult: "apply" },
+          { question: "1일 평균임금의 70%가 66,048원(2026년 최저보상기준금액의 80%) 이하인가요?" },
+          { question: "재요양 기간이 아닌 최초 요양 또는 일반 요양 중인가요?" },
+          { question: "현재 산재보험 요양 승인을 받은 상태인가요?" },
         ]}
-        results={{
-          "yes": { eligible: true, message: "저소득 근로자 특례 대상이에요. 평균임금의 90%를 휴업급여로 받을 수 있어요. 다만 90%가 66,048원을 넘으면 66,048원이 지급돼요." },
-          "no": { eligible: false, message: "평균임금의 70%가 66,048원을 초과하면 일반 휴업급여(70%) 대상이에요. 저소득 특례는 해당되지 않아요." },
-          "no-reyoyang": { eligible: false, message: "재요양 기간에는 저소득 근로자 특례(90% 상향)가 적용되지 않아요. 평균임금의 70% 기준으로 산정돼요." },
-          "apply": { eligible: false, message: "먼저 근로복지공단(☎ 1588-0075)에 산재 신청을 해야 해요. 산재 승인 후 저소득 특례가 자동 적용돼요." },
-        }}
+        passMessage="저소득 근로자 특례 대상이에요. 평균임금의 90%를 휴업급여로 받을 수 있어요."
+        failMessage="일부 조건이 충족되지 않아요. 근로복지공단(☎ 1588-0075)에 문의하세요."
       />
     ),
     "after-2": (
