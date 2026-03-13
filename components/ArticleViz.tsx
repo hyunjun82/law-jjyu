@@ -11705,6 +11705,207 @@ const VIZ_MAP: VizMap = {
       </WarningBox>
     ),
   },
+
+  // ── 근로노동: 실업급여 ──
+  "gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan": {
+    "top": (
+      <EligibilityChecker
+        questions={[
+          { question: "퇴사 전 18개월 내 피보험 단위기간이 180일 이상인가요?", helpText: "모르겠으면 아래 계산기로 확인해 보세요" },
+          { question: "비자발적 퇴사(해고, 권고사직, 계약만료) 또는 정당한 사유가 있나요?", helpText: "임금체불, 괴롭힘, 건강 문제 등도 정당한 사유에 해당해요" },
+          { question: "현재 취업하지 않은 상태인가요?" },
+          { question: "재취업을 위한 구직활동 의사가 있나요?" },
+        ]}
+        passMessage="구직급여 수급자격 요건을 갖추고 있어요! 고용센터(☎ 1350)에 실업신고를 하세요."
+        failMessage="일부 요건이 충족되지 않았어요. 고용센터(☎ 1350)에 전화해서 상담받아 보세요."
+      />
+    ),
+    "after-1": (
+      <Calculator
+        title="피보험 단위기간 계산기"
+        description="대략적인 추정치예요. 정확한 일수는 고용보험 홈페이지(www.ei.go.kr) → 피보험자격 이력 조회에서 확인하세요."
+        fields={[
+          { key: "workDays", label: "주 근무일수", type: "select", options: [
+            { label: "주 5일", value: "5" },
+            { label: "주 6일", value: "6" },
+          ], defaultValue: "5" },
+          { key: "paidHoliday", label: "유급 주휴일 (주당)", type: "select", options: [
+            { label: "1일 (일반적)", value: "1" },
+            { label: "2일", value: "2" },
+            { label: "0일 (없음)", value: "0" },
+          ], defaultValue: "1" },
+          { key: "months", label: "근무 개월수", unit: "개월", placeholder: "7", type: "number" },
+        ]}
+        results={[
+          {
+            label: "예상 피보험 단위기간",
+            formula: (v) => {
+              const days = Math.round((Number(v.workDays) + Number(v.paidHoliday)) * 4.33 * Number(v.months));
+              return `약 ${days.toLocaleString()}일`;
+            },
+            highlight: false,
+          },
+          {
+            label: "180일 충족 여부",
+            formula: (v) => {
+              const days = Math.round((Number(v.workDays) + Number(v.paidHoliday)) * 4.33 * Number(v.months));
+              if (days >= 180) return `충족 (${days - 180}일 여유)`;
+              return `미달 (${180 - days}일 부족)`;
+            },
+            highlight: true,
+          },
+        ]}
+      />
+    ),
+  },
+
+  "jajintoeusa-sileopgeubyeo-sugeuP-sayu": {
+    "top": (
+      <ComparisonTable
+        title="정당한 이직 사유 한눈에 보기"
+        columns={[
+          { name: "2개월 이상 반복 필요" },
+          { name: "한 번이라도 해당", highlight: true },
+        ]}
+        rows={[
+          { label: "임금체불", values: ["퇴사 전 1년 내 2개월 이상", false] },
+          { label: "최저임금 미달", values: ["퇴사 전 1년 내 2개월 이상", false] },
+          { label: "근로조건 변경", values: ["채용 시와 달라진 지 2개월 이상", false] },
+          { label: "연장근로 위반", values: ["2개월 이상 발생", false] },
+          { label: "휴업 평균임금 70% 미만", values: ["2개월 이상 발생", false] },
+          { label: "직장 내 괴롭힘·성희롱", values: [false, "즉시 인정"] },
+          { label: "사업장 도산·폐업", values: [false, "즉시 인정"] },
+          { label: "통근 왕복 3시간 이상", values: [false, "즉시 인정"] },
+          { label: "건강 문제 (휴직 거부)", values: [false, "즉시 인정"] },
+          { label: "출산·육아 휴가 거부", values: [false, "즉시 인정"] },
+          { label: "계약 만료·정년 도래", values: [false, "즉시 인정"] },
+          { label: "권고사직·희망퇴직", values: [false, "즉시 인정"] },
+        ]}
+      />
+    ),
+    "after-2": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "임금체불 증빙",
+            items: [
+              "급여명세서 (체불 기간 포함)",
+              "통장 입금내역 (급여 미입금 확인)",
+              "근로계약서 사본",
+            ],
+          },
+          {
+            title: "직장 내 괴롭힘 증빙",
+            items: [
+              "녹취파일 또는 녹음본",
+              "문자·카카오톡 캡처",
+              "사내 신고 접수증 (있으면)",
+              "목격자 진술서 (있으면)",
+            ],
+          },
+          {
+            title: "성희롱·성폭력 증빙",
+            items: [
+              "신고 접수증",
+              "상담 기록",
+              "증인 진술서",
+            ],
+          },
+          {
+            title: "건강 문제 증빙",
+            items: [
+              "의사 소견서 (\"업무 수행 곤란\" 기재)",
+              "진단서",
+              "휴직 요청·거부 기록 (있으면)",
+            ],
+          },
+          {
+            title: "통근 3시간 이상 증빙",
+            items: [
+              "사업장 이전 또는 전근 통보서",
+              "출퇴근 경로 지도 캡처 (네이버·카카오맵)",
+            ],
+          },
+          {
+            title: "권고사직·희망퇴직 증빙",
+            items: [
+              "사직 권고서 또는 사직 통보 이메일·문자",
+              "이직확인서 (이직 사유: 권고사직 기재 확인)",
+            ],
+          },
+          {
+            title: "계약 만료 증빙",
+            items: [
+              "근로계약서 (계약기간 명시 확인)",
+            ],
+          },
+        ]}
+      />
+    ),
+  },
+
+  "sileopgeubyeo-sileop-singo-goyongsenteo": {
+    "top": (
+      <ProcessTimeline
+        steps={[
+          { step: "1", title: "워크넷 구직신청 (온라인)", desc: "www.work.go.kr에서 온라인 구직신청. 10분이면 끝나요. 이걸 안 하면 고용센터에서 접수 안 받아요." },
+          { step: "2", title: "고용센터 방문 (수급자격 인정신청)", desc: "신분증, 통장 사본, 워크넷 구직신청 완료 화면을 들고 거주지 관할 고용센터에 방문하세요." },
+          { step: "3", title: "수급자격증 발급 (1~2주)", desc: "수급자격이 인정되면 수급자격증을 발급받고 실업인정일을 지정받아요." },
+          { step: "4", title: "실업인정일 출석 (1~4주마다)", desc: "지정된 날짜에 고용센터에 출석해서 구직활동을 보고해야 급여를 받아요." },
+        ]}
+      />
+    ),
+    "after-1": (
+      <AccordionChecklist
+        groups={[
+          {
+            title: "기본 준비물 (필수)",
+            items: [
+              "신분증 (주민등록증, 운전면허증 등)",
+              "본인 명의 통장 사본",
+              "워크넷 구직신청 완료 화면 (캡처 또는 출력)",
+            ],
+          },
+          {
+            title: "자진퇴사인 경우 (정당한 사유 증빙)",
+            items: [
+              "임금체불: 급여명세서 + 통장 입금내역",
+              "괴롭힘: 녹취파일, 문자·카톡 캡처",
+              "건강 문제: 의사 소견서, 진단서",
+              "통근 3시간: 지도 캡처, 전근 통보서",
+            ],
+          },
+          {
+            title: "사업주에게 미리 요청할 것",
+            items: [
+              "이직확인서 제출 요청 (사업주 → 고용센터 직접 제출)",
+              "피보험 단위기간 확인 자료 요청",
+            ],
+          },
+        ]}
+      />
+    ),
+    "after-2": (
+      <ContactCard
+        contacts={[
+          {
+            name: "고용센터 (고용노동부)",
+            description: "실업신고, 수급자격 인정신청, 실업인정",
+            phone: "1350",
+            hours: "평일 09:00~18:00",
+            url: "https://www.ei.go.kr",
+            urlLabel: "고용보험 홈페이지 (고용센터 찾기)",
+          },
+          {
+            name: "워크넷",
+            description: "온라인 구직신청 (고용센터 방문 전 필수)",
+            url: "https://www.work.go.kr",
+            urlLabel: "워크넷 바로가기",
+          },
+        ]}
+      />
+    ),
+  },
 };
 
 // ─── 렌더러 ───

@@ -70,7 +70,7 @@
     "placePatterns": ["법원", "구청", "주민센터", "공단", "센터", "사무소", "시청", "동사무소", "보건소", "건강보험공단", "국민연금", "근로복지공단", "고용노동부", "교육청", "복지관", "상담소", "경찰서", "검찰청", "세무서"],
     "documentPatterns": ["신청서", "증명서", "등본", "서류", "신분증", "진단서", "확인서", "동의서", "협의서", "결정문", "판결문", "조서", "정본"],
     "contactPatterns": ["\\d{4}-\\d{4}", "1\\d{3}-\\d{4}", "\\d{2,3}-\\d{3,4}-\\d{4}", "온라인\\s*신청", "인터넷\\s*신청", "홈페이지"],
-    "linkWhitelist": ["gov.kr", "efamily.scourt.go.kr", "easylaw.go.kr", "0404.go.kr", "nhis.or.kr", "nps.or.kr", "klac.or.kr"],
+    "linkWhitelist": ["gov.kr", "go.kr", "efamily.scourt.go.kr", "easylaw.go.kr", "0404.go.kr", "nhis.or.kr", "nps.or.kr", "klac.or.kr"],
     "actionWords": ["신청", "방문", "전화", "제출", "확인", "홈페이지", "접수", "출력", "문의", "연락", "상담"]
   },
 
