@@ -4248,5 +4248,50 @@
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-02-15",
     "verified": false
+  },
+  "dismissal-vs-resignation-employment-termination-difference-effective-date": {
+    "categorySlug": "근로노동",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "514-1-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (WebFetch)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "labor-standards-act-dismissal-grounds-procedure-scope-unfair-dismissal-remedy": {
+    "categorySlug": "근로노동",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=2"],
+    "sourceFile": "514-1-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (WebFetch)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "dismissal-ban-labor-law-report-retaliation-sexual-harassment-victim-protection": {
+    "categorySlug": "근로노동",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "514-3-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (WebFetch)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "dismissal-ban-work-injury-recovery-maternity-leave-parental-leave-protection": {
+    "categorySlug": "근로노동",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "514-4-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (WebFetch)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "advance-dismissal-notice-30days-obligation-notice-pay-exemption-grounds": {
+    "categorySlug": "근로노동",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=1"],
+    "sourceFile": "514-4-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (WebFetch)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
   }
 }
