@@ -9,6 +9,8 @@ import { workerCompSpokes6 } from "./worker-comp-spokes-6";
 import { workerCompSpokes7 } from "./worker-comp-spokes-7";
 import { workerCompSpokes8 } from "./worker-comp-spokes-8";
 import { workerCompSpokes9 } from "./worker-comp-spokes-9";
+import { dismissalSpokes1 } from "./dismissal-spokes-1";
+import { unemploymentSpokes1 } from "./unemployment-spokes-1";
 
 // ── 모든 spoke 합본 ──
 const allSpokes: SpokeArticle[] = [
@@ -22,6 +24,8 @@ const allSpokes: SpokeArticle[] = [
   ...workerCompSpokes7,
   ...workerCompSpokes8,
   ...workerCompSpokes9,
+  ...dismissalSpokes1,
+  ...unemploymentSpokes1,
 ];
 
 // ── Hub Article ──
