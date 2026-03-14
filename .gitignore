@@ -37,3 +37,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# source data (API 수집 원본)
+/source-data/
+
+# scripts (일회성 유틸리티)
+/scripts/
+
+# tmp (임시 파일)
+/tmp/
+
+# IDE / 도구
+.vscode/
+.playwright-mcp/
+.claude/
+
+# 스크린샷
+*.png
+*.jpeg
+
+# 임시 파일
+nul

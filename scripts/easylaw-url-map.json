@@ -1030,5 +1030,15 @@
   ],
   "personal-rehabilitation-car-liquidation-value": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
+  ],
+  "gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"
+  ],
+  "jajintoeusa-sileopgeubyeo-sugeuP-sayu": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"
+  ],
+  "sileopgeubyeo-sileop-singo-goyongsenteo": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1",
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2"
   ]
 }

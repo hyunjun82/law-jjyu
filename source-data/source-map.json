@@ -4293,5 +4293,38 @@
     "sourceOrigin": "easylaw.go.kr (WebFetch)",
     "fetchedAt": "2026-03-12",
     "verified": false
+  },
+  "gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "722-2-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-13",
+    "verified": false
+  },
+  "jajintoeusa-sileopgeubyeo-sugeuP-sayu": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/jajintoeusa-sileopgeubyeo-sugeuP-sayu",
+    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"],
+    "sourceFile": "722-2-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-13",
+    "verified": false
+  },
+  "sileopgeubyeo-sileop-singo-goyongsenteo": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/sileopgeubyeo-sileop-singo-goyongsenteo",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1",
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2"
+    ],
+    "sourceFile": "722-2-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-13",
+    "verified": false
   }
 }

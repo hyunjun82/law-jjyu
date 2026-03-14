@@ -16,6 +16,11 @@ export interface ArticleSection {
   content: string;
 }
 
+export interface SourceRef {
+  label: string;
+  url: string;
+}
+
 export interface SpokeArticle {
   slug: string;
   categorySlug: string;
@@ -26,6 +31,7 @@ export interface SpokeArticle {
   heroDescription: string;
   faq: FAQItem[];
   sections: ArticleSection[];
+  sources?: SourceRef[];
   datePublished?: string;
   dateModified?: string;
 }

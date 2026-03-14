@@ -241,6 +241,26 @@ export default async function SpokePage({ params }: PageProps) {
         </div>
       )}
 
+      {/* 출처 */}
+      {article.sources && article.sources.length > 0 && (
+        <details className="mb-6 rounded-lg border border-gray-200 bg-gray-50">
+          <summary className="cursor-pointer px-4 py-3 text-sm font-medium text-gray-600 select-none">
+            출처: 생활법령정보 easylaw.go.kr
+          </summary>
+          <div className="px-4 pb-4 pt-1 flex flex-wrap gap-x-4 gap-y-1">
+            {article.sources.map((src, i) => (
+              <a
+                key={i}
+                href={src.url}
+                className="text-sm text-gov-600 hover:underline"
+              >
+                {src.label}
+              </a>
+            ))}
+          </div>
+        </details>
+      )}
+
       {/* 광고 2 */}
       <AdSlot />
 
