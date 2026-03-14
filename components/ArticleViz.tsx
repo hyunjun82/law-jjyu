@@ -11708,7 +11708,7 @@ const VIZ_MAP: VizMap = {
 
   // ── 근로노동: 실업급여 ──
   "gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan": {
-    "top": (
+    "after-0": (
       <EligibilityChecker
         questions={[
           { question: "퇴사 전 18개월 내 피보험 단위기간이 180일 이상인가요?", helpText: "모르겠으면 아래 계산기로 확인해 보세요" },
@@ -11760,7 +11760,7 @@ const VIZ_MAP: VizMap = {
   },
 
   "jajintoeusa-sileopgeubyeo-sugeuP-sayu": {
-    "top": (
+    "after-0": (
       <ComparisonTable
         title="정당한 이직 사유 한눈에 보기"
         columns={[
@@ -11845,7 +11845,7 @@ const VIZ_MAP: VizMap = {
   },
 
   "sileopgeubyeo-sileop-singo-goyongsenteo": {
-    "top": (
+    "after-0": (
       <ProcessTimeline
         steps={[
           { step: "1", title: "워크넷 구직신청 (온라인)", desc: "www.work.go.kr에서 온라인 구직신청. 10분이면 끝나요. 이걸 안 하면 고용센터에서 접수 안 받아요." },
