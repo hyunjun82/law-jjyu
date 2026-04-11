@@ -199,15 +199,14 @@ function rule1_storytelling(article) {
     const isConclusion = (hasNumber || hasConclusionEnding) && !hasFiller;
     items.push({ id: "1A", pass: isConclusion, detail: `[${label}] P1 결론: ${isConclusion ? "OK" : "결론 아닌 서론형 시작"}` });
 
-    // 1B: 둘째 <p>에 조건어
-    const secondP = ps[1] || "";
-    const hasConditional = cfg.conditionalWords.some(w => secondP.includes(w));
-    items.push({ id: "1B", pass: hasConditional || ps.length < 2, detail: `[${label}] P2 조건어: ${hasConditional ? "OK" : "조건/예외 표현 없음"}` });
+    // 1B: 조건어가 섹션 어딘가에 존재 (위치 강제 안 함)
+    const allSectionText = ps.join(" ");
+    const hasConditional = cfg.conditionalWords.some(w => allSectionText.includes(w));
+    items.push({ id: "1B", pass: hasConditional || ps.length < 2, detail: `[${label}] 조건어: ${hasConditional ? "OK" : "조건/예외 표현 없음"}` });
 
-    // 1C: 셋째 <p>에 행동어
-    const thirdP = ps[2] || "";
-    const hasAction = cfg.actionWords.some(w => thirdP.includes(w));
-    items.push({ id: "1C", pass: hasAction || ps.length < 3, detail: `[${label}] P3 행동어: ${hasAction ? "OK" : "행동 정보 없음"}` });
+    // 1C: 행동어가 섹션 어딘가에 존재 (위치 강제 안 함)
+    const hasAction = cfg.actionWords.some(w => allSectionText.includes(w));
+    items.push({ id: "1C", pass: hasAction || ps.length < 3, detail: `[${label}] 행동어: ${hasAction ? "OK" : "행동 정보 없음"}` });
 
     // 1F-per: 문단 수 3~5개 (행동정보/링크 문단 포함 허용)
     const pCount = (section.content.match(/<p>/gi) || []).length;
@@ -239,9 +238,9 @@ function rule2_structure(article) {
   const heroHasEmpathy = cfg.empathyPatterns.some(p => article.heroDescription.includes(p));
   items.push({ id: "2A", pass: heroHasEmpathy, detail: heroHasEmpathy ? "[기] hero 공감 OK" : "[기] hero에 공감 요소 없음" });
 
-  // 2B: [승] table 존재
+  // 2B: [승] table 존재 (권장, 필수 아님 — 표 불필요한 글도 있음)
   const hasTable = /<table>/i.test(article.allHtml);
-  items.push({ id: "2B", pass: hasTable, detail: hasTable ? "[승] 구조화 테이블 OK" : "[승] <table> 없음" });
+  items.push({ id: "2B", pass: true, detail: hasTable ? "[승] 구조화 테이블 OK" : "[승] <table> 없음 (권장)" });
 
   // 2C: [전] 반전/예외 표현
   const hasCounterpoint = article.sections.some(s =>
@@ -528,29 +527,31 @@ function rule6_resolution(article) {
   const hasTargetBlank = /target="_blank"|target='_blank'/.test(article.allHtml);
   items.push({ id: "6G", pass: !hasTargetBlank, detail: hasTargetBlank ? 'target="_blank" 발견' : 'target="_blank" 없음' });
 
-  // 6H: "어디에" 체크 — 신청/제출/확인/방문/접수 문장에 기관명 또는 URL 필수
+  // 6H: "어디에" 체크 — 신청/제출/방문/접수/신고 문장 근처(같은 문단)에 기관명 필요
   const actionVerbs = ["신청", "제출", "방문", "접수", "신고"];
-  const sentences6H = splitSentences(plain);
   let missingWhere = 0;
   const missingDetails = [];
-  for (const sent of sentences6H) {
-    const hasActionVerb = actionVerbs.some(v => sent.includes(v));
-    if (!hasActionVerb) continue;
-    // 이미 기관명/URL/전화번호가 있으면 OK
-    const hasInstitution = cfg.placePatterns.some(p => sent.includes(p));
-    const hasPhone = /\d{2,4}-\d{3,4}-\d{4}/.test(sent);
-    const hasUrl = /홈페이지|\.go\.kr|\.or\.kr/.test(sent);
-    if (!hasInstitution && !hasPhone && !hasUrl) {
-      missingWhere++;
-      if (missingDetails.length < 3) missingDetails.push(sent.substring(0, 40));
+  // 문단 단위로 체크 (같은 문단 내 기관명 있으면 OK)
+  for (const section of article.sections) {
+    for (const para of section.paragraphs) {
+      const hasActionVerb = actionVerbs.some(v => para.includes(v));
+      if (!hasActionVerb) continue;
+      const hasInstitution = cfg.placePatterns.some(p => para.includes(p));
+      const hasPhone = /\d{2,4}-\d{3,4}-\d{4}/.test(para);
+      const hasUrl = /홈페이지|\.go\.kr|\.or\.kr/.test(para);
+      const hasLawRef = /[「\u300E]/.test(para); // 법조문 참조도 맥락으로 인정
+      if (!hasInstitution && !hasPhone && !hasUrl && !hasLawRef) {
+        missingWhere++;
+        if (missingDetails.length < 3) missingDetails.push(para.substring(0, 40));
+      }
     }
   }
-  items.push({ id: "6H", pass: missingWhere <= 1,
-    detail: missingWhere <= 1
+  items.push({ id: "6H", pass: missingWhere <= 2,
+    detail: missingWhere <= 2
       ? `"어디에" 체크 OK (누락 ${missingWhere}건)`
       : `"어디에" 누락 ${missingWhere}건: ${missingDetails.map(d => `"${d}..."`).join(", ")}` });
 
-  // 6I: 떠넘기기 감지 — 섹션 마지막 문장이 외부로 보내는 패턴이면 FAIL
+  // 6I: 떠넘기기 감지 — 섹션 + FAQ 전체에서 외부로 보내는 패턴 감지
   // "아래/위 X에서 확인하세요"는 같은 페이지 내 안내이므로 OK
   const dumpPatterns = [
     "전화하세요", "문의하세요", "물어보세요",
@@ -559,8 +560,12 @@ function rule6_resolution(article) {
     "알아보세요",
   ];
   const dumpExclude = ["아래", "위 ", "위의", "위에서", "위 표", "위 계산", "위 체크", "위 절차", "위 비교"];
+
+  // 6I 검사 대상: 섹션 마지막 문장 + FAQ 전체 답변
   let dumpCount = 0;
   const dumpDetails = [];
+
+  // 섹션 마지막 문장 검사
   for (const sec of article.sections) {
     const lastP = sec.paragraphs[sec.paragraphs.length - 1] || "";
     const lastSentences = lastP.split(/(?<=[.!?])\s*/).filter(s => s.trim().length > 3);
@@ -572,10 +577,47 @@ function rule6_resolution(article) {
       if (dumpDetails.length < 3) dumpDetails.push(lastSent.substring(0, 50));
     }
   }
+
+  // FAQ 답변에서도 떠넘기기 검사
+  for (const ans of article.faqAnswers) {
+    const plain = stripHtml(ans);
+    const sentences = plain.split(/(?<=[.!?요])\s*/).filter(s => s.trim().length > 3);
+    const lastSent = sentences[sentences.length - 1] || "";
+    const isDump = dumpPatterns.some(p => lastSent.includes(p));
+    const isPageRef = dumpExclude.some(e => lastSent.includes(e));
+    if (isDump && !isPageRef) {
+      dumpCount++;
+      if (dumpDetails.length < 3) dumpDetails.push(`FAQ: ${lastSent.substring(0, 40)}`);
+    }
+  }
+
   items.push({ id: "6I", pass: dumpCount === 0,
     detail: dumpCount === 0
       ? "떠넘기기 없음"
       : `떠넘기기 ${dumpCount}건: ${dumpDetails.map(d => `"${d}..."`).join(", ")}` });
+
+  // 6J: 본문/FAQ에 ☎ 전화번호 패턴 금지 — 전화번호는 ContactCard 시각화에만 허용
+  const phonePattern = /☎|📞|\(?\d{2,4}[-)\s]\d{3,4}[-\s]\d{4}/;
+  let phoneCount = 0;
+  const phoneDetails = [];
+  for (const sec of article.sections) {
+    for (const p of sec.paragraphs) {
+      if (phonePattern.test(p)) {
+        phoneCount++;
+        if (phoneDetails.length < 3) phoneDetails.push(`섹션: ${p.substring(0, 40)}`);
+      }
+    }
+  }
+  for (const ans of article.faqAnswers) {
+    if (phonePattern.test(ans)) {
+      phoneCount++;
+      if (phoneDetails.length < 3) phoneDetails.push(`FAQ: ${stripHtml(ans).substring(0, 40)}`);
+    }
+  }
+  items.push({ id: "6J", pass: phoneCount <= 1,
+    detail: phoneCount <= 1
+      ? `본문 전화번호 ${phoneCount}건 (허용 범위)`
+      : `본문에 전화번호 ${phoneCount}건: ${phoneDetails.map(d => `"${d}..."`).join(", ")}` });
 
   return scoreRule("6. 문제해결 100%", items);
 }

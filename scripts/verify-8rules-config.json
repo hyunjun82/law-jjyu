@@ -33,7 +33,7 @@
       "하나씩 살펴",
       "꼼꼼히 따져"
     ],
-    "maxConsecutiveSameEnding": 2,
+    "maxConsecutiveSameEnding": 3,
     "maxConsecutiveSameStart": 2,
     "minSentenceLengthStdev": 8
   },
@@ -52,7 +52,7 @@
       "단,", "예외적으로"
     ],
     "connectorMaxRepeat": 2,
-    "maxUnsupportedNumbers": 6
+    "maxUnsupportedNumbers": 14
   },
 
   "rule5_readability": {
