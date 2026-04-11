@@ -27,9 +27,10 @@ import { financeSpokes25 } from "./finance-spokes-25";
 import { financeSpokes26 } from "./finance-spokes-26";
 import { financeSpokes27 } from "./finance-spokes-27";
 import { financeSpokes28 } from "./finance-spokes-28";
+import { financeSpokes29 } from "./finance-spokes-29";
 
 // ── 모든 spoke 합본 ──
-const allSpokes: SpokeArticle[] = [...financeSpokes1, ...financeSpokes2, ...financeSpokes3, ...financeSpokes4, ...financeSpokes5, ...financeSpokes6, ...financeSpokes7, ...financeSpokes8, ...financeSpokes9, ...financeSpokes10, ...financeSpokes11, ...financeSpokes12, ...financeSpokes13, ...financeSpokes14, ...financeSpokes15, ...financeSpokes16, ...financeSpokes17, ...financeSpokes18, ...financeSpokes19, ...financeSpokes20, ...financeSpokes21, ...financeSpokes22, ...financeSpokes23, ...financeSpokes24, ...financeSpokes25, ...financeSpokes26, ...financeSpokes27, ...financeSpokes28];
+const allSpokes: SpokeArticle[] = [...financeSpokes1, ...financeSpokes2, ...financeSpokes3, ...financeSpokes4, ...financeSpokes5, ...financeSpokes6, ...financeSpokes7, ...financeSpokes8, ...financeSpokes9, ...financeSpokes10, ...financeSpokes11, ...financeSpokes12, ...financeSpokes13, ...financeSpokes14, ...financeSpokes15, ...financeSpokes16, ...financeSpokes17, ...financeSpokes18, ...financeSpokes19, ...financeSpokes20, ...financeSpokes21, ...financeSpokes22, ...financeSpokes23, ...financeSpokes24, ...financeSpokes25, ...financeSpokes26, ...financeSpokes27, ...financeSpokes28, ...financeSpokes29];
 
 // ── Hub Article ──
 export const hub: HubArticle = {

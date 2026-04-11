@@ -592,7 +592,6 @@
   "gwoligeum-musingo-booliyik-gasan": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
   ],
-
   "_730_주택연금": "https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=730",
   "reverse-mortgage-pledge-trust-method-difference-succession": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=1&cciNo=1&cnpClsNo=1"
@@ -654,7 +653,6 @@
   "child-support-defaulter-name-disclosure-application-exclusion": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=4"
   ],
-
   "_2588_보험계약자": "https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=2588",
   "insurance-protection-savings-type-difference-parties-roles": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=1&cciNo=1&cnpClsNo=1"
@@ -722,7 +720,6 @@
   "advance-dismissal-notice-30days-obligation-notice-pay-exemption-grounds": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=1"
   ],
-
   "_1286_개인워크아웃": "https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=1286",
   "_616_개인파산": "https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=616",
   "personal-rehabilitation-vs-bankruptcy": [
@@ -1040,5 +1037,20 @@
   "sileopgeubyeo-sileop-singo-goyongsenteo": [
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1",
     "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2"
+  ],
+  "개인파산-채무-한도는-얼마인가요": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
+  ],
+  "개인파산-신청하면-채무가-얼마나-줄어드나요": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=3&cciNo=1&cnpClsNo=1"
+  ],
+  "개인파산-면책이-안-되는-채무는-무엇인가요": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=4&cciNo=1&cnpClsNo=2"
+  ],
+  "APP-한도가-1500만원인-이유는-무엇인가요": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=1"
+  ],
+  "개인파산-변호사-비용은-얼마인가요": [
+    "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=1"
   ]
 }

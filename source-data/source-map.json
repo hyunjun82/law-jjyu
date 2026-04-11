@@ -1,11 +1,203 @@
 {
   "_meta": {
     "project": "law-jjyu",
-    "totalArticles": 341,
-    "totalMapped": 172,
-    "totalUnmapped": 170,
-    "lastFullSync": "2026-03-10",
+    "totalArticles": 391,
+    "totalMapped": 323,
+    "totalUnmapped": 68,
+    "lastFullSync": "2026-04-11",
     "sourceFreshnessLimit": 90
+  },
+  "child-support-nonresident-parent-obligation-past-claim-retroactive": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-nonresident-parent-obligation-past-claim-retroactive",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "233-5-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-parental-agreement-court-determination-modification": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-parental-agreement-court-determination-modification",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "233-5-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-agency-role-service-priority-target-application": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-agency-role-service-priority-target-application",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "233-5-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-agency-agreement-support-visitation-notarization": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-agency-agreement-support-visitation-notarization",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "233-5-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-agency-legal-aid-lawsuit-acknowledgment-enforcement": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-agency-legal-aid-lawsuit-acknowledgment-enforcement",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+    ],
+    "sourceFile": "233-5-3-3.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-debt-collection-support-application-documents": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-debt-collection-support-application-documents",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+    ],
+    "sourceFile": "233-5-3-3.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-advance-payment-150pct-income-monthly-20万": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-advance-payment-150pct-income-monthly-20万",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"
+    ],
+    "sourceFile": "233-5-3-3.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "child-support-nonpayment-fine-detention-order-penalty": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-nonpayment-fine-detention-order-penalty",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "1659-3-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "child-support-nonpayment-drivers-license-suspension-revocation": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-nonpayment-drivers-license-suspension-revocation",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "1659-3-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "child-support-nonpayment-exit-ban-request-condition-release": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-nonpayment-exit-ban-request-condition-release",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=3"
+    ],
+    "sourceFile": "1659-3-1-3.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "child-support-defaulter-name-disclosure-application-exclusion": {
+    "category": "가정법률",
+    "canonicalUrl": "/가정법률/child-support-defaulter-name-disclosure-application-exclusion",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=4"
+    ],
+    "sourceFile": "1659-3-1-4.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "dismissal-vs-resignation-employment-termination-difference-effective-date": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/dismissal-vs-resignation-employment-termination-difference-effective-date",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "514-1-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "labor-standards-act-dismissal-grounds-procedure-scope-unfair-dismissal-remedy": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/labor-standards-act-dismissal-grounds-procedure-scope-unfair-dismissal-remedy",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "514-1-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "dismissal-ban-labor-law-report-retaliation-sexual-harassment-victim-protection": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/dismissal-ban-labor-law-report-retaliation-sexual-harassment-victim-protection",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "514-3-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "dismissal-ban-work-injury-recovery-maternity-leave-parental-leave-protection": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/dismissal-ban-work-injury-recovery-maternity-leave-parental-leave-protection",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "514-4-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "advance-dismissal-notice-30days-obligation-notice-pay-exemption-grounds": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/advance-dismissal-notice-30days-obligation-notice-pay-exemption-grounds",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=1"
+    ],
+    "sourceFile": "514-4-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
   },
   "협의이혼-절차-서류-이혼숙려기간": {
     "category": "가정법률",
@@ -517,11 +709,11 @@
   "personal-rehabilitation-vs-bankruptcy": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-vs-bankruptcy",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -529,23 +721,23 @@
   "personal-bankruptcy-non-dischargeable-debts": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-non-dischargeable-debts",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-rehabilitation-guarantor-liability": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-guarantor-liability",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=5&cciNo=1&cnpClsNo=2"
     ],
     "sourceFile": "1286-5-1-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -553,11 +745,11 @@
   "personal-rehabilitation-credit-recovery-timeline": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-credit-recovery-timeline",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -565,11 +757,11 @@
   "workout-income-jobless-condition": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-income-jobless-condition",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -577,11 +769,11 @@
   "workout-charged-off-loan-reduction-rate": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-charged-off-loan-reduction-rate",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -589,11 +781,11 @@
   "debt-adjustment-3types-comparison": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/debt-adjustment-3types-comparison",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -601,11 +793,11 @@
   "workout-interest-relief-monthly-payment": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-interest-relief-monthly-payment",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -613,11 +805,11 @@
   "workout-debt-scope-nonmember-lender": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-debt-scope-nonmember-lender",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -625,11 +817,11 @@
   "workout-revival-after-default": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-revival-after-default",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -637,11 +829,11 @@
   "workout-credit-record-deletion": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-credit-record-deletion",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -649,11 +841,11 @@
   "personal-rehabilitation-to-workout-conversion": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-to-workout-conversion",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -661,11 +853,11 @@
   "workout-vulnerable-class-90percent-reduction": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-vulnerable-class-90percent-reduction",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -673,11 +865,11 @@
   "preworkout-interest-rate-reduction": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/preworkout-interest-rate-reduction",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -685,11 +877,11 @@
   "workout-application-documents-income-proof": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-application-documents-income-proof",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -697,11 +889,11 @@
   "workout-enforcement-suspension-guarantor": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-enforcement-suspension-guarantor",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -709,11 +901,11 @@
   "ccrs-debt-adjustment-fee-procedure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-debt-adjustment-fee-procedure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -721,11 +913,11 @@
   "workout-secured-debt-interest-relief": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-secured-debt-interest-relief",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -733,11 +925,11 @@
   "workout-youth-incentive-extra-reduction": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-youth-incentive-extra-reduction",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -745,11 +937,11 @@
   "workout-microloan-living-expenses": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-microloan-living-expenses",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -757,11 +949,11 @@
   "rapid-debt-adjustment-30days-eligibility": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/rapid-debt-adjustment-30days-eligibility",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -769,11 +961,11 @@
   "pre-workout-income-employment-rate": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/pre-workout-income-employment-rate",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -781,11 +973,11 @@
   "personal-workout-90days-repayment-structure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-workout-90days-repayment-structure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -793,11 +985,11 @@
   "debt-adjustment-eligibility-exclusion": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/debt-adjustment-eligibility-exclusion",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -805,11 +997,11 @@
   "ccrs-covered-debt-scope-transferred": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-covered-debt-scope-transferred",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -817,11 +1009,11 @@
   "no-delinquency-record-debt-check": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/no-delinquency-record-debt-check",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -829,11 +1021,11 @@
   "tax-arrears-debt-adjustment-alternative": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/tax-arrears-debt-adjustment-alternative",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -841,11 +1033,11 @@
   "minimum-livelihood-income-workout-apply": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/minimum-livelihood-income-workout-apply",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -853,11 +1045,11 @@
   "income-proof-alternative-docs-rental": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/income-proof-alternative-docs-rental",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -865,11 +1057,11 @@
   "auction-property-debt-adjustment-lien": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/auction-property-debt-adjustment-lien",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -877,11 +1069,11 @@
   "wage-garnishment-workout-public-rental": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/wage-garnishment-workout-public-rental",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -889,11 +1081,11 @@
   "guarantee-mortgage-loan-debt-adjustment": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/guarantee-mortgage-loan-debt-adjustment",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -901,11 +1093,11 @@
   "vehicle-disposal-workplace-notification": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/vehicle-disposal-workplace-notification",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -913,11 +1105,11 @@
   "debt-adjustment-documents-consultation": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/debt-adjustment-documents-consultation",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -925,11 +1117,11 @@
   "debt-adjustment-confirmation-dissent-creditor": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/debt-adjustment-confirmation-dissent-creditor",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -937,11 +1129,11 @@
   "post-application-auto-transfer-deposit": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/post-application-auto-transfer-deposit",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -949,11 +1141,11 @@
   "workout-delinquency-release-guarantor": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-delinquency-release-guarantor",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -961,11 +1153,11 @@
   "application-fee-missing-debt-collection-call": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/application-fee-missing-debt-collection-call",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -973,11 +1165,11 @@
   "self-employed-card-sales-account-freeze": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/self-employed-card-sales-account-freeze",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -985,11 +1177,11 @@
   "repayment-default-cancellation-lump-sum-account": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/repayment-default-cancellation-lump-sum-account",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -997,11 +1189,11 @@
   "workout-new-loan-card-insurance-surety": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-new-loan-card-insurance-surety",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1009,11 +1201,11 @@
   "workout-asset-concealment-cancellation-restriction": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-asset-concealment-cancellation-restriction",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1021,11 +1213,11 @@
   "individual-rehabilitation-income-debt-limit-procedure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/individual-rehabilitation-income-debt-limit-procedure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1033,11 +1225,11 @@
   "rehabilitation-repayment-disposable-income-non-exempt-claims": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/rehabilitation-repayment-disposable-income-non-exempt-claims",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1045,35 +1237,35 @@
   "personal-bankruptcy-eligibility-discharge-procedure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-eligibility-discharge-procedure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "bankruptcy-non-dischargeable-debts-discharge-denial": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/bankruptcy-non-dischargeable-debts-discharge-denial",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "ccrs-rehabilitation-bankruptcy-legal-support-eligibility": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-rehabilitation-bankruptcy-legal-support-eligibility",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1081,11 +1273,11 @@
   "ccrs-microloan-program-post-debt-adjustment-eligibility": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-microloan-program-post-debt-adjustment-eligibility",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1093,11 +1285,11 @@
   "ccrs-microloan-online-application-documents-processing-time": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-microloan-online-application-documents-processing-time",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1105,11 +1297,11 @@
   "personal-rehabilitation-repayment-calculation": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-repayment-calculation",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1117,11 +1309,11 @@
   "personal-rehabilitation-living-expenses-2026": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-living-expenses-2026",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1129,11 +1321,11 @@
   "ccrs-microloan-interest-rate-limit-no-collateral": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-microloan-interest-rate-limit-no-collateral",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1141,11 +1333,11 @@
   "ccrs-microloan-repayment-date-change-early-payoff-autotransfer": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-microloan-repayment-date-change-early-payoff-autotransfer",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1153,11 +1345,11 @@
   "ccrs-microloan-overdue-penalty-existing-delinquency": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-microloan-overdue-penalty-existing-delinquency",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1165,11 +1357,11 @@
   "ccrs-microloan-additional-loan-payoff-refund-inquiry": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-microloan-additional-loan-payoff-refund-inquiry",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1177,11 +1369,11 @@
   "ccrs-good-payer-credit-card-eligibility-exclusion": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-good-payer-credit-card-eligibility-exclusion",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1189,11 +1381,11 @@
   "ccrs-credit-card-application-documents-online": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-credit-card-application-documents-online",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1201,11 +1393,11 @@
   "ccrs-credit-card-limit-type-reissue": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-credit-card-limit-type-reissue",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1213,11 +1405,11 @@
   "ccrs-digital-consultation-login-auth-agreement": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-digital-consultation-login-auth-agreement",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1225,11 +1417,11 @@
   "ccrs-digital-consultation-program-setup": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-digital-consultation-program-setup",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1237,11 +1429,11 @@
   "ccrs-visit-reservation-required-change-cancel-penalty": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-visit-reservation-required-change-cancel-penalty",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1249,11 +1441,11 @@
   "workout-public-info-early-removal-interest-rate": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-public-info-early-removal-interest-rate",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1261,11 +1453,11 @@
   "debt-lump-payoff-extra-reduction-benefits": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/debt-lump-payoff-extra-reduction-benefits",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1273,11 +1465,11 @@
   "good-payer-credit-score-rise-jump-program": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/good-payer-credit-score-rise-jump-program",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1285,11 +1477,11 @@
   "debt-adjustment-lapse-readjustment-application": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/debt-adjustment-lapse-readjustment-application",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1297,11 +1489,11 @@
   "modification-revival-midterm-debt-exemption": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/modification-revival-midterm-debt-exemption",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1309,11 +1501,11 @@
   "mortgage-debt-adjustment-rate-period-difference": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/mortgage-debt-adjustment-rate-period-difference",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1321,11 +1513,11 @@
   "new-start-fund-sme-bad-debtor-ccrs-process": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/new-start-fund-sme-bad-debtor-ccrs-process",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1333,11 +1525,11 @@
   "new-leap-fund-long-overdue-auto-purchase-loan": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/new-leap-fund-long-overdue-auto-purchase-loan",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1345,11 +1537,11 @@
   "financial-institution-self-debt-adjustment-comparison": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/financial-institution-self-debt-adjustment-comparison",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1357,11 +1549,11 @@
   "ccrs-financial-employment-welfare-combined-support": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-financial-employment-welfare-combined-support",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1369,11 +1561,11 @@
   "credit-welfare-consulting-sme-restart-support": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/credit-welfare-consulting-sme-restart-support",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1381,11 +1573,11 @@
   "ccrs-credit-education-online-free-visiting": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/ccrs-credit-education-online-free-visiting",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1393,23 +1585,335 @@
   "illegal-lending-60pct-void-damage-report-process": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/illegal-lending-60pct-void-damage-report-process",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "reverse-mortgage-pledge-trust-method-difference-succession": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-pledge-trust-method-difference-succession",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=1&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "730-1-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-benefits-spouse-death-full-pension-heir-protection": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-benefits-spouse-death-full-pension-heir-protection",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=1&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "730-1-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-age-55-couple-eligibility-guardianship-proxy": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-age-55-couple-eligibility-guardianship-proxy",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "730-2-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-property-12billion-limit-officetel-mixeduse": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-property-12billion-limit-officetel-mixeduse",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "730-2-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-two-home-combined-12billion-disposal-condition": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-two-home-combined-12billion-disposal-condition",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=1&cnpClsNo=3"
+    ],
+    "sourceFile": "730-2-1-3.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-application-process-documents-rescission-period": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-application-process-documents-rescission-period",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=2&cnpClsNo=1"
+    ],
+    "sourceFile": "730-2-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-initial-annual-guarantee-fee-registration-cost": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-initial-annual-guarantee-fee-registration-cost",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=2&cnpClsNo=2"
+    ],
+    "sourceFile": "730-2-2-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-property-tax-license-tax-reduction-interest-deduction": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-property-tax-license-tax-reduction-interest-deduction",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "730-2-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "reverse-mortgage-payment-method-lifetime-fixed-term-growth-type": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/reverse-mortgage-payment-method-lifetime-fixed-term-growth-type",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=3&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "730-3-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "insurance-protection-savings-type-difference-parties-roles": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-protection-savings-type-difference-parties-roles",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=1&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-1-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "insurance-renewable-nonrenewable-premium-pros-cons-channel-selection": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-renewable-nonrenewable-premium-pros-cons-channel-selection",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=2&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-2-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "special-building-fire-insurance-30days-mandatory-auto-liability-penalty": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/special-building-fire-insurance-30days-mandatory-auto-liability-penalty",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=2&cciNo=1&cnpClsNo=3"
+    ],
+    "sourceFile": "2588-2-1-3.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "insurance-accident-notification-duty-delay-claim-processing-steps": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-accident-notification-duty-delay-claim-processing-steps",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-3-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "life-insurance-death-disability-payment-grounds-medical-indemnity-coverage": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/life-insurance-death-disability-payment-grounds-medical-indemnity-coverage",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "2588-3-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-11",
+    "verified": false
+  },
+  "insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-3-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=2"
+    ],
+    "sourceFile": "2588-3-2-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "insurance-policy-withdrawal-15days-30days-limit-cancellation-refund": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-policy-withdrawal-15days-30days-limit-cancellation-refund",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-4-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "insurance-contract-void-grounds-minor-consent-premium-default-termination": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-contract-void-grounds-minor-consent-premium-default-termination",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "2588-4-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=2&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-4-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "insurance-financial-dispute-mediation-committee-consumer-agency-selection": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-financial-dispute-mediation-committee-consumer-agency-selection",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "2588-5-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "2588-5-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-12",
+    "verified": false
+  },
+  "개인파산-채무-한도는-얼마인가요": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/개인파산-채무-한도는-얼마인가요",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-04-11",
+    "verified": false
+  },
+  "개인파산-신청하면-채무가-얼마나-줄어드나요": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/개인파산-신청하면-채무가-얼마나-줄어드나요",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=3&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "616-3-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-10",
+    "verified": false
+  },
+  "개인파산-면책이-안-되는-채무는-무엇인가요": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/개인파산-면책이-안-되는-채무는-무엇인가요",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=4&cciNo=1&cnpClsNo=2"
+    ],
+    "sourceFile": "616-4-1-2.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-04-11",
+    "verified": false
+  },
+  "APP-한도가-1500만원인-이유는-무엇인가요": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/APP-한도가-1500만원인-이유는-무엇인가요",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "616-2-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-04-11",
+    "verified": false
+  },
+  "개인파산-변호사-비용은-얼마인가요": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/개인파산-변호사-비용은-얼마인가요",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=2&cciNo=3&cnpClsNo=1"
+    ],
+    "sourceFile": "616-2-3-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-rehabilitation-application-procedure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-application-procedure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1417,11 +1921,11 @@
   "personal-rehabilitation-creditor-meeting": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-creditor-meeting",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1429,11 +1933,11 @@
   "personal-rehabilitation-free-legal-support": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-free-legal-support",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1441,11 +1945,11 @@
   "personal-rehabilitation-employment-disadvantage": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-employment-disadvantage",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1453,11 +1957,11 @@
   "self-employed-personal-rehabilitation": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/self-employed-personal-rehabilitation",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1465,11 +1969,11 @@
   "personal-rehabilitation-discharge-completion": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-discharge-completion",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1477,11 +1981,11 @@
   "personal-rehabilitation-procedure-dismissal": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-procedure-dismissal",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1489,71 +1993,71 @@
   "personal-bankruptcy-application-eligibility": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-application-eligibility",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-bankruptcy-discharge-refusal-reasons": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-discharge-refusal-reasons",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-bankruptcy-qualification-restrictions": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-qualification-restrictions",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-bankruptcy-application-procedure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-application-procedure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-bankruptcy-reinstatement": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-reinstatement",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-rehabilitation-post-discharge-credit": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-post-discharge-credit",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1561,11 +2065,11 @@
   "personal-rehabilitation-debt-ceiling": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-debt-ceiling",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1573,11 +2077,11 @@
   "personal-rehabilitation-stay-enforcement": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-stay-enforcement",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1585,11 +2089,11 @@
   "personal-rehabilitation-repayment-plan-change": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-repayment-plan-change",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1597,11 +2101,11 @@
   "personal-rehabilitation-liquidation-value": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-liquidation-value",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1609,23 +2113,23 @@
   "personal-bankruptcy-post-discharge-finance": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-post-discharge-finance",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "personal-rehabilitation-debt-reduction-rate": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-debt-reduction-rate",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1633,11 +2137,11 @@
   "personal-rehabilitation-application-costs": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-application-costs",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1645,11 +2149,11 @@
   "personal-rehabilitation-private-debt-inclusion": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-private-debt-inclusion",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1657,11 +2161,11 @@
   "personal-rehabilitation-secured-debt": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-secured-debt",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1669,23 +2173,23 @@
   "personal-bankruptcy-simultaneous-closure": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-simultaneous-closure",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "employed-vs-selfemployed-rehabilitation": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/employed-vs-selfemployed-rehabilitation",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1693,11 +2197,11 @@
   "personal-rehabilitation-plan-approval": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-plan-approval",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1705,23 +2209,23 @@
   "personal-bankruptcy-voluntary-vs-creditor": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-bankruptcy-voluntary-vs-creditor",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=616&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "616-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-10",
+    "fetchedAt": "2026-04-11",
     "verified": false
   },
   "workout-vs-personal-rehabilitation": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/workout-vs-personal-rehabilitation",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -1729,11 +2233,11 @@
   "personal-rehabilitation-car-liquidation-value": {
     "category": "금융금전",
     "canonicalUrl": "/금융금전/personal-rehabilitation-car-liquidation-value",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1286&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1286-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2026,12 +2530,12 @@
   "sangga-hwansan-bojeunggeum-jiyeokbyeol": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-hwansan-bojeunggeum-jiyeokbyeol",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=1&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=1&cciNo=2&cnpClsNo=2"
     ],
     "sourceFile": "627-1-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2039,11 +2543,11 @@
   "sangga-saeupja-daehangnyeok-chwideuk-sijeom": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-saeupja-daehangnyeok-chwideuk-sijeom",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=3&cnpClsNo=1"
     ],
     "sourceFile": "627-2-3-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2051,12 +2555,12 @@
   "sangga-bojeunggeum-wolse-jeonhwan-yijaeyul": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-bojeunggeum-wolse-jeonhwan-yijaeyul",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=2"
     ],
     "sourceFile": "627-3-1-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2064,12 +2568,12 @@
   "sangga-soaek-imsaigin-choeuiseon-byeoje": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-soaek-imsaigin-choeuiseon-byeoje",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=1&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-4-2-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2077,12 +2581,12 @@
   "sangga-imdaein-maemae-imdaecha-seungge": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaein-maemae-imdaecha-seungge",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=3&cnpClsNo=1"
     ],
     "sourceFile": "627-3-3-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2090,12 +2594,12 @@
   "jaegebal-imsisangga-ipju-jakyeok": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/jaegebal-imsisangga-ipju-jakyeok",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=3&cciNo=2&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=3&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "1168-3-2-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2103,12 +2607,12 @@
   "jaegeonsuk-jaegebal-bosan-chai": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/jaegeonsuk-jaegebal-bosan-chai",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=1&cciNo=1&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1170&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "1168-1-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2116,12 +2620,12 @@
   "jaegebal-yeongeopjeji-bosan-yogeon": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/jaegebal-yeongeopjeji-bosan-yogeon",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=3&cciNo=2&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=3&cciNo=2&cnpClsNo=4"
     ],
     "sourceFile": "1168-3-2-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2129,12 +2633,12 @@
   "jaegebal-sangga-myeongdo-bosan-hyeobi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/jaegebal-sangga-myeongdo-bosan-hyeobi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=3&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=3&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "1168-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2142,12 +2646,12 @@
   "jaegebal-imsaigin-useondongbyang": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/jaegebal-imsaigin-useondongbyang",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=4&cciNo=1&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1168&ccfNo=4&cciNo=1&cnpClsNo=2"
     ],
     "sourceFile": "1168-4-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2155,11 +2659,11 @@
   "sangga-imdaesaeobja-dansoonggyeongbiyul-bipyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-dansoonggyeongbiyul-bipyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2167,11 +2671,11 @@
   "sangga-imdaesaeobja-gamgasamgakbi-pillyogyeongbi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-gamgasamgakbi-pillyogyeongbi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2179,11 +2683,11 @@
   "sangga-imdaesaeobja-daechoolija-pillyogyeongbi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-daechoolija-pillyogyeongbi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2191,11 +2695,11 @@
   "sangga-imdaesaeobja-gamgasamgak-jonghap-bipyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-gamgasamgak-jonghap-bipyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2203,11 +2707,11 @@
   "sangga-imdaesaeobja-jonghapsodeukse-gyeongbi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-jonghapsodeukse-gyeongbi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2215,12 +2719,12 @@
   "jikjangin-sangga-imdaesaeobja-deungrok-uimu": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/jikjangin-sangga-imdaesaeobja-deungrok-uimu",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=1&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2228,12 +2732,12 @@
   "sangga-imdaesaeobja-bugase-ganjuimdaeryo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-bugase-ganjuimdaeryo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-1-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2241,12 +2745,12 @@
   "sangga-imdaesaeobja-bugase-hwanggeup": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaesaeobja-bugase-hwanggeup",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2254,12 +2758,12 @@
   "sangga-mudanjeonddae-gyeyakhaeji-yogeon": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-mudanjeonddae-gyeyakhaeji-yogeon",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=1"
     ],
     "sourceFile": "627-3-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2267,11 +2771,11 @@
   "sangga-jeondaecha-jeonchaiin-boho": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jeondaecha-jeonchaiin-boho",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-3-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2279,11 +2783,11 @@
   "sangga-jeondaecha-imdaein-seomyeon-yogeon": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jeondaecha-imdaein-seomyeon-yogeon",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-3-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2291,11 +2795,11 @@
   "sangga-ibo-jeonddae-dongui-bupillyeo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-ibo-jeonddae-dongui-bupillyeo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-3-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2303,11 +2807,11 @@
   "sangga-jeondaecha-habi-jeonchaiin-boho": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jeondaecha-habi-jeonchaiin-boho",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-3-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2315,12 +2819,12 @@
   "sangga-ibju-jeon-haja-imdaein-suriuimu": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-ibju-jeon-haja-imdaein-suriuimu",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2328,12 +2832,12 @@
   "sangga-seonbu-teugak-imsaigin-budaam": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-seonbu-teugak-imsaigin-budaam",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2341,12 +2845,12 @@
   "sangga-haja-chaim-georjeol-ganeung": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-haja-chaim-georjeol-ganeung",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2354,11 +2858,11 @@
   "sangga-imdaecha-bunjeongjojeong-sincheng": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaecha-bunjeongjojeong-sincheng",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "627-4-2-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2366,11 +2870,11 @@
   "sangga-bunjeongjojeong-biyong-sosong-bipyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-bunjeongjojeong-biyong-sosong-bipyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "627-4-2-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2378,12 +2882,12 @@
   "sangga-jojeongwseo-gangjejibhaeng": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jojeongwseo-gangjejibhaeng",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=4"
     ],
     "sourceFile": "627-4-2-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2391,11 +2895,11 @@
   "sangga-imdaein-bunjeongjojeong-bulloung": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaein-bunjeongjojeong-bulloung",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "627-4-2-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2403,11 +2907,11 @@
   "sangga-yangsodeukse-janggiboyu-gongje": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-yangsodeukse-janggiboyu-gongje",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2415,11 +2919,11 @@
   "sangga-dangigyodo-junggwaseyul": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-dangigyodo-junggwaseyul",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2427,11 +2931,11 @@
   "sangga-gyeomubjuteog-yangdosodeukse": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gyeomubjuteog-yangdosodeukse",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2439,11 +2943,11 @@
   "sangga-maemae-bugase-pogwal-pyogi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-maemae-bugase-pogwal-pyogi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2451,12 +2955,12 @@
   "sangga-chwideukse-sigahaejunamaek-gyesan": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-chwideukse-sigahaejunamaek-gyesan",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=1&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=1&cnpClsNo=3"
     ],
     "sourceFile": "627-2-1-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2464,12 +2968,12 @@
   "sangga-bubu-gongdonmyeongui-chwideukse": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-bubu-gongdonmyeongui-chwideukse",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-2-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2477,12 +2981,12 @@
   "sangga-bojeunggeum-banhwan-naeyongjeungmyeong": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-bojeunggeum-banhwan-naeyongjeungmyeong",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-4-2-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2490,12 +2994,12 @@
   "sangga-jeonse-gwon-saeupja-bihyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jeonse-gwon-saeupja-bihyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=3&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=3&cnpClsNo=2"
     ],
     "sourceFile": "627-2-3-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2503,12 +3007,12 @@
   "sangga-imdaecha-gyeongmae-baedang-sunwi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaecha-gyeongmae-baedang-sunwi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=2&cciNo=3&cnpClsNo=1"
     ],
     "sourceFile": "627-4-2-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2516,11 +3020,11 @@
   "sangga-gwolligeum-hoesu-bang-hae-yuhyeong": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gwolligeum-hoesu-bang-hae-yuhyeong",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2528,11 +3032,11 @@
   "gwolligeum-somelsiho-3nyeon-gisanil": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwolligeum-somelsiho-3nyeon-gisanil",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2540,11 +3044,11 @@
   "sangga-gwolligeum-sosong-ipjeung-seoryu": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gwolligeum-sosong-ipjeung-seoryu",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2552,11 +3056,11 @@
   "gwolligeum-yeongeobgwon-sisel-gyeyak-cha": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwolligeum-yeongeobgwon-sisel-gyeyak-cha",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2564,12 +3068,12 @@
   "imdaein-jaegeonsuk-gwolligeum-georjeol-yogeon": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/imdaein-jaegeonsuk-gwolligeum-georjeol-yogeon",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1170&ccfNo=1&cciNo=1&cnpClsNo=2"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2577,12 +3081,12 @@
   "sangga-10nyeon-gwolligeum-boho-jeok-yong": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-10nyeon-gwolligeum-boho-jeok-yong",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2590,11 +3094,11 @@
   "sangga-gwolligeum-pyojun-gyeyakseo-jagseong": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gwolligeum-pyojun-gyeyakseo-jagseong",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2602,12 +3106,12 @@
   "imdaein-gwado-imdaeryo-gwolligeum-bang-hae": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/imdaein-gwado-imdaeryo-gwolligeum-bang-hae",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=2"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2615,11 +3119,11 @@
   "gwolligeum-bang-hae-naeyongjeungmyeong-seuiyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwolligeum-bang-hae-naeyongjeungmyeong-seuiyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2627,11 +3131,11 @@
   "sangga-gwolligeum-juseon-silpae-imdaein-bang-hae": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gwolligeum-juseon-silpae-imdaein-bang-hae",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2639,11 +3143,11 @@
   "sangga-gyeyakgaesinyogugwon-10nyeon-gisanil": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gyeyakgaesinyogugwon-10nyeon-gisanil",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3"
     ],
     "sourceFile": "627-3-4-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2651,11 +3155,11 @@
   "sangga-imdaein-gaeshin-georjeol-tonbo-sigi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaein-gaeshin-georjeol-tonbo-sigi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3"
     ],
     "sourceFile": "627-3-4-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2663,12 +3167,12 @@
   "sangga-imdaeryo-jeunggaek-5percent-jeyhan": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imdaeryo-jeunggaek-5percent-jeyhan",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3"
     ],
     "sourceFile": "627-3-1-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2676,11 +3180,11 @@
   "sangga-muksijeok-gaeshin-haiji-imsaigin-tonbo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-muksijeok-gaeshin-haiji-imsaigin-tonbo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=2"
     ],
     "sourceFile": "627-3-4-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2688,12 +3192,12 @@
   "sangga-jaegeonsuk-gyehoek-goji-gaeshin-georjeol": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jaegeonsuk-gyehoek-goji-gaeshin-georjeol",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1170&ccfNo=1&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-3-4-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2701,11 +3205,11 @@
   "sangga-chaimyeonche-3gi-gaeshin-georjeol-jogeon": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-chaimyeonche-3gi-gaeshin-georjeol-jogeon",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3"
     ],
     "sourceFile": "627-3-4-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2713,12 +3217,12 @@
   "sangga-hwansan-chogwa-imdaeryo-inang-hyeob-ui": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-hwansan-chogwa-imdaeryo-inang-hyeob-ui",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=1&cciNo=2&cnpClsNo=1"
     ],
     "sourceFile": "627-3-1-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2726,11 +3230,11 @@
   "sangga-gyeyakgaesin-yogug-haengsa-gigan": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gyeyakgaesin-yogug-haengsa-gigan",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=3&cciNo=4&cnpClsNo=3"
     ],
     "sourceFile": "627-3-4-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2738,12 +3242,12 @@
   "sangga-myeongdo-sosong-soyo-gigan-biyong": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-myeongdo-sosong-soyo-gigan-biyong",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=4",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "627-4-2-4.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2751,11 +3255,11 @@
   "sangga-chaimyeonche-3gi-gyeyakhaejie-yogeon": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-chaimyeonche-3gi-gyeyakhaejie-yogeon",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-4-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2763,11 +3267,11 @@
   "sangga-myeongdo-gangjejibe-jeolcha-jiphaengwan": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-myeongdo-gangjejibe-jeolcha-jiphaengwan",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=4"
     ],
     "sourceFile": "627-4-2-4.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2775,11 +3279,11 @@
   "sangga-jesojeong-hwahae-joseo-gangjejibe": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jesojeong-hwahae-joseo-gangjejibe",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "627-4-2-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2787,12 +3291,12 @@
   "sangga-wongsangboggu-beomwi-imsaigin-uimu": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-wongsangboggu-beomwi-imsaigin-uimu",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=1",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=2"
     ],
     "sourceFile": "627-4-3-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2800,11 +3304,11 @@
   "sangga-bojeunggeum-gongje-mihap-imdaeryo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-bojeunggeum-gongje-mihap-imdaeryo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=1&cnpClsNo=1"
     ],
     "sourceFile": "627-4-1-1.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2812,12 +3316,12 @@
   "sangga-imsaigin-pasan-hoesaeng-myeongdo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-imsaigin-pasan-hoesaeng-myeongdo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=2",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=4"
     ],
     "sourceFile": "627-4-2-2.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2825,12 +3329,12 @@
   "sangga-jeomyu-ijeonggeumji-gacheobun-gongtak": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-jeomyu-ijeonggeumji-gacheobun-gongtak",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=4",
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3"
     ],
     "sourceFile": "627-4-2-4.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2838,11 +3342,11 @@
   "sangga-gwoligeum-gitasodeuk-pillyogyeongbi": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gwoligeum-gitasodeuk-pillyogyeongbi",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2850,11 +3354,11 @@
   "gwoligeum-bugase-segeumgyesan-pogwal": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-bugase-segeumgyesan-pogwal",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2862,11 +3366,11 @@
   "gwoligeum-weoncheongjingsu-gyesan-yangsu": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-weoncheongjingsu-gyesan-yangsu",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2874,11 +3378,11 @@
   "gwoligeum-yangdosodeukse-gyesan-bigyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-yangdosodeukse-gyesan-bigyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2886,11 +3390,11 @@
   "gwoligeum-pogwal-yangsu-yopgeon-byeol": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-pogwal-yangsu-yopgeon-byeol",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2898,11 +3402,11 @@
   "gwoligeum-yeongeoprwon-gamgasamgak-yangsu": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-yeongeoprwon-gamgasamgak-yangsu",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2910,11 +3414,11 @@
   "sangga-gwoligeum-muryo-semujo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/sangga-gwoligeum-muryo-semujo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2922,11 +3426,11 @@
   "gwoligeum-bunnigwasei-seonaek-gitasodeuk": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-bunnigwasei-seonaek-gitasodeuk",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2934,11 +3438,11 @@
   "gwoligeum-se-yangdoin-yangsu-bigyo": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-se-yangdoin-yangsu-bigyo",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2946,11 +3450,11 @@
   "gwoligeum-gamjeongpyeong-yeongeoprwon-se": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-gamjeongpyeong-yeongeoprwon-se",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2958,11 +3462,11 @@
   "gwoligeum-musingo-booliyik-gasan": {
     "category": "부동산임대차",
     "canonicalUrl": "/부동산임대차/gwoligeum-musingo-booliyik-gasan",
-    "sourceType": "scraped",
     "easylawUrls": [
       "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=627&ccfNo=4&cciNo=3&cnpClsNo=3"
     ],
     "sourceFile": "627-4-3-3.json",
+    "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-10",
     "verified": false
@@ -2970,317 +3474,264 @@
   "traffic-accident-settlement-calculation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-settlement-calculation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-fault-ratio": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-fault-ratio",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-permanent-disability": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-permanent-disability",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-criminal-civil-settlement": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-criminal-civil-settlement",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-lawsuit-procedure": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-lawsuit-procedure",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-government-guarantee": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-government-guarantee",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-12-serious-violations": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-12-serious-violations",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-adjuster-lawyer": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-adjuster-lawyer",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-death-compensation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-death-compensation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-insurer-dispute": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-insurer-dispute",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-school-zone": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-school-zone",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-drunk-driving-victim": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-drunk-driving-victim",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-lost-income": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-lost-income",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-settlement-agreement": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-settlement-agreement",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-treatment-negotiation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-treatment-negotiation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-insurance-coverage": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-insurance-coverage",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-statute-limitations-start": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-statute-limitations-start",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-latent-injury-statute": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-latent-injury-statute",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-insurance-claim-vs-damage-period": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-insurance-claim-vs-damage-period",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-10year-longterm-statute": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-10year-longterm-statute",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-nursing-care-periodical-vs-lump": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-nursing-care-periodical-vs-lump",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-nursing-care-daily-wage-calculation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-nursing-care-daily-wage-calculation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-insurance-subrogation-claim": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-insurance-subrogation-claim",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-subrogation-statute-10year": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-subrogation-statute-10year",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-drunk-driving-subrogation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-drunk-driving-subrogation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-passenger-subrogation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-passenger-subrogation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-employer-employee-subrogation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-employer-employee-subrogation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "traffic-accident-minor-victim-subrogation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/traffic-accident-minor-victim-subrogation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "rentcar-cdw-repair-cost": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/rentcar-cdw-repair-cost",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "rentcar-gongje-vs-insurance": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/rentcar-gongje-vs-insurance",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "accident-rental-claim-denial": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/accident-rental-claim-denial",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "accident-depreciation-total-loss": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/accident-depreciation-total-loss",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "pedestrian-jaywalking-fault-ratio": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/pedestrian-jaywalking-fault-ratio",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "crosswalk-right-turn-pedestrian-criminal": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/crosswalk-right-turn-pedestrian-criminal",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "elderly-child-accident-compensation": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/elderly-child-accident-compensation",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "pedestrian-accident-claim-procedure": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/pedestrian-accident-claim-procedure",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "motorcycle-uninsured-claim": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/motorcycle-uninsured-claim",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "delivery-motorcycle-accident-liability": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/delivery-motorcycle-accident-liability",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "motorcycle-fault-ratio-dispute": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/motorcycle-fault-ratio-dispute",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "bicycle-kickboard-accident-liability": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/bicycle-kickboard-accident-liability",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "parking-lot-accident-fault-ratio": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/parking-lot-accident-fault-ratio",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "parking-lot-no-cctv-evidence-claim": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/parking-lot-no-cctv-evidence-claim",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "parking-lot-100-0-fault-claim": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/parking-lot-100-0-fault-claim",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "luxury-car-parking-accident-repair-overcharge": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/luxury-car-parking-accident-repair-overcharge",
-    "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceType": "unmapped"
   },
   "highway-falling-object-road-corp-claim": {
     "category": "민형사소송",
     "canonicalUrl": "/민형사소송/highway-falling-object-road-corp-claim",
+    "sourceType": "unmapped"
+  },
+  "gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "722-2-1-1.json",
     "sourceType": "scraped",
-    "sourceFile": "traffic-accident-easylaw.json",
-    "fetchedAt": "2026-03-11"
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-13",
+    "verified": false
+  },
+  "jajintoeusa-sileopgeubyeo-sugeuP-sayu": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/jajintoeusa-sileopgeubyeo-sugeuP-sayu",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"
+    ],
+    "sourceFile": "722-2-1-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-13",
+    "verified": false
+  },
+  "sileopgeubyeo-sileop-singo-goyongsenteo": {
+    "category": "근로노동",
+    "canonicalUrl": "/근로노동/sileopgeubyeo-sileop-singo-goyongsenteo",
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1",
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2"
+    ],
+    "sourceFile": "722-2-2-1.json",
+    "sourceType": "scraped",
+    "sourceOrigin": "easylaw.go.kr (Playwright)",
+    "fetchedAt": "2026-03-13",
+    "verified": false
   },
   "국민건강보험-개념-특성-적용대상": {
     "category": "복지",
@@ -3363,7 +3814,7 @@
     "sourceFile": "1063-3-1-2.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "요양비-현금급여-수급-신청방법": {
@@ -3375,7 +3826,7 @@
     "sourceFile": "1063-3-2-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "임신출산-진료비-국민행복카드-지원금액": {
@@ -3387,7 +3838,7 @@
     "sourceFile": "1063-3-3-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "장애인-보조기기-보험급여-지원기준": {
@@ -3399,7 +3850,7 @@
     "sourceFile": "1063-3-4-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험-건강검진-종류-대상-비용": {
@@ -3411,7 +3862,7 @@
     "sourceFile": "1063-3-5-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험급여-제한-지급정지-사유": {
@@ -3423,7 +3874,7 @@
     "sourceFile": "1063-3-6-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험료-산정-보수월액-보험료율": {
@@ -3435,7 +3886,7 @@
     "sourceFile": "1063-4-1-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험료-경감-면제-사유-경감률": {
@@ -3447,7 +3898,7 @@
     "sourceFile": "1063-4-1-2.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험료-납부-정산-부담-방법": {
@@ -3459,7 +3910,7 @@
     "sourceFile": "1063-4-1-3.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험료-체납-연체금-독촉-처분": {
@@ -3471,7 +3922,7 @@
     "sourceFile": "1063-4-1-4.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "건강보험-이의신청-심판청구-방법": {
@@ -3483,7 +3934,7 @@
     "sourceFile": "1063-5-1-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-08",
+    "fetchedAt": "2026-03-11",
     "verified": false
   },
   "national-health-insurance-regional-subscriber-target": {
@@ -3495,7 +3946,7 @@
     "sourceFile": "1141-1-1-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-09",
+    "fetchedAt": "2026-03-12",
     "verified": false
   },
   "health-insurance-regional-subscriber-qualification": {
@@ -3561,209 +4012,117 @@
   "산재보험-요양급여-신청-절차-소멸시효": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재보험-요양급여-신청-절차-소멸시효",
-    "sourceType": "scraped",
-    "sourceFile": "575-2-2-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-요양기간-연장-의료기관-변경-절차": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-요양기간-연장-의료기관-변경-절차",
-    "sourceType": "scraped",
-    "sourceFile": "575-2-2-3.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-추가상병-요양급여-재요양-신청-요건": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-추가상병-요양급여-재요양-신청-요건",
-    "sourceType": "scraped",
-    "sourceFile": "575-2-2-5.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재보험-요양비-간병료-이송비-지급기준": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재보험-요양비-간병료-이송비-지급기준",
-    "sourceType": "scraped",
-    "sourceFile": "575-2-3-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-요양급여-본인부담금-대부-융자-조건": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-요양급여-본인부담금-대부-융자-조건",
-    "sourceType": "scraped",
-    "sourceFile": "575-2-4-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-휴업급여-지급요건-금액-청구절차": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-휴업급여-지급요건-금액-청구절차",
-    "sourceType": "scraped",
-    "sourceFile": "575-3-1-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-부분휴업급여-저소득-고령자-재요양-특례": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-부분휴업급여-저소득-고령자-재요양-특례",
-    "sourceType": "scraped",
-    "sourceFile": "575-3-1-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-상병보상연금-지급요건-금액-청구": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-상병보상연금-지급요건-금액-청구",
-    "sourceType": "scraped",
-    "sourceFile": "575-3-2-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-상병보상연금-저소득-고령자-재요양-중증요양상태등급": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-상병보상연금-저소득-고령자-재요양-중증요양상태등급",
-    "sourceType": "scraped",
-    "sourceFile": "575-3-2-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-장해급여-장해등급-기준-판정": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-장해급여-장해등급-기준-판정",
-    "sourceType": "scraped",
-    "sourceFile": "575-4-2-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-장해급여-지급액-연금-일시금-선택": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-장해급여-지급액-연금-일시금-선택",
-    "sourceType": "scraped",
-    "sourceFile": "575-4-3-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-장해급여-청구-방법-소멸시효": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-장해급여-청구-방법-소멸시효",
-    "sourceType": "scraped",
-    "sourceFile": "575-4-3-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-유족급여-지급요건-수급자격-순위": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-유족급여-지급요건-수급자격-순위",
-    "sourceType": "scraped",
-    "sourceFile": "575-5-1-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-유족보상연금-금액-청구-소멸시효": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-유족보상연금-금액-청구-소멸시효",
-    "sourceType": "scraped",
-    "sourceFile": "575-5-1-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-진폐-보험급여-특례-진폐보상연금-진폐유족연금": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-진폐-보험급여-특례-진폐보상연금-진폐유족연금",
-    "sourceType": "scraped",
-    "sourceFile": "575-7-1-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재-직업재활급여-직업훈련비용-직장복귀지원금-신청": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재-직업재활급여-직업훈련비용-직장복귀지원금-신청",
-    "sourceType": "scraped",
-    "sourceFile": "575-6-2-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재보험-보험급여-산정기준-평균임금-일용근로자-특례": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재보험-보험급여-산정기준-평균임금-일용근로자-특례",
-    "sourceType": "scraped",
-    "sourceFile": "575-8-1-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재보험-결정-불복-심사청구-재심사청구-절차": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재보험-결정-불복-심사청구-재심사청구-절차",
-    "sourceType": "scraped",
-    "sourceFile": "575-9-1-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재보험-근로기준법-재해보상-면제-민사손해배상-청구": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재보험-근로기준법-재해보상-면제-민사손해배상-청구",
-    "sourceType": "scraped",
-    "sourceFile": "575-10-1-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "업무상-재해-인정기준-상당인과관계-업무상-사고-질병": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/업무상-재해-인정기준-상당인과관계-업무상-사고-질병",
-    "sourceType": "scraped",
-    "sourceFile": "570-3-1-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "사업장-사고-업무상-재해-인정기준-출퇴근-재해-행사-중": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/사업장-사고-업무상-재해-인정기준-출퇴근-재해-행사-중",
-    "sourceType": "scraped",
-    "sourceFile": "570-3-2-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "업무상-질병-인정기준-뇌혈관-심장질환-과로-산재": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/업무상-질병-인정기준-뇌혈관-심장질환-과로-산재",
-    "sourceType": "scraped",
-    "sourceFile": "570-4-2-2.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재보험-가입-방법-당연가입-임의가입-신고절차": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/산재보험-가입-방법-당연가입-임의가입-신고절차",
-    "sourceType": "scraped",
-    "sourceFile": "570-2-2-1.json",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-07",
-    "verified": false
+    "sourceType": "unmapped"
   },
   "산재보험-일괄적용-도급사업-건설업-사업주": {
     "category": "근로노동",
@@ -3879,452 +4238,64 @@
     "fetchedAt": "2026-03-07",
     "verified": false
   },
-  "reverse-mortgage-pledge-trust-method-difference-succession": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-pledge-trust-method-difference-succession",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=1&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "730-1-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-benefits-spouse-death-full-pension-heir-protection": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-benefits-spouse-death-full-pension-heir-protection",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=1&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "730-1-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-age-55-couple-eligibility-guardianship-proxy": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-age-55-couple-eligibility-guardianship-proxy",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "730-2-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-property-12billion-limit-officetel-mixeduse": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-property-12billion-limit-officetel-mixeduse",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "730-2-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-two-home-combined-12billion-disposal-condition": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-two-home-combined-12billion-disposal-condition",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=1&cnpClsNo=3"],
-    "sourceFile": "730-2-1-3.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-application-process-documents-rescission-period": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-application-process-documents-rescission-period",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=2&cnpClsNo=1"],
-    "sourceFile": "730-2-2-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-initial-annual-guarantee-fee-registration-cost": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-initial-annual-guarantee-fee-registration-cost",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=2&cnpClsNo=2"],
-    "sourceFile": "730-2-2-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-property-tax-license-tax-reduction-interest-deduction": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-property-tax-license-tax-reduction-interest-deduction",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=2&cciNo=3&cnpClsNo=1"],
-    "sourceFile": "730-2-3-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "reverse-mortgage-payment-method-lifetime-fixed-term-growth-type": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/reverse-mortgage-payment-method-lifetime-fixed-term-growth-type",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=730&ccfNo=3&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "730-3-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-11",
-    "verified": false
-  },
-  "child-support-nonresident-parent-obligation-past-claim-retroactive": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-nonresident-parent-obligation-past-claim-retroactive",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"],
-    "sourceFile": "233-5-3-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-parental-agreement-court-determination-modification": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-parental-agreement-court-determination-modification",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"],
-    "sourceFile": "233-5-3-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-agency-role-service-priority-target-application": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-agency-role-service-priority-target-application",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"],
-    "sourceFile": "233-5-3-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-agency-agreement-support-visitation-notarization": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-agency-agreement-support-visitation-notarization",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=1"],
-    "sourceFile": "233-5-3-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-agency-legal-aid-lawsuit-acknowledgment-enforcement": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-agency-legal-aid-lawsuit-acknowledgment-enforcement",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"],
-    "sourceFile": "233-5-3-3.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-debt-collection-support-application-documents": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-debt-collection-support-application-documents",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"],
-    "sourceFile": "233-5-3-3.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-advance-payment-150pct-income-monthly-20万": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-advance-payment-150pct-income-monthly-20万",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=233&ccfNo=5&cciNo=3&cnpClsNo=3"],
-    "sourceFile": "233-5-3-3.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-nonpayment-fine-detention-order-penalty": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-nonpayment-fine-detention-order-penalty",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "1659-3-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-nonpayment-drivers-license-suspension-revocation": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-nonpayment-drivers-license-suspension-revocation",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "1659-3-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-nonpayment-exit-ban-request-condition-release": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-nonpayment-exit-ban-request-condition-release",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=3"],
-    "sourceFile": "1659-3-1-3.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "child-support-defaulter-name-disclosure-application-exclusion": {
-    "category": "가정법률",
-    "canonicalUrl": "/가정법률/child-support-defaulter-name-disclosure-application-exclusion",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1659&ccfNo=3&cciNo=1&cnpClsNo=4"],
-    "sourceFile": "1659-3-1-4.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "insurance-protection-savings-type-difference-parties-roles": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-protection-savings-type-difference-parties-roles",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=1&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "2588-1-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-renewable-nonrenewable-premium-pros-cons-channel-selection": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-renewable-nonrenewable-premium-pros-cons-channel-selection",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=2&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "2588-2-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "special-building-fire-insurance-30days-mandatory-auto-liability-penalty": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/special-building-fire-insurance-30days-mandatory-auto-liability-penalty",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=2&cciNo=1&cnpClsNo=3"],
-    "sourceFile": "2588-2-1-3.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-accident-notification-duty-delay-claim-processing-steps": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-accident-notification-duty-delay-claim-processing-steps",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "2588-3-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "life-insurance-death-disability-payment-grounds-medical-indemnity-coverage": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/life-insurance-death-disability-payment-grounds-medical-indemnity-coverage",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "2588-3-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=1"],
-    "sourceFile": "2588-3-2-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=3&cciNo=2&cnpClsNo=2"],
-    "sourceFile": "2588-3-2-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-policy-withdrawal-15days-30days-limit-cancellation-refund": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-policy-withdrawal-15days-30days-limit-cancellation-refund",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "2588-4-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-contract-void-grounds-minor-consent-premium-default-termination": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-contract-void-grounds-minor-consent-premium-default-termination",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "2588-4-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=4&cciNo=2&cnpClsNo=1"],
-    "sourceFile": "2588-4-2-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-financial-dispute-mediation-committee-consumer-agency-selection": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-financial-dispute-mediation-committee-consumer-agency-selection",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "2588-5-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect": {
-    "category": "금융금전",
-    "canonicalUrl": "/금융금전/insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2588&ccfNo=5&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "2588-5-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
   "daily-construction-worker-definition-3months-continuous-employment": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/daily-construction-worker-definition-3months-continuous-employment",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=1&cnpClsNo=1"],
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=1&cnpClsNo=1"
+    ],
     "sourceFile": "1002-1-1-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
+    "fetchedAt": "2026-03-12",
     "verified": false
   },
   "daily-construction-worker-worknet-job-search-fake-ad-reporting": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/daily-construction-worker-worknet-job-search-fake-ad-reporting",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=2&cnpClsNo=1"],
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=1&cciNo=2&cnpClsNo=1"
+    ],
     "sourceFile": "1002-1-2-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
+    "fetchedAt": "2026-03-12",
     "verified": false
   },
   "construction-daily-worker-2026-minimum-wage-contractor-joint-liability": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/construction-daily-worker-2026-minimum-wage-contractor-joint-liability",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=1"],
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=1"
+    ],
     "sourceFile": "1002-2-1-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
+    "fetchedAt": "2026-03-12",
     "verified": false
   },
   "construction-daily-worker-weekly-40hrs-daily-8hrs-overtime-approval": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/construction-daily-worker-weekly-40hrs-daily-8hrs-overtime-approval",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=2"],
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=1&cnpClsNo=2"
+    ],
     "sourceFile": "1002-2-1-2.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
+    "fetchedAt": "2026-03-12",
     "verified": false
   },
   "construction-daily-worker-written-contract-mandatory-items-prohibited-clauses": {
     "category": "근로노동",
     "canonicalUrl": "/근로노동/construction-daily-worker-written-contract-mandatory-items-prohibited-clauses",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=2&cnpClsNo=1"],
+    "easylawUrls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1002&ccfNo=2&cciNo=2&cnpClsNo=1"
+    ],
     "sourceFile": "1002-2-2-1.json",
     "sourceType": "scraped",
     "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-02-15",
-    "verified": false
-  },
-  "dismissal-vs-resignation-employment-termination-difference-effective-date": {
-    "categorySlug": "근로노동",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "514-1-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (WebFetch)",
     "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "labor-standards-act-dismissal-grounds-procedure-scope-unfair-dismissal-remedy": {
-    "categorySlug": "근로노동",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=1&cciNo=1&cnpClsNo=2"],
-    "sourceFile": "514-1-1-2.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (WebFetch)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "dismissal-ban-labor-law-report-retaliation-sexual-harassment-victim-protection": {
-    "categorySlug": "근로노동",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=3&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "514-3-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (WebFetch)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "dismissal-ban-work-injury-recovery-maternity-leave-parental-leave-protection": {
-    "categorySlug": "근로노동",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "514-4-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (WebFetch)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "advance-dismissal-notice-30days-obligation-notice-pay-exemption-grounds": {
-    "categorySlug": "근로노동",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=514&ccfNo=4&cciNo=2&cnpClsNo=1"],
-    "sourceFile": "514-4-2-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (WebFetch)",
-    "fetchedAt": "2026-03-12",
-    "verified": false
-  },
-  "gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan": {
-    "category": "근로노동",
-    "canonicalUrl": "/근로노동/gujiggeubyeo-sugeubjagyeok-piboheom-danwigigan",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "722-2-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-13",
-    "verified": false
-  },
-  "jajintoeusa-sileopgeubyeo-sugeuP-sayu": {
-    "category": "근로노동",
-    "canonicalUrl": "/근로노동/jajintoeusa-sileopgeubyeo-sugeuP-sayu",
-    "easylawUrls": ["https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1"],
-    "sourceFile": "722-2-1-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-13",
-    "verified": false
-  },
-  "sileopgeubyeo-sileop-singo-goyongsenteo": {
-    "category": "근로노동",
-    "canonicalUrl": "/근로노동/sileopgeubyeo-sileop-singo-goyongsenteo",
-    "easylawUrls": [
-      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1",
-      "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2"
-    ],
-    "sourceFile": "722-2-2-1.json",
-    "sourceType": "scraped",
-    "sourceOrigin": "easylaw.go.kr (Playwright)",
-    "fetchedAt": "2026-03-13",
     "verified": false
   }
 }
