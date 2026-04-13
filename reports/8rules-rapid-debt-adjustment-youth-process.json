@@ -1,63 +1,78 @@
 {
   "slug": "rapid-debt-adjustment-youth-process",
   "category": "금융금전",
-  "timestamp": "2026-04-13T01:58:42.059Z",
+  "timestamp": "2026-04-13T04:48:39.789Z",
   "results": [
     {
       "name": "1. 스토리텔링",
       "score": 9,
-      "passed": 11,
-      "total": 12,
+      "passed": 13,
+      "total": 15,
       "items": [
         {
           "id": "1F",
           "pass": true,
-          "detail": "섹션 3개 (3~4 필수)"
+          "detail": "섹션 4개 (3~4 필수)"
         },
         {
           "id": "1A",
           "pass": false,
-          "detail": "[스마트폰으로 신속채무조정 청년 특례를 신청할까] P1 결론: 결론 아닌 서론형 시작"
+          "detail": "[주민센터 안 가고 스마트폰 앱 하나로만 쾌속 ] P1 결론: 결론 아닌 서론형 시작"
         },
         {
           "id": "1B",
           "pass": true,
-          "detail": "[스마트폰으로 신속채무조정 청년 특례를 신청할까] 조건어: OK"
+          "detail": "[주민센터 안 가고 스마트폰 앱 하나로만 쾌속 ] 조건어: OK"
         },
         {
           "id": "1C",
           "pass": true,
-          "detail": "[스마트폰으로 신속채무조정 청년 특례를 신청할까] 행동어: OK"
+          "detail": "[주민센터 안 가고 스마트폰 앱 하나로만 쾌속 ] 행동어: OK"
         },
         {
           "id": "1A",
           "pass": true,
-          "detail": "[인터넷 말고 서류를 직접 들고 방문할 수 없을] P1 결론: OK"
+          "detail": "[앱 화면이 힘든데 당일에 그냥 방문증 없이 창] P1 결론: OK"
         },
         {
           "id": "1B",
-          "pass": true,
-          "detail": "[인터넷 말고 서류를 직접 들고 방문할 수 없을] 조건어: OK"
+          "pass": false,
+          "detail": "[앱 화면이 힘든데 당일에 그냥 방문증 없이 창] 조건어: 조건/예외 표현 없음"
         },
         {
           "id": "1C",
           "pass": true,
-          "detail": "[인터넷 말고 서류를 직접 들고 방문할 수 없을] 행동어: OK"
+          "detail": "[앱 화면이 힘든데 당일에 그냥 방문증 없이 창] 행동어: OK"
         },
         {
           "id": "1A",
           "pass": true,
-          "detail": "[센터로 갈 때 챙겨야 하는 필수 문서 목록은 ] P1 결론: OK"
+          "detail": "[엄마나 사장님 집으로 채무조정 중이라는 수치스] P1 결론: OK"
         },
         {
           "id": "1B",
           "pass": true,
-          "detail": "[센터로 갈 때 챙겨야 하는 필수 문서 목록은 ] 조건어: OK"
+          "detail": "[엄마나 사장님 집으로 채무조정 중이라는 수치스] 조건어: OK"
         },
         {
           "id": "1C",
           "pass": true,
-          "detail": "[센터로 갈 때 챙겨야 하는 필수 문서 목록은 ] 행동어: OK"
+          "detail": "[엄마나 사장님 집으로 채무조정 중이라는 수치스] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[중간에 심사가 강제 부결나면 수임료를 완전히 ] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[중간에 심사가 강제 부결나면 수임료를 완전히 ] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[중간에 심사가 강제 부결나면 수임료를 완전히 ] 행동어: OK"
         },
         {
           "id": "1D",
@@ -79,8 +94,8 @@
       "items": [
         {
           "id": "2A",
-          "pass": false,
-          "detail": "[기] hero에 공감 요소 없음"
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
         },
         {
           "id": "2B",
@@ -89,8 +104,8 @@
         },
         {
           "id": "2C",
-          "pass": true,
-          "detail": "[전] 반전/예외 표현 OK"
+          "pass": false,
+          "detail": "[전] 반전 없음"
         },
         {
           "id": "2D",
@@ -105,7 +120,7 @@
         {
           "id": "2F",
           "pass": true,
-          "detail": "description/hero 중복 0% (90% 미만 필수)"
+          "detail": "description/hero 중복 4% (90% 미만 필수)"
         }
       ]
     },
@@ -133,7 +148,7 @@
         {
           "id": "3D",
           "pass": true,
-          "detail": "어미 연속 최대 2회 (3 이하)"
+          "detail": "어미 연속 최대 3회 (3 이하)"
         },
         {
           "id": "3E",
@@ -143,7 +158,7 @@
         {
           "id": "3F",
           "pass": true,
-          "detail": "문장 길이 표준편차 16.2 (8 이상)"
+          "detail": "문장 길이 표준편차 18.2 (8 이상)"
         },
         {
           "id": "3G",
@@ -181,25 +196,25 @@
         {
           "id": "4E",
           "pass": true,
-          "detail": "근거 없는 숫자 1건 (14 이하)"
+          "detail": "근거 없는 숫자 0건 (14 이하)"
         }
       ]
     },
     {
       "name": "5. 가독성",
-      "score": 8,
-      "passed": 5,
+      "score": 10,
+      "passed": 6,
       "total": 6,
       "items": [
         {
           "id": "5A",
           "pass": true,
-          "detail": "평균 문장 길이 57자 (20~65)"
+          "detail": "평균 문장 길이 53자 (20~65)"
         },
         {
           "id": "5B",
           "pass": true,
-          "detail": "80자 초과 문장 0건 (3 이하)"
+          "detail": "80자 초과 문장 1건 (3 이하)"
         },
         {
           "id": "5C",
@@ -208,8 +223,8 @@
         },
         {
           "id": "5D",
-          "pass": false,
-          "detail": "FAQ 답변 길이 부적합 1건"
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
         },
         {
           "id": "5E",
@@ -267,7 +282,7 @@
         {
           "id": "6H",
           "pass": false,
-          "detail": "\"어디에\" 누락 3건: \"핸드폰 스토어에 들어가서 '신용플러스' 전용 앱을 깐 뒤 비대면으로 서면...\", \"처리 도중 스마트폰 앱에서 자꾸 에러가 난다면 포기할 것 없이 신용회복위...\", \"방문도 어렵고 챙기기가 벅차다면 신용회복위원회 등 관련 기관의 안내를 찾...\""
+          "detail": "\"어디에\" 누락 4건: \"휴대폰에서 공식 채널인 신용플러스 앱에 접속해서 비대면 신청란을 작성하는...\", \"혹시 화면이 막히거나 답답한 오류 메시지로 자꾸 밀려난다면 얼른 화면 큰...\", \"공공 시스템은 상상 이상으로 극심하게 민감한 신청자의 프라이버시 보호를 ...\""
         },
         {
           "id": "6I",
@@ -283,8 +298,8 @@
     },
     {
       "name": "7. 오차 제로",
-      "score": 7,
-      "passed": 5,
+      "score": 10,
+      "passed": 7,
       "total": 7,
       "items": [
         {
@@ -294,18 +309,18 @@
         },
         {
           "id": "7B",
-          "pass": false,
-          "detail": "description 85자 (100~200)"
+          "pass": true,
+          "detail": "description 108자 (100~200)"
         },
         {
           "id": "7C",
           "pass": true,
-          "detail": "metaDescription 52자 (170 이하)"
+          "detail": "metaDescription 54자 (170 이하)"
         },
         {
           "id": "7D",
-          "pass": false,
-          "detail": "모호 표현 1건: 대략 10"
+          "pass": true,
+          "detail": "모호 표현 없음"
         },
         {
           "id": "7E",
@@ -326,8 +341,8 @@
     },
     {
       "name": "8. 출처",
-      "score": 10,
-      "passed": 5,
+      "score": 8,
+      "passed": 4,
       "total": 5,
       "items": [
         {
@@ -342,8 +357,8 @@
         },
         {
           "id": "8C",
-          "pass": true,
-          "detail": "hero 출처 신뢰도 OK"
+          "pass": false,
+          "detail": "hero에 출처 문구 없음"
         },
         {
           "id": "8D",
@@ -358,7 +373,7 @@
       ]
     }
   ],
-  "average": 8.6,
+  "average": 9,
   "verdict": "PASS",
   "failedRules": []
 }

@@ -1,63 +1,78 @@
 {
   "slug": "rapid-debt-adjustment-youth-benefits",
   "category": "금융금전",
-  "timestamp": "2026-04-13T01:58:38.596Z",
+  "timestamp": "2026-04-13T04:32:58.130Z",
   "results": [
     {
       "name": "1. 스토리텔링",
-      "score": 7,
-      "passed": 8,
-      "total": 12,
+      "score": 8,
+      "passed": 12,
+      "total": 15,
       "items": [
         {
           "id": "1F",
           "pass": true,
-          "detail": "섹션 3개 (3~4 필수)"
+          "detail": "섹션 4개 (3~4 필수)"
         },
         {
           "id": "1A",
           "pass": true,
-          "detail": "[매월 은행에 갚아야 할 이자는 얼마나 줄어들까] P1 결론: OK"
+          "detail": "[내 훌쩍 높은 카드론 금리가 정상 수준으로 떨] P1 결론: OK"
         },
         {
           "id": "1B",
-          "pass": true,
-          "detail": "[매월 은행에 갚아야 할 이자는 얼마나 줄어들까] 조건어: OK"
+          "pass": false,
+          "detail": "[내 훌쩍 높은 카드론 금리가 정상 수준으로 떨] 조건어: 조건/예외 표현 없음"
         },
         {
           "id": "1C",
-          "pass": false,
-          "detail": "[매월 은행에 갚아야 할 이자는 얼마나 줄어들까] 행동어: 행동 정보 없음"
+          "pass": true,
+          "detail": "[내 훌쩍 높은 카드론 금리가 정상 수준으로 떨] 행동어: OK"
         },
         {
           "id": "1A",
           "pass": true,
-          "detail": "[소득이 당장 하나도 없다면 상환 유예를 신청해] P1 결론: OK"
+          "detail": "[당장 알바 소득도 없는데 유예 제도를 써버려도] P1 결론: OK"
         },
         {
           "id": "1B",
           "pass": true,
-          "detail": "[소득이 당장 하나도 없다면 상환 유예를 신청해] 조건어: OK"
+          "detail": "[당장 알바 소득도 없는데 유예 제도를 써버려도] 조건어: OK"
         },
         {
           "id": "1C",
-          "pass": false,
-          "detail": "[소득이 당장 하나도 없다면 상환 유예를 신청해] 행동어: 행동 정보 없음"
+          "pass": true,
+          "detail": "[당장 알바 소득도 없는데 유예 제도를 써버려도] 행동어: OK"
         },
         {
           "id": "1A",
+          "pass": true,
+          "detail": "[목돈이 생겨서 일찍 모조리 갚아버리면 수수료를] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[목돈이 생겨서 일찍 모조리 갚아버리면 수수료를] 조건어: OK"
+        },
+        {
+          "id": "1C",
           "pass": false,
-          "detail": "[혹시라도 원금 감면 혜택은 절대로 못 받을까?] P1 결론: 결론 아닌 서론형 시작"
+          "detail": "[목돈이 생겨서 일찍 모조리 갚아버리면 수수료를] 행동어: 행동 정보 없음"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[원금까지 전부 탕감받으려면 개인워크아웃으로 넘] P1 결론: OK"
         },
         {
           "id": "1B",
           "pass": false,
-          "detail": "[혹시라도 원금 감면 혜택은 절대로 못 받을까?] 조건어: 조건/예외 표현 없음"
+          "detail": "[원금까지 전부 탕감받으려면 개인워크아웃으로 넘] 조건어: 조건/예외 표현 없음"
         },
         {
           "id": "1C",
           "pass": true,
-          "detail": "[혹시라도 원금 감면 혜택은 절대로 못 받을까?] 행동어: OK"
+          "detail": "[원금까지 전부 탕감받으려면 개인워크아웃으로 넘] 행동어: OK"
         },
         {
           "id": "1D",
@@ -73,14 +88,14 @@
     },
     {
       "name": "2. 기승전결",
-      "score": 8,
-      "passed": 5,
+      "score": 10,
+      "passed": 6,
       "total": 6,
       "items": [
         {
           "id": "2A",
-          "pass": false,
-          "detail": "[기] hero에 공감 요소 없음"
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
         },
         {
           "id": "2B",
@@ -105,7 +120,7 @@
         {
           "id": "2F",
           "pass": true,
-          "detail": "description/hero 중복 4% (90% 미만 필수)"
+          "detail": "description/hero 중복 0% (90% 미만 필수)"
         }
       ]
     },
@@ -133,7 +148,7 @@
         {
           "id": "3D",
           "pass": true,
-          "detail": "어미 연속 최대 3회 (3 이하)"
+          "detail": "어미 연속 최대 2회 (3 이하)"
         },
         {
           "id": "3E",
@@ -143,7 +158,7 @@
         {
           "id": "3F",
           "pass": true,
-          "detail": "문장 길이 표준편차 12.9 (8 이상)"
+          "detail": "문장 길이 표준편차 11.0 (8 이상)"
         },
         {
           "id": "3G",
@@ -165,8 +180,8 @@
         },
         {
           "id": "4B",
-          "pass": true,
-          "detail": "전 섹션 결론 선행 OK"
+          "pass": false,
+          "detail": "서론형 시작 1건"
         },
         {
           "id": "4C",
@@ -175,13 +190,13 @@
         },
         {
           "id": "4D",
-          "pass": false,
-          "detail": "연결어 반복: \"하지만\" 3회"
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
         },
         {
           "id": "4E",
           "pass": true,
-          "detail": "근거 없는 숫자 10건 (14 이하)"
+          "detail": "근거 없는 숫자 0건 (14 이하)"
         }
       ]
     },
@@ -194,7 +209,7 @@
         {
           "id": "5A",
           "pass": true,
-          "detail": "평균 문장 길이 47자 (20~65)"
+          "detail": "평균 문장 길이 43자 (20~65)"
         },
         {
           "id": "5B",
@@ -231,8 +246,8 @@
       "items": [
         {
           "id": "6A",
-          "pass": true,
-          "detail": "기관/장소명 OK"
+          "pass": false,
+          "detail": "기관/장소명 없음"
         },
         {
           "id": "6B",
@@ -271,8 +286,8 @@
         },
         {
           "id": "6I",
-          "pass": false,
-          "detail": "떠넘기기 1건: \"자세한 정보는 신용회복위원회 홈페이지에서 확인할 수 있어요....\""
+          "pass": true,
+          "detail": "떠넘기기 없음"
         },
         {
           "id": "6J",
@@ -283,8 +298,8 @@
     },
     {
       "name": "7. 오차 제로",
-      "score": 9,
-      "passed": 6,
+      "score": 10,
+      "passed": 7,
       "total": 7,
       "items": [
         {
@@ -295,17 +310,17 @@
         {
           "id": "7B",
           "pass": true,
-          "detail": "description 100자 (100~200)"
+          "detail": "description 103자 (100~200)"
         },
         {
           "id": "7C",
           "pass": true,
-          "detail": "metaDescription 41자 (170 이하)"
+          "detail": "metaDescription 47자 (170 이하)"
         },
         {
           "id": "7D",
-          "pass": false,
-          "detail": "모호 표현 1건: 대략 30"
+          "pass": true,
+          "detail": "모호 표현 없음"
         },
         {
           "id": "7E",
@@ -326,8 +341,8 @@
     },
     {
       "name": "8. 출처",
-      "score": 10,
-      "passed": 5,
+      "score": 8,
+      "passed": 4,
       "total": 5,
       "items": [
         {
@@ -342,8 +357,8 @@
         },
         {
           "id": "8C",
-          "pass": true,
-          "detail": "hero 출처 신뢰도 OK"
+          "pass": false,
+          "detail": "hero에 출처 문구 없음"
         },
         {
           "id": "8D",
@@ -358,7 +373,7 @@
       ]
     }
   ],
-  "average": 8.8,
+  "average": 9,
   "verdict": "PASS",
   "failedRules": []
 }
