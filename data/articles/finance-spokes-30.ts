@@ -14,7 +14,7 @@ export const financeSpokes30: SpokeArticle[] = [
     heroDescription: "대출금 갚기 막막하죠? 연체가 길어지지 않은 만 34세 이하 청년이라면 제도의 도움을 받을 수 있어요. 신용회복위원회 공식 내용을 바탕으로 정리했어요.",
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",
-    sources: [{ label: "신용회복위원회", url: "https://www.ccrs.or.kr/debt/fast/info/view.do", id: "rapid-debt-adjustment-youth-eligibility" }],
+    sources: [{ label: "신용회복위원회", url: "https://www.ccrs.or.kr/debt/fast/info/view.do" }],
     faq: [
       {
         question: "현재 연체가 없는 정상 납부자도 신청할 수 있나요?",
@@ -71,7 +71,7 @@ export const financeSpokes30: SpokeArticle[] = [
     heroDescription: "매월 나가는 이자 때문에 숨막힐 때, 특례를 통해 이자를 깎고 10년까지 나눠 갚을 수 있어요. 신용회복위원회 가이드를 바탕으로 매월 상환액을 예측해 드릴게요.",
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",
-    sources: [{ label: "신용회복위원회", url: "https://www.ccrs.or.kr/debt/fast/info/view.do", id: "rapid-debt-adjustment-youth-benefits" }],
+    sources: [{ label: "신용회복위원회", url: "https://www.ccrs.or.kr/debt/fast/info/view.do" }],
     faq: [
       {
         question: "원금 탕감도 가능한가요?",
@@ -128,7 +128,7 @@ export const financeSpokes30: SpokeArticle[] = [
     heroDescription: "동사무소 방문 없이 그 자리에서 스마트폰으로 아주 재빠르게 청년 특례를 요청할 수 있어요. 꼭 가져갈 필수 준비물과 신용회복위원회 공식 채널을 모아 정리해 드릴게요.",
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",
-    sources: [{ label: "신용회복위원회", url: "https://www.ccrs.or.kr/debt/fast/info/view.do", id: "rapid-debt-adjustment-youth-process" }],
+    sources: [{ label: "신용회복위원회", url: "https://www.ccrs.or.kr/debt/fast/info/view.do" }],
     faq: [
       {
         question: "서류 준비는 어디서부터 하나요?",
