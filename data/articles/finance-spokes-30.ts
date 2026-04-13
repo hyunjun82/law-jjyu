@@ -51,8 +51,7 @@ export const financeSpokes30: SpokeArticle[] = [
         content: `
           <p>지금 센터에 향하기 전에 신분증, 소득증명서, 그리고 청년 특례 증빙을 도와줄 실업급여 수급증 등 중요 서류를 한곳에 우선 모아두세요.</p>
           <p>하지만, 서류 발급이 도저히 어렵거나 모아둔 게 부족할 때는 서민금융통합지원센터를 방문했을 때 창구 담당자에게 현장에서 서류를 발급받을 수 있어요. 무턱대고 센터에 향하기보다 1600-5500으로 먼저 전화해서 필요 서류를 한 번 더 체크받는 게 좋아요.</p>
-          <p>준비가 완료되었다면 신용플러스 앱에 로그인해서 서류 사진을 첨부하고 결정을 지으세요.</p>
-          <a href="https://www.ccrs.or.kr" class="inline-flex items-center justify-center rounded-md text-sm font-medium bg-gov-600 text-white hover:bg-gov-700 h-10 py-2 px-4 w-full sm:w-auto mt-4 transition-colors">👉 신용회복위원회에서 확인하기</a>
+          <p>준비가 완료되었다면 스마트폰에 설치한 전용 앱에 로그인해서 서류 사진을 첨부하고 절차를 완료하세요. 자세한 내용은 <a href="https://www.ccrs.or.kr">신용회복위원회(www.ccrs.or.kr)</a>에서 직접 확인할 수 있어요.</p>
         `
       }
     ]
@@ -108,8 +107,7 @@ export const financeSpokes30: SpokeArticle[] = [
         content: `
           <p>신속채무조정 신청 자체에서는 원금을 크게 깎아주는 혜택이 원천적으로 들어 있지 않아요. 오직 이자를 줄여주는 것에 집중해요.</p>
           <p>더구나 채무 상태가 돌이킬 수 없이 심각하다면 완전히 다른 방식의 개인워크아웃 절차에 돌입해야 해요. 개인워크아웃은 연체가 90일 넘게 장기화해야 쓸 수 있지만 확실한 감액을 제공해요.</p>
-          <p>다른 해법이 필요한지 따져보려면 신분증을 꼭 챙긴 뒤 집 근처 서민금융통합지원센터를 직접 찾아가세요.</p>
-          <a href="/금융금전" class="inline-flex items-center justify-center rounded-md text-sm font-medium bg-gov-600 text-white hover:bg-gov-700 h-10 py-2 px-4 w-full sm:w-auto mt-4 transition-colors">👉 금융/금전 내게 맞는 지원제도 찾기</a>
+          <p>다른 해법이 필요한지 따져보려면 신분증을 꼭 챙긴 뒤 집 근처 서민금융통합지원센터를 직접 찾아가세요. 자세한 정보는 <a href="https://www.ccrs.or.kr">신용회복위원회 홈페이지</a>에서 확인할 수 있어요.</p>
         `
       }
     ]
@@ -165,8 +163,7 @@ export const financeSpokes30: SpokeArticle[] = [
         content: `
           <p>신분을 확실히 말해주는 본인 명의 신분증 원본, 급여명세서와 부채 내역서 리스트 묶음이 아주 중요하게 쓰이는 필수 종이 문서예요.</p>
           <p>하지만, 앱으로 스크래핑을 체결했다면 등본류의 서류를 이중으로 챙길 일은 없어져요. 반면 통장 입금 내역이나 수기 증명 서류는 자동 조회가 막히므로 서민금융통합지원센터 제출용으로 원본 종이를 잊지 말고 가져가야 돼요.</p>
-          <p>방문도 어렵고 챙기기가 벅차다면 이 글 아래에 있는 링크를 찾아서 다른 관련 구제 수단을 꼼꼼하게 다시금 알아보세요.</p>
-          <a href="/금융금전" class="inline-flex items-center justify-center rounded-md text-sm font-medium bg-gov-600 text-white hover:bg-gov-700 h-10 py-2 px-4 w-full sm:w-auto mt-4 transition-colors">👉 금융/금전 내게 맞는 지원제도 찾기</a>
+          <p>방문도 어렵고 챙기기가 벅차다면 <a href="https://www.ccrs.or.kr">신용회복위원회</a> 등 관련 기관의 안내를 찾아보며 다른 관련 구제 수단을 꼼꼼하게 다시금 알아보세요. 필요한 서류 목록은 수시로 변경될 수 있으니 신청 전 확인이 필수예요.</p>
         `
       }
     ]

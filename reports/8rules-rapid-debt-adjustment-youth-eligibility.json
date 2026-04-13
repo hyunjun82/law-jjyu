@@ -1,7 +1,7 @@
 {
   "slug": "rapid-debt-adjustment-youth-eligibility",
   "category": "금융금전",
-  "timestamp": "2026-04-13T01:05:50.085Z",
+  "timestamp": "2026-04-13T01:58:33.767Z",
   "results": [
     {
       "name": "1. 스토리텔링",
@@ -133,7 +133,7 @@
         {
           "id": "3D",
           "pass": true,
-          "detail": "어미 연속 최대 1회 (3 이하)"
+          "detail": "어미 연속 최대 2회 (3 이하)"
         },
         {
           "id": "3E",
@@ -143,7 +143,7 @@
         {
           "id": "3F",
           "pass": true,
-          "detail": "문장 길이 표준편차 23.0 (8 이상)"
+          "detail": "문장 길이 표준편차 22.0 (8 이상)"
         },
         {
           "id": "3G",
@@ -194,7 +194,7 @@
         {
           "id": "5A",
           "pass": true,
-          "detail": "평균 문장 길이 55자 (20~65)"
+          "detail": "평균 문장 길이 54자 (20~65)"
         },
         {
           "id": "5B",
@@ -225,8 +225,8 @@
     },
     {
       "name": "6. 문제해결 100%",
-      "score": 8,
-      "passed": 8,
+      "score": 9,
+      "passed": 9,
       "total": 10,
       "items": [
         {
@@ -256,8 +256,8 @@
         },
         {
           "id": "6F",
-          "pass": false,
-          "detail": "마지막 문단에 행동 정보 없음"
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
         },
         {
           "id": "6G",
@@ -358,7 +358,7 @@
       ]
     }
   ],
-  "average": 9.6,
+  "average": 9.8,
   "verdict": "PASS",
   "failedRules": []
 }

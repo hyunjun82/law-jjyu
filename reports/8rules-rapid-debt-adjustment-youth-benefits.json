@@ -1,7 +1,7 @@
 {
   "slug": "rapid-debt-adjustment-youth-benefits",
   "category": "금융금전",
-  "timestamp": "2026-04-13T01:05:50.384Z",
+  "timestamp": "2026-04-13T01:58:38.596Z",
   "results": [
     {
       "name": "1. 스토리텔링",
@@ -143,7 +143,7 @@
         {
           "id": "3F",
           "pass": true,
-          "detail": "문장 길이 표준편차 12.0 (8 이상)"
+          "detail": "문장 길이 표준편차 12.9 (8 이상)"
         },
         {
           "id": "3G",
@@ -194,7 +194,7 @@
         {
           "id": "5A",
           "pass": true,
-          "detail": "평균 문장 길이 50자 (20~65)"
+          "detail": "평균 문장 길이 47자 (20~65)"
         },
         {
           "id": "5B",
@@ -225,8 +225,8 @@
     },
     {
       "name": "6. 문제해결 100%",
-      "score": 7,
-      "passed": 7,
+      "score": 8,
+      "passed": 8,
       "total": 10,
       "items": [
         {
@@ -251,13 +251,13 @@
         },
         {
           "id": "6E",
-          "pass": false,
-          "detail": "연락처 없음"
+          "pass": true,
+          "detail": "연락처/온라인 경로 OK"
         },
         {
           "id": "6F",
-          "pass": false,
-          "detail": "마지막 문단에 행동 정보 없음"
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
         },
         {
           "id": "6G",
@@ -271,8 +271,8 @@
         },
         {
           "id": "6I",
-          "pass": true,
-          "detail": "떠넘기기 없음"
+          "pass": false,
+          "detail": "떠넘기기 1건: \"자세한 정보는 신용회복위원회 홈페이지에서 확인할 수 있어요....\""
         },
         {
           "id": "6J",
@@ -358,7 +358,7 @@
       ]
     }
   ],
-  "average": 8.6,
+  "average": 8.8,
   "verdict": "PASS",
   "failedRules": []
 }
