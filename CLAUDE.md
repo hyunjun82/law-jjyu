@@ -64,3 +64,6 @@ STEP 6: 검증 (quality-check.js + fact-compare.js + build)
 - 1 에이전트 = 1 카테고리
 - 공통 파일 (`lib/types.ts`, `components/`, `app/`) 수정 금지
 - 커밋 메시지: `{카테고리} 카테고리 {N}개 spoke 글 추가`
+
+## 📝 작업 로그 (History)
+- **2026-04-13**: 금융/금전 카테고리에 "신속채무조정 청년 특례" 관련 PAA 기반 롱테일 Spoke 아티클 3종 추가 (8대 원칙 검증 완벽 통과)
