@@ -1,0 +1,117 @@
+=== personal-bankruptcy-non-dischargeable-debts ===
+   ✗ 연락처/온라인 신청 경로 없음 — 전화번호 또는 온라인 신청 URL 필요
+=== personal-rehabilitation-guarantor-liability ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== workout-debt-scope-nonmember-lender ===
+   ✗ heroDescription 독자 공감 요소 없음 — "막막하죠?", "어렵죠?" 등 독자 입장 공감 필요
+=== workout-credit-record-deletion ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-to-workout-conversion ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== workout-microloan-living-expenses ===
+   ✗ 서류/준비물 정보 없음 — "뭘 준비해야 하는지" 명시 필요
+=== debt-adjustment-eligibility-exclusion ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== tax-arrears-debt-adjustment-alternative ===
+   ✗ 80자 초과 긴 문장 5건 (3건 이하 권장)
+=== minimum-livelihood-income-workout-apply ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== workout-asset-concealment-cancellation-restriction ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== individual-rehabilitation-income-debt-limit-procedure ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== rehabilitation-repayment-disposable-income-non-exempt-claims ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== bankruptcy-non-dischargeable-debts-discharge-denial ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== ccrs-rehabilitation-bankruptcy-legal-support-eligibility ===
+   ✗ 연락처/온라인 신청 경로 없음 — 전화번호 또는 온라인 신청 URL 필요
+=== personal-rehabilitation-repayment-calculation ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-living-expenses-2026 ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== ccrs-microloan-overdue-penalty-existing-delinquency ===
+   ✗ 80자 초과 긴 문장 5건 (3건 이하 권장)
+=== ccrs-credit-card-application-documents-online ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== workout-public-info-early-removal-interest-rate ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== good-payer-credit-score-rise-jump-program ===
+   ✗ 80자 초과 긴 문장 5건 (3건 이하 권장)
+=== debt-adjustment-lapse-readjustment-application ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== modification-revival-midterm-debt-exemption ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== mortgage-debt-adjustment-rate-period-difference ===
+   ✗ 80자 초과 긴 문장 5건 (3건 이하 권장)
+=== new-leap-fund-long-overdue-auto-purchase-loan ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== financial-institution-self-debt-adjustment-comparison ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== credit-welfare-consulting-sme-restart-support ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== illegal-lending-60pct-void-damage-report-process ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== reverse-mortgage-application-process-documents-rescission-period ===
+   ✗ 80자 초과 긴 문장 5건 (3건 이하 권장)
+=== reverse-mortgage-initial-annual-guarantee-fee-registration-cost ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== reverse-mortgage-property-tax-license-tax-reduction-interest-deduction ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== insurance-protection-savings-type-difference-parties-roles ===
+   ✗ 기관/장소 정보 없음 — 독자가 어디 가야 하는지 명시 필요
+   ✗ 연락처/온라인 신청 경로 없음 — 전화번호 또는 온라인 신청 URL 필요
+=== special-building-fire-insurance-30days-mandatory-auto-liability-penalty ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== life-insurance-death-disability-payment-grounds-medical-indemnity-coverage ===
+   ✗ 80자 초과 긴 문장 8건 (3건 이하 권장)
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== insurance-exemption-intentional-gross-negligence-drunk-driving-self-harm ===
+   ✗ [섹션 "음주운전 사고는 자동차보험에서 어떻게 처리되나요?"] <p> 2개 (3개 필수)
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== insurance-fraud-types-deliberate-accident-fake-diagnosis-auto-fraud-response ===
+   ✗ 외부 링크 없음 — 정부24, 공단 홈페이지 등 실행 링크 필요
+=== insurance-policy-withdrawal-15days-30days-limit-cancellation-refund ===
+   ✗ 80자 초과 긴 문장 7건 (3건 이하 권장)
+=== insurance-contract-void-grounds-minor-consent-premium-default-termination ===
+   ✗ 80자 초과 긴 문장 5건 (3건 이하 권장)
+=== insurance-lapse-revival-3years-reinstatement-overdue-premium-coverage-date ===
+   ✗ [섹션 "보험설계사가 기존 보험을 해지시켰다면 어떻게 하나요?"] <p> 2개 (3개 필수)
+   ✗ 80자 초과 긴 문장 7건 (3건 이하 권장)
+=== insurance-financial-dispute-mediation-committee-consumer-agency-selection ===
+   ✗ [섹션 "우체국보험 분쟁은 어디서 조정하나요?"] <p> 2개 (3개 필수)
+=== insurance-civil-lawsuit-court-claim-steps-mediation-agreement-legal-effect ===
+   ✗ 외부 링크 없음 — 정부24, 공단 홈페이지 등 실행 링크 필요
+=== personal-rehabilitation-application-procedure ===
+   ✗ FAQ 2 답변: 6문장 (2~4문장 권장)
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-free-legal-support ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-employment-disadvantage ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== self-employed-personal-rehabilitation ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-discharge-completion ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-bankruptcy-discharge-refusal-reasons ===
+   ✗ 80자 초과 긴 문장 6건 (3건 이하 권장)
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-bankruptcy-application-procedure ===
+   ✗ 80자 초과 긴 문장 4건 (3건 이하 권장)
+=== personal-rehabilitation-debt-ceiling ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-stay-enforcement ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-application-costs ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-private-debt-inclusion ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-rehabilitation-secured-debt ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== employed-vs-selfemployed-rehabilitation ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== personal-bankruptcy-voluntary-vs-creditor ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요
+=== workout-vs-personal-rehabilitation ===
+   ✗ 기한/기간 정보 없음 — "언제까지", "얼마나 걸리는지" 명시 필요

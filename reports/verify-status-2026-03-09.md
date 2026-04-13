@@ -1,0 +1,353 @@
+# 검증 현황 리포트
+생성일: 2026-03-09
+
+## 요약
+| 카테고리 | 전체 | source-data有 | source-data無 | 검증률 |
+|----------|------|---------------|---------------|--------|
+| 가정법률 | 63 | 1 | 62 | 2% |
+| 금융금전 | 102 | 0 | 102 | 0% |
+| 부동산임대차 | 76 | 0 | 76 | 0% |
+| 민형사소송 | 45 | 0 | 45 | 0% |
+| 복지 | 17 | 17 | 0 | 100% |
+| 근로노동 | 35 | 12 | 23 | 34% |
+| **합계** | **338** | **30** | **308** | **9%** |
+
+## source-data 없는 글 목록 (검증 필요)
+
+### 가정법률 (62개)
+- 재판상이혼-사유-부정행위-가정폭력
+- 이혼조정-신청-비용-재판이혼-기간
+- 재산분할-대상-퇴직금-연금-채무
+- 재산분할-비율-기여도-혼인기간
+- 재산분할청구권-소멸시효-2년
+- 이혼-재산분할-양도소득세-취득세
+- 이혼-위자료-금액-유책배우자
+- 이혼-위자료-재산분할-차이점
+- 협의이혼-친권자-지정-재판이혼
+- 이혼-양육권-판단기준-지정방법
+- 이혼-양육비-산정기준표-소득
+- 양육비-미지급-이행명령-직접지급
+- 친권-양육권-차이-분리지정
+- 면접교섭권-거부-이행강제
+- 이혼후-자녀-성본변경-재혼
+- 가정폭력-이혼소송-증거-양육권
+- 사실혼-파기-재산분할-위자료
+- 협의이혼-취소-무효-이혼의사철회
+- 유책배우자-이혼청구-별거-혼인파탄
+- 사실상-이혼-법적-효력-중혼
+- 이혼소송-전-증거-수집-가압류
+- 이혼소송-피고-답변서-응소
+- 이혼-후-인척관계-소멸-재혼-제한
+- 이혼신고-무효-사유-확인소송
+- 이혼-취소-사기-강박-제척기간
+- 사실혼-재산분할-청구권-소멸시효
+- 사실혼-자녀-양육비-인지-절차
+- 협의이혼-양육협의서-양육비부담조서
+- 협의이혼-재산합의-구속력-번복
+- 해외거주-한국인-협의이혼-재외공관
+- 협의이혼-위자료-미합의-소멸시효
+- 재산분할-재산명시-재산조회-제도
+- 친권자-양육자-변경-사유-심판
+- 친권-상실-선고-후견인-지정
+- 양육비-증액-감액-사정변경
+- 양육비-대지급-양육비이행관리원
+- 면접교섭권-제한-배제-심판
+- 가정폭력-고소-보호처분-접근금지
+- 이혼결심-협의이혼-재판이혼-비교
+- sangsokpogi-seoryu-mokrok-gajeonbeopwon-singyo
+- hanjeongseugin-singyo-seoryu-jaesanmokrok
+- hanjeongseugin-sangsokpogi-chai-husunwi-bigyo
+- teukbyeol-hanjeongseugin-singyo-yogeon
+- sangsokse-gichocongje-iljalgongje-baeujaigongje
+- sangsokse-seyul-guwon-gyesan-gwasepyojun
+- sangsokse-singyo-gihan-misingo-gasanse
+- yurubun-hwanwancheongu-somelsiyo-saengjeon-jeungyeo
+- yurubun-biyul-jikyebisok-baeuija-hyeongje
+- beopjeong-sangsoksunwi-baeuija-janyeo
+- baeuija-dandoksangsok-yogeon-hobeom
+- sangsokdeunggi-seoryu-mokrok-cwiduksesingo
+- sangsokdeunggi-hyeobuibunhal-ingamjeungmyeong
+- sangsok-bunhalhyeobuiseo-jakseong-bangbeop
+- sangsok-bunhalhyeobuiseo-gongjeon-ingam
+- daesup-sangsok-yogeon-sonjanyeo-gyeolgyeok
+- giyeobun-injeonggijun-sangsok-bunhal
+- sangsok-chaemubeomwi-bozeungchaeumu-goyujaesan
+- sangsok-jaesan-johoe-geumyunggeorare
+- yueunjang-jongryu-hyoryeok-japiljeungseo
+- sangsokse-yeonbuyeonnam-singyo-mulnam
+- miseongnyeonja-sangsok-teukbyeoldaeriin
+- sangsok-hoebokcheonggugwon-chamching-soson
+
+### 금융금전 (102개)
+- personal-rehabilitation-vs-bankruptcy
+- personal-bankruptcy-non-dischargeable-debts
+- personal-rehabilitation-guarantor-liability
+- personal-rehabilitation-credit-recovery-timeline
+- workout-income-jobless-condition
+- workout-charged-off-loan-reduction-rate
+- debt-adjustment-3types-comparison
+- workout-interest-relief-monthly-payment
+- workout-debt-scope-nonmember-lender
+- workout-revival-after-default
+- workout-credit-record-deletion
+- personal-rehabilitation-to-workout-conversion
+- workout-vulnerable-class-90percent-reduction
+- preworkout-interest-rate-reduction
+- workout-application-documents-income-proof
+- workout-enforcement-suspension-guarantor
+- ccrs-debt-adjustment-fee-procedure
+- workout-secured-debt-interest-relief
+- workout-youth-incentive-extra-reduction
+- workout-microloan-living-expenses
+- rapid-debt-adjustment-30days-eligibility
+- pre-workout-income-employment-rate
+- personal-workout-90days-repayment-structure
+- debt-adjustment-eligibility-exclusion
+- ccrs-covered-debt-scope-transferred
+- no-delinquency-record-debt-check
+- tax-arrears-debt-adjustment-alternative
+- minimum-livelihood-income-workout-apply
+- income-proof-alternative-docs-rental
+- auction-property-debt-adjustment-lien
+- wage-garnishment-workout-public-rental
+- guarantee-mortgage-loan-debt-adjustment
+- vehicle-disposal-workplace-notification
+- debt-adjustment-documents-consultation
+- debt-adjustment-confirmation-dissent-creditor
+- post-application-auto-transfer-deposit
+- workout-delinquency-release-guarantor
+- application-fee-missing-debt-collection-call
+- self-employed-card-sales-account-freeze
+- repayment-default-cancellation-lump-sum-account
+- workout-new-loan-card-insurance-surety
+- workout-asset-concealment-cancellation-restriction
+- individual-rehabilitation-income-debt-limit-procedure
+- rehabilitation-repayment-disposable-income-non-exempt-claims
+- personal-bankruptcy-eligibility-discharge-procedure
+- bankruptcy-non-dischargeable-debts-discharge-denial
+- ccrs-rehabilitation-bankruptcy-legal-support-eligibility
+- ccrs-microloan-program-post-debt-adjustment-eligibility
+- ccrs-microloan-online-application-documents-processing-time
+- personal-rehabilitation-repayment-calculation
+- personal-rehabilitation-living-expenses-2026
+- ccrs-microloan-interest-rate-limit-no-collateral
+- ccrs-microloan-repayment-date-change-early-payoff-autotransfer
+- ccrs-microloan-overdue-penalty-existing-delinquency
+- ccrs-microloan-additional-loan-payoff-refund-inquiry
+- ccrs-good-payer-credit-card-eligibility-exclusion
+- ccrs-credit-card-application-documents-online
+- ccrs-credit-card-limit-type-reissue
+- ccrs-digital-consultation-login-auth-agreement
+- ccrs-digital-consultation-program-setup
+- ccrs-visit-reservation-required-change-cancel-penalty
+- workout-public-info-early-removal-interest-rate
+- debt-lump-payoff-extra-reduction-benefits
+- good-payer-credit-score-rise-jump-program
+- debt-adjustment-lapse-readjustment-application
+- modification-revival-midterm-debt-exemption
+- mortgage-debt-adjustment-rate-period-difference
+- new-start-fund-sme-bad-debtor-ccrs-process
+- new-leap-fund-long-overdue-auto-purchase-loan
+- financial-institution-self-debt-adjustment-comparison
+- ccrs-financial-employment-welfare-combined-support
+- credit-welfare-consulting-sme-restart-support
+- ccrs-credit-education-online-free-visiting
+- illegal-lending-60pct-void-damage-report-process
+- personal-rehabilitation-application-procedure
+- personal-rehabilitation-creditor-meeting
+- personal-rehabilitation-free-legal-support
+- personal-rehabilitation-employment-disadvantage
+- self-employed-personal-rehabilitation
+- personal-rehabilitation-discharge-completion
+- personal-rehabilitation-procedure-dismissal
+- personal-bankruptcy-application-eligibility
+- personal-bankruptcy-discharge-refusal-reasons
+- personal-bankruptcy-qualification-restrictions
+- personal-bankruptcy-application-procedure
+- personal-bankruptcy-reinstatement
+- personal-rehabilitation-post-discharge-credit
+- personal-rehabilitation-debt-ceiling
+- personal-rehabilitation-stay-enforcement
+- personal-rehabilitation-repayment-plan-change
+- personal-rehabilitation-liquidation-value
+- personal-bankruptcy-post-discharge-finance
+- personal-rehabilitation-debt-reduction-rate
+- personal-rehabilitation-application-costs
+- personal-rehabilitation-private-debt-inclusion
+- personal-rehabilitation-secured-debt
+- personal-bankruptcy-simultaneous-closure
+- employed-vs-selfemployed-rehabilitation
+- personal-rehabilitation-plan-approval
+- personal-bankruptcy-voluntary-vs-creditor
+- workout-vs-personal-rehabilitation
+- personal-rehabilitation-car-liquidation-value
+
+### 부동산임대차 (76개)
+- sangga-hwansan-bojeunggeum-jiyeokbyeol
+- sangga-saeupja-daehangnyeok-chwideuk-sijeom
+- sangga-bojeunggeum-wolse-jeonhwan-yijaeyul
+- sangga-soaek-imsaigin-choeuiseon-byeoje
+- sangga-imdaein-maemae-imdaecha-seungge
+- jaegebal-imsisangga-ipju-jakyeok
+- jaegeonsuk-jaegebal-bosan-chai
+- jaegebal-yeongeopjeji-bosan-yogeon
+- jaegebal-sangga-myeongdo-bosan-hyeobi
+- jaegebal-imsaigin-useondongbyang
+- sangga-imdaesaeobja-dansoonggyeongbiyul-bipyo
+- sangga-imdaesaeobja-gamgasamgakbi-pillyogyeongbi
+- sangga-imdaesaeobja-daechoolija-pillyogyeongbi
+- sangga-imdaesaeobja-gamgasamgak-jonghap-bipyo
+- sangga-imdaesaeobja-jonghapsodeukse-gyeongbi
+- jikjangin-sangga-imdaesaeobja-deungrok-uimu
+- sangga-imdaesaeobja-bugase-ganjuimdaeryo
+- sangga-imdaesaeobja-bugase-hwanggeup
+- sangga-mudanjeonddae-gyeyakhaeji-yogeon
+- sangga-jeondaecha-jeonchaiin-boho
+- sangga-jeondaecha-imdaein-seomyeon-yogeon
+- sangga-ibo-jeonddae-dongui-bupillyeo
+- sangga-jeondaecha-habi-jeonchaiin-boho
+- sangga-ibju-jeon-haja-imdaein-suriuimu
+- sangga-seonbu-teugak-imsaigin-budaam
+- sangga-haja-chaim-georjeol-ganeung
+- sangga-imdaecha-bunjeongjojeong-sincheng
+- sangga-bunjeongjojeong-biyong-sosong-bipyo
+- sangga-jojeongwseo-gangjejibhaeng
+- sangga-imdaein-bunjeongjojeong-bulloung
+- sangga-yangsodeukse-janggiboyu-gongje
+- sangga-dangigyodo-junggwaseyul
+- sangga-gyeomubjuteog-yangdosodeukse
+- sangga-maemae-bugase-pogwal-pyogi
+- sangga-chwideukse-sigahaejunamaek-gyesan
+- sangga-bubu-gongdonmyeongui-chwideukse
+- sangga-bojeunggeum-banhwan-naeyongjeungmyeong
+- sangga-jeonse-gwon-saeupja-bihyo
+- sangga-imdaecha-gyeongmae-baedang-sunwi
+- sangga-gwolligeum-hoesu-bang-hae-yuhyeong
+- gwolligeum-somelsiho-3nyeon-gisanil
+- sangga-gwolligeum-sosong-ipjeung-seoryu
+- gwolligeum-yeongeobgwon-sisel-gyeyak-cha
+- imdaein-jaegeonsuk-gwolligeum-georjeol-yogeon
+- sangga-10nyeon-gwolligeum-boho-jeok-yong
+- sangga-gwolligeum-pyojun-gyeyakseo-jagseong
+- imdaein-gwado-imdaeryo-gwolligeum-bang-hae
+- gwolligeum-bang-hae-naeyongjeungmyeong-seuiyo
+- sangga-gwolligeum-juseon-silpae-imdaein-bang-hae
+- sangga-gyeyakgaesinyogugwon-10nyeon-gisanil
+- sangga-imdaein-gaeshin-georjeol-tonbo-sigi
+- sangga-imdaeryo-jeunggaek-5percent-jeyhan
+- sangga-muksijeok-gaeshin-haiji-imsaigin-tonbo
+- sangga-jaegeonsuk-gyehoek-goji-gaeshin-georjeol
+- sangga-chaimyeonche-3gi-gaeshin-georjeol-jogeon
+- sangga-hwansan-chogwa-imdaeryo-inang-hyeob-ui
+- sangga-gyeyakgaesin-yogug-haengsa-gigan
+- sangga-myeongdo-sosong-soyo-gigan-biyong
+- sangga-chaimyeonche-3gi-gyeyakhaejie-yogeon
+- sangga-myeongdo-gangjejibe-jeolcha-jiphaengwan
+- sangga-jesojeong-hwahae-joseo-gangjejibe
+- sangga-wongsangboggu-beomwi-imsaigin-uimu
+- sangga-bojeunggeum-gongje-mihap-imdaeryo
+- sangga-imsaigin-pasan-hoesaeng-myeongdo
+- sangga-jeomyu-ijeonggeumji-gacheobun-gongtak
+- sangga-gwoligeum-gitasodeuk-pillyogyeongbi
+- gwoligeum-bugase-segeumgyesan-pogwal
+- gwoligeum-weoncheongjingsu-gyesan-yangsu
+- gwoligeum-yangdosodeukse-gyesan-bigyo
+- gwoligeum-pogwal-yangsu-yopgeon-byeol
+- gwoligeum-yeongeoprwon-gamgasamgak-yangsu
+- sangga-gwoligeum-muryo-semujo
+- gwoligeum-bunnigwasei-seonaek-gitasodeuk
+- gwoligeum-se-yangdoin-yangsu-bigyo
+- gwoligeum-gamjeongpyeong-yeongeoprwon-se
+- gwoligeum-musingo-booliyik-gasan
+
+### 민형사소송 (45개)
+- traffic-accident-settlement-calculation
+- traffic-accident-fault-ratio
+- traffic-accident-permanent-disability
+- traffic-accident-criminal-civil-settlement
+- traffic-accident-lawsuit-procedure
+- traffic-accident-government-guarantee
+- traffic-accident-12-serious-violations
+- traffic-accident-adjuster-lawyer
+- traffic-accident-death-compensation
+- traffic-accident-insurer-dispute
+- traffic-accident-school-zone
+- traffic-accident-drunk-driving-victim
+- traffic-accident-lost-income
+- traffic-accident-settlement-agreement
+- traffic-accident-treatment-negotiation
+- traffic-accident-insurance-coverage
+- traffic-accident-statute-limitations-start
+- traffic-accident-latent-injury-statute
+- traffic-accident-insurance-claim-vs-damage-period
+- traffic-accident-10year-longterm-statute
+- traffic-accident-nursing-care-periodical-vs-lump
+- traffic-accident-nursing-care-daily-wage-calculation
+- traffic-accident-insurance-subrogation-claim
+- traffic-accident-subrogation-statute-10year
+- traffic-accident-drunk-driving-subrogation
+- traffic-accident-passenger-subrogation
+- traffic-accident-employer-employee-subrogation
+- traffic-accident-minor-victim-subrogation
+- rentcar-cdw-repair-cost
+- rentcar-gongje-vs-insurance
+- accident-rental-claim-denial
+- accident-depreciation-total-loss
+- pedestrian-jaywalking-fault-ratio
+- crosswalk-right-turn-pedestrian-criminal
+- elderly-child-accident-compensation
+- pedestrian-accident-claim-procedure
+- motorcycle-uninsured-claim
+- delivery-motorcycle-accident-liability
+- motorcycle-fault-ratio-dispute
+- bicycle-kickboard-accident-liability
+- parking-lot-accident-fault-ratio
+- parking-lot-no-cctv-evidence-claim
+- parking-lot-100-0-fault-claim
+- luxury-car-parking-accident-repair-overcharge
+- highway-falling-object-road-corp-claim
+
+### 근로노동 (23개)
+- 산재보험-요양급여-신청-절차-소멸시효
+- 산재-요양기간-연장-의료기관-변경-절차
+- 산재-추가상병-요양급여-재요양-신청-요건
+- 산재보험-요양비-간병료-이송비-지급기준
+- 산재-요양급여-본인부담금-대부-융자-조건
+- 산재-휴업급여-지급요건-금액-청구절차
+- 산재-부분휴업급여-저소득-고령자-재요양-특례
+- 산재-상병보상연금-지급요건-금액-청구
+- 산재-상병보상연금-저소득-고령자-재요양-중증요양상태등급
+- 산재-장해급여-장해등급-기준-판정
+- 산재-장해급여-지급액-연금-일시금-선택
+- 산재-장해급여-청구-방법-소멸시효
+- 산재-유족급여-지급요건-수급자격-순위
+- 산재-유족보상연금-금액-청구-소멸시효
+- 산재-진폐-보험급여-특례-진폐보상연금-진폐유족연금
+- 산재-직업재활급여-직업훈련비용-직장복귀지원금-신청
+- 산재보험-보험급여-산정기준-평균임금-일용근로자-특례
+- 산재보험-결정-불복-심사청구-재심사청구-절차
+- 산재보험-근로기준법-재해보상-면제-민사손해배상-청구
+- 업무상-재해-인정기준-상당인과관계-업무상-사고-질병
+- 사업장-사고-업무상-재해-인정기준-출퇴근-재해-행사-중
+- 업무상-질병-인정기준-뇌혈관-심장질환-과로-산재
+- 산재보험-가입-방법-당연가입-임의가입-신고절차
+
+## 크롤링 우선순위 (Playwright MCP 명령)
+
+아래 순서로 easylaw.go.kr을 크롤링하여 source-data를 확보합니다.
+각 csmSeq의 하위 페이지를 전부 크롤링해야 합니다.
+
+### 가정법률
+- **가족관계 등록** (csmSeq=707): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=707`
+- **결혼준비자** (csmSeq=1894): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=1894`
+- **보호출산** (csmSeq=2585): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=2585`
+- **상속** (csmSeq=255): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=255`
+- **양육비** (csmSeq=1659): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=1659`
+- **유언** (csmSeq=234): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=234`
+- **이혼** (csmSeq=233): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=233`
+- **입양** (csmSeq=2584): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=2584`
+- **장례·장사** (csmSeq=1811): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=1811`
+- **재혼** (csmSeq=241): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=241`
+- **태아 및 신생아** (csmSeq=1830): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=1830`
+- **후견제도** (csmSeq=694): `https://easylaw.go.kr/CSP/CsmMain.laf?csmSeq=694`
+

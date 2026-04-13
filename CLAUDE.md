@@ -4,7 +4,7 @@
 
 - **사이트**: law.jjyu.co.kr (생활법령 정보)
 - **스택**: Next.js 16.1.6 + Tailwind CSS v4 + shadcn/ui
-- **배포**: Vercel (main 브랜치 자동 배포)
+- **배포**: Cloudflare Pages (main 브랜치 자동 배포)
 - **아키텍처**: Hub/Spoke
 
 ### 카테고리

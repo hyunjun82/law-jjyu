@@ -1,0 +1,379 @@
+{
+  "slug": "산재-유족보상연금-금액-청구-소멸시효",
+  "category": "근로노동",
+  "timestamp": "2026-04-10T23:54:51.895Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 10,
+      "passed": 15,
+      "total": 15,
+      "items": [
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "섹션 4개 (3~4 필수)"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[유족보상연금 금액은 어떻게 계산하나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[유족보상연금 금액은 어떻게 계산하나요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[유족보상연금 금액은 어떻게 계산하나요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[유족보상일시금으로 전환할 수 있나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[유족보상일시금으로 전환할 수 있나요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[유족보상일시금으로 전환할 수 있나요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[유족급여와 장례비 청구 방법은 어떻게 되나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[유족급여와 장례비 청구 방법은 어떻게 되나요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[유족급여와 장례비 청구 방법은 어떻게 되나요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[유족급여 소멸시효는 언제까지인가요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[유족급여 소멸시효는 언제까지인가요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[유족급여 소멸시효는 언제까지인가요?] 행동어: OK"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "금지 태그 없음"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] <table> 없음 (권장)"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/예외 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": true,
+          "detail": "[결] 행동정보 OK"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 17% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 9,
+      "passed": 6,
+      "total": 7,
+      "items": [
+        {
+          "id": "3A",
+          "pass": false,
+          "detail": "문어체 5건: 지급합니다, 만원입니다, 고정됩니다"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": true,
+          "detail": "어미 연속 최대 2회 (3 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": true,
+          "detail": "문장시작 연속 최대 1회 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 19.3 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        }
+      ]
+    },
+    {
+      "name": "4. 손석희+유시민",
+      "score": 8,
+      "passed": 4,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 전부 의문문"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "법조문 밀도 1.0/섹션 (0 이상)"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": false,
+          "detail": "근거 없는 숫자 11건 (6 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 7,
+      "passed": 4,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 50자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": false,
+          "detail": "80자 초과 문장 5건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 1건 (1 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": false,
+          "detail": "쉼표 4개+ 문장 3건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 9,
+      "passed": 9,
+      "total": 10,
+      "items": [
+        {
+          "id": "6A",
+          "pass": true,
+          "detail": "기관/장소명 OK"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": true,
+          "detail": "서류 정보 OK"
+        },
+        {
+          "id": "6D",
+          "pass": true,
+          "detail": "화이트리스트 링크 1개"
+        },
+        {
+          "id": "6E",
+          "pass": true,
+          "detail": "연락처/온라인 경로 OK"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        },
+        {
+          "id": "6G",
+          "pass": true,
+          "detail": "target=\"_blank\" 없음"
+        },
+        {
+          "id": "6H",
+          "pass": true,
+          "detail": "\"어디에\" 체크 OK (누락 2건)"
+        },
+        {
+          "id": "6I",
+          "pass": true,
+          "detail": "떠넘기기 없음"
+        },
+        {
+          "id": "6J",
+          "pass": false,
+          "detail": "본문에 전화번호 3건: \"섹션: 유족보상일시금은 평균임금의 1,300일분이에요. 연금 수급자격자가 없는 ...\", \"섹션: 업무상 사고나 출퇴근 재해로 사망이 추정되면 장례를 지내기 전에도 최저금...\", \"섹션: 자세한 내용과 신청 절차는 생활법령정보 산재보험 홈페이지나 근로복지공단(...\""
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 7,
+      "passed": 5,
+      "total": 7,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "HTML 태그 균형 OK"
+        },
+        {
+          "id": "7B",
+          "pass": false,
+          "detail": "description 79자 (100~200)"
+        },
+        {
+          "id": "7C",
+          "pass": true,
+          "detail": "metaDescription 111자 (170 이하)"
+        },
+        {
+          "id": "7D",
+          "pass": true,
+          "detail": "모호 표현 없음"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7F",
+          "pass": false,
+          "detail": "verify-facts FAIL:   [ERROR] [근로노동/산재-유족보상연금-금액-청구-소멸시효] 기간_일 불일치: 글=\"100일\" — 소스에 없음 (소스: 300일, 25일"
+        },
+        {
+          "id": "7G",
+          "pass": true,
+          "detail": "verify-selfcheck PASS"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "pass": true,
+          "detail": "소스 매핑 OK (scraped)"
+        },
+        {
+          "id": "8B",
+          "pass": true,
+          "detail": "소스 JSON 유효"
+        },
+        {
+          "id": "8C",
+          "pass": true,
+          "detail": "hero 출처 신뢰도 OK"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 신선도 34일 (90일 이내)"
+        },
+        {
+          "id": "8E",
+          "pass": true,
+          "detail": "법조문 소스 일치 OK"
+        }
+      ]
+    }
+  ],
+  "average": 8.8,
+  "verdict": "PASS",
+  "failedRules": []
+}

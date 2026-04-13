@@ -4297,5 +4297,38 @@
     "sourceOrigin": "easylaw.go.kr (Playwright)",
     "fetchedAt": "2026-03-12",
     "verified": false
+  },
+  "rapid-debt-adjustment-youth-eligibility": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/rapid-debt-adjustment-youth-eligibility",
+    "easylawUrls": [
+      "https://www.ccrs.or.kr/debt/fast/info/view.do"
+    ],
+    "sourceFile": "rapid-debt-adjustment-youth-eligibility-gov.json",
+    "sourceType": "ccrs",
+    "sourceOrigin": "ccrs.or.kr",
+    "fetchedAt": "2026-04-13"
+  },
+  "rapid-debt-adjustment-youth-benefits": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/rapid-debt-adjustment-youth-benefits",
+    "easylawUrls": [
+      "https://www.ccrs.or.kr/debt/fast/info/view.do"
+    ],
+    "sourceFile": "rapid-debt-adjustment-youth-benefits-gov.json",
+    "sourceType": "ccrs",
+    "sourceOrigin": "ccrs.or.kr",
+    "fetchedAt": "2026-04-13"
+  },
+  "rapid-debt-adjustment-youth-process": {
+    "category": "금융금전",
+    "canonicalUrl": "/금융금전/rapid-debt-adjustment-youth-process",
+    "easylawUrls": [
+      "https://www.ccrs.or.kr/debt/fast/info/view.do"
+    ],
+    "sourceFile": "rapid-debt-adjustment-youth-process-gov.json",
+    "sourceType": "ccrs",
+    "sourceOrigin": "ccrs.or.kr",
+    "fetchedAt": "2026-04-13"
   }
 }

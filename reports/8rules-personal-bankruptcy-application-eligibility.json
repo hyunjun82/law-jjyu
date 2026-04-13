@@ -1,0 +1,379 @@
+{
+  "slug": "personal-bankruptcy-application-eligibility",
+  "category": "금융금전",
+  "timestamp": "2026-04-10T23:53:16.936Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 9,
+      "passed": 14,
+      "total": 15,
+      "items": [
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "섹션 4개 (3~4 필수)"
+        },
+        {
+          "id": "1A",
+          "pass": false,
+          "detail": "[개인파산을 신청할 수 있는 자격 요건은 무엇인] P1 결론: 결론 아닌 서론형 시작"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[개인파산을 신청할 수 있는 자격 요건은 무엇인] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[개인파산을 신청할 수 있는 자격 요건은 무엇인] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[개인파산 후 면책을 받지 못하는 경우는?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[개인파산 후 면책을 받지 못하는 경우는?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[개인파산 후 면책을 받지 못하는 경우는?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[개인파산 신청 절차와 비용은 어떻게 되나?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[개인파산 신청 절차와 비용은 어떻게 되나?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[개인파산 신청 절차와 비용은 어떻게 되나?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[개인파산과 개인회생 중 어떻게 선택하나?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[개인파산과 개인회생 중 어떻게 선택하나?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[개인파산과 개인회생 중 어떻게 선택하나?] 행동어: OK"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "금지 태그 없음"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] <table> 없음 (권장)"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/예외 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": true,
+          "detail": "[결] 행동정보 OK"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 13% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 9,
+      "passed": 6,
+      "total": 7,
+      "items": [
+        {
+          "id": "3A",
+          "pass": true,
+          "detail": "문어체 0건"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": false,
+          "detail": "어미 연속 최대 7회 (3 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": true,
+          "detail": "문장시작 연속 최대 1회 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 19.5 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        }
+      ]
+    },
+    {
+      "name": "4. 손석희+유시민",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 전부 의문문"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "법조문 밀도 1.0/섹션 (0 이상)"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": true,
+          "detail": "근거 없는 숫자 2건 (6 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 44자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": true,
+          "detail": "80자 초과 문장 1건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 0건 (1 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": true,
+          "detail": "쉼표 4개+ 문장 0건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 8,
+      "passed": 8,
+      "total": 10,
+      "items": [
+        {
+          "id": "6A",
+          "pass": true,
+          "detail": "기관/장소명 OK"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": true,
+          "detail": "서류 정보 OK"
+        },
+        {
+          "id": "6D",
+          "pass": true,
+          "detail": "화이트리스트 링크 1개"
+        },
+        {
+          "id": "6E",
+          "pass": true,
+          "detail": "연락처/온라인 경로 OK"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        },
+        {
+          "id": "6G",
+          "pass": true,
+          "detail": "target=\"_blank\" 없음"
+        },
+        {
+          "id": "6H",
+          "pass": false,
+          "detail": "\"어디에\" 누락 3건: \"개인파산은 채무자가 지급불능 상태, 즉 재산과 소득으로 채무를 갚을 수 ...\", \"여기서 채무 한도도 없어요. 개인회생은 무담보 5억 원, 담보 10억 원...\", \"면책이 불허되는 주요 사유는 사치·낭비·도박으로 재산을 크게 줄인 경우,...\""
+        },
+        {
+          "id": "6I",
+          "pass": true,
+          "detail": "떠넘기기 없음"
+        },
+        {
+          "id": "6J",
+          "pass": false,
+          "detail": "본문에 전화번호 3건: \"섹션: 예외적으로 법무사나 변호사에게 신청을 맡기면 별도 비용이 들어요. 법무사...\", \"섹션: 이 점도 알아두면 파산선고 후 면책신청까지 별도 절차가 있어요. 파산선고...\", \"섹션: 덧붙이자면 두 제도를 혼자 결정하기 어렵다면 전문가 상담이 먼저예요. 대...\""
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 7,
+      "passed": 5,
+      "total": 7,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "HTML 태그 균형 OK"
+        },
+        {
+          "id": "7B",
+          "pass": true,
+          "detail": "description 157자 (100~200)"
+        },
+        {
+          "id": "7C",
+          "pass": true,
+          "detail": "metaDescription 63자 (170 이하)"
+        },
+        {
+          "id": "7D",
+          "pass": false,
+          "detail": "모호 표현 1건: 약 1"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7F",
+          "pass": false,
+          "detail": "verify-facts FAIL:   [ERROR] [금융금전/personal-bankruptcy-application-eligibility] 기간_년 불일치: 글=\"7년\" — "
+        },
+        {
+          "id": "7G",
+          "pass": true,
+          "detail": "verify-selfcheck PASS"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 8,
+      "passed": 4,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "pass": true,
+          "detail": "소스 매핑 OK (scraped)"
+        },
+        {
+          "id": "8B",
+          "pass": true,
+          "detail": "소스 JSON 유효"
+        },
+        {
+          "id": "8C",
+          "pass": true,
+          "detail": "hero 출처 신뢰도 OK"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 신선도 31일 (90일 이내)"
+        },
+        {
+          "id": "8E",
+          "pass": false,
+          "detail": "소스에 없는 법조문 3건"
+        }
+      ]
+    }
+  ],
+  "average": 8.9,
+  "verdict": "PASS",
+  "failedRules": []
+}

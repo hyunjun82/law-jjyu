@@ -1,0 +1,379 @@
+{
+  "slug": "산재-요양기간-연장-의료기관-변경-절차",
+  "category": "근로노동",
+  "timestamp": "2026-04-10T23:54:46.798Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 9,
+      "passed": 14,
+      "total": 15,
+      "items": [
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "섹션 4개 (3~4 필수)"
+        },
+        {
+          "id": "1A",
+          "pass": false,
+          "detail": "[산재 요양기간 연장은 어떻게 신청하나요?] P1 결론: 결론 아닌 서론형 시작"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[산재 요양기간 연장은 어떻게 신청하나요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[산재 요양기간 연장은 어떻게 신청하나요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[산재보험 의료기관 변경 절차는 어떻게 되나요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[산재보험 의료기관 변경 절차는 어떻게 되나요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[산재보험 의료기관 변경 절차는 어떻게 되나요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[직권 변경과 병행진료는 어떤 경우에 해당하나요] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[직권 변경과 병행진료는 어떤 경우에 해당하나요] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[직권 변경과 병행진료는 어떤 경우에 해당하나요] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[요양기간 연장·변경 시 주의할 점은 무엇인가요] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[요양기간 연장·변경 시 주의할 점은 무엇인가요] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[요양기간 연장·변경 시 주의할 점은 무엇인가요] 행동어: OK"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "금지 태그 없음"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] <table> 없음 (권장)"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/예외 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": true,
+          "detail": "[결] 행동정보 OK"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 6% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 10,
+      "passed": 7,
+      "total": 7,
+      "items": [
+        {
+          "id": "3A",
+          "pass": true,
+          "detail": "문어체 0건"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": true,
+          "detail": "어미 연속 최대 3회 (3 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": true,
+          "detail": "문장시작 연속 최대 2회 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 22.6 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        }
+      ]
+    },
+    {
+      "name": "4. 손석희+유시민",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 전부 의문문"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "법조문 밀도 1.0/섹션 (0 이상)"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": true,
+          "detail": "근거 없는 숫자 3건 (6 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 7,
+      "passed": 4,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 54자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": false,
+          "detail": "80자 초과 문장 4건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 0건 (1 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": false,
+          "detail": "FAQ 답변 길이 부적합 1건"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": true,
+          "detail": "쉼표 4개+ 문장 0건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 8,
+      "passed": 8,
+      "total": 10,
+      "items": [
+        {
+          "id": "6A",
+          "pass": true,
+          "detail": "기관/장소명 OK"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": true,
+          "detail": "서류 정보 OK"
+        },
+        {
+          "id": "6D",
+          "pass": true,
+          "detail": "화이트리스트 링크 1개"
+        },
+        {
+          "id": "6E",
+          "pass": true,
+          "detail": "연락처/온라인 경로 OK"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        },
+        {
+          "id": "6G",
+          "pass": true,
+          "detail": "target=\"_blank\" 없음"
+        },
+        {
+          "id": "6H",
+          "pass": false,
+          "detail": "\"어디에\" 누락 3건: \"제출 단위는 원칙적으로 3개월이에요. 종전 요양기간이 끝나기 7일 전까지...\", \"요양기간 연장 신청을 할 때는 진료계획서를 제시간에 내야 해요. 요양기간...\", \"실제로 변경 사유가 타당하면 대부분 승인해줘요. 생활근거지 변경이나 더 ...\""
+        },
+        {
+          "id": "6I",
+          "pass": true,
+          "detail": "떠넘기기 없음"
+        },
+        {
+          "id": "6J",
+          "pass": false,
+          "detail": "본문에 전화번호 3건: \"섹션: 근로복지공단은 변경 사유의 타당성을 검토해서 변경 여부를 결정해요. 이때...\", \"섹션: 이때 의과 산재보험 의료기관과 한의과 산재보험 의료기관이 인접한 장소에서...\", \"섹션: 자세한 내용과 신청 절차는 생활법령정보 산재보험 홈페이지나 근로복지공단(...\""
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 9,
+      "passed": 6,
+      "total": 7,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "HTML 태그 균형 OK"
+        },
+        {
+          "id": "7B",
+          "pass": false,
+          "detail": "description 67자 (100~200)"
+        },
+        {
+          "id": "7C",
+          "pass": true,
+          "detail": "metaDescription 84자 (170 이하)"
+        },
+        {
+          "id": "7D",
+          "pass": true,
+          "detail": "모호 표현 없음"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7F",
+          "pass": true,
+          "detail": "verify-facts PASS"
+        },
+        {
+          "id": "7G",
+          "pass": true,
+          "detail": "verify-selfcheck PASS"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "pass": true,
+          "detail": "소스 매핑 OK (scraped)"
+        },
+        {
+          "id": "8B",
+          "pass": true,
+          "detail": "소스 JSON 유효"
+        },
+        {
+          "id": "8C",
+          "pass": true,
+          "detail": "hero 출처 신뢰도 OK"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 신선도 34일 (90일 이내)"
+        },
+        {
+          "id": "8E",
+          "pass": true,
+          "detail": "법조문 소스 일치 OK"
+        }
+      ]
+    }
+  ],
+  "average": 9.1,
+  "verdict": "PASS",
+  "failedRules": []
+}

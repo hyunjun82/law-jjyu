@@ -1,0 +1,379 @@
+{
+  "slug": "sangsokse-yeonbuyeonnam-singyo-mulnam",
+  "category": "가정법률",
+  "timestamp": "2026-04-10T23:53:43.271Z",
+  "results": [
+    {
+      "name": "1. 스토리텔링",
+      "score": 9,
+      "passed": 13,
+      "total": 15,
+      "items": [
+        {
+          "id": "1F",
+          "pass": true,
+          "detail": "섹션 4개 (3~4 필수)"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[상속세 연부연납 기간과 이자율은 얼마인가요?] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[상속세 연부연납 기간과 이자율은 얼마인가요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[상속세 연부연납 기간과 이자율은 얼마인가요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[상속세 물납으로 낼 수 있는 재산은 어떤 것들] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[상속세 물납으로 낼 수 있는 재산은 어떤 것들] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": false,
+          "detail": "[상속세 물납으로 낼 수 있는 재산은 어떤 것들] 행동어: 행동 정보 없음"
+        },
+        {
+          "id": "1A",
+          "pass": false,
+          "detail": "[상속세 납부 현금이 부족할 때 어떻게 하나요?] P1 결론: 결론 아닌 서론형 시작"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[상속세 납부 현금이 부족할 때 어떻게 하나요?] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[상속세 납부 현금이 부족할 때 어떻게 하나요?] 행동어: OK"
+        },
+        {
+          "id": "1A",
+          "pass": true,
+          "detail": "[상속세 연부연납 시 담보로 어떤 것을 제공해야] P1 결론: OK"
+        },
+        {
+          "id": "1B",
+          "pass": true,
+          "detail": "[상속세 연부연납 시 담보로 어떤 것을 제공해야] 조건어: OK"
+        },
+        {
+          "id": "1C",
+          "pass": true,
+          "detail": "[상속세 연부연납 시 담보로 어떤 것을 제공해야] 행동어: OK"
+        },
+        {
+          "id": "1D",
+          "pass": true,
+          "detail": "나열 패턴 없음"
+        },
+        {
+          "id": "1E",
+          "pass": true,
+          "detail": "금지 태그 없음"
+        }
+      ]
+    },
+    {
+      "name": "2. 기승전결",
+      "score": 8,
+      "passed": 5,
+      "total": 6,
+      "items": [
+        {
+          "id": "2A",
+          "pass": true,
+          "detail": "[기] hero 공감 OK"
+        },
+        {
+          "id": "2B",
+          "pass": true,
+          "detail": "[승] <table> 없음 (권장)"
+        },
+        {
+          "id": "2C",
+          "pass": true,
+          "detail": "[전] 반전/예외 표현 OK"
+        },
+        {
+          "id": "2D",
+          "pass": false,
+          "detail": "[결] 마지막 문단에 링크/전화/기관 없음"
+        },
+        {
+          "id": "2E",
+          "pass": true,
+          "detail": "title === h1 OK"
+        },
+        {
+          "id": "2F",
+          "pass": true,
+          "detail": "description/hero 중복 35% (90% 미만 필수)"
+        }
+      ]
+    },
+    {
+      "name": "3. 문체",
+      "score": 10,
+      "passed": 7,
+      "total": 7,
+      "items": [
+        {
+          "id": "3A",
+          "pass": true,
+          "detail": "문어체 0건"
+        },
+        {
+          "id": "3B",
+          "pass": true,
+          "detail": "AI냄새 0건"
+        },
+        {
+          "id": "3C",
+          "pass": true,
+          "detail": "filler 0건"
+        },
+        {
+          "id": "3D",
+          "pass": true,
+          "detail": "어미 연속 최대 2회 (3 이하)"
+        },
+        {
+          "id": "3E",
+          "pass": true,
+          "detail": "문장시작 연속 최대 1회 (2 이하)"
+        },
+        {
+          "id": "3F",
+          "pass": true,
+          "detail": "문장 길이 표준편차 15.7 (8 이상)"
+        },
+        {
+          "id": "3G",
+          "pass": true,
+          "detail": "Em dash 없음"
+        }
+      ]
+    },
+    {
+      "name": "4. 손석희+유시민",
+      "score": 10,
+      "passed": 5,
+      "total": 5,
+      "items": [
+        {
+          "id": "4A",
+          "pass": true,
+          "detail": "섹션 제목 전부 의문문"
+        },
+        {
+          "id": "4B",
+          "pass": true,
+          "detail": "전 섹션 결론 선행 OK"
+        },
+        {
+          "id": "4C",
+          "pass": true,
+          "detail": "법조문 밀도 1.0/섹션 (0 이상)"
+        },
+        {
+          "id": "4D",
+          "pass": true,
+          "detail": "연결어 다양성 OK (반복 없음)"
+        },
+        {
+          "id": "4E",
+          "pass": true,
+          "detail": "근거 없는 숫자 0건 (6 이하)"
+        }
+      ]
+    },
+    {
+      "name": "5. 가독성",
+      "score": 10,
+      "passed": 6,
+      "total": 6,
+      "items": [
+        {
+          "id": "5A",
+          "pass": true,
+          "detail": "평균 문장 길이 50자 (20~65)"
+        },
+        {
+          "id": "5B",
+          "pass": true,
+          "detail": "80자 초과 문장 2건 (3 이하)"
+        },
+        {
+          "id": "5C",
+          "pass": true,
+          "detail": "전문용어 괄호설명 누락 0건 (1 이하)"
+        },
+        {
+          "id": "5D",
+          "pass": true,
+          "detail": "FAQ 답변 길이 OK"
+        },
+        {
+          "id": "5E",
+          "pass": true,
+          "detail": "이중 괄호 없음"
+        },
+        {
+          "id": "5F",
+          "pass": true,
+          "detail": "쉼표 4개+ 문장 1건 (1 이하)"
+        }
+      ]
+    },
+    {
+      "name": "6. 문제해결 100%",
+      "score": 8,
+      "passed": 8,
+      "total": 10,
+      "items": [
+        {
+          "id": "6A",
+          "pass": true,
+          "detail": "기관/장소명 OK"
+        },
+        {
+          "id": "6B",
+          "pass": true,
+          "detail": "기한/기간 OK"
+        },
+        {
+          "id": "6C",
+          "pass": true,
+          "detail": "서류 정보 OK"
+        },
+        {
+          "id": "6D",
+          "pass": false,
+          "detail": "화이트리스트 링크 0개"
+        },
+        {
+          "id": "6E",
+          "pass": false,
+          "detail": "연락처 없음"
+        },
+        {
+          "id": "6F",
+          "pass": true,
+          "detail": "마지막 문단 행동 가능 OK"
+        },
+        {
+          "id": "6G",
+          "pass": true,
+          "detail": "target=\"_blank\" 없음"
+        },
+        {
+          "id": "6H",
+          "pass": true,
+          "detail": "\"어디에\" 체크 OK (누락 2건)"
+        },
+        {
+          "id": "6I",
+          "pass": true,
+          "detail": "떠넘기기 없음"
+        },
+        {
+          "id": "6J",
+          "pass": true,
+          "detail": "본문 전화번호 0건 (허용 범위)"
+        }
+      ]
+    },
+    {
+      "name": "7. 오차 제로",
+      "score": 7,
+      "passed": 5,
+      "total": 7,
+      "items": [
+        {
+          "id": "7A",
+          "pass": true,
+          "detail": "HTML 태그 균형 OK"
+        },
+        {
+          "id": "7B",
+          "pass": false,
+          "detail": "description 71자 (100~200)"
+        },
+        {
+          "id": "7C",
+          "pass": true,
+          "detail": "metaDescription 73자 (170 이하)"
+        },
+        {
+          "id": "7D",
+          "pass": true,
+          "detail": "모호 표현 없음"
+        },
+        {
+          "id": "7E",
+          "pass": true,
+          "detail": "내부 모순 없음"
+        },
+        {
+          "id": "7F",
+          "pass": false,
+          "detail": "verify-facts FAIL:   [ERROR] [가정법률/sangsokse-yeonbuyeonnam-singyo-mulnam] 기간_년 불일치: 글=\"20년\" — 소스에 없"
+        },
+        {
+          "id": "7G",
+          "pass": true,
+          "detail": "verify-selfcheck PASS"
+        }
+      ]
+    },
+    {
+      "name": "8. 출처",
+      "score": 8,
+      "passed": 4,
+      "total": 5,
+      "items": [
+        {
+          "id": "8A",
+          "pass": true,
+          "detail": "소스 매핑 OK (scraped)"
+        },
+        {
+          "id": "8B",
+          "pass": true,
+          "detail": "소스 JSON 유효"
+        },
+        {
+          "id": "8C",
+          "pass": false,
+          "detail": "hero에 출처 문구 없음"
+        },
+        {
+          "id": "8D",
+          "pass": true,
+          "detail": "소스 신선도 31일 (90일 이내)"
+        },
+        {
+          "id": "8E",
+          "pass": true,
+          "detail": "법조문 소스 일치 OK"
+        }
+      ]
+    }
+  ],
+  "average": 8.8,
+  "verdict": "PASS",
+  "failedRules": []
+}
